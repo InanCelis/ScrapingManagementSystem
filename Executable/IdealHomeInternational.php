@@ -15,12 +15,17 @@ class IdealHomeInternational {
     private int $successUpdated;
     private bool $enableUpload = true;
     private bool $testingMode = false;
+    private array $confidentialInfo = [];
 
     public function __construct() {
         $this->apiSender = new ApiSender(true);
         $this->helpers = new ScraperHelpers();
         $this->successCreated = 0;
         $this->successUpdated = 0;
+    }
+
+    public function setConfidentialInfo(array $confidentialInfo): void {
+        $this->confidentialInfo = $confidentialInfo;
     }
 
     public function run(int $pageCount = 1, int $limit = 0): void {
@@ -39,8 +44,9 @@ class IdealHomeInternational {
         file_put_contents($outputFile, "[");
 
         $propertyCounter = 0;
-        for ($page = 40; $page <= $pageCount; $page++) {0;
-            $url = $this->baseUrl . "/our-properties/page/{$page}/?states%5B0%5D=costa-del-sol&location%5B0%5D&type%5B0%5D&bedrooms&bathrooms&min-price&max-price&label%5B0%5D&property_id&sortby=d_date";
+        for ($page = 31; $page <= $pageCount; $page++) {0;
+            // $url = $this->baseUrl . "/our-properties/page/{$page}/?states%5B0%5D=costa-del-sol&location%5B0%5D&type%5B0%5D&bedrooms&bathrooms&min-price&max-price&label%5B0%5D&property_id&sortby=d_date";
+            $url = $this->baseUrl . "/our-properties/page/{$page}/?states%5B0%5D=costa-blanca&location%5B0%5D&type%5B0%5D&bedrooms&bathrooms&min-price&max-price&label%5B0%5D&property_id&sortby=d_date";
             
             echo "📄 Fetching page $page: $url\n";
 
@@ -129,13 +135,6 @@ class IdealHomeInternational {
     }
 
     private function scrapePropertyDetails(simple_html_dom $html, $url): void {
-       
-        $ownedBy = "Ideal Homes International";
-        $contactPerson = "Chris Mcomick";
-        $phone = "+34 661 643 533";
-        $email = "Christopher@casaespanha.com";
-        
-
         $title = trim($html->find('.page-title h1', 0)->plaintext ?? '');
         if(empty($title)) {
             echo "❌ Skipping property with invalid setup of html\n ";
@@ -167,7 +166,7 @@ class IdealHomeInternational {
             // Create clean excerpt
             $plainText = strip_tags($descriptionHtml);
             $plainText = preg_replace('/\s+/', ' ', $plainText);
-            $plainText = trim($plainText);
+            $plainText = trim($plainText); 
             $translatedExcerpt = substr($plainText, 0, 300);
         }
 
@@ -185,7 +184,7 @@ class IdealHomeInternational {
         $property_type = [];
         $year_built = '';
         $size = '';
-        $size_prefix = '';
+        $size_prefix = ''; 
 
         if ($detailWrap) {
             $detailsHtml = $detailWrap->innertext;
@@ -518,29 +517,49 @@ class IdealHomeInternational {
             "property_map" => "1",
             "property_year" => $year_built,
             "additional_features" => $features,
-            "confidential_info" => [
-                [
-                    "fave_additional_feature_title" => "Owned by",
-                    "fave_additional_feature_value" => $ownedBy
-                ],
-                [
-                    "fave_additional_feature_title" => "Website",
-                    "fave_additional_feature_value" => $url,
-                ],
-                [
-                    "fave_additional_feature_title" => "Contact Person",
-                    "fave_additional_feature_value" => $contactPerson
-                ],
-                [
-                    "fave_additional_feature_title" => "Phone",
-                    "fave_additional_feature_value" => $phone
-                ],
-                [
-                    "fave_additional_feature_title" => "Email",
-                    "fave_additional_feature_value" => $email
-                ]
-            ]
+            "confidential_info" => $this->buildConfidentialInfo($url)
         ];
+    }
+
+    private function buildConfidentialInfo(string $url = ''): array {
+        $confidentialInfo = [];
+
+        // Add URL first if available
+        if (!empty($url)) {
+            $confidentialInfo[] = [
+                "fave_additional_feature_title" => "Website",
+                "fave_additional_feature_value" => $url
+            ];
+        }
+
+        // Add dynamic confidential information from config
+        foreach ($this->confidentialInfo as $title => $value) {
+            if (!empty($value)) {
+                $confidentialInfo[] = [
+                    "fave_additional_feature_title" => $title,
+                    "fave_additional_feature_value" => $value
+                ];
+            }
+        }
+
+        // Fallback to hardcoded defaults if no config provided
+        if (empty($this->confidentialInfo)) {
+            $defaultInfo = [
+                "Owned By" => "Ideal Homes International",
+                "Contact Person" => "Chris Mcomick",
+                "Phone" => "+34 661 643 533",
+                "Email" => "Christopher@casaespanha.com"
+            ];
+
+            foreach ($defaultInfo as $title => $value) {
+                $confidentialInfo[] = [
+                    "fave_additional_feature_title" => $title,
+                    "fave_additional_feature_value" => $value
+                ];
+            }
+        }
+
+        return $confidentialInfo;
     }
 
     private function saveToJson(string $filename): void {

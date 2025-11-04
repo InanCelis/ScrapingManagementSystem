@@ -1,0 +1,85 @@
+[
+{
+    "property_title": "1 Bedroom Apartment in Torrevieja, Alicante",
+    "price": 150000,
+    "currency": "EUR",
+    "listing_id": "CE-R5176912",
+    "confidential_info": [
+        {
+            "fave_additional_feature_title": "Owned by",
+            "fave_additional_feature_value": "Holiday Homes Spain"
+        },
+        {
+            "fave_additional_feature_title": "Website",
+            "fave_additional_feature_value": "https://casaespanha.com/R5176912"
+        },
+        {
+            "fave_additional_feature_title": "Contact Person",
+            "fave_additional_feature_value": "Darren Ashley"
+        },
+        {
+            "fave_additional_feature_title": "Phone",
+            "fave_additional_feature_value": "+34 722 43 32 94"
+        },
+        {
+            "fave_additional_feature_title": "Email",
+            "fave_additional_feature_value": "darren@holiday-homes-spain.com"
+        }
+    ]
+},
+{
+    "property_title": "3 Bedrooms Apartment in Jacarilla, Alicante",
+    "price": 158500,
+    "currency": "EUR",
+    "listing_id": "CE-R5006089",
+    "confidential_info": [
+        {
+            "fave_additional_feature_title": "Owned by",
+            "fave_additional_feature_value": "Holiday Homes Spain"
+        },
+        {
+            "fave_additional_feature_title": "Website",
+            "fave_additional_feature_value": "https://casaespanha.com/R5006089"
+        },
+        {
+            "fave_additional_feature_title": "Contact Person",
+            "fave_additional_feature_value": "Darren Ashley"
+        },
+        {
+            "fave_additional_feature_title": "Phone",
+            "fave_additional_feature_value": "+34 722 43 32 94"
+        },
+        {
+            "fave_additional_feature_title": "Email",
+            "fave_additional_feature_value": "darren@holiday-homes-spain.com"
+        }
+    ]
+},
+{
+    "property_title": "1 Bedroom Apartment in Algorfa, Alicante",
+    "price": 159000,
+    "currency": "EUR",
+    "listing_id": "CE-R4905568",
+    "confidential_info": [
+        {
+            "fave_additional_feature_title": "Owned by",
+            "fave_additional_feature_value": "Holiday Homes Spain"
+        },
+        {
+            "fave_additional_feature_title": "Website",
+            "fave_additional_feature_value": "https://casaespanha.com/R4905568"
+        },
+        {
+            "fave_additional_feature_title": "Contact Person",
+            "fave_additional_feature_value": "Darren Ashley"
+        },
+        {
+            "fave_additional_feature_title": "Phone",
+            "fave_additional_feature_value": "+34 722 43 32 94"
+        },
+        {
+            "fave_additional_feature_title": "Email",
+            "fave_additional_feature_value": "darren@holiday-homes-spain.com"
+        }
+    ]
+}

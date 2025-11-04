@@ -11,6 +11,7 @@ class MarbellaRealtyGroup {
     private int $successCreated;
     private int $successUpdated;
     private ScraperHelpers $helpers;
+    private array $confidentialInfo = [];
 
     public function __construct() {
         // Initialize the ApiSender with your actual API URL and token
@@ -18,6 +19,10 @@ class MarbellaRealtyGroup {
         $this->helpers = new ScraperHelpers();
         $this->successCreated = 0;
         $this->successUpdated = 0;
+    }
+
+    public function setConfidentialInfo(array $confidentialInfo): void {
+        $this->confidentialInfo = $confidentialInfo;
     }
 
     public function run(int $pageCount = 1, int $limit = 0): void {
@@ -200,13 +205,7 @@ class MarbellaRealtyGroup {
 
     // Rest of your existing methods remain the same...
     private function scrapePropertyDetails(simple_html_dom $html, $url): void {
-        $ownedBy = "Marbella Realty Group";
-        $contactPerson = "Liam";
-        $phone = "+34 672 26 1644";
-        $email = "info@marbellarealtygroup.com";
         $status = "For Sale";
-
-        
 
         // title
         $title = trim($html->find('.inmolink_pixel span', 0)->plaintext ?? '');
@@ -468,32 +467,51 @@ class MarbellaRealtyGroup {
             "property_map" => "1",
             "property_year" => "",
             "additional_features" => $features,
-            "confidential_info" => [
-                [
-                    "fave_additional_feature_title" => "Owned by",
-                    "fave_additional_feature_value" => $ownedBy
-                ],
-                [
-                    "fave_additional_feature_title" => "Website",
-                    "fave_additional_feature_value" => $url,
-                ],
-                [
-                    "fave_additional_feature_title" => "Contact Person",
-                    "fave_additional_feature_value" => $contactPerson
-                ],
-                [
-                    "fave_additional_feature_title" => "Phone",
-                    "fave_additional_feature_value" => $phone
-                ],
-                [
-                    "fave_additional_feature_title" => "Email",
-                    "fave_additional_feature_value" => $email
-                ]
-            ]
+            "confidential_info" => $this->buildConfidentialInfo($url)
         ];
     }
 
-    
+    private function buildConfidentialInfo(string $url = ''): array {
+        $confidentialInfo = [];
+
+        // Add URL first if available
+        if (!empty($url)) {
+            $confidentialInfo[] = [
+                "fave_additional_feature_title" => "Website",
+                "fave_additional_feature_value" => $url
+            ];
+        }
+
+        // Add dynamic confidential information from config
+        foreach ($this->confidentialInfo as $title => $value) {
+            if (!empty($value)) {
+                $confidentialInfo[] = [
+                    "fave_additional_feature_title" => $title,
+                    "fave_additional_feature_value" => $value
+                ];
+            }
+        }
+
+        // Fallback to hardcoded defaults if no config provided
+        if (empty($this->confidentialInfo)) {
+            $defaultInfo = [
+                "Owned By" => "Marbella Realty Group",
+                "Contact Person" => "Liam",
+                "Phone" => "+34 672 26 1644",
+                "Email" => "info@marbellarealtygroup.com"
+            ];
+
+            foreach ($defaultInfo as $title => $value) {
+                $confidentialInfo[] = [
+                    "fave_additional_feature_title" => $title,
+                    "fave_additional_feature_value" => $value
+                ];
+            }
+        }
+
+        return $confidentialInfo;
+    }
+
     private function extractDetails($html): array {
         // Extract Location and Area from grid_hl structure
         $location = '';

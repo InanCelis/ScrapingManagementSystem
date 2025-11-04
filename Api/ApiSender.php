@@ -3,22 +3,109 @@
 
 class ApiSender {
     private string $apiUrl;
+    private string $linksApiUrl;
     private string $draftApiUrl;
     private string $token;
     private int $maxRetries;
     private int $timeout;
     private int $connectTimeout;
     private bool $debug;
+    private array $config;
 
-    public function __construct(bool $debug = false) {
-        $this->apiUrl = 'https://internationalpropertyalerts.com/wp-json/houzez/v1/properties';
-        $this->linksApiUrl = 'https://internationalpropertyalerts.com/wp-json/houzez/v1/links-by-owner';
-        $this->draftApiUrl = 'https://internationalpropertyalerts.com/wp-json/houzez/v1/properties';
-        $this->token = 'eyJpYXQiOjE3NTgwMDY0NjAsImV4cCI6MTc1ODA5Mjg2MH0=';
-        $this->maxRetries = 3;            // Increased to 5 retry attempts
-        $this->timeout = 600;             // 2 minute timeout for complete operation
-        $this->connectTimeout = 60;       // 30 second connection timeout
-        $this->debug = $debug;
+    public function __construct(bool $debug = false, ?string $customDomain = null) {
+        // Load configuration
+        $this->loadConfig($customDomain);
+
+        // Build API URLs
+        $this->apiUrl = $this->config['base_domain'] . $this->config['endpoints']['properties'];
+        $this->linksApiUrl = $this->config['base_domain'] . $this->config['endpoints']['links'];
+        $this->draftApiUrl = $this->config['base_domain'] . $this->config['endpoints']['properties'];
+
+        // Set other properties from config
+        $this->token = $this->config['token'];
+        $this->maxRetries = $this->config['max_retries'];
+        $this->timeout = $this->config['timeout'];
+        $this->connectTimeout = $this->config['connect_timeout'];
+        $this->debug = $debug !== false ? $debug : $this->config['debug'];
+    }
+
+    /**
+     * Load configuration from database (priority), config file (fallback), or use custom domain
+     * @param string|null $customDomain Custom domain to override config
+     */
+    private function loadConfig(?string $customDomain = null): void {
+        // Default configuration
+        $this->config = [
+            'base_domain' => 'https://internationalpropertyalerts.com',
+            'endpoints' => [
+                'properties' => '/wp-json/houzez/v1/properties',
+                'links' => '/wp-json/houzez/v1/links-by-owner',
+            ],
+            'token' => 'eyJpYXQiOjE3NTk4NDI5OTYsImV4cCI6MTc2MDAxNTc5Nn0=',
+            'max_retries' => 3,
+            'timeout' => 600,
+            'connect_timeout' => 60,
+            'debug' => false,
+        ];
+
+        // Try to load from database first
+        try {
+            require_once __DIR__ . '/../core/Database.php';
+            $db = Database::getInstance();
+
+            $dbSettings = $db->fetchAll("SELECT setting_key, setting_value FROM system_settings WHERE category = 'api'");
+
+            if (!empty($dbSettings)) {
+                foreach ($dbSettings as $setting) {
+                    $key = $setting['setting_key'];
+                    $value = $setting['setting_value'];
+
+                    // Map database keys to config structure
+                    switch ($key) {
+                        case 'api_base_domain':
+                            $this->config['base_domain'] = $value;
+                            break;
+                        case 'api_token':
+                            $this->config['token'] = $value;
+                            break;
+                        case 'api_max_retries':
+                            $this->config['max_retries'] = (int)$value;
+                            break;
+                        case 'api_timeout':
+                            $this->config['timeout'] = (int)$value;
+                            break;
+                        case 'api_connect_timeout':
+                            $this->config['connect_timeout'] = (int)$value;
+                            break;
+                        case 'api_debug':
+                            $this->config['debug'] = (bool)$value;
+                            break;
+                        case 'api_properties_endpoint':
+                            $this->config['endpoints']['properties'] = $value;
+                            break;
+                        case 'api_links_endpoint':
+                            $this->config['endpoints']['links'] = $value;
+                            break;
+                    }
+                }
+            }
+        } catch (Exception $e) {
+            // Database not available or table doesn't exist, try config file
+        }
+
+        // Fallback to config file if database didn't have settings
+        $configFile = __DIR__ . '/../config/config.php';
+        if (file_exists($configFile) && empty($dbSettings)) {
+            $appConfig = require $configFile;
+            if (isset($appConfig['api'])) {
+                $this->config = array_merge($this->config, $appConfig['api']);
+            }
+        }
+
+        // Override base domain if custom domain is provided
+        if ($customDomain !== null) {
+            $this->config['base_domain'] = rtrim($customDomain, '/');
+        }
     }
 
     public function sendProperty(array $propertyData): array {
@@ -104,6 +191,110 @@ class ApiSender {
         ];
     }
 
+    /**
+     * Get property details by property ID
+     * @param string $propertyId The property ID to retrieve
+     * @return array Array containing success status and property data
+     */
+    public function getPropertyById(string $propertyId): array {
+        try {
+            $this->log("Fetching property details for ID: $propertyId");
+            
+            $url = $this->apiUrl . '/' . urlencode($propertyId);
+            
+            $ch = curl_init();
+            curl_setopt_array($ch, [
+                CURLOPT_URL => $url,
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_HTTPHEADER => [
+                    'Authorization: Bearer ' . $this->token,
+                    'Content-Type: application/json',
+                    'Accept: application/json'
+                ],
+                CURLOPT_TIMEOUT => 30,
+                CURLOPT_CONNECTTIMEOUT => 10,
+                CURLOPT_SSL_VERIFYPEER => true,
+                CURLOPT_SSL_VERIFYHOST => 2,
+                CURLOPT_FAILONERROR => false,
+                CURLOPT_FOLLOWLOCATION => true,
+                CURLOPT_MAXREDIRS => 3
+            ]);
+
+            $startTime = microtime(true);
+            $response = curl_exec($ch);
+            $duration = round(microtime(true) - $startTime, 2);
+            $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+            $error = curl_error($ch);
+            curl_close($ch);
+
+            if ($error) {
+                $this->log("CURL Error: $error");
+                return [
+                    'success' => false,
+                    'error' => "CURL Error: $error",
+                    'property_id' => $propertyId
+                ];
+            }
+
+            if ($httpCode === 200) {
+                $data = json_decode($response, true);
+                
+                if ($data) {
+                    $this->log("✅ Successfully retrieved property details in {$duration}s");
+                    return [
+                        'success' => true,
+                        'property' => $data,
+                        'property_id' => $propertyId,
+                        'duration' => $duration
+                    ];
+                } else {
+                    $this->log("Failed to decode JSON response\n");
+                    return [
+                        'success' => false,
+                        'error' => 'Invalid JSON response',
+                        'property_id' => $propertyId,
+                        'raw_response' => $response
+                    ];
+                }
+            } elseif ($httpCode === 404) {
+                $this->log("Property not found (HTTP 404)");
+                return [
+                    'success' => false,
+                    'error' => 'Property not found',
+                    'property_id' => $propertyId,
+                    'http_code' => $httpCode
+                ];
+            } elseif ($httpCode === 401) {
+                $this->log("Unauthorized access (HTTP 401) - Check token \n");
+                return [
+                    'success' => false,
+                    'error' => 'Unauthorized access - Invalid or expired token',
+                    'property_id' => $propertyId,
+                    'http_code' => $httpCode
+                ];
+            } else {
+                $this->log("API request failed with HTTP code: $httpCode \n");
+                if ($this->debug) {
+                    $this->log("Response: " . substr($response, 0, 500));
+                }
+                return [
+                    'success' => false,
+                    'error' => "HTTP $httpCode",
+                    'property_id' => $propertyId,
+                    'http_code' => $httpCode,
+                    'raw_response' => $response
+                ];
+            }
+
+        } catch (Exception $e) {
+            $this->log("Exception while fetching property: " . $e->getMessage());
+            return [
+                'success' => false,
+                'error' => $e->getMessage(),
+                'property_id' => $propertyId
+            ];
+        }
+    }
 
     public function getPropertyLinks(string $owner, ?int $start = null, ?int $end = null): array {
         try {
@@ -313,6 +504,44 @@ class ApiSender {
         }
     }
 
+
+    /**
+     * Get the current base domain
+     * @return string The current base domain
+     */
+    public function getBaseDomain(): string {
+        return $this->config['base_domain'];
+    }
+
+    /**
+     * Set a custom base domain
+     * @param string $domain The new base domain
+     */
+    public function setBaseDomain(string $domain): void {
+        $this->config['base_domain'] = rtrim($domain, '/');
+
+        // Rebuild API URLs
+        $this->apiUrl = $this->config['base_domain'] . $this->config['endpoints']['properties'];
+        $this->linksApiUrl = $this->config['base_domain'] . $this->config['endpoints']['links'];
+        $this->draftApiUrl = $this->config['base_domain'] . $this->config['endpoints']['properties'];
+    }
+
+    /**
+     * Get the current API token
+     * @return string The current API token
+     */
+    public function getToken(): string {
+        return $this->token;
+    }
+
+    /**
+     * Set a custom API token
+     * @param string $token The new API token
+     */
+    public function setToken(string $token): void {
+        $this->token = $token;
+        $this->config['token'] = $token;
+    }
 
     private function log(string $message): void {
         echo "[" . date('Y-m-d H:i:s') . "] $message\n";

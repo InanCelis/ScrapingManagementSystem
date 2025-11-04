@@ -1,0 +1,409 @@
+[2025-10-16 11:12:39] [info] Starting scraper: Nilsott
+[2025-10-16 11:12:39] [info] Type: xml
+[2025-10-16 11:12:39] [info] Applying configuration to scraper...
+✓ Set foldername = 'KyeroXML'
+[2025-10-16 11:12:39] [info] Set foldername = 'KyeroXML'
+✓ Set filename = 'Properties1.json'
+[2025-10-16 11:12:39] [info] Set filename = 'Properties1.json'
+✓ Set enableUpload = true
+[2025-10-16 11:12:39] [info] Set enableUpload = true
+✓ Set testingMode = false
+[2025-10-16 11:12:39] [info] Set testingMode = false
+[2025-10-16 11:12:39] [info] Passing owner details to scraper
+✓ Set owner details (confidentialInfo)
+[2025-10-16 11:12:39] [info] Set owner details (confidentialInfo)
+
+[2025-10-16 11:12:39] [info] Processing XML: https://web3930:9a42ded9cb@www.nilsott.com/xml/kyero.xml
+[2025-10-16 11:12:39] [info] Expected properties: 0
+[2025-10-16 11:12:39] [info] Passing owner details to scraper
+🔍 Input detected as: url
+🌐 Fetching XML from URL: https://web3930:9a42ded9cb@www.nilsott.com/xml/kyero.xml
+✅ XML validation successful
+📋 Found properties using structure: <property>
+📋 Total properties found: 662
+📊 Total properties to process: 662
+
+🏠 Processing property 1/662
+Sveti+Vlas%2C+Burgas%2C+Bulgaria
+[2025-10-16 11:12:54] Attempt 1 of 3
+[2025-10-16 11:12:56] ⚠️ Server responded with HTTP 401 (Duration: 1.78s)
+[2025-10-16 11:12:56] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:12:56] ⏳ Retrying in 2 seconds...
+[2025-10-16 11:12:58] Attempt 2 of 3
+[2025-10-16 11:12:59] ⚠️ Server responded with HTTP 401 (Duration: 1.09s)
+[2025-10-16 11:12:59] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:12:59] ⏳ Retrying in 4 seconds...
+[2025-10-16 11:13:03] Attempt 3 of 3
+[2025-10-16 11:13:05] ⚠️ Server responded with HTTP 401 (Duration: 1.49s)
+[2025-10-16 11:13:05] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:13:05] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+🏠 Processing property 2/662
+Kosharitsa%2C+Burgas%2C+Bulgaria
+[2025-10-16 11:13:06] Attempt 1 of 3
+[2025-10-16 11:13:07] ⚠️ Server responded with HTTP 401 (Duration: 1.01s)
+[2025-10-16 11:13:07] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:13:07] ⏳ Retrying in 2 seconds...
+[2025-10-16 11:13:09] Attempt 2 of 3
+[2025-10-16 11:13:10] ⚠️ Server responded with HTTP 401 (Duration: 1.03s)
+[2025-10-16 11:13:10] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:13:10] ⏳ Retrying in 4 seconds...
+[2025-10-16 11:13:14] Attempt 3 of 3
+[2025-10-16 11:13:16] ⚠️ Server responded with HTTP 401 (Duration: 1.59s)
+[2025-10-16 11:13:16] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:13:16] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+🏠 Processing property 3/662
+Sarafovo%2C+Burgas%2C+Bulgaria
+[2025-10-16 11:13:17] Attempt 1 of 3
+[2025-10-16 11:13:19] ⚠️ Server responded with HTTP 401 (Duration: 1.45s)
+[2025-10-16 11:13:19] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:13:19] ⏳ Retrying in 2 seconds...
+[2025-10-16 11:13:21] Attempt 2 of 3
+[2025-10-16 11:13:22] ⚠️ Server responded with HTTP 401 (Duration: 1.63s)
+[2025-10-16 11:13:22] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:13:22] ⏳ Retrying in 4 seconds...
+[2025-10-16 11:13:26] Attempt 3 of 3
+[2025-10-16 11:13:28] ⚠️ Server responded with HTTP 401 (Duration: 1.51s)
+[2025-10-16 11:13:28] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:13:28] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+🏠 Processing property 4/662
+❌ Skipping property with invalid type
+🏠 Processing property 5/662
+❌ Skipping property with invalid type
+🏠 Processing property 6/662
+Aleksandrovo%2C+Burgas%2C+Bulgaria
+[2025-10-16 11:13:30] Attempt 1 of 3
+[2025-10-16 11:13:31] ⚠️ Server responded with HTTP 401 (Duration: 1.37s)
+[2025-10-16 11:13:31] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:13:31] ⏳ Retrying in 2 seconds...
+[2025-10-16 11:13:33] Attempt 2 of 3
+[2025-10-16 11:13:34] ⚠️ Server responded with HTTP 401 (Duration: 1.42s)
+[2025-10-16 11:13:34] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:13:34] ⏳ Retrying in 4 seconds...
+[2025-10-16 11:13:39] Attempt 3 of 3
+[2025-10-16 11:13:40] ⚠️ Server responded with HTTP 401 (Duration: 1.54s)
+[2025-10-16 11:13:40] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:13:40] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+🏠 Processing property 7/662
+Goritsa%2C+Burgas%2C+Bulgaria
+[2025-10-16 11:13:42] Attempt 1 of 3
+[2025-10-16 11:13:43] ⚠️ Server responded with HTTP 401 (Duration: 1.24s)
+[2025-10-16 11:13:43] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:13:43] ⏳ Retrying in 2 seconds...
+[2025-10-16 11:13:45] Attempt 2 of 3
+[2025-10-16 11:13:46] ⚠️ Server responded with HTTP 401 (Duration: 0.94s)
+[2025-10-16 11:13:46] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:13:46] ⏳ Retrying in 4 seconds...
+[2025-10-16 11:13:50] Attempt 3 of 3
+[2025-10-16 11:13:51] ⚠️ Server responded with HTTP 401 (Duration: 1.51s)
+[2025-10-16 11:13:51] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:13:51] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+🏠 Processing property 8/662
+❌ Skipping property with invalid type
+🏠 Processing property 9/662
+Sunny+Beach%2C+Burgas%2C+Bulgaria
+[2025-10-16 11:13:53] Attempt 1 of 3
+[2025-10-16 11:13:54] ⚠️ Server responded with HTTP 401 (Duration: 1.65s)
+[2025-10-16 11:13:54] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:13:54] ⏳ Retrying in 2 seconds...
+[2025-10-16 11:13:56] Attempt 2 of 3
+[2025-10-16 11:13:58] ⚠️ Server responded with HTTP 401 (Duration: 1.45s)
+[2025-10-16 11:13:58] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:13:58] ⏳ Retrying in 4 seconds...
+[2025-10-16 11:14:02] Attempt 3 of 3
+[2025-10-16 11:14:03] ⚠️ Server responded with HTTP 401 (Duration: 0.99s)
+[2025-10-16 11:14:03] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:14:03] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+🏠 Processing property 10/662
+❌ Skipping property with invalid type
+🏠 Processing property 11/662
+Topola%2C+Dobrich%2C+Bulgaria
+[2025-10-16 11:14:05] Attempt 1 of 3
+[2025-10-16 11:14:05] ⚠️ Server responded with HTTP 401 (Duration: 0.93s)
+[2025-10-16 11:14:05] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:14:05] ⏳ Retrying in 2 seconds...
+[2025-10-16 11:14:08] Attempt 2 of 3
+[2025-10-16 11:14:09] ⚠️ Server responded with HTTP 401 (Duration: 1.47s)
+[2025-10-16 11:14:09] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:14:09] ⏳ Retrying in 4 seconds...
+[2025-10-16 11:14:13] Attempt 3 of 3
+[2025-10-16 11:14:15] ⚠️ Server responded with HTTP 401 (Duration: 1.5s)
+[2025-10-16 11:14:15] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:14:15] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+🏠 Processing property 12/662
+❌ Skipping property with invalid type
+🏠 Processing property 13/662
+Elenite%2C+Burgas%2C+Bulgaria
+[2025-10-16 11:14:16] Attempt 1 of 3
+[2025-10-16 11:14:18] ⚠️ Server responded with HTTP 401 (Duration: 1.72s)
+[2025-10-16 11:14:18] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:14:18] ⏳ Retrying in 2 seconds...
+[2025-10-16 11:14:20] Attempt 2 of 3
+[2025-10-16 11:14:21] ⚠️ Server responded with HTTP 401 (Duration: 1.21s)
+[2025-10-16 11:14:21] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:14:21] ⏳ Retrying in 4 seconds...
+[2025-10-16 11:14:25] Attempt 3 of 3
+[2025-10-16 11:14:26] ⚠️ Server responded with HTTP 401 (Duration: 1.54s)
+[2025-10-16 11:14:26] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:14:26] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+🏠 Processing property 14/662
+Sunny+Beach%2C+Burgas%2C+Bulgaria
+[2025-10-16 11:14:28] Attempt 1 of 3
+[2025-10-16 11:14:29] ⚠️ Server responded with HTTP 401 (Duration: 1.19s)
+[2025-10-16 11:14:29] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:14:29] ⏳ Retrying in 2 seconds...
+[2025-10-16 11:14:31] Attempt 2 of 3
+[2025-10-16 11:14:32] ⚠️ Server responded with HTTP 401 (Duration: 0.94s)
+[2025-10-16 11:14:32] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:14:32] ⏳ Retrying in 4 seconds...
+[2025-10-16 11:14:36] Attempt 3 of 3
+[2025-10-16 11:14:38] ⚠️ Server responded with HTTP 401 (Duration: 1.53s)
+[2025-10-16 11:14:38] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:14:38] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+🏠 Processing property 15/662
+❌ Skipping property with invalid type
+🏠 Processing property 16/662
+Sunny+Beach%2C+Burgas%2C+Bulgaria
+[2025-10-16 11:14:39] Attempt 1 of 3
+[2025-10-16 11:14:41] ⚠️ Server responded with HTTP 401 (Duration: 1.41s)
+[2025-10-16 11:14:41] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:14:41] ⏳ Retrying in 2 seconds...
+[2025-10-16 11:14:43] Attempt 2 of 3
+[2025-10-16 11:14:44] ⚠️ Server responded with HTTP 401 (Duration: 1.11s)
+[2025-10-16 11:14:44] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:14:44] ⏳ Retrying in 4 seconds...
+[2025-10-16 11:14:48] Attempt 3 of 3
+[2025-10-16 11:14:50] ⚠️ Server responded with HTTP 401 (Duration: 1.54s)
+[2025-10-16 11:14:50] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:14:50] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+🏠 Processing property 17/662
+Sveti+Vlas%2C+Burgas%2C+Bulgaria
+[2025-10-16 11:14:51] Attempt 1 of 3
+[2025-10-16 11:14:53] ⚠️ Server responded with HTTP 401 (Duration: 1.63s)
+[2025-10-16 11:14:53] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:14:53] ⏳ Retrying in 2 seconds...
+[2025-10-16 11:14:55] Attempt 2 of 3
+[2025-10-16 11:14:56] ⚠️ Server responded with HTTP 401 (Duration: 1.64s)
+[2025-10-16 11:14:56] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:14:56] ⏳ Retrying in 4 seconds...
+[2025-10-16 11:15:00] Attempt 3 of 3
+[2025-10-16 11:15:02] ⚠️ Server responded with HTTP 401 (Duration: 1.53s)
+[2025-10-16 11:15:02] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:15:02] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+🏠 Processing property 18/662
+Kosharitsa%2C+Burgas%2C+Bulgaria
+[2025-10-16 11:15:04] Attempt 1 of 3
+[2025-10-16 11:15:05] ⚠️ Server responded with HTTP 401 (Duration: 1.08s)
+[2025-10-16 11:15:05] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:15:05] ⏳ Retrying in 2 seconds...
+[2025-10-16 11:15:07] Attempt 2 of 3
+[2025-10-16 11:15:08] ⚠️ Server responded with HTTP 401 (Duration: 1.3s)
+[2025-10-16 11:15:08] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:15:08] ⏳ Retrying in 4 seconds...
+[2025-10-16 11:15:12] Attempt 3 of 3
+[2025-10-16 11:15:14] ⚠️ Server responded with HTTP 401 (Duration: 2.25s)
+[2025-10-16 11:15:14] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:15:14] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+🏠 Processing property 19/662
+Ravda%2C+Burgas%2C+Bulgaria
+[2025-10-16 11:15:16] Attempt 1 of 3
+[2025-10-16 11:15:17] ⚠️ Server responded with HTTP 401 (Duration: 0.91s)
+[2025-10-16 11:15:17] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:15:17] ⏳ Retrying in 2 seconds...
+[2025-10-16 11:15:19] Attempt 2 of 3
+[2025-10-16 11:15:20] ⚠️ Server responded with HTTP 401 (Duration: 1.51s)
+[2025-10-16 11:15:20] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:15:20] ⏳ Retrying in 4 seconds...
+[2025-10-16 11:15:24] Attempt 3 of 3
+[2025-10-16 11:15:25] ⚠️ Server responded with HTTP 401 (Duration: 0.98s)
+[2025-10-16 11:15:25] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:15:25] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+🏠 Processing property 20/662
+Nessebar%2C+Burgas%2C+Bulgaria
+[2025-10-16 11:15:27] Attempt 1 of 3
+[2025-10-16 11:15:28] ⚠️ Server responded with HTTP 401 (Duration: 1.46s)
+[2025-10-16 11:15:28] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:15:28] ⏳ Retrying in 2 seconds...
+[2025-10-16 11:15:30] Attempt 2 of 3
+[2025-10-16 11:15:32] ⚠️ Server responded with HTTP 401 (Duration: 1.57s)
+[2025-10-16 11:15:32] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:15:32] ⏳ Retrying in 4 seconds...
+[2025-10-16 11:15:36] Attempt 3 of 3
+[2025-10-16 11:15:37] ⚠️ Server responded with HTTP 401 (Duration: 1.49s)
+[2025-10-16 11:15:37] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:15:37] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+🏠 Processing property 21/662
+❌ Skipping property with invalid type
+🏠 Processing property 22/662
+Sveti+Vlas%2C+Burgas%2C+Bulgaria
+[2025-10-16 11:15:39] Attempt 1 of 3
+[2025-10-16 11:15:40] ⚠️ Server responded with HTTP 401 (Duration: 1.53s)
+[2025-10-16 11:15:40] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:15:40] ⏳ Retrying in 2 seconds...
+[2025-10-16 11:15:42] Attempt 2 of 3
+[2025-10-16 11:15:44] ⚠️ Server responded with HTTP 401 (Duration: 1.43s)
+[2025-10-16 11:15:44] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:15:44] ⏳ Retrying in 4 seconds...
+[2025-10-16 11:15:48] Attempt 3 of 3
+[2025-10-16 11:15:49] ⚠️ Server responded with HTTP 401 (Duration: 1.43s)
+[2025-10-16 11:15:49] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:15:49] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+🏠 Processing property 23/662
+Sveti+Vlas%2C+Burgas%2C+Bulgaria
+[2025-10-16 11:15:51] Attempt 1 of 3
+[2025-10-16 11:15:53] ⚠️ Server responded with HTTP 401 (Duration: 1.55s)
+[2025-10-16 11:15:53] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:15:53] ⏳ Retrying in 2 seconds...
+[2025-10-16 11:15:55] Attempt 2 of 3
+[2025-10-16 11:15:56] ⚠️ Server responded with HTTP 401 (Duration: 1.54s)
+[2025-10-16 11:15:56] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:15:56] ⏳ Retrying in 4 seconds...
+[2025-10-16 11:16:00] Attempt 3 of 3
+[2025-10-16 11:16:02] ⚠️ Server responded with HTTP 401 (Duration: 1.78s)
+[2025-10-16 11:16:02] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:16:02] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+🏠 Processing property 24/662
+Sunny+Beach%2C+Burgas%2C+Bulgaria
+[2025-10-16 11:16:03] Attempt 1 of 3
+[2025-10-16 11:16:05] ⚠️ Server responded with HTTP 401 (Duration: 1.57s)
+[2025-10-16 11:16:05] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:16:05] ⏳ Retrying in 2 seconds...
+[2025-10-16 11:16:07] Attempt 2 of 3
+[2025-10-16 11:16:08] ⚠️ Server responded with HTTP 401 (Duration: 1.14s)
+[2025-10-16 11:16:08] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:16:08] ⏳ Retrying in 4 seconds...
+[2025-10-16 11:16:12] Attempt 3 of 3
+[2025-10-16 11:16:14] ⚠️ Server responded with HTTP 401 (Duration: 1.49s)
+[2025-10-16 11:16:14] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:16:14] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+🏠 Processing property 25/662
+Kosharitsa%2C+Burgas%2C+Bulgaria
+[2025-10-16 11:16:15] Attempt 1 of 3
+[2025-10-16 11:16:17] ⚠️ Server responded with HTTP 401 (Duration: 1.24s)
+[2025-10-16 11:16:17] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:16:17] ⏳ Retrying in 2 seconds...
+[2025-10-16 11:16:19] Attempt 2 of 3
+[2025-10-16 11:16:20] ⚠️ Server responded with HTTP 401 (Duration: 1.12s)
+[2025-10-16 11:16:20] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:16:20] ⏳ Retrying in 4 seconds...
+[2025-10-16 11:16:24] Attempt 3 of 3
+[2025-10-16 11:16:25] ⚠️ Server responded with HTTP 401 (Duration: 1.39s)
+[2025-10-16 11:16:25] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:16:25] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+🏠 Processing property 26/662
+Trastikovo%2C+Burgas%2C+Bulgaria
+[2025-10-16 11:16:27] Attempt 1 of 3
+[2025-10-16 11:16:28] ⚠️ Server responded with HTTP 401 (Duration: 1.08s)
+[2025-10-16 11:16:28] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:16:28] ⏳ Retrying in 2 seconds...
+[2025-10-16 11:16:30] Attempt 2 of 3
+[2025-10-16 11:16:31] ⚠️ Server responded with HTTP 401 (Duration: 1.05s)
+[2025-10-16 11:16:31] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:16:31] ⏳ Retrying in 4 seconds...
+[2025-10-16 11:16:35] Attempt 3 of 3
+[2025-10-16 11:16:36] ⚠️ Server responded with HTTP 401 (Duration: 0.98s)
+[2025-10-16 11:16:36] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:16:36] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+🏠 Processing property 27/662
+Aheloy%2C+Burgas%2C+Bulgaria
+[2025-10-16 11:16:37] Attempt 1 of 3
+[2025-10-16 11:16:38] ⚠️ Server responded with HTTP 401 (Duration: 1.1s)
+[2025-10-16 11:16:38] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:16:38] ⏳ Retrying in 2 seconds...
+[2025-10-16 11:16:41] Attempt 2 of 3
+[2025-10-16 11:16:42] ⚠️ Server responded with HTTP 401 (Duration: 1.55s)
+[2025-10-16 11:16:42] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:16:42] ⏳ Retrying in 4 seconds...
+[2025-10-16 11:16:46] Attempt 3 of 3
+[2025-10-16 11:16:48] ⚠️ Server responded with HTTP 401 (Duration: 1.45s)
+[2025-10-16 11:16:48] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:16:48] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+🏠 Processing property 28/662
+❌ Skipping property with invalid type
+🏠 Processing property 29/662
+Nessebar%2C+Burgas%2C+Bulgaria
+[2025-10-16 11:16:49] Attempt 1 of 3
+[2025-10-16 11:16:51] ⚠️ Server responded with HTTP 401 (Duration: 1.53s)
+[2025-10-16 11:16:51] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:16:51] ⏳ Retrying in 2 seconds...
+[2025-10-16 11:16:53] Attempt 2 of 3
+[2025-10-16 11:16:55] ⚠️ Server responded with HTTP 401 (Duration: 2.07s)
+[2025-10-16 11:16:55] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:16:55] ⏳ Retrying in 4 seconds...
+[2025-10-16 11:16:59] Attempt 3 of 3
+[2025-10-16 11:17:00] ⚠️ Server responded with HTTP 401 (Duration: 1.49s)
+[2025-10-16 11:17:00] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:17:00] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+🏠 Processing property 30/662
+❌ Skipping property with invalid type
+🏠 Processing property 31/662
+Sozopol%2C+Burgas%2C+Bulgaria
+[2025-10-16 11:17:02] Attempt 1 of 3
+[2025-10-16 11:17:03] ⚠️ Server responded with HTTP 401 (Duration: 1.1s)
+[2025-10-16 11:17:03] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:17:03] ⏳ Retrying in 2 seconds...
+[2025-10-16 11:17:05] Attempt 2 of 3
+[2025-10-16 11:17:06] ⚠️ Server responded with HTTP 401 (Duration: 1.24s)
+[2025-10-16 11:17:06] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:17:06] ⏳ Retrying in 4 seconds...
+[2025-10-16 11:17:10] Attempt 3 of 3
+[2025-10-16 11:17:12] ⚠️ Server responded with HTTP 401 (Duration: 1.49s)
+[2025-10-16 11:17:12] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:17:12] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+🏠 Processing property 32/662
+Sveti+Vlas%2C+Burgas%2C+Bulgaria
+[2025-10-16 11:17:14] Attempt 1 of 3
+[2025-10-16 11:17:15] ⚠️ Server responded with HTTP 401 (Duration: 1.53s)
+[2025-10-16 11:17:15] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:17:15] ⏳ Retrying in 2 seconds...
+[2025-10-16 11:17:17] Attempt 2 of 3
+[2025-10-16 11:17:18] ⚠️ Server responded with HTTP 401 (Duration: 1.02s)
+[2025-10-16 11:17:18] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-16 11:17:18] ⏳ Retrying in 4 seconds...
+[2025-10-16 11:17:22] Attempt 3 of 3
+[2025-10-16 11:17:22] [warning] Stop signal received - terminating scraper
+
+⚠️ Stop signal received - terminating gracefully...

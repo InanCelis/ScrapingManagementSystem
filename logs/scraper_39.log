@@ -1,0 +1,24 @@
+[2025-10-17 08:13:18] [info] Starting scraper: Nilsott
+[2025-10-17 08:13:18] [info] Type: xml
+[2025-10-17 08:13:18] [info] Applying configuration to scraper...
+✓ Set foldername = 'KyeroXML'
+[2025-10-17 08:13:18] [info] Set foldername = 'KyeroXML'
+✓ Set filename = 'Properties1.json'
+[2025-10-17 08:13:18] [info] Set filename = 'Properties1.json'
+✓ Set enableUpload = true
+[2025-10-17 08:13:18] [info] Set enableUpload = true
+✓ Set testingMode = false
+[2025-10-17 08:13:18] [info] Set testingMode = false
+[2025-10-17 08:13:18] [info] Passing owner details to scraper
+✓ Set owner details (confidentialInfo)
+[2025-10-17 08:13:18] [info] Set owner details (confidentialInfo)
+
+[2025-10-17 08:13:18] [info] Processing XML: https://web3930:9a42ded9cb@www.nilsott.com/xml/kyero.xml
+[2025-10-17 08:13:18] [info] Expected properties: 0
+[2025-10-17 08:13:18] [info] Passing owner details to scraper
+🔍 Input detected as: url
+🌐 Fetching XML from URL: https://web3930:9a42ded9cb@www.nilsott.com/xml/kyero.xml
+✅ XML validation successful
+[2025-10-17 08:13:48] [warning] Stop signal received - terminating scraper
+
+⚠️ Stop signal received - terminating gracefully...

@@ -1,0 +1,24 @@
+[2025-10-30 07:30:38] [info] Starting scraper: Bali Bound
+[2025-10-30 07:30:38] [info] Type: xml
+[2025-10-30 07:30:38] [info] Applying configuration to scraper...
+✓ Set foldername = 'BaliBound'
+[2025-10-30 07:30:38] [info] Set foldername = 'BaliBound'
+✓ Set filename = 'Properties.json'
+[2025-10-30 07:30:38] [info] Set filename = 'Properties.json'
+✓ Set enableUpload = false
+[2025-10-30 07:30:38] [info] Set enableUpload = false
+✓ Set testingMode = false
+[2025-10-30 07:30:38] [info] Set testingMode = false
+[2025-10-30 07:30:39] [info] Passing owner details to scraper
+✓ Set owner details (confidentialInfo)
+[2025-10-30 07:30:39] [info] Set owner details (confidentialInfo)
+
+[2025-10-30 07:30:39] [info] Processing XML: https://feed.baliboundrealty.com/xml
+[2025-10-30 07:30:39] [info] Expected properties: 0
+[2025-10-30 07:30:39] [info] Passing owner details to scraper
+🔍 Input detected as: url
+🌐 Fetching XML from URL: https://feed.baliboundrealty.com/xml
+❌ XML validation errors:
+  - Line 1: StartTag: invalid element name
+  - Line 1: Extra content at the end of the document
+[2025-10-30 07:30:40] [success] Scraping completed successfully

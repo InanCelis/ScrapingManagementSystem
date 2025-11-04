@@ -1,0 +1,18 @@
+[2025-10-17 07:54:29] [info] Starting scraper: Holiday Homes Spain
+[2025-10-17 07:54:29] [info] Type: website
+PHP Warning:  require_once(C:\xampp\htdocs\ScrapingToolsAutoSync\Executable/../simple_html_dom.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\ScrapingToolsAutoSync\Executable\HolidayHomesSpain.php on line 2
+
+Warning: require_once(C:\xampp\htdocs\ScrapingToolsAutoSync\Executable/../simple_html_dom.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\ScrapingToolsAutoSync\Executable\HolidayHomesSpain.php on line 2
+PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\ScrapingToolsAutoSync\Executable/../simple_html_dom.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\ScrapingToolsAutoSync\Executable\HolidayHomesSpain.php:2
+Stack trace:
+#0 C:\xampp\htdocs\ScrapingToolsAutoSync\core\ScraperAdapter.php(40): require_once()
+#1 C:\xampp\htdocs\ScrapingToolsAutoSync\temp\scraper_31.php(17): ScraperAdapter->run()
+#2 {main}
+  thrown in C:\xampp\htdocs\ScrapingToolsAutoSync\Executable\HolidayHomesSpain.php on line 2
+
+Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\ScrapingToolsAutoSync\Executable/../simple_html_dom.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\ScrapingToolsAutoSync\Executable\HolidayHomesSpain.php:2
+Stack trace:
+#0 C:\xampp\htdocs\ScrapingToolsAutoSync\core\ScraperAdapter.php(40): require_once()
+#1 C:\xampp\htdocs\ScrapingToolsAutoSync\temp\scraper_31.php(17): ScraperAdapter->run()
+#2 {main}
+  thrown in C:\xampp\htdocs\ScrapingToolsAutoSync\Executable\HolidayHomesSpain.php on line 2

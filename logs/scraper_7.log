@@ -1,0 +1,11 @@
+PHP Fatal error:  Uncaught TypeError: ScraperAdapter::__construct(): Argument #2 ($config) must be of type array, null given, called in C:\xampp\htdocs\ScrapingToolsAutoSync\temp\scraper_7.php on line 11 and defined in C:\xampp\htdocs\ScrapingToolsAutoSync\core\ScraperAdapter.php:12
+Stack trace:
+#0 C:\xampp\htdocs\ScrapingToolsAutoSync\temp\scraper_7.php(11): ScraperAdapter->__construct(7, NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\ScrapingToolsAutoSync\core\ScraperAdapter.php on line 12
+
+Fatal error: Uncaught TypeError: ScraperAdapter::__construct(): Argument #2 ($config) must be of type array, null given, called in C:\xampp\htdocs\ScrapingToolsAutoSync\temp\scraper_7.php on line 11 and defined in C:\xampp\htdocs\ScrapingToolsAutoSync\core\ScraperAdapter.php:12
+Stack trace:
+#0 C:\xampp\htdocs\ScrapingToolsAutoSync\temp\scraper_7.php(11): ScraperAdapter->__construct(7, NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\ScrapingToolsAutoSync\core\ScraperAdapter.php on line 12

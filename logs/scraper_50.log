@@ -1,0 +1,16 @@
+[2025-10-30 07:16:40] [info] Starting scraper: Bali Bound
+[2025-10-30 07:16:40] [info] Type: xml
+PHP Warning:  require_once(C:\xampp\htdocs\ScrapingToolsAutoSync): Failed to open stream: Permission denied in C:\xampp\htdocs\ScrapingToolsAutoSync\core\ScraperAdapter.php on line 40
+
+Warning: require_once(C:\xampp\htdocs\ScrapingToolsAutoSync): Failed to open stream: Permission denied in C:\xampp\htdocs\ScrapingToolsAutoSync\core\ScraperAdapter.php on line 40
+PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\ScrapingToolsAutoSync\core/../' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\ScrapingToolsAutoSync\core\ScraperAdapter.php:40
+Stack trace:
+#0 C:\xampp\htdocs\ScrapingToolsAutoSync\temp\scraper_50.php(17): ScraperAdapter->run()
+#1 {main}
+  thrown in C:\xampp\htdocs\ScrapingToolsAutoSync\core\ScraperAdapter.php on line 40
+
+Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\ScrapingToolsAutoSync\core/../' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\ScrapingToolsAutoSync\core\ScraperAdapter.php:40
+Stack trace:
+#0 C:\xampp\htdocs\ScrapingToolsAutoSync\temp\scraper_50.php(17): ScraperAdapter->run()
+#1 {main}
+  thrown in C:\xampp\htdocs\ScrapingToolsAutoSync\core\ScraperAdapter.php on line 40

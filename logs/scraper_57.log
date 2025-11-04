@@ -1,0 +1,28 @@
+[2025-10-30 07:52:12] [info] Starting scraper: Bali Bound
+[2025-10-30 07:52:12] [info] Type: xml
+[2025-10-30 07:52:12] [info] Applying configuration to scraper...
+✓ Set foldername = 'BaliBound'
+[2025-10-30 07:52:12] [info] Set foldername = 'BaliBound'
+✓ Set filename = 'Properties.json'
+[2025-10-30 07:52:12] [info] Set filename = 'Properties.json'
+✓ Set enableUpload = false
+[2025-10-30 07:52:12] [info] Set enableUpload = false
+✓ Set testingMode = false
+[2025-10-30 07:52:12] [info] Set testingMode = false
+[2025-10-30 07:52:12] [info] Passing owner details to scraper
+✓ Set owner details (confidentialInfo)
+[2025-10-30 07:52:12] [info] Set owner details (confidentialInfo)
+
+[2025-10-30 07:52:12] [info] Processing XML: https://feed.baliboundrealty.com/xml
+[2025-10-30 07:52:12] [info] Expected properties: 0
+[2025-10-30 07:52:12] [info] Passing owner details to scraper
+🚀 Starting Balibound Realty Puppeteer scraper...
+📂 Output folder: C:\xampp\htdocs\ScrapingToolsAutoSync\ExecutableXML/../ScrapeFile/BaliBound
+📄 Output file: Properties.json
+
+🔧 Running command: node "C:\xampp\htdocs\ScrapingToolsAutoSync\ExecutableXML/../Helpers/js/balibound-scraper.js" 0
+
+🚀 Starting Balibound Realty scraper...
+[2025-10-30 08:07:14] [warning] Stop signal received - terminating scraper
+
+⚠️ Stop signal received - terminating gracefully...

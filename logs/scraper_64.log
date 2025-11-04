@@ -1,0 +1,49 @@
+[2025-11-03 04:25:17] [info] Starting scraper: Bali Bound
+[2025-11-03 04:25:17] [info] Type: xml
+[2025-11-03 04:25:17] [info] Applying configuration to scraper...
+✓ Set foldername = 'BaliBound'
+[2025-11-03 04:25:17] [info] Set foldername = 'BaliBound'
+✓ Set filename = 'Properties.json'
+[2025-11-03 04:25:17] [info] Set filename = 'Properties.json'
+✓ Set enableUpload = false
+[2025-11-03 04:25:17] [info] Set enableUpload = false
+✓ Set testingMode = false
+[2025-11-03 04:25:17] [info] Set testingMode = false
+[2025-11-03 04:25:17] [info] Passing owner details to scraper
+✓ Set owner details (confidentialInfo)
+[2025-11-03 04:25:17] [info] Set owner details (confidentialInfo)
+
+[2025-11-03 04:25:17] [info] Processing XML: https://lhwtlojhugazhwttdleh.supabase.co/functions/v1/property-feed
+[2025-11-03 04:25:17] [info] Expected properties: 10
+[2025-11-03 04:25:17] [info] Passing owner details to scraper
+🔍 Input detected as: url
+🌐 Fetching XML from URL: https://lhwtlojhugazhwttdleh.supabase.co/functions/v1/property-feed
+✅ XML validation successful
+📋 Found properties using structure: <property>
+📋 Total properties found: 87
+📊 Total properties to process: 10
+
+🏠 Processing property 1/10
+Bukit+Peninsula%2C+Bali%2C+Indonesia
+🏠 Processing property 2/10
+Kuta+Utara%2C+Bali%2C+Indonesia
+🏠 Processing property 3/10
+Kuta+Utara%2C+Bali%2C+Indonesia
+🏠 Processing property 4/10
+Gianyar%2C+Bali%2C+Indonesia
+🏠 Processing property 5/10
+Kuta+Utara%2C+Bali%2C+Indonesia
+🏠 Processing property 6/10
+Bukit+Peninsula%2C+Bali%2C+Indonesia
+🏠 Processing property 7/10
+Kuta+Utara%2C+Bali%2C+Indonesia
+🏠 Processing property 8/10
+Mengwi%2C+Bali%2C+Indonesia
+🏠 Processing property 9/10
+Mengwi%2C+Bali%2C+Indonesia
+🏠 Processing property 10/10
+Mengwi%2C+Bali%2C+Indonesia
+✅ Scraping completed. Output saved to C:\xampp\htdocs\ScrapingToolsAutoSync\ExecutableXML/../ScrapeFile/BaliBound/Properties.json
+✅ Properties Created: 0
+✅ Properties Updated: 0
+[2025-11-03 04:25:23] [success] Scraping completed successfully

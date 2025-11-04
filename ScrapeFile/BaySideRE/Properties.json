@@ -343,9 +343,9 @@
 },
 {
     "property_title": "2 Bedroom Golf Course Condo",
-    "property_description": "<p>Experience golf course living at its finest in this elegant 2-bedroom, 2-bathroom condo spanning 1,184 Ft2, perfectly positioned directly in front of Hole 10 in the heart of Marina Mazatlán. Located within an exclusive development of just 29 condos and 4 villas, this residence offers privacy, comfort, and stunning views of the lush fairways. The property is sold unfurnished. The design is inspired by modern coastal luxury, featuring warm and sophisticated finishes in wood, granite, and marble that create inviting, functional spaces throughout.</p> <p>Each unit is delivered fully equipped with a sleek kitchen complete with cooktop and hood, built-in closets, electric water heater, smart lock, shower glass panels, and preparations for air conditioning units—ready for immediate enjoyment or longterm rental use. Residents enjoy access to a range of top-tier amenities including a heated pool, jacuzzi, putting green, gym, game room, grill area, elevator, and dedicated concierge service.</p> <p>The monthly HOA fee of $3,500 MXN covers access to all community facilities such as the swimming pool, gym, coworking space, and playground, along with your inclusion in the secure, gated community of Marina Mazatlán. Whether you're seeking a serene full-time residence or a high-quality vacation investment, this condo blends location, lifestyle, and luxury in one exceptional package.</p> <div>Property being sold at $5,325,000 MXN each, but have been converted to USD for search purposes only.</div> <div></div> <div></div>",
+    "property_description": "<p>Experience golf course living at its finest in this elegant 2-bedroom, 2-bathroom condo spanning 1,184 Ft2, perfectly positioned directly in front of Hole 10 in the heart of Marina Mazatlán. Located within an exclusive development of just 29 condos and 4 villas, this residence offers privacy, comfort, and stunning views of the lush fairways. The property is sold unfurnished. The design is inspired by modern coastal luxury, featuring warm and sophisticated finishes in wood, granite, and marble that create inviting, functional spaces throughout.</p> <p>Each unit is delivered fully equipped with a sleek kitchen complete with cooktop and hood, built-in closets, electric water heater, smart lock, shower glass panels, and preparations for air conditioning units—ready for immediate enjoyment or longterm rental use. Residents enjoy access to a range of top-tier amenities including a heated pool, jacuzzi, putting green, gym, game room, grill area, elevator, and dedicated concierge service.</p> <p>The monthly HOA fee of $3,500 MXN covers access to all community facilities such as the swimming pool, gym, coworking space, and playground, along with your inclusion in the secure, gated community of Marina Mazatlán. Whether you're seeking a serene full-time residence or a high-quality vacation investment, this condo blends location, lifestyle, and luxury in one exceptional package.</p> <div>Property being sold at $5,225,000 MXN each, but have been converted to USD for search purposes only.</div>",
     "property_excerpt": "Experience golf course living at its finest in this elegant 2-bedroom, 2-bathroom condo spanning 1,184 Ft2, perfectly positioned directly in front of Hole 10 in the heart of Marina Mazatlán. Located within an exclusive development of just 29 condos and 4 villas, this residence offers privacy, co...",
-    "price": 280000,
+    "price": 275000,
     "currency": "USD",
     "price_postfix": "",
     "price_prefix": "",
@@ -376,7 +376,7 @@
     "video_url": "",
     "virtual_tour": "",
     "images": [
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2025/08/Mangata-Golf-Living-Condo-502--scaled.jpg",
+        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2025/08/Mangata-404-Unit-Location.png",
         "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2025/08/Mangata-Golf-Living-Showsuite-4-scaled.jpg",
         "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2025/08/Mangata-Golf-Living-Showsuite-3-scaled.jpg",
         "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2025/08/Mangata-Golf-Living-Showsuite-1-scaled.jpg",
@@ -3385,87 +3385,6 @@
     ]
 },
 {
-    "property_title": "Osaka Condos La Punta",
-    "property_description": "<p>Nestled in the heart of La Punta Zicatela, this exclusive development offers an exceptional investment opportunity with an outstanding return on investment (ROI) in one of Mexico’s most sought-after coastal destinations. Designed by award-winning architect Miguel Carroll, founder of Estudio Carroll, this project blends sustainability, innovation, and minimalist elegance, making it an ideal choice for discerning buyers and investors alike.</p> <p>Each unit features a modern and minimalist design with clean lines and expansive windows that flood the interiors with natural light. The private terrace and pool in every residence provide the perfect setting to unwind and enjoy the serene surroundings. High-quality finishes enhance the sophisticated aesthetic, including Chukum-type microcement walls, polished pigmented concrete floors, Macuil wood doors and closets, and beautifully crafted colored melamine kitchens. Oaxaca red clay bricks and pasta tiles add a touch of artisanal charm, while wood-look aluminum exterior frames ensure durability and style.</p> <p>Thoughtfully designed for sustainability and energy efficiency, this development incorporates a rainwater harvesting system with automatic irrigation, an energy backup system, and a communal laundry area for convenience. Built-in Macuil wood closets, ceiling fans, and air conditioning come standard in every unit, ensuring both comfort and functionality. The interior design follows the 60/30/10 rule, with a balanced palette of neutral tones for walls and floors (60%), earthy tones for tiles and wood (30%), and striking blue accents in the kitchen and lighting (10%), creating a harmonious and inviting ambiance.</p> <p>This project represents more than just a home—it’s an investment in the vibrant lifestyle and strong growth potential of La Punta Zicatela. With its prime location, modern design, and unparalleled amenities, this is your chance to own a piece of paradise while securing an incredible ROI in one of the most desirable beachfront communities. </p> <p>Don’t miss this opportunity—contact us today to learn more!</p> <p>Osaka Condos are starting at $3,171,250 MXN and have been converted to USD for search purposes only.</p> <p>*Prices are subject to change without notice.</p>",
-    "property_excerpt": "Nestled in the heart of La Punta Zicatela, this exclusive development offers an exceptional investment opportunity with an outstanding return on investment (ROI) in one of Mexico’s most sought-after coastal destinations. Designed by award-winning architect Miguel Carroll, founder of Estudio Car...",
-    "price": 167000,
-    "currency": "USD",
-    "price_postfix": "",
-    "price_prefix": "",
-    "location": "15.841759429304, -97.046724433247",
-    "bedrooms": "1",
-    "bathrooms": "1",
-    "size": "601",
-    "size_prefix": "sqft",
-    "property_type": [
-        "Condo"
-    ],
-    "property_status": [
-        "For Sale"
-    ],
-    "property_address": "Puerto Escondido, Puerto Escondido, Oaxaca, Mexico",
-    "property_area": "Puerto Escondido",
-    "city": "Puerto Escondido",
-    "state": "Oaxaca",
-    "country": "Mexico",
-    "zip_code": "",
-    "latitude": "15.841759429304",
-    "longitude": "-97.046724433247",
-    "listing_id": "BSRE-74268",
-    "agent_id": "150",
-    "agent_display_option": "agent_info",
-    "mls_id": "",
-    "office_name": "",
-    "video_url": "",
-    "virtual_tour": "",
-    "images": [
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2025/03/OSAKA-Renders-Exterior3.png",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2025/03/OSAKA-Renders-PH-2.png",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2025/03/OSAKA-Renders-Exterior1.png",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2025/03/Osaka-Condos-La-Punta-Beach-2.jpg",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2025/03/OSAKA-Renders-Exterior10.png",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2025/03/OSAKA-Renders-PH-5.png",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2025/03/OSAKA-Renders-Type-1-1.png",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2025/03/OSAKA-Renders-Type-1-2.png",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2025/03/OSAKA-Renders-Type-1-3.png",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2025/03/OSAKA-Renders-Type-1-4.png"
-    ],
-    "property_map": "1",
-    "property_year": "",
-    "additional_features": [
-        "Close to Beach",
-        "Expansive Terrace",
-        "High Rental Revenue",
-        "Investment Opportunity",
-        "Large Windows",
-        "Parking",
-        "Private Plunge Pool",
-        "Storage Space Included"
-    ],
-    "confidential_info": [
-        {
-            "fave_additional_feature_title": "Owned by",
-            "fave_additional_feature_value": "Bayside Real Estate"
-        },
-        {
-            "fave_additional_feature_title": "Website",
-            "fave_additional_feature_value": "https://baysiderealestate.com/properties/osaka-condos-la-punta/"
-        },
-        {
-            "fave_additional_feature_title": "Contact Person",
-            "fave_additional_feature_value": "Brent May"
-        },
-        {
-            "fave_additional_feature_title": "Phone",
-            "fave_additional_feature_value": "+52 1 958 109 9771"
-        },
-        {
-            "fave_additional_feature_title": "Email",
-            "fave_additional_feature_value": "info@baysidehuatulco.com"
-        }
-    ]
-},
-{
     "property_title": "Grava Zicatela Condos",
     "property_description": "<p>Luxury living just steps from Zicatela beach &amp; market!</p> <p>Experience the ultimate coastal lifestyle in the heart of Puerto Escondido, just footsteps from the vibrant Zicatela Market and the world-famous Zicatela Beach. Enjoy the convenience of being within walking distance to the area’s best restaurants, trendy cafés, boutique shops, and lively bars. This prime location not only offers an incredible place to live but also ensures a high return on investment as Puerto Escondido continues to rise as a top destination.</p> <p>Choose from thoughtfully designed 1- and 2-bedroom floor plans, each featuring a private plunge pool—perfect for relaxing in your own tropical retreat. These modern residences are crafted with high-end finishes and top-quality materials, including premium aluminum windows, Parota wood accents, and Marmolina kitchen countertops. Every unit is designed for comfort and functionality, offering air conditioning, washing machine hook-ups, and an advanced water filtration system. The kitchens boast sleek Teka induction cooktops with extractor hoods, while the bathrooms showcase elegant Parota vanities. Secure electronic locks on the main entrance doors provide added peace of mind.</p> <p>Beyond the stunning interiors, the development showcases luxury details such as Fiorito marble tiles at the parking entryway, beautifully textured Chukum wall finishes, and oversized Parota wood doors. Whether you're seeking a personal paradise or a lucrative investment opportunity, this exclusive property offers the best of both worlds in one of Mexico’s most desirable beachfront destinations.</p> <p>Don’t miss your chance to own a piece of paradise in Puerto Escondido. Contact us today for more information!</p> <p>Grava Condos are starting at $4,523,500 MXN and have been converted to USD for search purposes only.</p> <p>*Prices are subject to change without notice. </p>",
     "property_excerpt": "Luxury living just steps from Zicatela beach &amp; market! Experience the ultimate coastal lifestyle in the heart of Puerto Escondido, just footsteps from the vibrant Zicatela Market and the world-famous Zicatela Beach. Enjoy the convenience of being within walking distance to the area’s best r...",
@@ -4721,94 +4640,6 @@
         {
             "fave_additional_feature_title": "Website",
             "fave_additional_feature_value": "https://baysiderealestate.com/properties/puerto-escondido-zicatela-9-bed-home/"
-        },
-        {
-            "fave_additional_feature_title": "Contact Person",
-            "fave_additional_feature_value": "Brent May"
-        },
-        {
-            "fave_additional_feature_title": "Phone",
-            "fave_additional_feature_value": "+52 1 958 109 9771"
-        },
-        {
-            "fave_additional_feature_title": "Email",
-            "fave_additional_feature_value": "info@baysidehuatulco.com"
-        }
-    ]
-},
-{
-    "property_title": "Ocean View Arrocito Villa",
-    "property_description": "<p>Located in Arrocito, Huatulco!&nbsp;</p> <p>This stunning ocean view villa is the perfect place to make your dream of beach living come true.&nbsp;Boasting 3,500 Ft2 on a 7,782 Ft2 land, this villa offers 3 bedrooms, 2.5 bathrooms and multiple terraces that maximize the natural air flow and the breathtaking views all over the property. Access your second level through the beautiful, custom spiral staricase up to&nbsp;the master bedroom, where you'll find a full bathroom with a jacuzzi, marble countertops and his and hers sinks.&nbsp;</p> <p>No detail has been left out when designing this luxurious fully furnished villa. Prepare a delicious meal in your high-end finishes kitchen, where granite Countertops and huanacaxtle wood take priority.&nbsp;Step out onto your expansive garden to spend your weekends enjoying a bbq afternoon in the outdoor grill, cool off in your swimming pool and finish your day relaxing in your palapa while the sun goes down.</p> <p>Paradise awaits you in this gorgeous property, call Huatulco home today!</p>",
-    "property_excerpt": "Located in Arrocito, Huatulco!&nbsp; This stunning ocean view villa is the perfect place to make your dream of beach living come true.&nbsp;Boasting 3,500 Ft2 on a 7,782 Ft2 land, this villa offers 3 bedrooms, 2.5 bathrooms and multiple terraces that maximize the natural air flow and the breathta...",
-    "price": 869000,
-    "currency": "USD",
-    "price_postfix": "",
-    "price_prefix": "",
-    "location": "15.760875, -96.10368",
-    "bedrooms": "3",
-    "bathrooms": "2",
-    "size": "3500",
-    "size_prefix": "sqft",
-    "property_type": [
-        "Villa"
-    ],
-    "property_status": [
-        "For Sale"
-    ],
-    "property_address": "Arrocito, Huatulco, Oaxaca, Mexico",
-    "property_area": "Arrocito",
-    "city": "Huatulco",
-    "state": "Oaxaca",
-    "country": "Mexico",
-    "zip_code": "",
-    "latitude": "15.760875",
-    "longitude": "-96.10368",
-    "listing_id": "BSRE-73114",
-    "agent_id": "150",
-    "agent_display_option": "agent_info",
-    "mls_id": "",
-    "office_name": "",
-    "video_url": "",
-    "virtual_tour": "",
-    "images": [
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2025/03/Ocean-View-Arrocito-Villa-New-Listing-21.png",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2025/03/Ocean-View-Arrocito-Villa-New-Listing-35.png",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2025/03/Ocean-View-Arrocito-Villa-New-Listing-37.png",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2025/03/Ocean-View-Arrocito-Villa-New-Listing-39.png",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2025/03/Ocean-View-Arrocito-Villa-New-Listing-41.png",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2025/03/Ocean-View-Arrocito-Villa-New-Listing-1.png",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2025/03/Ocean-View-Arrocito-Villa-New-Listing-13.png",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2025/03/Ocean-View-Arrocito-Villa-New-Listing-30.png",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2025/03/Ocean-View-Arrocito-Villa-New-Listing-34.png",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2025/03/Ocean-View-Arrocito-Villa-New-Listing-33.png"
-    ],
-    "property_map": "1",
-    "property_year": "",
-    "additional_features": [
-        "BBQ Area",
-        "Close to Beach",
-        "Fully Furnished",
-        "Garden Area",
-        "Granite Countertops",
-        "Grill",
-        "High Rental Revenue",
-        "Huanacaxtle Cabinetry",
-        "Investment Opportunity",
-        "Jacuzzi",
-        "Ocean View",
-        "Open Living Spaces",
-        "Parking",
-        "Swimming Pool",
-        "Terrace"
-    ],
-    "confidential_info": [
-        {
-            "fave_additional_feature_title": "Owned by",
-            "fave_additional_feature_value": "Bayside Real Estate"
-        },
-        {
-            "fave_additional_feature_title": "Website",
-            "fave_additional_feature_value": "https://baysiderealestate.com/properties/ocean-view-arrocito-villa/"
         },
         {
             "fave_additional_feature_title": "Contact Person",
@@ -7157,94 +6988,6 @@
     ]
 },
 {
-    "property_title": "Luxury Sector N Home",
-    "property_description": "<div > <div dir=\"auto\" data-message-author-role=\"assistant\" data-message-id=\"2550c11f-9ae0-437e-ad5b-0cae4c7e8d1c\" data-message-model-slug=\"gpt-4o\"> <div > <div > <p>Casa Delfines invites you to experience luxury living in the heart of Sector N, Huatulco!</p> <p>This stunning 4 bedroom plus den, 3.5 bathroom home is the perfect retreat for those seeking a serene lifestyle or a smart investment in one of Huatulco’s most desirable neighborhoods. Thoughtfully designed and beautifully furnished, it’s ready for you to move in and make it your own!</p> <p>Step outside and enjoy a private saltwater pool, a spacious BBQ area, and a rooftop with potential for a pergola or palapa ideal for relaxing while taking in the mountain views. The elegant open concept living spaces, high ceilings, and abundant natural light create a warm and inviting atmosphere.</p> <p>Casa Delfines is nestled in a quiet neighborhood, with future plans for a park across the street, ensuring your tranquility. Enjoy all the comforts of modern living, including high speed fiber optic internet, a security system with cameras, and efficient Lennox A/C units throughout.</p> <p>Casa Delfines is priced at $18,000,000 MXN but has been converted to USD for search purposes only.</p> <p>*Prices are subject to change without notice.</p> </div> </div> </div> </div>",
-    "property_excerpt": "    Casa Delfines invites you to experience luxury living in the heart of Sector N, Huatulco! This stunning 4 bedroom plus den, 3.5 bathroom home is the perfect retreat for those seeking a serene lifestyle or a smart investment in one of Huatulco’s most desirable neighborhoods. Thoughtfully des...",
-    "price": 947000,
-    "currency": "USD",
-    "price_postfix": "",
-    "price_prefix": "",
-    "location": "15.772647959529, -96.123653440473",
-    "bedrooms": "4",
-    "bathrooms": "3",
-    "size": "3326",
-    "size_prefix": "sqft",
-    "property_type": [
-        "Villa"
-    ],
-    "property_status": [
-        "For Sale"
-    ],
-    "property_address": "Sector N, Huatulco, Oaxaca, Mexico",
-    "property_area": "Sector N",
-    "city": "Huatulco",
-    "state": "Oaxaca",
-    "country": "Mexico",
-    "zip_code": "",
-    "latitude": "15.772647959529",
-    "longitude": "-96.123653440473",
-    "listing_id": "BSRE-67145",
-    "agent_id": "150",
-    "agent_display_option": "agent_info",
-    "mls_id": "",
-    "office_name": "",
-    "video_url": "",
-    "virtual_tour": "",
-    "images": [
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2024/10/Casa-Delfines-WEB-37-scaled.jpg",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2024/10/Casa-Delfines-WEB-42-scaled.jpg",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2024/10/Casa-Delfines-WEB-45-scaled.jpg",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2024/10/Casa-Delfines-WEB-59-1-scaled.jpg",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2024/10/Casa-Delfines-WEB-20-scaled.jpg",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2024/10/Casa-Delfines-WEB-46-scaled.jpg",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2024/10/Casa-Delfines-WEB-36-scaled.jpg",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2024/10/Casa-Delfines-WEB-17-1-scaled.jpg",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2024/10/Casa-Delfines-WEB-18-1-scaled.jpg",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2024/10/Casa-Delfines-WEB-62-1-scaled.jpg"
-    ],
-    "property_map": "1",
-    "property_year": "",
-    "additional_features": [
-        "BBQ Area",
-        "Dishwasher",
-        "Exclusive Neighborhood",
-        "Full Size Washer &amp; Dryer",
-        "Fully Furnished",
-        "Garage",
-        "Granite Kitchen Countertops",
-        "Half Bathroom in Pool Area",
-        "Investment Opportunity",
-        "Laundry Room",
-        "Master with Tub",
-        "Outdoor Shower",
-        "Rental Revenue",
-        "Smart Access",
-        "Unique Location"
-    ],
-    "confidential_info": [
-        {
-            "fave_additional_feature_title": "Owned by",
-            "fave_additional_feature_value": "Bayside Real Estate"
-        },
-        {
-            "fave_additional_feature_title": "Website",
-            "fave_additional_feature_value": "https://baysiderealestate.com/properties/for-sale-luxury-oasis-in-the-heart-of-sector-n-huatulco/"
-        },
-        {
-            "fave_additional_feature_title": "Contact Person",
-            "fave_additional_feature_value": "Brent May"
-        },
-        {
-            "fave_additional_feature_title": "Phone",
-            "fave_additional_feature_value": "+52 1 958 109 9771"
-        },
-        {
-            "fave_additional_feature_title": "Email",
-            "fave_additional_feature_value": "info@baysidehuatulco.com"
-        }
-    ]
-},
-{
     "property_title": "2 Bedroom Luxury condo at Praia Malecón in Mazatlán",
     "property_description": "<p>Welcome to Praia Malecón, where the essence of a hotel meets the comfort of your own condo, offering an unparalleled living experience on the stunning Mazatlán coast. The Beachfront Condo offers 515 ft2 to 720 ft2 of spacious design, featuring breathtaking beach &amp; ocean vistas that are perfect for those seeking a luxurious seaside lifestyle. With 2 bedrooms, 2 bathrooms, and a private balcony, this condo comfortably accommodates up to 6 people, making it ideal for family vacations or group getaways. The Beachfront Condo, at 515 ft2, features a smart layout with 2 bedrooms and 1 bathroom, offering a balance of coastal serenity and vibrant city views. Both condos are fully furnished with modern appliances, ensuring they are move-in ready, combining comfort with investment potential.</p> <p>Praia Malecón is more than exceptional condos—it’s about creating a one-of-a-kind lifestyle. Residents and guests enjoy access to premium amenities like a temperature-controlled infinity pool, a stylish Sky Lounge, and the inviting Praia Bar &amp; Snack. With services like valet parking and laundry, and proximity to Mazatlán’s top beaches and restaurants, Praia Malecón delivers both luxury and convenience. These condos also provide high rental returns, making them a top choice for investors in Mazatlán’s prime tourist zone.</p> <p>Unit Types<br /> Beach &amp; City View Condo (Type C): 2 Bed | 1 Bath | 515 ft2</p> <p>Ocean View Condo (Type D): 2 Bed | 2 Bath | 691 Ft2 to 720 ft2</p> <p>With 80% of units featuring ocean views, each with a private balcony, Praia Malecón combines 5 star luxury with the ease of a fully furnished condo. Seize the opportunity to own a piece of Mazatlán’s prime real estate, where elegant living aligns with a savvy investment.</p> <p >Praia Malecon is starting price is $3,890,000 MXN but has been converted to USD for search purposes only.</p> <p >*Prices are subject to change without notice.</p>",
     "property_excerpt": "Welcome to Praia Malecón, where the essence of a hotel meets the comfort of your own condo, offering an unparalleled living experience on the stunning Mazatlán coast. The Beachfront Condo offers 515 ft2 to 720 ft2 of spacious design, featuring breathtaking beach &amp; ocean vistas that are perf...",
@@ -7847,101 +7590,6 @@
     ]
 },
 {
-    "property_title": "Hacienda Huatulco",
-    "property_description": "<p>Situated in the prestigious enclave of La Cañada in Residencial Conejos, Hacienda <a href=\"https://mexicoliving.com/locations/huatulco/\">Huatulco</a>, this <a href=\"https://baysiderealestate.com/properties/punta-arrocito-oceanfront-condo\">ocean view villa</a> offers an exceptional living experience. The residence, spanning 10,753 ft2, is thoughtfully designed across three expansive lots, together forming a 25,530 ft2 estate. The villa features three generously sized bedrooms, each with breathtaking views of the ocean or surrounding mountains, complemented by three full bathrooms and four half bathrooms.</p> <h2>La Hacienda's High-End Interior Features</h2> <p>Luxury is evident throughout the home, with large bedrooms, ample closet space, substantial storage and a elevator for easy access to the levels. The spacious bathrooms are designed for comfort and convenience, and the open concept living room on the main floor provides an inviting space for relaxation and entertainment. There is potential for additional accommodations, either by building one or two casitas on the property or converting the existing office into a fourth bedroom.</p> <p>The residence is equipped with high-end appliances, including an oven, gas stove, large fridge, microwave, and dishwasher. The grand parota-wood staircase and hand-made Saltillo floor tiles highlight the craftsmanship and attention to detail that define this home. The main entry door, crafted from maquil wood in a hobbit-style design, adds a whimsical touch to the overall aesthetic.</p> <h2>Hacienda Colorado Outdoor Amenities and Entertaining</h2> <p>Enjoy enhanced outdoor living with a stunning saltwater infinity pool and a fully outfitted outdoor kitchen ideal for entertaining. The kitchen features high-end appliances such as a \"Prestige Pro\" Napoleon BBQ, a Hoshizaki icemaker and a Liebherr bar fridge. The property is equipped with extensive solar panels that power the home, along with a solar water heater and propane backup. Additionally, you'll find a private, well-appointed gym that includes a treadmill, elliptical, stationary bike, dumbbells, benches, and a steam room.</p> <h2>Security and Additional Facilities</h2> <p>The Hacienda villa's exterior is equally impressive, featuring composite wood pergolas, an automatic irrigation system for the meticulously maintained gardens, and an Astroturf area for pets. The use of Mexican-sourced wood throughout the house, with custom-made cabinetry and furniture crafted by local carpenters, adds a unique touch. The structural integrity of the home is ensured with the use of 1\" rebar, and security is enhanced with cameras and motion detectors at the main entrance.</p> <p>Additional features include a large bodega with potential for conversion into staff quarters, a 500-gallon cistern, and a spacious laundry room offering extra storage. The property provides parking for three cars and comes fully furnished, ready for immediate occupancy. Hacienda villa combines exclusivity, luxury, and functionality, making it a truly unique home in the heart of Huatulco.</p>",
-    "property_excerpt": "Situated in the prestigious enclave of La Cañada in Residencial Conejos, Hacienda Huatulco, this ocean view villa offers an exceptional living experience. The residence, spanning 10,753 ft2, is thoughtfully designed across three expansive lots, together forming a 25,530 ft2 estate. The villa fea...",
-    "price": 2195000,
-    "currency": "USD",
-    "price_postfix": "",
-    "price_prefix": "",
-    "location": "15.770691657947, -96.080696582794",
-    "bedrooms": "3",
-    "bathrooms": "7",
-    "size": "10753",
-    "size_prefix": "sqft",
-    "property_type": [
-        "House",
-        "Villa"
-    ],
-    "property_status": [
-        "For Sale"
-    ],
-    "property_address": "Residencial Conejos, Huatulco, Oaxaca, Mexico",
-    "property_area": "Residencial Conejos",
-    "city": "Huatulco",
-    "state": "Oaxaca",
-    "country": "Mexico",
-    "zip_code": "",
-    "latitude": "15.770691657947",
-    "longitude": "-96.080696582794",
-    "listing_id": "BSRE-63930",
-    "agent_id": "150",
-    "agent_display_option": "agent_info",
-    "mls_id": "",
-    "office_name": "",
-    "video_url": "",
-    "virtual_tour": "",
-    "images": [
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2024/07/Hacienda-Huatulco-Listing-2-scaled.jpg",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2024/07/Hacienda-Huatulco-Listing-1-scaled.jpg",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2024/07/Hacienda-Huatulco-Listing-38-scaled.jpg",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2024/07/Hacienda-Huatulco-Listing-34-scaled.jpg",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2024/07/Hacienda-Huatulco-Listing-23-scaled.jpg",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2024/07/Hacienda-Huatulco-Listing-16-scaled.jpg",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2024/07/Hacienda-Huatulco-Listing-5-scaled.jpg",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2024/07/Hacienda-Huatulco-Listing-18-scaled.jpg",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2024/07/Hacienda-Huatulco-Listing-39-scaled.jpg",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2024/07/Hacienda-Huatulco-Listing-36-scaled.jpg"
-    ],
-    "property_map": "1",
-    "property_year": "",
-    "additional_features": [
-        "3 Car Garage",
-        "Air-Conditioning",
-        "Close to Beach",
-        "Elevator",
-        "Equipped Kitchen",
-        "Fruit Trees",
-        "Fully Furnished",
-        "Garden Area",
-        "Gated Community",
-        "Grill Terrace",
-        "Gym",
-        "Infinity Pool",
-        "Mountain View",
-        "Ocean View",
-        "Rooftop Terrace",
-        "Salt Water Pool",
-        "Solar Panels",
-        "Steam Room",
-        "Storage Area",
-        "Walk in Closet",
-        "Washer &amp; Dryer"
-    ],
-    "confidential_info": [
-        {
-            "fave_additional_feature_title": "Owned by",
-            "fave_additional_feature_value": "Bayside Real Estate"
-        },
-        {
-            "fave_additional_feature_title": "Website",
-            "fave_additional_feature_value": "https://baysiderealestate.com/properties/hacienda-huatulco-ocean-view-luxury-villa-for-sale-in-huatulco/"
-        },
-        {
-            "fave_additional_feature_title": "Contact Person",
-            "fave_additional_feature_value": "Brent May"
-        },
-        {
-            "fave_additional_feature_title": "Phone",
-            "fave_additional_feature_value": "+52 1 958 109 9771"
-        },
-        {
-            "fave_additional_feature_title": "Email",
-            "fave_additional_feature_value": "info@baysidehuatulco.com"
-        }
-    ]
-},
-{
     "property_title": "Beach Access Mazatlan Condo",
     "property_description": "<p >Beachfront paradise at <a href=\"https://baysiderealestate.com/properties/mazatlan-beachfront-condos\">Playa Escondida</a> Condos, Mazatlán.</p> <p >Welcome to your tranquil retreat in <a href=\"https://baysiderealestate.com/properties/beach-access-mazatlan-condo\">Beach Access Mazatlan</a> coveted <a href=\"https://mexicoliving.com/developments/mazatlan-beachfront/\">Playa Escondida Condos</a>! Nestled in a tropical oasis with direct access to Playa Pato Blanco beach, this 1 bedroom, 1 bath condo offers the perfect blend of convenience, and seaside charm. Step out of your door to direct access to Playa Escondida beach, where you can indulge in sun-soaked days and breathtaking ocean views.</p> <p >Inside, discover a thoughtfully designed space featuring all the amenities you need for a comfortable stay. Enjoy the convenience of hotel-inspired services including weekly housekeeping, concierge assistance, and round-the-clock security, ensuring peace of mind.</p> <p >The community boasts a wealth of recreational options, from tennis and pickleball courts to a refreshing swimming pool nestled amidst lush garden areas adorned with tropical fruit plants and vibrant flowers. Stroll through beautifully landscaped grounds, offering a tranquil escape right at your doorstep.</p> <p >Beyond the comforts of home, Beach Access Mazatlan Playa Escondido Condos offers unparalleled access to local attractions. Explore nearby beachfront restaurants, coffee shops, and smoothie bars, all within walking distance. Convenient access to local transportation makes it easy to explore Mazatlan’s vibrant culture and exciting activities.</p> <p >Whether you’re seeking a romantic getaway, a peaceful retirement destination, or simply a place to relax and unwind, Playa Escondido Condos provides the perfect setting. Embrace the beach lifestyle and make Mazatlan your new home. Contact us today to schedule a viewing and discover the coastal paradise awaiting you at Playa Escondido Condos.</p>",
     "property_excerpt": "Beachfront paradise at Playa Escondida Condos, Mazatlán. Welcome to your tranquil retreat in Beach Access Mazatlan coveted Playa Escondida Condos! Nestled in a tropical oasis with direct access to Playa Pato Blanco beach, this 1 bedroom, 1 bath condo offers the perfect blend of convenience, and ...",
@@ -8446,83 +8094,6 @@
         {
             "fave_additional_feature_title": "Website",
             "fave_additional_feature_value": "https://baysiderealestate.com/properties/tangolunda-2-bed-condo/"
-        },
-        {
-            "fave_additional_feature_title": "Contact Person",
-            "fave_additional_feature_value": "Brent May"
-        },
-        {
-            "fave_additional_feature_title": "Phone",
-            "fave_additional_feature_value": "+52 1 958 109 9771"
-        },
-        {
-            "fave_additional_feature_title": "Email",
-            "fave_additional_feature_value": "info@baysidehuatulco.com"
-        }
-    ]
-},
-{
-    "property_title": "Expansive Ocean View Lot with Bungalow",
-    "property_description": "<p >Located in Mirador Chahué, Huatulco!</p> <p >This stunning ocean-view lot offers a total of 32,011 Ft2 of prime real estate.</p> <p >Set against the backdrop of the azure Pacific Ocean, this lot boasts the construction of a charming bungalow featuring 3 bedrooms, 2 bathrooms, a private pool, and a lounge area.</p> <p >Located just minutes away from one of Huatulco's most popular beaches, Playa El Tejón, residents can indulge in the tranquility of its pristine waters while enjoying the convenience of nearby restaurants and amenities.</p> <p >Don't miss this rare opportunity to own a piece of paradise in Mirador Chahué!</p> <p >Property is being sold at $22,000,000 MXN but have been converted to USD for search purposes only.</p>",
-    "property_excerpt": "Located in Mirador Chahué, Huatulco! This stunning ocean-view lot offers a total of 32,011 Ft2 of prime real estate. Set against the backdrop of the azure Pacific Ocean, this lot boasts the construction of a charming bungalow featuring 3 bedrooms, 2 bathrooms, a private pool, and a lounge area. ...",
-    "price": 1158000,
-    "currency": "USD",
-    "price_postfix": "",
-    "price_prefix": "",
-    "location": "15.763928027093, -96.11406329172",
-    "bedrooms": "3",
-    "bathrooms": "2",
-    "size": "32011",
-    "size_prefix": "sqft",
-    "property_type": [
-        "House"
-    ],
-    "property_status": [
-        "For Sale"
-    ],
-    "property_address": "Mirador Chahue, Huatulco, Oaxaca, Mexico",
-    "property_area": "Mirador Chahue",
-    "city": "Huatulco",
-    "state": "Oaxaca",
-    "country": "Mexico",
-    "zip_code": "",
-    "latitude": "15.763928027093",
-    "longitude": "-96.11406329172",
-    "listing_id": "BSRE-55544",
-    "agent_id": "150",
-    "agent_display_option": "agent_info",
-    "mls_id": "",
-    "office_name": "",
-    "video_url": "",
-    "virtual_tour": "",
-    "images": [
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2024/02/Mirador-Chahue-LOT-7-1-comp.jpg",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2024/02/Mirador-Chahue-LOT-7-2-comp.jpg",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2024/02/Mirador-Chahue-LOT-7-3-comp.jpg",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2024/02/Mirador-Chahue-LOT-7-4-comp.jpg",
-        "https://s3.us-east-1.amazonaws.com/baysiderealestate.com/wp-content/uploads/2024/02/Mirador-Chahue-LOT-7-5-comp.jpg"
-    ],
-    "property_map": "1",
-    "property_year": "",
-    "additional_features": [
-        "Close to a Restaurant",
-        "Close to Amenities",
-        "High Rental Revenue",
-        "Investment Opportunity",
-        "Lounge Area",
-        "Minutes to the Beach",
-        "Ocean View",
-        "Residential Area",
-        "Swimming Pool"
-    ],
-    "confidential_info": [
-        {
-            "fave_additional_feature_title": "Owned by",
-            "fave_additional_feature_value": "Bayside Real Estate"
-        },
-        {
-            "fave_additional_feature_title": "Website",
-            "fave_additional_feature_value": "https://baysiderealestate.com/properties/expansive-ocean-view-lot-with-bungalow/"
         },
         {
             "fave_additional_feature_title": "Contact Person",

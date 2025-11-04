@@ -1,0 +1,70 @@
+[2025-10-16 05:24:13] [info] Starting scraper: Holiday Homes Spain
+[2025-10-16 05:24:13] [info] Type: website
+[2025-10-16 05:24:13] [info] Applying configuration to scraper...
+✓ Set foldername = 'HolidayHomesSpain'
+[2025-10-16 05:24:13] [info] Set foldername = 'HolidayHomesSpain'
+✓ Set filename = 'Properties3.json'
+[2025-10-16 05:24:13] [info] Set filename = 'Properties3.json'
+✓ Set enableUpload = true
+[2025-10-16 05:24:13] [info] Set enableUpload = true
+✓ Set testingMode = false
+[2025-10-16 05:24:13] [info] Set testingMode = false
+
+[2025-10-16 05:24:13] [info] Scraping pages 1 to 2
+📄 Fetching page 1: https://holiday-homes-spain.com/property-search-results/?mls_search_performed=1&query_id=b1e104b4-a9a8-11f0-9ebd-02a3ded47a2d&page_num=1&p_sorttype=3
+PHP Warning:  file_get_contents(https://holiday-homes-spain.com/property-search-results/?mls_search_performed=1&query_id=b1e104b4-a9a8-11f0-9ebd-02a3ded47a2d&page_num=1&p_sorttype=3): Failed to open stream: HTTP request failed! in C:\xampp\htdocs\ScrapingToolsAutoSync\simple_html_dom.php on line 77
+
+Warning: file_get_contents(https://holiday-homes-spain.com/property-search-results/?mls_search_performed=1&query_id=b1e104b4-a9a8-11f0-9ebd-02a3ded47a2d&page_num=1&p_sorttype=3): Failed to open stream: HTTP request failed! in C:\xampp\htdocs\ScrapingToolsAutoSync\simple_html_dom.php on line 77
+⚠️ Failed to load page 1. Skipping...
+📄 Fetching page 2: https://holiday-homes-spain.com/property-search-results/?mls_search_performed=1&query_id=b1e104b4-a9a8-11f0-9ebd-02a3ded47a2d&page_num=2&p_sorttype=3
+📊 Total properties to scrape: 9
+
+URL 1 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=4810195&lang=1&type=11357
+[2025-10-16 05:25:37] Fetching property details for ID: IDHI-MLH-R4810195
+[2025-10-16 05:25:38] CURL Error: Could not resolve host: internationalpropertyalerts.co
+Error: CURL Error: Could not resolve host: internationalpropertyalerts.co
+🔍 Debug - Full price text: '€ 599.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 599.000
+)
+
+🔍 Debug - First number sequence: '599.000'
+🔍 Debug - Final price: 599000
+✅ Price extracted: 599000 EUR
+Fuengirola%2C+Costa+del+Sol%2C+Spain
+[2025-10-16 05:25:38] Attempt 1 of 3
+[2025-10-16 05:25:38] ⚠️ Request failed: CURL Error: Could not resolve host: internationalpropertyalerts.co (Duration: 0s)
+[2025-10-16 05:25:38] ⏳ Retrying in 2 seconds...
+[2025-10-16 05:25:40] Attempt 2 of 3
+[2025-10-16 05:25:40] ⚠️ Request failed: CURL Error: Could not resolve host: internationalpropertyalerts.co (Duration: 0s)
+[2025-10-16 05:25:40] ⏳ Retrying in 4 seconds...
+[2025-10-16 05:25:44] Attempt 3 of 3
+[2025-10-16 05:25:44] ⚠️ Request failed: CURL Error: Could not resolve host: internationalpropertyalerts.co (Duration: 0.01s)
+[2025-10-16 05:25:44] ❌ All attempts failed. Last error: CURL Error: Could not resolve host: internationalpropertyalerts.co
+❌ Failed after 3 attempts. Last error: CURL Error: Could not resolve host: internationalpropertyalerts.co
+URL 2 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=4884907&lang=1&type=11357
+[2025-10-16 05:25:53] Fetching property details for ID: IDHI-MLH-R4884907
+[2025-10-16 05:25:53] CURL Error: Could not resolve host: internationalpropertyalerts.co
+Error: CURL Error: Could not resolve host: internationalpropertyalerts.co
+🔍 Debug - Full price text: '€ 1.700.000 € - 2.150.000 €'
+🔍 Debug - All number matches: Array
+(
+    [0] => 1.700.000
+    [1] => 2.150.000
+)
+
+🔍 Debug - First number sequence: '1.700.000'
+🔍 Debug - Final price: 1700000
+✅ Price extracted: 1700000 EUR
+Mijas%2C+Costa+del+Sol%2C+Spain
+[2025-10-16 05:25:54] Attempt 1 of 3
+[2025-10-16 05:25:54] ⚠️ Request failed: CURL Error: Could not resolve host: internationalpropertyalerts.co (Duration: 0.01s)
+[2025-10-16 05:25:54] ⏳ Retrying in 2 seconds...
+[2025-10-16 05:25:56] Attempt 2 of 3
+[2025-10-16 05:25:56] ⚠️ Request failed: CURL Error: Could not resolve host: internationalpropertyalerts.co (Duration: 0s)
+[2025-10-16 05:25:56] ⏳ Retrying in 4 seconds...
+[2025-10-16 05:26:00] Attempt 3 of 3
+[2025-10-16 05:26:00] [warning] Stop signal received - terminating scraper
+
+⚠️ Stop signal received - terminating gracefully...

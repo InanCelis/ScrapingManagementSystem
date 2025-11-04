@@ -1,0 +1,9 @@
+PHP Fatal error:  Uncaught Error: Undefined constant "PROCESSID" in C:\xampp\htdocs\ScrapingToolsAutoSync\temp\scraper_8.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ScrapingToolsAutoSync\temp\scraper_8.php on line 20
+
+Fatal error: Uncaught Error: Undefined constant "PROCESSID" in C:\xampp\htdocs\ScrapingToolsAutoSync\temp\scraper_8.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\ScrapingToolsAutoSync\temp\scraper_8.php on line 20

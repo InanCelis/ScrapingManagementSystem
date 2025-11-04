@@ -1,0 +1,172 @@
+[2025-10-15 11:55:58] [info] Starting scraper: Holiday Homes Spain
+[2025-10-15 11:55:58] [info] Type: website
+[2025-10-15 11:55:58] [info] Applying configuration to scraper...
+✓ Set foldername = 'HolidayHomesSpain'
+[2025-10-15 11:55:58] [info] Set foldername = 'HolidayHomesSpain'
+✓ Set filename = 'Properties3.json'
+[2025-10-15 11:55:58] [info] Set filename = 'Properties3.json'
+✓ Set enableUpload = false
+[2025-10-15 11:55:58] [info] Set enableUpload = false
+✓ Set testingMode = false
+[2025-10-15 11:55:58] [info] Set testingMode = false
+
+[2025-10-15 11:55:58] [info] Scraping pages 1 to 2
+📄 Fetching page 1: https://holiday-homes-spain.com/property-search-results/?mls_search_performed=1&query_id=b1e104b4-a9a8-11f0-9ebd-02a3ded47a2d&page_num=1&p_sorttype=3
+📄 Fetching page 2: https://holiday-homes-spain.com/property-search-results/?mls_search_performed=1&query_id=b1e104b4-a9a8-11f0-9ebd-02a3ded47a2d&page_num=2&p_sorttype=3
+📊 Total properties to scrape: 18
+
+URL 1 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=5169550&lang=1&type=11357
+🔍 Debug - Full price text: '€ 895.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 895.000
+)
+
+🔍 Debug - First number sequence: '895.000'
+🔍 Debug - Final price: 895000
+✅ Price extracted: 895000 EUR
+Puerto+Ban%C3%BAs%2C+Costa+del+Sol%2C+Spain
+URL 2 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=4621570&lang=1&type=11357
+🔍 Debug - Full price text: '€ 515.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 515.000
+)
+
+🔍 Debug - First number sequence: '515.000'
+🔍 Debug - Final price: 515000
+✅ Price extracted: 515000 EUR
+New+Golden+Mile%2C+Costa+del+Sol%2C+Spain
+URL 3 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=5127223&lang=1&type=11357
+🔍 Debug - Full price text: '€ 379.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 379.000
+)
+
+🔍 Debug - First number sequence: '379.000'
+🔍 Debug - Final price: 379000
+✅ Price extracted: 379000 EUR
+Manilva%2C+Costa+del+Sol%2C+Spain
+URL 4 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=4148251&lang=1&type=11357
+🔍 Debug - Full price text: '€ 399.000 € - 699.000 €'
+🔍 Debug - All number matches: Array
+(
+    [0] => 399.000
+    [1] => 699.000
+)
+
+🔍 Debug - First number sequence: '399.000'
+🔍 Debug - Final price: 399000
+✅ Price extracted: 399000 EUR
+Torremolinos%2C+Costa+del+Sol%2C+Spain
+URL 5 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=4976098&lang=1&type=11357
+🔍 Debug - Full price text: '€ 3.450.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 3.450.000
+)
+
+🔍 Debug - First number sequence: '3.450.000'
+🔍 Debug - Final price: 3450000
+✅ Price extracted: 3450000 EUR
+Elviria%2C+Costa+del+Sol%2C+Spain
+URL 6 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=5026186&lang=1&type=11357
+🔍 Debug - Full price text: '€ 1.995.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 1.995.000
+)
+
+🔍 Debug - First number sequence: '1.995.000'
+🔍 Debug - Final price: 1995000
+✅ Price extracted: 1995000 EUR
+El+Chaparral%2C+Costa+del+Sol%2C+Spain
+❌ Skipping property with invalid Coordinates, FROM SITE: Spain, FROM API: Mexico 
+ Trying another way.....El+Chaparral%2C+Spain
+URL 7 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=5181388&lang=1&type=11357
+🔍 Debug - Full price text: '€ 1.450.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 1.450.000
+)
+
+🔍 Debug - First number sequence: '1.450.000'
+🔍 Debug - Final price: 1450000
+✅ Price extracted: 1450000 EUR
+El+Chaparral%2C+Costa+del+Sol%2C+Spain
+❌ Skipping property with invalid Coordinates, FROM SITE: Spain, FROM API: Mexico 
+ Trying another way.....El+Chaparral%2C+Spain
+URL 8 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=5166982&lang=1&type=11357
+🔍 Debug - Full price text: '€ 699.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 699.000
+)
+
+🔍 Debug - First number sequence: '699.000'
+🔍 Debug - Final price: 699000
+✅ Price extracted: 699000 EUR
+Nueva+Andaluc%C3%ADa%2C+Costa+del+Sol%2C+Spain
+URL 9 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=5065159&lang=1&type=11357
+🔍 Debug - Full price text: '€ 799.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 799.000
+)
+
+🔍 Debug - First number sequence: '799.000'
+🔍 Debug - Final price: 799000
+✅ Price extracted: 799000 EUR
+Mijas%2C+Costa+del+Sol%2C+Spain
+URL 10 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=4880860&lang=1&type=11357
+🔍 Debug - Full price text: '€ 530.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 530.000
+)
+
+🔍 Debug - First number sequence: '530.000'
+🔍 Debug - Final price: 530000
+✅ Price extracted: 530000 EUR
+Estepona%2C+Costa+del+Sol%2C+Spain
+URL 11 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=5158084&lang=1&type=11357
+🔍 Debug - Full price text: '€ 485.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 485.000
+)
+
+🔍 Debug - First number sequence: '485.000'
+🔍 Debug - Final price: 485000
+✅ Price extracted: 485000 EUR
+Ist%C3%A1n%2C+Costa+del+Sol%2C+Spain
+URL 12 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=5058766&lang=1&type=11357
+🔍 Debug - Full price text: '€ 499.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 499.000
+)
+
+🔍 Debug - First number sequence: '499.000'
+🔍 Debug - Final price: 499000
+✅ Price extracted: 499000 EUR
+Fuengirola%2C+Costa+del+Sol%2C+Spain
+URL 13 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=5142721&lang=1&type=11357
+🔍 Debug - Full price text: '€ 445.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 445.000
+)
+
+🔍 Debug - First number sequence: '445.000'
+🔍 Debug - Final price: 445000
+✅ Price extracted: 445000 EUR
+Nueva+Andaluc%C3%ADa%2C+Costa+del+Sol%2C+Spain
+URL 14 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=5140051&lang=1&type=11357
+❌ Skipping property with invalid property type: Duplex
+URL 15 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=5126974&lang=1&type=11357
+🔍 Debug - Full price text: '€ 650.000'
+[2025-10-15 11:56:52] [warning] Stop signal received - terminating scraper
+
+⚠️ Stop signal received - terminating gracefully...

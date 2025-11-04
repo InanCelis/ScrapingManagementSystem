@@ -6,7 +6,7 @@ require_once __DIR__ . '/../Helpers/ScraperHelpers.php';
 class LuxuryEstateTurkey {
     private string $baseUrl = "https://luxuryestateturkey.com";
     private string $foldername = "LuxuryEstateTurkey";
-    private string $filename = "Restored2.json";
+    private string $filename = "Restored3.json";
     private array $propertyLinks = [];
     private array $scrapedData = [];
     private ApiSender $apiSender;
@@ -15,6 +15,7 @@ class LuxuryEstateTurkey {
     private int $successUpdated;
     private bool $enableUpload = true;
     private bool $testingMode = false;
+    private array $confidentialInfo = [];
 
     public function __construct() {
         // Initialize the ApiSender with your actual API URL and token
@@ -22,6 +23,10 @@ class LuxuryEstateTurkey {
         $this->helpers = new ScraperHelpers();
         $this->successCreated = 0;
         $this->successUpdated = 0;
+    }
+
+    public function setConfidentialInfo(array $confidentialInfo): void {
+        $this->confidentialInfo = $confidentialInfo;
     }
 
     public function run(int $pageCount = 1, int $limit = 0): void {
@@ -159,13 +164,6 @@ class LuxuryEstateTurkey {
    
 
     private function scrapePropertyDetails(simple_html_dom $html, $url): void {
-       
-        $ownedBy = "Luxury Estate Turkey";
-        $contactPerson = "Ibrahim Boztoz";
-        $phone = "+90 5050 140101";
-        $email = "office@luxuryestateturkey.com";
-        
-
         // title
         $title = trim($html->find('h1.py-4', 0)->plaintext ?? '');
         if(empty($title)) {
@@ -450,31 +448,50 @@ class LuxuryEstateTurkey {
             "property_map" => "1",
             "property_year" => "",
             "additional_features" => $features,
-            "confidential_info" => [
-                [
-                    "fave_additional_feature_title" => "Owned by",
-                    "fave_additional_feature_value" => $ownedBy
-                ],
-                [
-                    "fave_additional_feature_title" => "Website",
-                    "fave_additional_feature_value" => $url,
-                ],
-                [
-                    "fave_additional_feature_title" => "Contact Person",
-                    "fave_additional_feature_value" => $contactPerson
-                ],
-                [
-                    "fave_additional_feature_title" => "Phone",
-                    "fave_additional_feature_value" => $phone
-                ],
-                [
-                    "fave_additional_feature_title" => "Email",
-                    "fave_additional_feature_value" => $email
-                ]
-            ]
+            "confidential_info" => $this->buildConfidentialInfo($url)
         ];
     }
 
+    private function buildConfidentialInfo(string $url = ''): array {
+        $confidentialInfo = [];
+
+        // Add URL first if available
+        if (!empty($url)) {
+            $confidentialInfo[] = [
+                "fave_additional_feature_title" => "Website",
+                "fave_additional_feature_value" => $url
+            ];
+        }
+
+        // Add dynamic confidential information from config
+        foreach ($this->confidentialInfo as $title => $value) {
+            if (!empty($value)) {
+                $confidentialInfo[] = [
+                    "fave_additional_feature_title" => $title,
+                    "fave_additional_feature_value" => $value
+                ];
+            }
+        }
+
+        // Fallback to hardcoded defaults if no config provided
+        if (empty($this->confidentialInfo)) {
+            $defaultInfo = [
+                "Owned By" => "Luxury Estate Turkey",
+                "Contact Person" => "Ibrahim Boztoz",
+                "Phone" => "+90 5050 140101",
+                "Email" => "office@luxuryestateturkey.com"
+            ];
+
+            foreach ($defaultInfo as $title => $value) {
+                $confidentialInfo[] = [
+                    "fave_additional_feature_title" => $title,
+                    "fave_additional_feature_value" => $value
+                ];
+            }
+        }
+
+        return $confidentialInfo;
+    }
 
     private function saveToJson(string $filename): void {
         file_put_contents(

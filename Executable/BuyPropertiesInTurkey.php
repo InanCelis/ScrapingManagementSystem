@@ -6,21 +6,26 @@ require_once __DIR__ . '/../Helpers/ScraperHelpers.php';
 class BuyPropertiesInTurkey {
     private string $baseUrl = "https://buypropertiesinturkey.com";
     private string $foldername = "BuyPropertiesInTurkey";
-    private string $filename = "Properties2.json";
+    private string $filename = "Properties3.json";
     private array $propertyLinks = [];
     private array $scrapedData = [];
     private ApiSender $apiSender;
     private ScraperHelpers $helpers;
     private int $successCreated;
     private int $successUpdated;
-    private bool $enableUpload = false;
+    private bool $enableUpload = true;
     private bool $testingMode = false;
+    private array $confidentialInfo = [];
 
     public function __construct() {
         $this->apiSender = new ApiSender(true);
         $this->helpers = new ScraperHelpers();
         $this->successCreated = 0;
         $this->successUpdated = 0;
+    }
+
+    public function setConfidentialInfo(array $confidentialInfo): void {
+        $this->confidentialInfo = $confidentialInfo;
     }
 
     public function run(int $pageCount = 1, int $limit = 0): void {
@@ -39,7 +44,7 @@ class BuyPropertiesInTurkey {
         file_put_contents($outputFile, "[");
 
         $propertyCounter = 0;
-        for ($page = 1; $page <= $pageCount; $page++) {0;
+        for ($page = 4; $page <= $pageCount; $page++) {0;
             $url = $this->baseUrl . "/search-results/?paged={$page}&listing_page_id=16859&use_radius=on&radius=50&type%5B%5D=apartment&type%5B%5D=hot-offers&type%5B%5D=investment&type%5B%5D=penthouse&type%5B%5D=villa&min-price=200&max-price=2500000";
             
             echo "📄 Fetching page $page: $url\n";
@@ -129,16 +134,10 @@ class BuyPropertiesInTurkey {
     }
 
     private function scrapePropertyDetails(simple_html_dom $html, $url): void {
-       
-        $ownedBy = "Buy Properties in Turkey";
-        $contactPerson = "Elhamuddin";
-        $phone = "+90 545 648 69 96";
-        $email = "elham@buypropertiesinturkey.com";
-        
-
         $title = trim($html->find('.page-title h1', 0)->plaintext ?? '');
         if(empty($title)) {
             echo "❌ Skipping property with invalid setup of html\n ";
+            $this->helpers->updatePostToDraft($url);
             return; 
         }
         
@@ -285,16 +284,19 @@ class BuyPropertiesInTurkey {
         // Check if price extraction failed or resulted in zero/invalid price
         if (empty($price) || !is_numeric($price) || (int)$price <= 0) {
             echo "❌ Skipping property with invalid price. Extracted value: '$price'\n";
+            $this->helpers->updatePostToDraft($url);
             return; 
         }
 
         if (empty($property_status)) {
             echo "❌ Skipping property with invalid status\n";
+            $this->helpers->updatePostToDraft($url);
             return; // Exit the function without scraping
         }
 
         if (empty($property_type)) {
             echo "❌ Skipping property with invalid property type\n";
+            $this->helpers->updatePostToDraft($url);
             return; // Exit the function without scraping
         }
 
@@ -334,6 +336,7 @@ class BuyPropertiesInTurkey {
         // Check if we found any images
         if (empty($images)) {
             echo "❌ Skipping property with no images \n";
+            $this->helpers->updatePostToDraft($url);
             return; // Exit the function without scraping
         }
 
@@ -495,29 +498,49 @@ class BuyPropertiesInTurkey {
             "property_map" => "1",
             "property_year" => $year_built,
             "additional_features" => $features,
-            "confidential_info" => [
-                [
-                    "fave_additional_feature_title" => "Owned by",
-                    "fave_additional_feature_value" => $ownedBy
-                ],
-                [
-                    "fave_additional_feature_title" => "Website",
-                    "fave_additional_feature_value" => $url,
-                ],
-                [
-                    "fave_additional_feature_title" => "Contact Person",
-                    "fave_additional_feature_value" => $contactPerson
-                ],
-                [
-                    "fave_additional_feature_title" => "Phone",
-                    "fave_additional_feature_value" => $phone
-                ],
-                [
-                    "fave_additional_feature_title" => "Email",
-                    "fave_additional_feature_value" => $email
-                ]
-            ]
+            "confidential_info" => $this->buildConfidentialInfo($url)
         ];
+    }
+
+    private function buildConfidentialInfo(string $url = ''): array {
+        $confidentialInfo = [];
+
+        // Add URL first if available
+        if (!empty($url)) {
+            $confidentialInfo[] = [
+                "fave_additional_feature_title" => "Website",
+                "fave_additional_feature_value" => $url
+            ];
+        }
+
+        // Add dynamic confidential information from config
+        foreach ($this->confidentialInfo as $title => $value) {
+            if (!empty($value)) {
+                $confidentialInfo[] = [
+                    "fave_additional_feature_title" => $title,
+                    "fave_additional_feature_value" => $value
+                ];
+            }
+        }
+
+        // Fallback to hardcoded defaults if no config provided
+        if (empty($this->confidentialInfo)) {
+            $defaultInfo = [
+                "Owned By" => "Buy Properties in Turkey",
+                "Contact Person" => "Elhamuddin",
+                "Phone" => "+90 545 648 69 96",
+                "Email" => "elham@buypropertiesinturkey.com"
+            ];
+
+            foreach ($defaultInfo as $title => $value) {
+                $confidentialInfo[] = [
+                    "fave_additional_feature_title" => $title,
+                    "fave_additional_feature_value" => $value
+                ];
+            }
+        }
+
+        return $confidentialInfo;
     }
 
     private function saveToJson(string $filename): void {

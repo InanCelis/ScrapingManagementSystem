@@ -13,14 +13,19 @@ class BaySideRE {
     private ScraperHelpers $helpers;
     private int $successCreated;
     private int $successUpdated;
-    private bool $enableUpload = false;
+    private bool $enableUpload = true;
     private bool $testingMode = false;
+    private array $confidentialInfo = [];
 
     public function __construct() {
         $this->apiSender = new ApiSender(true);
         $this->helpers = new ScraperHelpers();
         $this->successCreated = 0;
         $this->successUpdated = 0;
+    }
+
+    public function setConfidentialInfo(array $confidentialInfo): void {
+        $this->confidentialInfo = $confidentialInfo;
     }
 
     public function run(int $pageCount = 1, int $limit = 0): void {
@@ -58,6 +63,9 @@ class BaySideRE {
             $this->propertyLinks = array_slice($this->propertyLinks, 0, $limit);
         }
         $countLinks = 1;
+        // Get total count of property links
+        $totalLinks = count($this->propertyLinks);
+        echo "📊 Total properties to scrape: {$totalLinks}\n\n";
         foreach ($this->propertyLinks as $url) {
             echo "URL ".$countLinks++." 🔍 Scraping: $url\n";
             $propertyHtml = file_get_html($url);
@@ -125,16 +133,10 @@ class BaySideRE {
     }
 
     private function scrapePropertyDetails(simple_html_dom $html, $url): void {
-       
-        $ownedBy = "Bayside Real Estate";
-        $contactPerson = "Brent May";
-        $phone = "+52 1 958 109 9771";
-        $email = "info@baysidehuatulco.com";
-        
-
         $title = trim($html->find('.wpestate_estate_property_design_intext_details h1.property-title', 0)->plaintext ?? '');
         if(empty($title)) {
             echo "❌ Skipping property with invalid setup of html\n ";
+            $this->helpers->updatePostToDraft($url);
             return; 
         }
         
@@ -311,16 +313,19 @@ class BaySideRE {
             }
         } else {
             echo "❌ No tag links found\n";
+            $this->helpers->updatePostToDraft($url);
             return;
         }
         
         if (empty($property_status)) {
             echo "❌ Skipping property with invalid status\n";
+            $this->helpers->updatePostToDraft($url);
             return; // Exit the function without scraping
         }
 
         if (empty($property_type)) {
             echo "❌ Skipping property with invalid property type\n";
+            $this->helpers->updatePostToDraft($url);
             return; // Exit the function without scraping
         }
         
@@ -395,6 +400,7 @@ class BaySideRE {
         // Check if we found any images
         if (empty($images)) {
             echo "❌ Skipping property with no images \n";
+            $this->helpers->updatePostToDraft($url);
             return; // Exit the function without scraping
         }
 
@@ -469,29 +475,49 @@ class BaySideRE {
             "property_map" => "1",
             "property_year" => "",
             "additional_features" => $features,
-            "confidential_info" => [
-                [
-                    "fave_additional_feature_title" => "Owned by",
-                    "fave_additional_feature_value" => $ownedBy
-                ],
-                [
-                    "fave_additional_feature_title" => "Website",
-                    "fave_additional_feature_value" => $url,
-                ],
-                [
-                    "fave_additional_feature_title" => "Contact Person",
-                    "fave_additional_feature_value" => $contactPerson
-                ],
-                [
-                    "fave_additional_feature_title" => "Phone",
-                    "fave_additional_feature_value" => $phone
-                ],
-                [
-                    "fave_additional_feature_title" => "Email",
-                    "fave_additional_feature_value" => $email
-                ]
-            ]
+            "confidential_info" => $this->buildConfidentialInfo($url)
         ];
+    }
+
+    private function buildConfidentialInfo(string $url = ''): array {
+        $confidentialInfo = [];
+
+        // Add URL first if available
+        if (!empty($url)) {
+            $confidentialInfo[] = [
+                "fave_additional_feature_title" => "Website",
+                "fave_additional_feature_value" => $url
+            ];
+        }
+
+        // Add dynamic confidential information from config
+        foreach ($this->confidentialInfo as $title => $value) {
+            if (!empty($value)) {
+                $confidentialInfo[] = [
+                    "fave_additional_feature_title" => $title,
+                    "fave_additional_feature_value" => $value
+                ];
+            }
+        }
+
+        // Fallback to hardcoded defaults if no config provided
+        if (empty($this->confidentialInfo)) {
+            $defaultInfo = [
+                "Owned By" => "Bayside Real Estate",
+                "Contact Person" => "Brent May",
+                "Phone" => "+52 1 958 109 9771",
+                "Email" => "info@baysidehuatulco.com"
+            ];
+
+            foreach ($defaultInfo as $title => $value) {
+                $confidentialInfo[] = [
+                    "fave_additional_feature_title" => $title,
+                    "fave_additional_feature_value" => $value
+                ];
+            }
+        }
+
+        return $confidentialInfo;
     }
 
     private function saveToJson(string $filename): void {

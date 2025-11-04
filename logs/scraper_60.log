@@ -1,0 +1,97 @@
+[2025-10-30 08:09:53] [info] Starting scraper: Bali Bound
+[2025-10-30 08:09:53] [info] Type: xml
+[2025-10-30 08:09:53] [info] Applying configuration to scraper...
+✓ Set foldername = 'BaliBound'
+[2025-10-30 08:09:53] [info] Set foldername = 'BaliBound'
+✓ Set filename = 'Properties.json'
+[2025-10-30 08:09:53] [info] Set filename = 'Properties.json'
+✓ Set enableUpload = false
+[2025-10-30 08:09:53] [info] Set enableUpload = false
+✓ Set testingMode = false
+[2025-10-30 08:09:53] [info] Set testingMode = false
+[2025-10-30 08:09:53] [info] Passing owner details to scraper
+✓ Set owner details (confidentialInfo)
+[2025-10-30 08:09:53] [info] Set owner details (confidentialInfo)
+
+[2025-10-30 08:09:53] [info] Processing XML: https://feed.baliboundrealty.com/xml
+[2025-10-30 08:09:53] [info] Expected properties: 10
+[2025-10-30 08:09:53] [info] Passing owner details to scraper
+🚀 BaliBound Puppeteer Scraper
+📋 Limit: 10 properties
+
+🚀 Starting Balibound Realty Puppeteer scraper...
+📂 Output folder: C:\xampp\htdocs\ScrapingToolsAutoSync\ExecutableXML/../ScrapeFile/BaliBound
+📄 Output file: Properties.json
+
+🔧 Running command: node "C:\xampp\htdocs\ScrapingToolsAutoSync\ExecutableXML/../Helpers/js/balibound-scraper.js" 10
+
+🚀 Starting Balibound Realty scraper...
+📄 Navigating to properties page...
+⏳ Waiting for properties to load...
+
+📂 Checking tab: Property for Sale...
+   Found 48 properties in Property for Sale
+
+📂 Checking tab: Property for Rent...
+   Found 39 properties in Property for Rent
+
+📂 Checking tab: Land for Sale...
+   Found 0 properties in Land for Sale
+
+📂 Checking tab: Off Plan...
+   Found 0 properties in Off Plan
+
+📊 Total unique properties found: 87
+
+📋 Processing 10 properties...
+
+🏠 [1/10] Scraping: https://feed.baliboundrealty.com/property/2br-luxury-leasehold-villa-w-rooftop-ocean-views-BR-PS2228
+   📸 Debug files saved
+   ✅ Successfully scraped property
+
+🏠 [2/10] Scraping: https://feed.baliboundrealty.com/property/vibrant-2br-mediterranean-villa-w-rooftop-BR-PS2498
+   ✅ Successfully scraped property
+
+🏠 [3/10] Scraping: https://feed.baliboundrealty.com/property/2br-luxury-leasehold-villa-w-full-ocean-views-rooftop-BR-PS2486
+   ✅ Successfully scraped property
+
+🏠 [4/10] Scraping: https://feed.baliboundrealty.com/property/luxury-3-5br-leasehold-villa-w-rooftop-pool-BR-PS2222
+   ✅ Successfully scraped property
+
+🏠 [5/10] Scraping: https://feed.baliboundrealty.com/property/charming-2br-villa-w-pool-garden-oasis-petulu-ubud-BR-PS2899
+   ✅ Successfully scraped property
+
+🏠 [6/10] Scraping: https://feed.baliboundrealty.com/property/mediterranean-2br-casa-makana-villa-w-rooftop-BR-PS2487
+   ✅ Successfully scraped property
+
+🏠 [7/10] Scraping: https://feed.baliboundrealty.com/property/dreamy-2br-medeterranean-villa-w-balcony-green-space-views-BR-PS3253
+   ✅ Successfully scraped property
+
+🏠 [8/10] Scraping: https://feed.baliboundrealty.com/property/modern-5br-villa-w-river-jungle-views-BR-PS9889
+   ✅ Successfully scraped property
+
+🏠 [9/10] Scraping: https://feed.baliboundrealty.com/property/ultra-modern-5br-smart-luxury-villa-BR-PS3558
+   ✅ Successfully scraped property
+
+🏠 [10/10] Scraping: https://feed.baliboundrealty.com/property/modern-3br-villa-w-rice-field-views-BR-PS7855
+   ✅ Successfully scraped property
+
+✅ Scraping completed! Saved 10 properties to ../../ScrapeFile/BaliBound/Properties.json
+
+📊 Processing 10 scraped properties...
+
+🏠 Processing property 1/10
+🏠 Processing property 2/10
+🏠 Processing property 3/10
+🏠 Processing property 4/10
+🏠 Processing property 5/10
+🏠 Processing property 6/10
+🏠 Processing property 7/10
+🏠 Processing property 8/10
+🏠 Processing property 9/10
+🏠 Processing property 10/10
+
+✅ Scraping completed. Processed output saved to C:\xampp\htdocs\ScrapingToolsAutoSync\ExecutableXML/../ScrapeFile/BaliBound/Properties_processed.json
+✅ Properties Created: 0
+✅ Properties Updated: 0
+[2025-10-30 08:11:54] [success] Scraping completed successfully

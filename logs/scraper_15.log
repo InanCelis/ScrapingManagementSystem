@@ -1,0 +1,526 @@
+[2025-10-15 11:42:59] [info] Starting scraper: Holiday Homes Spain
+[2025-10-15 11:42:59] [info] Type: website
+[2025-10-15 11:42:59] [info] Applying configuration to scraper...
+✓ Set foldername = 'HolidayHomesSpain'
+[2025-10-15 11:42:59] [info] Set foldername = 'HolidayHomesSpain'
+✓ Set filename = 'Properties3.json'
+[2025-10-15 11:42:59] [info] Set filename = 'Properties3.json'
+✓ Set enableUpload = true
+[2025-10-15 11:42:59] [info] Set enableUpload = true
+✓ Set testingMode = false
+[2025-10-15 11:42:59] [info] Set testingMode = false
+
+[2025-10-15 11:42:59] [info] Scraping pages 1 to 2
+📄 Fetching page 1: https://holiday-homes-spain.com/property-search-results/?mls_search_performed=1&query_id=b1e104b4-a9a8-11f0-9ebd-02a3ded47a2d&page_num=1&p_sorttype=3
+📄 Fetching page 2: https://holiday-homes-spain.com/property-search-results/?mls_search_performed=1&query_id=b1e104b4-a9a8-11f0-9ebd-02a3ded47a2d&page_num=2&p_sorttype=3
+📊 Total properties to scrape: 18
+
+URL 1 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=5169550&lang=1&type=11357
+[2025-10-15 11:43:06] Fetching property details for ID: IDHI-MLH-R5169550
+[2025-10-15 11:43:07] Unauthorized access (HTTP 401) - Check token 
+
+Error: Unauthorized access - Invalid or expired token
+🔍 Debug - Full price text: '€ 895.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 895.000
+)
+
+🔍 Debug - First number sequence: '895.000'
+🔍 Debug - Final price: 895000
+✅ Price extracted: 895000 EUR
+Puerto+Ban%C3%BAs%2C+Costa+del+Sol%2C+Spain
+[2025-10-15 11:43:08] Attempt 1 of 3
+[2025-10-15 11:43:09] ⚠️ Server responded with HTTP 401 (Duration: 1.27s)
+[2025-10-15 11:43:09] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:43:09] ⏳ Retrying in 2 seconds...
+[2025-10-15 11:43:11] Attempt 2 of 3
+[2025-10-15 11:43:12] ⚠️ Server responded with HTTP 401 (Duration: 1.28s)
+[2025-10-15 11:43:12] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:43:12] ⏳ Retrying in 4 seconds...
+[2025-10-15 11:43:16] Attempt 3 of 3
+[2025-10-15 11:43:18] ⚠️ Server responded with HTTP 401 (Duration: 1.24s)
+[2025-10-15 11:43:18] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:43:18] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+URL 2 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=4621570&lang=1&type=11357
+[2025-10-15 11:43:21] Fetching property details for ID: IDHI-MLH-R4621570
+[2025-10-15 11:43:22] Unauthorized access (HTTP 401) - Check token 
+
+Error: Unauthorized access - Invalid or expired token
+🔍 Debug - Full price text: '€ 515.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 515.000
+)
+
+🔍 Debug - First number sequence: '515.000'
+🔍 Debug - Final price: 515000
+✅ Price extracted: 515000 EUR
+New+Golden+Mile%2C+Costa+del+Sol%2C+Spain
+[2025-10-15 11:43:23] Attempt 1 of 3
+[2025-10-15 11:43:24] ⚠️ Server responded with HTTP 401 (Duration: 1.24s)
+[2025-10-15 11:43:24] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:43:24] ⏳ Retrying in 2 seconds...
+[2025-10-15 11:43:26] Attempt 2 of 3
+[2025-10-15 11:43:27] ⚠️ Server responded with HTTP 401 (Duration: 1.29s)
+[2025-10-15 11:43:27] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:43:27] ⏳ Retrying in 4 seconds...
+[2025-10-15 11:43:31] Attempt 3 of 3
+[2025-10-15 11:43:33] ⚠️ Server responded with HTTP 401 (Duration: 1.32s)
+[2025-10-15 11:43:33] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:43:33] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+URL 3 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=5127223&lang=1&type=11357
+[2025-10-15 11:43:36] Fetching property details for ID: IDHI-MLH-R5127223
+[2025-10-15 11:43:37] Unauthorized access (HTTP 401) - Check token 
+
+Error: Unauthorized access - Invalid or expired token
+🔍 Debug - Full price text: '€ 379.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 379.000
+)
+
+🔍 Debug - First number sequence: '379.000'
+🔍 Debug - Final price: 379000
+✅ Price extracted: 379000 EUR
+Manilva%2C+Costa+del+Sol%2C+Spain
+[2025-10-15 11:43:37] Attempt 1 of 3
+[2025-10-15 11:43:38] ⚠️ Server responded with HTTP 401 (Duration: 1.33s)
+[2025-10-15 11:43:38] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:43:38] ⏳ Retrying in 2 seconds...
+[2025-10-15 11:43:40] Attempt 2 of 3
+[2025-10-15 11:43:41] ⚠️ Server responded with HTTP 401 (Duration: 0.81s)
+[2025-10-15 11:43:41] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:43:41] ⏳ Retrying in 4 seconds...
+[2025-10-15 11:43:45] Attempt 3 of 3
+[2025-10-15 11:43:46] ⚠️ Server responded with HTTP 401 (Duration: 0.85s)
+[2025-10-15 11:43:46] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:43:46] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+URL 4 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=4148251&lang=1&type=11357
+[2025-10-15 11:43:49] Fetching property details for ID: IDHI-MLH-R4148251
+[2025-10-15 11:43:50] Unauthorized access (HTTP 401) - Check token 
+
+Error: Unauthorized access - Invalid or expired token
+🔍 Debug - Full price text: '€ 399.000 € - 699.000 €'
+🔍 Debug - All number matches: Array
+(
+    [0] => 399.000
+    [1] => 699.000
+)
+
+🔍 Debug - First number sequence: '399.000'
+🔍 Debug - Final price: 399000
+✅ Price extracted: 399000 EUR
+Torremolinos%2C+Costa+del+Sol%2C+Spain
+[2025-10-15 11:43:51] Attempt 1 of 3
+[2025-10-15 11:43:52] ⚠️ Server responded with HTTP 401 (Duration: 1.28s)
+[2025-10-15 11:43:52] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:43:52] ⏳ Retrying in 2 seconds...
+[2025-10-15 11:43:54] Attempt 2 of 3
+[2025-10-15 11:43:56] ⚠️ Server responded with HTTP 401 (Duration: 1.26s)
+[2025-10-15 11:43:56] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:43:56] ⏳ Retrying in 4 seconds...
+[2025-10-15 11:44:00] Attempt 3 of 3
+[2025-10-15 11:44:01] ⚠️ Server responded with HTTP 401 (Duration: 0.81s)
+[2025-10-15 11:44:01] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:44:01] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+URL 5 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=4976098&lang=1&type=11357
+[2025-10-15 11:44:04] Fetching property details for ID: IDHI-MLH-R4976098
+[2025-10-15 11:44:05] Unauthorized access (HTTP 401) - Check token 
+
+Error: Unauthorized access - Invalid or expired token
+🔍 Debug - Full price text: '€ 3.450.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 3.450.000
+)
+
+🔍 Debug - First number sequence: '3.450.000'
+🔍 Debug - Final price: 3450000
+✅ Price extracted: 3450000 EUR
+Elviria%2C+Costa+del+Sol%2C+Spain
+[2025-10-15 11:44:06] Attempt 1 of 3
+[2025-10-15 11:44:07] ⚠️ Server responded with HTTP 401 (Duration: 0.85s)
+[2025-10-15 11:44:07] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:44:07] ⏳ Retrying in 2 seconds...
+[2025-10-15 11:44:09] Attempt 2 of 3
+[2025-10-15 11:44:10] ⚠️ Server responded with HTTP 401 (Duration: 0.81s)
+[2025-10-15 11:44:10] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:44:10] ⏳ Retrying in 4 seconds...
+[2025-10-15 11:44:14] Attempt 3 of 3
+[2025-10-15 11:44:15] ⚠️ Server responded with HTTP 401 (Duration: 1.25s)
+[2025-10-15 11:44:15] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:44:15] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+URL 6 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=5026186&lang=1&type=11357
+[2025-10-15 11:44:18] Fetching property details for ID: IDHI-MLH-R5026186
+[2025-10-15 11:44:19] Unauthorized access (HTTP 401) - Check token 
+
+Error: Unauthorized access - Invalid or expired token
+🔍 Debug - Full price text: '€ 1.995.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 1.995.000
+)
+
+🔍 Debug - First number sequence: '1.995.000'
+🔍 Debug - Final price: 1995000
+✅ Price extracted: 1995000 EUR
+El+Chaparral%2C+Costa+del+Sol%2C+Spain
+❌ Skipping property with invalid Coordinates, FROM SITE: Spain, FROM API: Mexico 
+ Trying another way.....El+Chaparral%2C+Spain
+[2025-10-15 11:44:21] Attempt 1 of 3
+[2025-10-15 11:44:22] ⚠️ Server responded with HTTP 401 (Duration: 0.88s)
+[2025-10-15 11:44:22] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:44:22] ⏳ Retrying in 2 seconds...
+[2025-10-15 11:44:24] Attempt 2 of 3
+[2025-10-15 11:44:25] ⚠️ Server responded with HTTP 401 (Duration: 1.31s)
+[2025-10-15 11:44:25] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:44:25] ⏳ Retrying in 4 seconds...
+[2025-10-15 11:44:29] Attempt 3 of 3
+[2025-10-15 11:44:30] ⚠️ Server responded with HTTP 401 (Duration: 1.28s)
+[2025-10-15 11:44:30] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:44:30] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+URL 7 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=5181388&lang=1&type=11357
+[2025-10-15 11:44:33] Fetching property details for ID: IDHI-MLH-R5181388
+[2025-10-15 11:44:34] Unauthorized access (HTTP 401) - Check token 
+
+Error: Unauthorized access - Invalid or expired token
+🔍 Debug - Full price text: '€ 1.450.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 1.450.000
+)
+
+🔍 Debug - First number sequence: '1.450.000'
+🔍 Debug - Final price: 1450000
+✅ Price extracted: 1450000 EUR
+El+Chaparral%2C+Costa+del+Sol%2C+Spain
+❌ Skipping property with invalid Coordinates, FROM SITE: Spain, FROM API: Mexico 
+ Trying another way.....El+Chaparral%2C+Spain
+[2025-10-15 11:44:36] Attempt 1 of 3
+[2025-10-15 11:44:37] ⚠️ Server responded with HTTP 401 (Duration: 1.23s)
+[2025-10-15 11:44:37] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:44:37] ⏳ Retrying in 2 seconds...
+[2025-10-15 11:44:39] Attempt 2 of 3
+[2025-10-15 11:44:40] ⚠️ Server responded with HTTP 401 (Duration: 1.29s)
+[2025-10-15 11:44:40] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:44:40] ⏳ Retrying in 4 seconds...
+[2025-10-15 11:44:44] Attempt 3 of 3
+[2025-10-15 11:44:45] ⚠️ Server responded with HTTP 401 (Duration: 0.78s)
+[2025-10-15 11:44:45] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:44:45] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+URL 8 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=5166982&lang=1&type=11357
+[2025-10-15 11:44:48] Fetching property details for ID: IDHI-MLH-R5166982
+[2025-10-15 11:44:50] Unauthorized access (HTTP 401) - Check token 
+
+Error: Unauthorized access - Invalid or expired token
+🔍 Debug - Full price text: '€ 699.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 699.000
+)
+
+🔍 Debug - First number sequence: '699.000'
+🔍 Debug - Final price: 699000
+✅ Price extracted: 699000 EUR
+Nueva+Andaluc%C3%ADa%2C+Costa+del+Sol%2C+Spain
+[2025-10-15 11:44:50] Attempt 1 of 3
+[2025-10-15 11:44:52] ⚠️ Server responded with HTTP 401 (Duration: 1.24s)
+[2025-10-15 11:44:52] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:44:52] ⏳ Retrying in 2 seconds...
+[2025-10-15 11:44:54] Attempt 2 of 3
+[2025-10-15 11:44:55] ⚠️ Server responded with HTTP 401 (Duration: 1.32s)
+[2025-10-15 11:44:55] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:44:55] ⏳ Retrying in 4 seconds...
+[2025-10-15 11:44:59] Attempt 3 of 3
+[2025-10-15 11:45:00] ⚠️ Server responded with HTTP 401 (Duration: 1.24s)
+[2025-10-15 11:45:00] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:45:00] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+URL 9 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=5065159&lang=1&type=11357
+[2025-10-15 11:45:03] Fetching property details for ID: IDHI-MLH-R5065159
+[2025-10-15 11:45:05] Unauthorized access (HTTP 401) - Check token 
+
+Error: Unauthorized access - Invalid or expired token
+🔍 Debug - Full price text: '€ 799.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 799.000
+)
+
+🔍 Debug - First number sequence: '799.000'
+🔍 Debug - Final price: 799000
+✅ Price extracted: 799000 EUR
+Mijas%2C+Costa+del+Sol%2C+Spain
+[2025-10-15 11:45:06] Attempt 1 of 3
+[2025-10-15 11:45:07] ⚠️ Server responded with HTTP 401 (Duration: 1.27s)
+[2025-10-15 11:45:07] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:45:07] ⏳ Retrying in 2 seconds...
+[2025-10-15 11:45:09] Attempt 2 of 3
+[2025-10-15 11:45:10] ⚠️ Server responded with HTTP 401 (Duration: 1.26s)
+[2025-10-15 11:45:10] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:45:10] ⏳ Retrying in 4 seconds...
+[2025-10-15 11:45:14] Attempt 3 of 3
+[2025-10-15 11:45:15] ⚠️ Server responded with HTTP 401 (Duration: 0.83s)
+[2025-10-15 11:45:15] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:45:15] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+URL 10 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=4880860&lang=1&type=11357
+[2025-10-15 11:45:18] Fetching property details for ID: IDHI-MLH-R4880860
+[2025-10-15 11:45:19] Unauthorized access (HTTP 401) - Check token 
+
+Error: Unauthorized access - Invalid or expired token
+🔍 Debug - Full price text: '€ 530.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 530.000
+)
+
+🔍 Debug - First number sequence: '530.000'
+🔍 Debug - Final price: 530000
+✅ Price extracted: 530000 EUR
+Estepona%2C+Costa+del+Sol%2C+Spain
+[2025-10-15 11:45:20] Attempt 1 of 3
+[2025-10-15 11:45:22] ⚠️ Server responded with HTTP 401 (Duration: 1.24s)
+[2025-10-15 11:45:22] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:45:22] ⏳ Retrying in 2 seconds...
+[2025-10-15 11:45:24] Attempt 2 of 3
+[2025-10-15 11:45:25] ⚠️ Server responded with HTTP 401 (Duration: 1.29s)
+[2025-10-15 11:45:25] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:45:25] ⏳ Retrying in 4 seconds...
+[2025-10-15 11:45:29] Attempt 3 of 3
+[2025-10-15 11:45:30] ⚠️ Server responded with HTTP 401 (Duration: 1.24s)
+[2025-10-15 11:45:30] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:45:30] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+URL 11 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=5158084&lang=1&type=11357
+[2025-10-15 11:45:33] Fetching property details for ID: IDHI-MLH-R5158084
+[2025-10-15 11:45:34] Unauthorized access (HTTP 401) - Check token 
+
+Error: Unauthorized access - Invalid or expired token
+🔍 Debug - Full price text: '€ 485.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 485.000
+)
+
+🔍 Debug - First number sequence: '485.000'
+🔍 Debug - Final price: 485000
+✅ Price extracted: 485000 EUR
+Ist%C3%A1n%2C+Costa+del+Sol%2C+Spain
+[2025-10-15 11:45:35] Attempt 1 of 3
+[2025-10-15 11:45:36] ⚠️ Server responded with HTTP 401 (Duration: 1.32s)
+[2025-10-15 11:45:36] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:45:36] ⏳ Retrying in 2 seconds...
+[2025-10-15 11:45:38] Attempt 2 of 3
+[2025-10-15 11:45:39] ⚠️ Server responded with HTTP 401 (Duration: 1.27s)
+[2025-10-15 11:45:39] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:45:39] ⏳ Retrying in 4 seconds...
+[2025-10-15 11:45:43] Attempt 3 of 3
+[2025-10-15 11:45:44] ⚠️ Server responded with HTTP 401 (Duration: 0.8s)
+[2025-10-15 11:45:44] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:45:44] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+URL 12 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=5058766&lang=1&type=11357
+[2025-10-15 11:45:47] Fetching property details for ID: IDHI-MLH-R5058766
+[2025-10-15 11:45:49] Unauthorized access (HTTP 401) - Check token 
+
+Error: Unauthorized access - Invalid or expired token
+🔍 Debug - Full price text: '€ 499.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 499.000
+)
+
+🔍 Debug - First number sequence: '499.000'
+🔍 Debug - Final price: 499000
+✅ Price extracted: 499000 EUR
+Fuengirola%2C+Costa+del+Sol%2C+Spain
+[2025-10-15 11:45:49] Attempt 1 of 3
+[2025-10-15 11:45:50] ⚠️ Server responded with HTTP 401 (Duration: 0.8s)
+[2025-10-15 11:45:50] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:45:50] ⏳ Retrying in 2 seconds...
+[2025-10-15 11:45:52] Attempt 2 of 3
+[2025-10-15 11:45:54] ⚠️ Server responded with HTTP 401 (Duration: 1.35s)
+[2025-10-15 11:45:54] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:45:54] ⏳ Retrying in 4 seconds...
+[2025-10-15 11:45:58] Attempt 3 of 3
+[2025-10-15 11:45:59] ⚠️ Server responded with HTTP 401 (Duration: 1.25s)
+[2025-10-15 11:45:59] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:45:59] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+URL 13 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=5142721&lang=1&type=11357
+[2025-10-15 11:46:02] Fetching property details for ID: IDHI-MLH-R5142721
+[2025-10-15 11:46:02] Unauthorized access (HTTP 401) - Check token 
+
+Error: Unauthorized access - Invalid or expired token
+🔍 Debug - Full price text: '€ 445.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 445.000
+)
+
+🔍 Debug - First number sequence: '445.000'
+🔍 Debug - Final price: 445000
+✅ Price extracted: 445000 EUR
+Nueva+Andaluc%C3%ADa%2C+Costa+del+Sol%2C+Spain
+[2025-10-15 11:46:03] Attempt 1 of 3
+[2025-10-15 11:46:05] ⚠️ Server responded with HTTP 401 (Duration: 1.28s)
+[2025-10-15 11:46:05] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:46:05] ⏳ Retrying in 2 seconds...
+[2025-10-15 11:46:07] Attempt 2 of 3
+[2025-10-15 11:46:08] ⚠️ Server responded with HTTP 401 (Duration: 1.32s)
+[2025-10-15 11:46:08] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:46:08] ⏳ Retrying in 4 seconds...
+[2025-10-15 11:46:12] Attempt 3 of 3
+[2025-10-15 11:46:13] ⚠️ Server responded with HTTP 401 (Duration: 0.77s)
+[2025-10-15 11:46:13] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:46:13] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+URL 14 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=5140051&lang=1&type=11357
+[2025-10-15 11:46:16] Fetching property details for ID: IDHI-MLH-R5140051
+[2025-10-15 11:46:17] Unauthorized access (HTTP 401) - Check token 
+
+Error: Unauthorized access - Invalid or expired token
+❌ Skipping property with invalid property type: Duplex
+URL 15 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=5126974&lang=1&type=11357
+[2025-10-15 11:46:19] Fetching property details for ID: IDHI-MLH-R5126974
+[2025-10-15 11:46:19] Unauthorized access (HTTP 401) - Check token 
+
+Error: Unauthorized access - Invalid or expired token
+🔍 Debug - Full price text: '€ 650.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 650.000
+)
+
+🔍 Debug - First number sequence: '650.000'
+🔍 Debug - Final price: 650000
+✅ Price extracted: 650000 EUR
+La+Mairena%2C+Costa+del+Sol%2C+Spain
+[2025-10-15 11:46:20] Attempt 1 of 3
+[2025-10-15 11:46:22] ⚠️ Server responded with HTTP 401 (Duration: 1.26s)
+[2025-10-15 11:46:22] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:46:22] ⏳ Retrying in 2 seconds...
+[2025-10-15 11:46:24] Attempt 2 of 3
+[2025-10-15 11:46:25] ⚠️ Server responded with HTTP 401 (Duration: 0.84s)
+[2025-10-15 11:46:25] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:46:25] ⏳ Retrying in 4 seconds...
+[2025-10-15 11:46:29] Attempt 3 of 3
+[2025-10-15 11:46:29] ⚠️ Server responded with HTTP 401 (Duration: 0.79s)
+[2025-10-15 11:46:29] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:46:29] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+URL 16 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=4268065&lang=1&type=11357
+[2025-10-15 11:46:33] Fetching property details for ID: IDHI-MLH-R4268065
+[2025-10-15 11:46:34] Unauthorized access (HTTP 401) - Check token 
+
+Error: Unauthorized access - Invalid or expired token
+🔍 Debug - Full price text: '€ 452.000 € - 517.000 €'
+🔍 Debug - All number matches: Array
+(
+    [0] => 452.000
+    [1] => 517.000
+)
+
+🔍 Debug - First number sequence: '452.000'
+🔍 Debug - Final price: 452000
+✅ Price extracted: 452000 EUR
+Estepona%2C+Costa+del+Sol%2C+Spain
+[2025-10-15 11:46:35] Attempt 1 of 3
+[2025-10-15 11:46:36] ⚠️ Server responded with HTTP 401 (Duration: 1.33s)
+[2025-10-15 11:46:36] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:46:36] ⏳ Retrying in 2 seconds...
+[2025-10-15 11:46:38] Attempt 2 of 3
+[2025-10-15 11:46:39] ⚠️ Server responded with HTTP 401 (Duration: 1.34s)
+[2025-10-15 11:46:39] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:46:39] ⏳ Retrying in 4 seconds...
+[2025-10-15 11:46:43] Attempt 3 of 3
+[2025-10-15 11:46:45] ⚠️ Server responded with HTTP 401 (Duration: 1.33s)
+[2025-10-15 11:46:45] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:46:45] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+URL 17 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=3830872&lang=1&type=11357
+[2025-10-15 11:46:48] Fetching property details for ID: IDHI-MLH-R3830872
+[2025-10-15 11:46:49] Unauthorized access (HTTP 401) - Check token 
+
+Error: Unauthorized access - Invalid or expired token
+🔍 Debug - Full price text: '€ 1.750.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 1.750.000
+)
+
+🔍 Debug - First number sequence: '1.750.000'
+🔍 Debug - Final price: 1750000
+✅ Price extracted: 1750000 EUR
+Benahav%C3%ADs%2C+Costa+del+Sol%2C+Spain
+[2025-10-15 11:46:49] Attempt 1 of 3
+[2025-10-15 11:46:51] ⚠️ Server responded with HTTP 401 (Duration: 1.35s)
+[2025-10-15 11:46:51] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:46:51] ⏳ Retrying in 2 seconds...
+[2025-10-15 11:46:53] Attempt 2 of 3
+[2025-10-15 11:46:54] ⚠️ Server responded with HTTP 401 (Duration: 1.35s)
+[2025-10-15 11:46:54] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:46:54] ⏳ Retrying in 4 seconds...
+[2025-10-15 11:46:58] Attempt 3 of 3
+[2025-10-15 11:46:59] ⚠️ Server responded with HTTP 401 (Duration: 1.32s)
+[2025-10-15 11:46:59] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:46:59] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+URL 18 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=4771348&lang=1&type=11357
+[2025-10-15 11:47:03] Fetching property details for ID: IDHI-MLH-R4771348
+[2025-10-15 11:47:04] Unauthorized access (HTTP 401) - Check token 
+
+Error: Unauthorized access - Invalid or expired token
+🔍 Debug - Full price text: '€ 1.600.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 1.600.000
+)
+
+🔍 Debug - First number sequence: '1.600.000'
+🔍 Debug - Final price: 1600000
+✅ Price extracted: 1600000 EUR
+Mijas%2C+Costa+del+Sol%2C+Spain
+[2025-10-15 11:47:04] Attempt 1 of 3
+[2025-10-15 11:47:06] ⚠️ Server responded with HTTP 401 (Duration: 1.26s)
+[2025-10-15 11:47:06] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:47:06] ⏳ Retrying in 2 seconds...
+[2025-10-15 11:47:08] Attempt 2 of 3
+[2025-10-15 11:47:09] ⚠️ Server responded with HTTP 401 (Duration: 1.3s)
+[2025-10-15 11:47:09] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:47:09] ⏳ Retrying in 4 seconds...
+[2025-10-15 11:47:13] Attempt 3 of 3
+[2025-10-15 11:47:14] ⚠️ Server responded with HTTP 401 (Duration: 1.25s)
+[2025-10-15 11:47:14] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-15 11:47:14] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+✅ Scraping completed. Output saved to C:\xampp\htdocs\ScrapingToolsAutoSync\Executable/../ScrapeFile/HolidayHomesSpain/Properties3.json
+✅ Properties Created: 0
+✅ Properties Updated: 0
+[2025-10-15 11:47:15] [success] Scraping completed successfully

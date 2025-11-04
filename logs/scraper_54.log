@@ -1,0 +1,33 @@
+[2025-10-30 07:41:53] [info] Starting scraper: Bali Bound
+[2025-10-30 07:41:53] [info] Type: xml
+[2025-10-30 07:41:53] [info] Applying configuration to scraper...
+✓ Set foldername = 'BaliBound'
+[2025-10-30 07:41:53] [info] Set foldername = 'BaliBound'
+✓ Set filename = 'Properties.json'
+[2025-10-30 07:41:53] [info] Set filename = 'Properties.json'
+✓ Set enableUpload = false
+[2025-10-30 07:41:53] [info] Set enableUpload = false
+✓ Set testingMode = false
+[2025-10-30 07:41:53] [info] Set testingMode = false
+[2025-10-30 07:41:53] [info] Passing owner details to scraper
+✓ Set owner details (confidentialInfo)
+[2025-10-30 07:41:53] [info] Set owner details (confidentialInfo)
+
+[2025-10-30 07:41:53] [info] Processing XML: https://feed.baliboundrealty.com/xml
+[2025-10-30 07:41:53] [info] Expected properties: 0
+[2025-10-30 07:41:53] [info] Passing owner details to scraper
+PHP Fatal error:  Uncaught TypeError: BaliBoundPuppeteer::run(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ScrapingToolsAutoSync\core\ScraperAdapter.php on line 175 and defined in C:\xampp\htdocs\ScrapingToolsAutoSync\ExecutableXML\BaliBoundPuppeteer.php:47
+Stack trace:
+#0 C:\xampp\htdocs\ScrapingToolsAutoSync\core\ScraperAdapter.php(175): BaliBoundPuppeteer->run('https://feed.ba...', 0, Array)
+#1 C:\xampp\htdocs\ScrapingToolsAutoSync\core\ScraperAdapter.php(84): ScraperAdapter->runXmlScraper()
+#2 C:\xampp\htdocs\ScrapingToolsAutoSync\temp\scraper_54.php(17): ScraperAdapter->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\ScrapingToolsAutoSync\ExecutableXML\BaliBoundPuppeteer.php on line 47
+
+Fatal error: Uncaught TypeError: BaliBoundPuppeteer::run(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ScrapingToolsAutoSync\core\ScraperAdapter.php on line 175 and defined in C:\xampp\htdocs\ScrapingToolsAutoSync\ExecutableXML\BaliBoundPuppeteer.php:47
+Stack trace:
+#0 C:\xampp\htdocs\ScrapingToolsAutoSync\core\ScraperAdapter.php(175): BaliBoundPuppeteer->run('https://feed.ba...', 0, Array)
+#1 C:\xampp\htdocs\ScrapingToolsAutoSync\core\ScraperAdapter.php(84): ScraperAdapter->runXmlScraper()
+#2 C:\xampp\htdocs\ScrapingToolsAutoSync\temp\scraper_54.php(17): ScraperAdapter->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\ScrapingToolsAutoSync\ExecutableXML\BaliBoundPuppeteer.php on line 47

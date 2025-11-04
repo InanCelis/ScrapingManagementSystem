@@ -17,6 +17,7 @@ class AlSabr {
     private bool $enableUpload = true;
     private bool $testingMode = false;
     private bool $useLocalFile = false; // Flag to determine scraping mode
+    private array $confidentialInfo = [];
 
     public function __construct(string $localHtmlFile = '') {
         // Initialize the ApiSender with your actual API URL and token
@@ -24,12 +25,16 @@ class AlSabr {
         $this->helpers = new ScraperHelpers();
         $this->successCreated = 0;
         $this->successUpdated = 0;
-        
+
         // If local HTML file is provided, set it up
         if (!empty($localHtmlFile)) {
             $this->localHtmlFile = $localHtmlFile;
             $this->useLocalFile = true;
         }
+    }
+
+    public function setConfidentialInfo(array $confidentialInfo): void {
+        $this->confidentialInfo = $confidentialInfo;
     }
 
     public function run(int $pageCount = 1, int $limit = 0): void {
@@ -219,15 +224,10 @@ class AlSabr {
     }
 
     private function scrapePropertyDetails(simple_html_dom $html, $url): void {
-        // Your existing scrapePropertyDetails method remains unchanged
-        $ownedBy = "Al Sabr Properties";
-        $contactPerson = "Salik Bin Rashid";
-        $phone = "+97 1554 056094";
-        $email = "salik.alsabr@gmail.com";
-
         $title = trim($html->find('h1.framer-text.framer-styles-preset-2otcow', 0)->plaintext ?? '');
         if(empty($title)) {
             echo "❌ Skipping property with invalid setup of html\n ";
+            $this->helpers->updatePostToDraft($url);
             return; 
         }
 
@@ -344,6 +344,7 @@ class AlSabr {
              // Check if property type is allowed (case insensitive comparison)
             if (!in_array(strtolower($type_extracted ), array_map('strtolower', $allowedTypes))) {
                 echo "❌ Skipping property of type: $type_extracted\n";
+                $this->helpers->updatePostToDraft($url);
                 return; // Exit the function without scraping
             }
 
@@ -449,6 +450,7 @@ class AlSabr {
         // Check if we found any images
         if (empty($images)) {
             echo "❌ Skipping property with no images \n";
+            $this->helpers->updatePostToDraft($url);
             return; // Exit the function without scraping
         }
 
@@ -488,29 +490,49 @@ class AlSabr {
             "property_map" => "1",
             "property_year" => "",
             "additional_features" => "",
-            "confidential_info" => [
-                [
-                    "fave_additional_feature_title" => "Owned by",
-                    "fave_additional_feature_value" => $ownedBy
-                ],
-                [
-                    "fave_additional_feature_title" => "Website",
-                    "fave_additional_feature_value" => $url,
-                ],
-                [
-                    "fave_additional_feature_title" => "Contact Person",
-                    "fave_additional_feature_value" => $contactPerson
-                ],
-                [
-                    "fave_additional_feature_title" => "Phone",
-                    "fave_additional_feature_value" => $phone
-                ],
-                [
-                    "fave_additional_feature_title" => "Email",
-                    "fave_additional_feature_value" => $email
-                ]
-            ]
+            "confidential_info" => $this->buildConfidentialInfo($url)
         ];
+    }
+
+    private function buildConfidentialInfo(string $url = ''): array {
+        $confidentialInfo = [];
+
+        // Add URL first if available
+        if (!empty($url)) {
+            $confidentialInfo[] = [
+                "fave_additional_feature_title" => "Website",
+                "fave_additional_feature_value" => $url
+            ];
+        }
+
+        // Add dynamic confidential information from config
+        foreach ($this->confidentialInfo as $title => $value) {
+            if (!empty($value)) {
+                $confidentialInfo[] = [
+                    "fave_additional_feature_title" => $title,
+                    "fave_additional_feature_value" => $value
+                ];
+            }
+        }
+
+        // Fallback to hardcoded defaults if no config provided
+        if (empty($this->confidentialInfo)) {
+            $defaultInfo = [
+                "Owned By" => "Al Sabr Properties",
+                "Contact Person" => "Salik Bin Rashid",
+                "Phone" => "+97 1554 056094",
+                "Email" => "salik.alsabr@gmail.com"
+            ];
+
+            foreach ($defaultInfo as $title => $value) {
+                $confidentialInfo[] = [
+                    "fave_additional_feature_title" => $title,
+                    "fave_additional_feature_value" => $value
+                ];
+            }
+        }
+
+        return $confidentialInfo;
     }
 
     private function saveToJson(string $filename): void {

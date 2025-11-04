@@ -15,6 +15,7 @@ class DarGlobal {
     private int $successUpdated;
     private bool $enableUpload = true;
     private bool $testingMode = false;
+    private array $confidentialInfo = [];
 
     public function __construct() {
         // Initialize the ApiSender with your actual API URL and token
@@ -22,6 +23,10 @@ class DarGlobal {
         $this->helpers = new ScraperHelpers();
         $this->successCreated = 0;
         $this->successUpdated = 0;
+    }
+
+    public function setConfidentialInfo(array $confidentialInfo): void {
+        $this->confidentialInfo = $confidentialInfo;
     }
 
     public function run(int $pageCount = 1, int $limit = 0): void {
@@ -139,13 +144,6 @@ class DarGlobal {
     }
 
     private function scrapePropertyDetails(simple_html_dom $html, $url): void {
-       
-        $ownedBy = "DarGlobal PLC";
-        $contactPerson = "Tahera Zaman";
-        $phone = "+44 7369 249400";
-        $email = "TZaman@darglobal.co.uk";
-        
-
         $script = $html->find('script#__NEXT_DATA__', 0);
         $jsonData = json_decode($script->innertext, true);
         $propertyListing = $jsonData['props']['pageProps']['projectDetailsData']['attributes'] ?? null;
@@ -383,29 +381,49 @@ class DarGlobal {
             "property_map" => "1",
             "property_year" => "",
             "additional_features" => $features,
-            "confidential_info" => [
-                [
-                    "fave_additional_feature_title" => "Owned by",
-                    "fave_additional_feature_value" => $ownedBy
-                ],
-                [
-                    "fave_additional_feature_title" => "Website",
-                    "fave_additional_feature_value" => $url,
-                ],
-                [
-                    "fave_additional_feature_title" => "Contact Person",
-                    "fave_additional_feature_value" => $contactPerson
-                ],
-                [
-                    "fave_additional_feature_title" => "Phone",
-                    "fave_additional_feature_value" => $phone
-                ],
-                [
-                    "fave_additional_feature_title" => "Email",
-                    "fave_additional_feature_value" => $email
-                ]
-            ]
+            "confidential_info" => $this->buildConfidentialInfo($url)
         ];
+    }
+
+    private function buildConfidentialInfo(string $url = ''): array {
+        $confidentialInfo = [];
+
+        // Add URL first if available
+        if (!empty($url)) {
+            $confidentialInfo[] = [
+                "fave_additional_feature_title" => "Website",
+                "fave_additional_feature_value" => $url
+            ];
+        }
+
+        // Add dynamic confidential information from config
+        foreach ($this->confidentialInfo as $title => $value) {
+            if (!empty($value)) {
+                $confidentialInfo[] = [
+                    "fave_additional_feature_title" => $title,
+                    "fave_additional_feature_value" => $value
+                ];
+            }
+        }
+
+        // Fallback to hardcoded defaults if no config provided
+        if (empty($this->confidentialInfo)) {
+            $defaultInfo = [
+                "Owned By" => "DarGlobal PLC",
+                "Contact Person" => "Tahera Zaman",
+                "Phone" => "+44 7369 249400",
+                "Email" => "TZaman@darglobal.co.uk"
+            ];
+
+            foreach ($defaultInfo as $title => $value) {
+                $confidentialInfo[] = [
+                    "fave_additional_feature_title" => $title,
+                    "fave_additional_feature_value" => $value
+                ];
+            }
+        }
+
+        return $confidentialInfo;
     }
 
     private function extractLatLong($jsonData): array {

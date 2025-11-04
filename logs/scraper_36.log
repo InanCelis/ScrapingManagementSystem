@@ -1,0 +1,48 @@
+[2025-10-17 08:12:35] [info] Starting scraper: Nilsott
+[2025-10-17 08:12:35] [info] Type: xml
+[2025-10-17 08:12:35] [info] Applying configuration to scraper...
+✓ Set foldername = 'KyeroXML'
+[2025-10-17 08:12:35] [info] Set foldername = 'KyeroXML'
+✓ Set filename = 'Properties1.json'
+[2025-10-17 08:12:35] [info] Set filename = 'Properties1.json'
+✓ Set enableUpload = true
+[2025-10-17 08:12:35] [info] Set enableUpload = true
+✓ Set testingMode = false
+[2025-10-17 08:12:35] [info] Set testingMode = false
+[2025-10-17 08:12:35] [info] Passing owner details to scraper
+✓ Set owner details (confidentialInfo)
+[2025-10-17 08:12:35] [info] Set owner details (confidentialInfo)
+
+[2025-10-17 08:12:35] [info] Processing XML: https://web3930:9a42ded9cb@www.nilsott.com/xml/kyero.xml
+[2025-10-17 08:12:36] [info] Expected properties: 0
+[2025-10-17 08:12:36] [info] Passing owner details to scraper
+🔍 Input detected as: url
+🌐 Fetching XML from URL: https://web3930:9a42ded9cb@www.nilsott.com/xml/kyero.xml
+✅ XML validation successful
+📋 Found properties using structure: <property>
+📋 Total properties found: 665
+📊 Total properties to process: 665
+
+🏠 Processing property 1/665
+Sveti+Vlas%2C+Burgas%2C+Bulgaria
+[2025-10-17 08:12:51] Attempt 1 of 3
+[2025-10-17 08:12:53] ⚠️ Server responded with HTTP 401 (Duration: 2s)
+[2025-10-17 08:12:53] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-17 08:12:53] ⏳ Retrying in 2 seconds...
+[2025-10-17 08:12:55] Attempt 2 of 3
+[2025-10-17 08:12:56] ⚠️ Server responded with HTTP 401 (Duration: 1.44s)
+[2025-10-17 08:12:56] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-17 08:12:56] ⏳ Retrying in 4 seconds...
+[2025-10-17 08:13:00] Attempt 3 of 3
+[2025-10-17 08:13:02] ⚠️ Server responded with HTTP 401 (Duration: 1.98s)
+[2025-10-17 08:13:02] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-10-17 08:13:02] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+🏠 Processing property 2/665
+Kosharitsa%2C+Burgas%2C+Bulgaria
+[2025-10-17 08:13:04] Attempt 1 of 3
+[2025-10-17 08:13:06] ⚠️ Server responded with HTTP 401 (Duration: 1.87s)
+[2025-10-17 08:13:06] [warning] Stop signal received - terminating scraper
+
+⚠️ Stop signal received - terminating gracefully...

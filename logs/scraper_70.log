@@ -1,0 +1,151 @@
+[2025-11-03 06:33:27] [info] Starting scraper: Bali Bound
+[2025-11-03 06:33:27] [info] Type: xml
+[2025-11-03 06:33:27] [info] Applying configuration to scraper...
+✓ Set foldername = 'BaliBound'
+[2025-11-03 06:33:27] [info] Set foldername = 'BaliBound'
+✓ Set filename = 'Properties.json'
+[2025-11-03 06:33:27] [info] Set filename = 'Properties.json'
+✓ Set enableUpload = false
+[2025-11-03 06:33:27] [info] Set enableUpload = false
+✓ Set testingMode = false
+[2025-11-03 06:33:27] [info] Set testingMode = false
+[2025-11-03 06:33:27] [info] Passing owner details to scraper
+✓ Set owner details (confidentialInfo)
+[2025-11-03 06:33:27] [info] Set owner details (confidentialInfo)
+
+[2025-11-03 06:33:27] [info] Processing XML: https://lhwtlojhugazhwttdleh.supabase.co/functions/v1/property-feed
+[2025-11-03 06:33:27] [info] Expected properties: 0
+[2025-11-03 06:33:27] [info] Passing owner details to scraper
+🔍 Input detected as: url
+🌐 Fetching XML from URL: https://lhwtlojhugazhwttdleh.supabase.co/functions/v1/property-feed
+✅ XML validation successful
+📋 Found properties using structure: <property>
+📋 Total properties found: 85
+📊 Total properties to process: 85
+
+🏠 Processing property 1/85
+🏠 Processing property 2/85
+🏠 Processing property 3/85
+🏠 Processing property 4/85
+🏠 Processing property 5/85
+🏠 Processing property 6/85
+🏠 Processing property 7/85
+🏠 Processing property 8/85
+🏠 Processing property 9/85
+🏠 Processing property 10/85
+🏠 Processing property 11/85
+🏠 Processing property 12/85
+🏠 Processing property 13/85
+🏠 Processing property 14/85
+🏠 Processing property 15/85
+🏠 Processing property 16/85
+🏠 Processing property 17/85
+🏠 Processing property 18/85
+🏠 Processing property 19/85
+🏠 Processing property 20/85
+🏠 Processing property 21/85
+🏠 Processing property 22/85
+🏠 Processing property 23/85
+🏠 Processing property 24/85
+🏠 Processing property 25/85
+🏠 Processing property 26/85
+🏠 Processing property 27/85
+🏠 Processing property 28/85
+🏠 Processing property 29/85
+🏠 Processing property 30/85
+🏠 Processing property 31/85
+🏠 Processing property 32/85
+🏠 Processing property 33/85
+🏠 Processing property 34/85
+🏠 Processing property 35/85
+🏠 Processing property 36/85
+🏠 Processing property 37/85
+🏠 Processing property 38/85
+🏠 Processing property 39/85
+🏠 Processing property 40/85
+🏠 Processing property 41/85
+🏠 Processing property 42/85
+🏠 Processing property 43/85
+🏠 Processing property 44/85
+🏠 Processing property 45/85
+🏠 Processing property 46/85
+🏠 Processing property 47/85
+🏠 Processing property 48/85
+🏠 Processing property 49/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 50/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 51/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 52/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 53/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 54/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 55/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 56/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 57/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 58/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 59/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 60/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 61/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 62/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 63/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 64/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 65/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 66/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 67/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 68/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 69/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 70/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 71/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 72/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 73/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 74/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 75/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 76/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 77/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 78/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 79/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 80/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 81/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 82/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 83/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 84/85
+❌ Skipping property with invalid price. Extracted value: '0'
+🏠 Processing property 85/85
+❌ Skipping property with invalid price. Extracted value: '0'
+✅ Scraping completed. Output saved to C:\xampp\htdocs\ScrapingToolsAutoSync\ExecutableXML/../ScrapeFile/BaliBound/Properties.json
+✅ Properties Created: 0
+✅ Properties Updated: 0
+[2025-11-03 06:33:59] [success] Scraping completed successfully

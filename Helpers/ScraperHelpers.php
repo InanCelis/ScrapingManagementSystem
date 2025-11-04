@@ -44,9 +44,9 @@ class ScraperHelpers {
 
     // PositionStack geocoding with your API key
     public function getCoordinatesFromQuery($query) {
-        
+
         $encodedQuery = urlencode(trim($query));
-        echo $encodedQuery."\n";
+        // echo $encodedQuery."\n"; // Commented out to avoid log reordering issues
         $url = "http://api.positionstack.com/v1/forward?access_key={$this->apiKey}&query={$encodedQuery}&limit=1";
         
         try {
@@ -80,58 +80,90 @@ class ScraperHelpers {
         return null;
     }
 
-
+    // PositionStack geocoding with your API key
+    // public function getLocationDataByCoords($lat, $lang) {
+    //     $url = "https://api.positionstack.com/v1/reverse?access_key={$this->apiKey}&query={$lat},{$lang}&limit=1";
+    //     try {
+    //         $context = stream_context_create([
+    //             'http' => [
+    //                 'timeout' => 10,
+    //                 'user_agent' => 'PropertyScraper/1.0'
+    //             ]
+    //         ]);
+            
+    //         $response = file_get_contents($url, false, $context);
+            
+    //         if ($response === false) {
+    //             error_log("PositionStack API request failed for query: {$query}");
+    //             return null;
+    //         }
+            
+    //         $data = json_decode($response, true);
+            
+    //         if (!empty($data['data'][0])) {
+    //             $result = $data['data'][0];
+    //             return $this->locationDetails($result);
+    //         } else {
+    //             error_log("No results from PositionStack for query: {$query}");
+    //         }
+            
+    //     } catch (Exception $e) {
+    //         error_log("PositionStack API error: " . $e->getMessage());
+    //     }
+        
+    //     return null;
+    // }
 
     // PositionStack geocoding with your API key
     public function getLocationDataByCoords($lat, $lang) {
-        $url = "https://api.positionstack.com/v1/reverse?access_key={$this->apiKey}&query={$lat},{$lang}&limit=1";
+        $query = "{$lat},{$lang}";  // Define query variable
+        $url = "https://api.positionstack.com/v1/reverse?access_key={$this->apiKey}&query={$query}&limit=1";
+        
         try {
             $context = stream_context_create([
                 'http' => [
                     'timeout' => 10,
-                    'user_agent' => 'PropertyScraper/1.0'
+                    'user_agent' => 'PropertyScraper/1.0',
+                    'ignore_errors' => true  // Important: allows reading response even on HTTP errors
                 ]
             ]);
             
-            $response = file_get_contents($url, false, $context);
+            $response = @file_get_contents($url, false, $context);
             
             if ($response === false) {
-                error_log("PositionStack API request failed for query: {$query}");
+                // Check if http_response_header exists to get more details
+                $error_details = isset($http_response_header) ? implode(', ', $http_response_header) : 'Unknown error';
+                error_log("PositionStack API request failed for query: {$query}. Details: {$error_details}");
                 return null;
             }
             
             $data = json_decode($response, true);
+            
+            // Check for JSON decode errors
+            if (json_last_error() !== JSON_ERROR_NONE) {
+                error_log("Failed to decode PositionStack response for query: {$query}. JSON Error: " . json_last_error_msg());
+                return null;
+            }
+            
+            // Check for API errors in response
+            if (isset($data['error'])) {
+                error_log("PositionStack API error for query: {$query}. Error: " . json_encode($data['error']));
+                return null;
+            }
             
             if (!empty($data['data'][0])) {
                 $result = $data['data'][0];
                 return $this->locationDetails($result);
             } else {
                 error_log("No results from PositionStack for query: {$query}");
+                return null;
             }
             
         } catch (Exception $e) {
-            error_log("PositionStack API error: " . $e->getMessage());
+            error_log("PositionStack API exception for query: {$query}. Error: " . $e->getMessage());
+            return null;
         }
-        
-        return null;
     }
-
-    // private function locationDetails($result) {
-    //     return [
-    //         'location' => (string)$result['latitude'] . ', '.(string)$result['longitude'],
-    //         'latitude' => (string)$result['latitude'],
-    //         'longitude' => (string)$result['longitude'],
-    //         'formatted_address' => $result['label'],
-    //         'address' => (!empty($result['locality']) || $result['locality'] == null) 
-    //         ? (!empty($result['locality']) || $result['locality'] != null ) ? (string)$result['locality'] : (string)$result['county']  . ', ' . (string)$result['country']
-    //         : (string)$result['region'] . ', ' . (string)$result['country'],
-    //         'city' => (!empty($result['locality']) || $result['locality'] != null ) ? (string)$result['locality'] : (string)$result['county'],
-    //         'state' => (string)$result['region'],
-    //         'country' => (string)$result['country'],
-    //         'postal_code' => (string)$result['postal_code'],
-    //     ];
-    // }
-
 
     private function locationDetails($result) {
         // Get individual components
@@ -169,6 +201,7 @@ class ScraperHelpers {
             'postal_code' => (string)$result['postal_code'],
         ];
     }
+
     public function translateHtmlPreservingTags(string $html): string {
         $html = "<div>$html</div>";
         $translated = preg_replace_callback('/>([^<>]+)</', function ($matches) {
@@ -180,7 +213,6 @@ class ScraperHelpers {
 
         return preg_replace('/^<div>|<\/div>$/', '', $translated);
     }
-
 
     public function getHtmlWithJS(string $url): ?simple_html_dom {
         $tempFile = tempnam(sys_get_temp_dir(), 'scraped_html_');
@@ -283,7 +315,6 @@ class ScraperHelpers {
         return $simpleDom;
     }
 
-
     private static $usedIds = [];
     public static function generateReferenceId() {
         $characters = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -308,7 +339,6 @@ class ScraperHelpers {
     public static function reset() {
         self::$usedIds = [];
     }
-
 
     public function updatePostToDraft(string $url): void {
     
@@ -356,12 +386,19 @@ class ScraperHelpers {
         echo "✅ Found listing ID: $listing_id\n";
         echo "Updating property to draft status...\n";
         
+        $this->updatePropertyToDraftByListingID($listing_id);
+        
+        
+    }
+
+    public function updatePropertyToDraftByListingID(string $listing_id) {
+
         $result = $this->apiSender->updatePropertyToDraft($listing_id);
         
         if ($result['success']) {
             echo "✅ Success: Property successfully updated to draft status\n";
             echo "   Listing ID: $listing_id\n";
-            echo "   URL: $url\n";
+            // echo "   URL: $url\n";
             
             if (isset($result['data']['property_id'])) {
                 echo "   Property ID: " . $result['data']['property_id'] . "\n";
@@ -377,7 +414,7 @@ class ScraperHelpers {
         } else {
             echo "❌ Error: " . ($result['error'] ?? 'Unknown error occurred') . "\n";
             echo "   Listing ID: $listing_id\n";
-            echo "   URL: $url\n";
+            // echo "   URL: $url\n";
             
             if (isset($result['http_code'])) {
                 echo "   HTTP Code: " . $result['http_code'] . "\n";
@@ -385,5 +422,44 @@ class ScraperHelpers {
         }
         
         echo "\n"; // Add spacing between operations
+    }
+
+    public function allowedPropertyType(string $type) {
+        $allowed_type = [
+            'Villa', 
+            'Condo', 
+            'Townhouse',
+            'Penthouse',
+            'Apartment', 
+            'House', 
+            'Casa', 
+            'Studio',
+            'Studios', 
+            'Home', 
+            'Hotel', 
+            'New Development',
+            'Residential',
+        ];
+        
+        // Convert to lowercase for case-insensitive matching
+        $typeLower = strtolower($type);
+        
+        // Check each allowed type
+        foreach ($allowed_type as $allowedWord) {
+            // Check if the allowed word exists in the property type (case-insensitive)
+            if (strpos($typeLower, strtolower($allowedWord)) !== false) {
+                return $allowedWord; // Return the matched allowed type
+            }
+        }
+        
+        return false; // No match found
+    }
+
+    public function allowedPropertyStatus(string $status) {
+        $allowed_status= ['For Sale','Sale', 'sale'];
+        if (in_array($status, $allowed_status)) {
+            return true;
+        }
+        return false;
     }
 }

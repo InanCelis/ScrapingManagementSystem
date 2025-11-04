@@ -1,0 +1,78 @@
+[2025-10-15 12:19:02] [info] Starting scraper: Holiday Homes Spain
+[2025-10-15 12:19:02] [info] Type: website
+[2025-10-15 12:19:02] [info] Applying configuration to scraper...
+✓ Set foldername = 'HolidayHomesSpain'
+[2025-10-15 12:19:02] [info] Set foldername = 'HolidayHomesSpain'
+✓ Set filename = 'Properties3.json'
+[2025-10-15 12:19:02] [info] Set filename = 'Properties3.json'
+✓ Set enableUpload = false
+[2025-10-15 12:19:02] [info] Set enableUpload = false
+✓ Set testingMode = false
+[2025-10-15 12:19:02] [info] Set testingMode = false
+
+[2025-10-15 12:19:02] [info] Scraping pages 1 to 2
+📄 Fetching page 1: https://holiday-homes-spain.com/property-search-results/?mls_search_performed=1&query_id=b1e104b4-a9a8-11f0-9ebd-02a3ded47a2d&page_num=1&p_sorttype=3
+📄 Fetching page 2: https://holiday-homes-spain.com/property-search-results/?mls_search_performed=1&query_id=b1e104b4-a9a8-11f0-9ebd-02a3ded47a2d&page_num=2&p_sorttype=3
+📊 Total properties to scrape: 18
+
+URL 1 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=5169550&lang=1&type=11357
+🔍 Debug - Full price text: '€ 895.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 895.000
+)
+
+🔍 Debug - First number sequence: '895.000'
+🔍 Debug - Final price: 895000
+✅ Price extracted: 895000 EUR
+Puerto+Ban%C3%BAs%2C+Costa+del+Sol%2C+Spain
+URL 2 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=4621570&lang=1&type=11357
+🔍 Debug - Full price text: '€ 515.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 515.000
+)
+
+🔍 Debug - First number sequence: '515.000'
+🔍 Debug - Final price: 515000
+✅ Price extracted: 515000 EUR
+New+Golden+Mile%2C+Costa+del+Sol%2C+Spain
+URL 3 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=5127223&lang=1&type=11357
+🔍 Debug - Full price text: '€ 379.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 379.000
+)
+
+🔍 Debug - First number sequence: '379.000'
+🔍 Debug - Final price: 379000
+✅ Price extracted: 379000 EUR
+Manilva%2C+Costa+del+Sol%2C+Spain
+URL 4 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=4148251&lang=1&type=11357
+🔍 Debug - Full price text: '€ 399.000 € - 699.000 €'
+🔍 Debug - All number matches: Array
+(
+    [0] => 399.000
+    [1] => 699.000
+)
+
+🔍 Debug - First number sequence: '399.000'
+🔍 Debug - Final price: 399000
+✅ Price extracted: 399000 EUR
+Torremolinos%2C+Costa+del+Sol%2C+Spain
+URL 5 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=4976098&lang=1&type=11357
+🔍 Debug - Full price text: '€ 3.450.000'
+🔍 Debug - All number matches: Array
+(
+    [0] => 3.450.000
+)
+
+🔍 Debug - First number sequence: '3.450.000'
+🔍 Debug - Final price: 3450000
+✅ Price extracted: 3450000 EUR
+Elviria%2C+Costa+del+Sol%2C+Spain
+URL 6 🔍 Scraping: https://holiday-homes-spain.com/property-details/?id=5026186&lang=1&type=11357
+🔍 Debug - Full price text: '€ 1.995.000'
+[2025-10-15 12:19:25] [warning] Stop signal received - terminating scraper
+
+⚠️ Stop signal received - terminating gracefully...

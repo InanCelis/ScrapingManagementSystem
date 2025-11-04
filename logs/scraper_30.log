@@ -1,0 +1,20 @@
+[2025-10-17 07:54:01] [info] Starting scraper: Nilsott
+[2025-10-17 07:54:01] [info] Type: xml
+PHP Warning:  require_once(C:\xampp\htdocs\ScrapingToolsAutoSync\Helpers/../simple_html_dom.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\ScrapingToolsAutoSync\Helpers\ScraperHelpers.php on line 2
+
+Warning: require_once(C:\xampp\htdocs\ScrapingToolsAutoSync\Helpers/../simple_html_dom.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\ScrapingToolsAutoSync\Helpers\ScraperHelpers.php on line 2
+PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\ScrapingToolsAutoSync\Helpers/../simple_html_dom.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\ScrapingToolsAutoSync\Helpers\ScraperHelpers.php:2
+Stack trace:
+#0 C:\xampp\htdocs\ScrapingToolsAutoSync\ExecutableXML\KyeroXML.php(3): require_once()
+#1 C:\xampp\htdocs\ScrapingToolsAutoSync\core\ScraperAdapter.php(40): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ScrapingToolsAutoSync\temp\scraper_30.php(17): ScraperAdapter->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\ScrapingToolsAutoSync\Helpers\ScraperHelpers.php on line 2
+
+Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\ScrapingToolsAutoSync\Helpers/../simple_html_dom.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\ScrapingToolsAutoSync\Helpers\ScraperHelpers.php:2
+Stack trace:
+#0 C:\xampp\htdocs\ScrapingToolsAutoSync\ExecutableXML\KyeroXML.php(3): require_once()
+#1 C:\xampp\htdocs\ScrapingToolsAutoSync\core\ScraperAdapter.php(40): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ScrapingToolsAutoSync\temp\scraper_30.php(17): ScraperAdapter->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\ScrapingToolsAutoSync\Helpers\ScraperHelpers.php on line 2

@@ -1,0 +1,21 @@
+[2025-10-17 08:12:32] [info] Starting scraper: Holiday Homes Spain
+[2025-10-17 08:12:32] [info] Type: website
+[2025-10-17 08:12:32] [info] Applying configuration to scraper...
+✓ Set foldername = 'HolidayHomesSpain'
+[2025-10-17 08:12:32] [info] Set foldername = 'HolidayHomesSpain'
+✓ Set filename = 'Properties3.json'
+[2025-10-17 08:12:32] [info] Set filename = 'Properties3.json'
+✓ Set enableUpload = true
+[2025-10-17 08:12:32] [info] Set enableUpload = true
+✓ Set testingMode = false
+[2025-10-17 08:12:32] [info] Set testingMode = false
+
+[2025-10-17 08:12:32] [info] Scraping pages 1 to 2
+📄 Fetching page 1: https://holiday-homes-spain.com/property-search-results/?mls_search_performed=1&query_id=b1e104b4-a9a8-11f0-9ebd-02a3ded47a2d&page_num=1&p_sorttype=3
+📄 Fetching page 2: https://holiday-homes-spain.com/property-search-results/?mls_search_performed=1&query_id=b1e104b4-a9a8-11f0-9ebd-02a3ded47a2d&page_num=2&p_sorttype=3
+📊 Total properties to scrape: 0
+
+✅ Scraping completed. Output saved to C:\xampp\htdocs\ScrapingToolsAutoSync\Executable/../ScrapeFile/HolidayHomesSpain/Properties3.json
+✅ Properties Created: 0
+✅ Properties Updated: 0
+[2025-10-17 08:12:36] [success] Scraping completed successfully
