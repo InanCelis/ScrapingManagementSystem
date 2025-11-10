@@ -1,0 +1,186 @@
+SimpleXMLElement Object
+(
+    [id] => 14351
+    [reference] => 14351
+    [type] => Villa/House
+    [titles] => SimpleXMLElement Object
+        (
+            [title] => Array
+                (
+                    [0] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [lang] => en
+                                )
+
+                        )
+
+                    [1] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [lang] => th
+                                )
+
+                        )
+
+                    [2] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [lang] => no
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [descriptions] => SimpleXMLElement Object
+        (
+            [description] => Array
+                (
+                    [0] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [lang] => en
+                                )
+
+                        )
+
+                    [1] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [lang] => th
+                                )
+
+                        )
+
+                    [2] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [lang] => no
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [priceSale] => 12900000
+    [priceRent] => SimpleXMLElement Object
+        (
+        )
+
+    [bathrooms] => 4
+    [bedrooms] => 3
+    [floor] => 1
+    [gpsLat] => 12.9312625
+    [gpsLon] => 100.8919531
+    [garages] => 2
+    [interiorSize] => 150
+    [landSize] => 216
+    [ownership] => FREEHOLD
+    [images] => SimpleXMLElement Object
+        (
+            [url] => Array
+                (
+                    [0] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/1f6b464b5840219d80dd72941acce325.webp
+                    [1] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/06efee57961acef9fd4c73286f79a90c.webp
+                    [2] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/1d707748249a6469ff4b569671080f56.webp
+                    [3] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/6162cdd1baefe28014c46ad3eea8556e.webp
+                    [4] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/57848c388e0899a73ebeaa76b2fdc2a5.webp
+                    [5] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/ac3e96a84b08a8f7a67e16cffc3bd13e.webp
+                    [6] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/e9cf93ad2ec1f04d90f713cdac8793e1.webp
+                    [7] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/8f93357de371cc27c22a6f2c12556ab2.webp
+                    [8] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/ff54494f820a335073757c98555d6394.webp
+                    [9] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/6748c3425e49daa830c6e33a4fb06915.webp
+                    [10] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/bb4d1c2bafaebcd1ef454bda1ee3f8e1.webp
+                    [11] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/05b21095aa3095079c8d77e90f65e1c6.webp
+                    [12] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/ea473c01e78231d7444db8ff8c16c7e2.webp
+                    [13] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/e4baea0a92150f0a4b1dfeafe343a182.webp
+                    [14] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/2cd483b822e1c143de192a79993c4d00.webp
+                    [15] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/9e1668dc659d8326e540a27ca58d1096.webp
+                    [16] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/d85136726d32c5a780060a5721b13e51.webp
+                    [17] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/4789a2b4b672cfd57776085cf149b0ff.webp
+                    [18] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/4965ba98d731387fe7a8c7b2d82d02af.webp
+                    [19] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/1e8cc021aee6e9b464f191a146a6c90b.webp
+                    [20] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/a512cb7c0e9b96319f88ef9761741d2e.webp
+                    [21] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/3d88808855031ae188ec4de2c86b7b90.webp
+                    [22] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/738a80f70c0d6e0489243daab381f49f.webp
+                    [23] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/200e46bca1b17ea88355d8d18e750487.webp
+                    [24] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/596d12fb3396f4cf536762bb349a0809.webp
+                    [25] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/869a7bd39d7eb0bac323f78b7d00388b.webp
+                    [26] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/05964fba55659f3bf83b21cd6c6bcc00.webp
+                    [27] => https://sites-img.nestopa.com/img/storage/8/media/properties/14351/435dffc98b1a5e5cd28b17b862baedbb.webp
+                )
+
+        )
+
+    [videos] => SimpleXMLElement Object
+        (
+        )
+
+    [features] => SimpleXMLElement Object
+        (
+            [feature] => Array
+                (
+                    [0] => SimpleXMLElement Object
+                        (
+                        )
+
+                    [1] => SimpleXMLElement Object
+                        (
+                        )
+
+                    [2] => SimpleXMLElement Object
+                        (
+                        )
+
+                    [3] => SimpleXMLElement Object
+                        (
+                        )
+
+                    [4] => SimpleXMLElement Object
+                        (
+                        )
+
+                    [5] => SimpleXMLElement Object
+                        (
+                        )
+
+                    [6] => SimpleXMLElement Object
+                        (
+                        )
+
+                    [7] => SimpleXMLElement Object
+                        (
+                        )
+
+                    [8] => SimpleXMLElement Object
+                        (
+                        )
+
+                    [9] => SimpleXMLElement Object
+                        (
+                        )
+
+                    [10] => SimpleXMLElement Object
+                        (
+                        )
+
+                    [11] => SimpleXMLElement Object
+                        (
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,6 @@
+[2025-11-04 04:47:02] [info] Starting scraper: Thai Property 1
+[2025-11-04 04:47:02] [info] Type: xml
+[2025-11-04 04:47:02] [error] Scraper file not found: C:\xampp\htdocs\ScrapingToolsAutoSync\core/../ Executable/ThaiProperty1.php
+[2025-11-04 04:47:02] [error] Fatal error: Scraper file not found: C:\xampp\htdocs\ScrapingToolsAutoSync\core/../ Executable/ThaiProperty1.php
+[2025-11-04 04:47:02] [error] Stack trace: #0 C:\xampp\htdocs\ScrapingToolsAutoSync\temp\scraper_75.php(17): ScraperAdapter->run()
+#1 {main}

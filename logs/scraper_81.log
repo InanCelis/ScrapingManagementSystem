@@ -1,0 +1,3941 @@
+[2025-11-04 06:56:59] [info] Starting scraper: Thai Property 1
+[2025-11-04 06:56:59] [info] Type: xml
+[2025-11-04 06:56:59] [info] Applying configuration to scraper...
+✓ Set foldername = '01 Random'
+[2025-11-04 06:56:59] [info] Set foldername = '01 Random'
+✓ Set filename = 'ThaiProperty1.json'
+[2025-11-04 06:56:59] [info] Set filename = 'ThaiProperty1.json'
+✓ Set enableUpload = true
+[2025-11-04 06:56:59] [info] Set enableUpload = true
+✓ Set testingMode = false
+[2025-11-04 06:56:59] [info] Set testingMode = false
+[2025-11-04 06:56:59] [info] Passing owner details to scraper
+✓ Set owner details (confidentialInfo)
+[2025-11-04 06:56:59] [info] Set owner details (confidentialInfo)
+
+[2025-11-04 06:56:59] [info] Processing XML: https://thaiproperty1.com/api/lA1bwo/feeds/nestopa-feed
+[2025-11-04 06:56:59] [info] Expected properties: 0
+[2025-11-04 06:56:59] [info] Passing owner details to scraper
+🔍 Input detected as: url
+🌐 Fetching XML from URL: https://thaiproperty1.com/api/lA1bwo/feeds/nestopa-feed
+✅ XML validation successful
+📋 Found properties using structure: <listing>
+📋 Total properties found: 771
+📊 Total properties to process: 771
+
+🏠 Processing property 1/771
+[2025-11-04 06:57:11] Attempt 1 of 3
+[2025-11-04 06:57:13] ✅ Success (HTTP 200) in 2.45s
+✅ Success after 1 attempt(s)
+✅ Created # 1
+🏠 Processing property 2/771
+[2025-11-04 06:57:15] Attempt 1 of 3
+[2025-11-04 06:57:17] ✅ Success (HTTP 200) in 1.62s
+✅ Success after 1 attempt(s)
+✅ Created # 2
+🏠 Processing property 3/771
+[2025-11-04 06:57:19] Attempt 1 of 3
+[2025-11-04 06:57:20] ✅ Success (HTTP 200) in 1.42s
+✅ Success after 1 attempt(s)
+✅ Created # 3
+🏠 Processing property 4/771
+[2025-11-04 06:57:22] Attempt 1 of 3
+[2025-11-04 06:57:24] ✅ Success (HTTP 200) in 1.68s
+✅ Success after 1 attempt(s)
+✅ Created # 4
+🏠 Processing property 5/771
+[2025-11-04 06:57:26] Attempt 1 of 3
+[2025-11-04 06:57:28] ✅ Success (HTTP 200) in 2.44s
+✅ Success after 1 attempt(s)
+✅ Created # 5
+🏠 Processing property 6/771
+[2025-11-04 06:57:30] Attempt 1 of 3
+[2025-11-04 06:57:33] ✅ Success (HTTP 200) in 2.45s
+✅ Success after 1 attempt(s)
+✅ Created # 6
+🏠 Processing property 7/771
+[2025-11-04 06:57:34] Attempt 1 of 3
+[2025-11-04 06:57:37] ✅ Success (HTTP 200) in 2.76s
+✅ Success after 1 attempt(s)
+✅ Created # 7
+🏠 Processing property 8/771
+[2025-11-04 06:57:39] Attempt 1 of 3
+[2025-11-04 06:57:41] ✅ Success (HTTP 200) in 1.82s
+✅ Success after 1 attempt(s)
+✅ Created # 8
+🏠 Processing property 9/771
+[2025-11-04 06:57:43] Attempt 1 of 3
+[2025-11-04 06:57:46] ✅ Success (HTTP 200) in 2.96s
+✅ Success after 1 attempt(s)
+✅ Created # 9
+🏠 Processing property 10/771
+[2025-11-04 06:57:48] Attempt 1 of 3
+[2025-11-04 06:57:50] ✅ Success (HTTP 200) in 1.76s
+✅ Success after 1 attempt(s)
+✅ Created # 10
+🏠 Processing property 11/771
+[2025-11-04 06:57:51] Attempt 1 of 3
+[2025-11-04 06:57:53] ✅ Success (HTTP 200) in 1.84s
+✅ Success after 1 attempt(s)
+✅ Created # 11
+🏠 Processing property 12/771
+[2025-11-04 06:57:55] Attempt 1 of 3
+[2025-11-04 06:57:58] ✅ Success (HTTP 200) in 2.91s
+✅ Success after 1 attempt(s)
+✅ Created # 12
+🏠 Processing property 13/771
+[2025-11-04 06:58:00] Attempt 1 of 3
+[2025-11-04 06:58:02] ✅ Success (HTTP 200) in 1.72s
+✅ Success after 1 attempt(s)
+✅ Created # 13
+🏠 Processing property 14/771
+[2025-11-04 06:58:04] Attempt 1 of 3
+[2025-11-04 06:58:05] ✅ Success (HTTP 200) in 1.41s
+✅ Success after 1 attempt(s)
+✅ Created # 14
+🏠 Processing property 15/771
+[2025-11-04 06:58:07] Attempt 1 of 3
+[2025-11-04 06:58:08] ✅ Success (HTTP 200) in 1.52s
+✅ Success after 1 attempt(s)
+✅ Created # 15
+🏠 Processing property 16/771
+[2025-11-04 06:58:10] Attempt 1 of 3
+[2025-11-04 06:58:12] ✅ Success (HTTP 200) in 2.13s
+✅ Success after 1 attempt(s)
+✅ Created # 16
+🏠 Processing property 17/771
+[2025-11-04 06:58:14] Attempt 1 of 3
+[2025-11-04 06:58:16] ✅ Success (HTTP 200) in 2.16s
+✅ Success after 1 attempt(s)
+✅ Created # 17
+🏠 Processing property 18/771
+[2025-11-04 06:58:18] Attempt 1 of 3
+[2025-11-04 06:58:20] ✅ Success (HTTP 200) in 2.14s
+✅ Success after 1 attempt(s)
+✅ Created # 18
+🏠 Processing property 19/771
+[2025-11-04 06:58:22] Attempt 1 of 3
+[2025-11-04 06:58:25] ✅ Success (HTTP 200) in 2.38s
+✅ Success after 1 attempt(s)
+✅ Created # 19
+🏠 Processing property 20/771
+[2025-11-04 06:58:27] Attempt 1 of 3
+[2025-11-04 06:58:29] ✅ Success (HTTP 200) in 2.34s
+✅ Success after 1 attempt(s)
+✅ Created # 20
+🏠 Processing property 21/771
+[2025-11-04 06:58:31] Attempt 1 of 3
+[2025-11-04 06:58:33] ✅ Success (HTTP 200) in 2.11s
+✅ Success after 1 attempt(s)
+✅ Created # 21
+🏠 Processing property 22/771
+[2025-11-04 06:58:35] Attempt 1 of 3
+[2025-11-04 06:58:38] ✅ Success (HTTP 200) in 3.37s
+✅ Success after 1 attempt(s)
+✅ Created # 22
+🏠 Processing property 23/771
+[2025-11-04 06:58:40] Attempt 1 of 3
+[2025-11-04 06:58:43] ✅ Success (HTTP 200) in 2.69s
+✅ Success after 1 attempt(s)
+✅ Created # 23
+🏠 Processing property 24/771
+[2025-11-04 06:58:45] Attempt 1 of 3
+[2025-11-04 06:58:47] ✅ Success (HTTP 200) in 2.16s
+✅ Success after 1 attempt(s)
+✅ Created # 24
+🏠 Processing property 25/771
+[2025-11-04 06:58:49] Attempt 1 of 3
+[2025-11-04 06:58:51] ✅ Success (HTTP 200) in 2.13s
+✅ Success after 1 attempt(s)
+✅ Created # 25
+🏠 Processing property 26/771
+[2025-11-04 06:58:53] Attempt 1 of 3
+[2025-11-04 06:58:55] ✅ Success (HTTP 200) in 2.64s
+✅ Success after 1 attempt(s)
+✅ Created # 26
+🏠 Processing property 27/771
+[2025-11-04 06:58:57] Attempt 1 of 3
+[2025-11-04 06:58:59] ✅ Success (HTTP 200) in 1.94s
+✅ Success after 1 attempt(s)
+✅ Created # 27
+🏠 Processing property 28/771
+[2025-11-04 06:59:01] Attempt 1 of 3
+[2025-11-04 06:59:03] ✅ Success (HTTP 200) in 1.46s
+✅ Success after 1 attempt(s)
+✅ Created # 28
+🏠 Processing property 29/771
+[2025-11-04 06:59:04] Attempt 1 of 3
+[2025-11-04 06:59:06] ✅ Success (HTTP 200) in 1.73s
+✅ Success after 1 attempt(s)
+✅ Created # 29
+🏠 Processing property 30/771
+[2025-11-04 06:59:08] Attempt 1 of 3
+[2025-11-04 06:59:10] ✅ Success (HTTP 200) in 2.11s
+✅ Success after 1 attempt(s)
+✅ Created # 30
+🏠 Processing property 31/771
+[2025-11-04 06:59:12] Attempt 1 of 3
+[2025-11-04 06:59:14] ✅ Success (HTTP 200) in 2.18s
+✅ Success after 1 attempt(s)
+✅ Created # 31
+🏠 Processing property 32/771
+[2025-11-04 06:59:16] Attempt 1 of 3
+[2025-11-04 06:59:18] ✅ Success (HTTP 200) in 2.16s
+✅ Success after 1 attempt(s)
+✅ Created # 32
+🏠 Processing property 33/771
+[2025-11-04 06:59:20] Attempt 1 of 3
+[2025-11-04 06:59:22] ✅ Success (HTTP 200) in 2.2s
+✅ Success after 1 attempt(s)
+✅ Created # 33
+🏠 Processing property 34/771
+[2025-11-04 06:59:24] Attempt 1 of 3
+[2025-11-04 06:59:27] ✅ Success (HTTP 200) in 2.29s
+✅ Success after 1 attempt(s)
+✅ Created # 34
+🏠 Processing property 35/771
+[2025-11-04 06:59:28] Attempt 1 of 3
+[2025-11-04 06:59:32] ✅ Success (HTTP 200) in 3.31s
+✅ Success after 1 attempt(s)
+✅ Created # 35
+🏠 Processing property 36/771
+[2025-11-04 06:59:33] Attempt 1 of 3
+[2025-11-04 06:59:37] ✅ Success (HTTP 200) in 3.16s
+✅ Success after 1 attempt(s)
+✅ Created # 36
+🏠 Processing property 37/771
+[2025-11-04 06:59:38] Attempt 1 of 3
+[2025-11-04 06:59:41] ✅ Success (HTTP 200) in 2.42s
+✅ Success after 1 attempt(s)
+✅ Created # 37
+🏠 Processing property 38/771
+[2025-11-04 06:59:43] Attempt 1 of 3
+[2025-11-04 06:59:45] ✅ Success (HTTP 200) in 2.2s
+✅ Success after 1 attempt(s)
+✅ Created # 38
+🏠 Processing property 39/771
+[2025-11-04 06:59:47] Attempt 1 of 3
+[2025-11-04 06:59:49] ✅ Success (HTTP 200) in 2.45s
+✅ Success after 1 attempt(s)
+✅ Created # 39
+🏠 Processing property 40/771
+[2025-11-04 06:59:51] Attempt 1 of 3
+[2025-11-04 06:59:53] ✅ Success (HTTP 200) in 2.13s
+✅ Success after 1 attempt(s)
+✅ Created # 40
+🏠 Processing property 41/771
+[2025-11-04 06:59:55] Attempt 1 of 3
+[2025-11-04 06:59:58] ✅ Success (HTTP 200) in 2.43s
+✅ Success after 1 attempt(s)
+✅ Created # 41
+🏠 Processing property 42/771
+[2025-11-04 07:00:00] Attempt 1 of 3
+[2025-11-04 07:00:02] ✅ Success (HTTP 200) in 2.43s
+✅ Success after 1 attempt(s)
+✅ Created # 42
+🏠 Processing property 43/771
+[2025-11-04 07:00:04] Attempt 1 of 3
+[2025-11-04 07:00:08] ✅ Success (HTTP 200) in 3.79s
+✅ Success after 1 attempt(s)
+✅ Created # 43
+🏠 Processing property 44/771
+[2025-11-04 07:00:10] Attempt 1 of 3
+[2025-11-04 07:00:12] ✅ Success (HTTP 200) in 2.04s
+✅ Success after 1 attempt(s)
+✅ Created # 44
+🏠 Processing property 45/771
+[2025-11-04 07:00:14] Attempt 1 of 3
+[2025-11-04 07:00:18] ✅ Success (HTTP 200) in 4.08s
+✅ Success after 1 attempt(s)
+✅ Created # 45
+🏠 Processing property 46/771
+[2025-11-04 07:00:19] Attempt 1 of 3
+[2025-11-04 07:00:22] ✅ Success (HTTP 200) in 2.66s
+✅ Success after 1 attempt(s)
+✅ Created # 46
+🏠 Processing property 47/771
+[2025-11-04 07:00:24] Attempt 1 of 3
+[2025-11-04 07:00:26] ✅ Success (HTTP 200) in 2.22s
+✅ Success after 1 attempt(s)
+✅ Created # 47
+🏠 Processing property 48/771
+[2025-11-04 07:00:28] Attempt 1 of 3
+[2025-11-04 07:00:30] ✅ Success (HTTP 200) in 2.39s
+✅ Success after 1 attempt(s)
+✅ Created # 48
+🏠 Processing property 49/771
+[2025-11-04 07:00:32] Attempt 1 of 3
+[2025-11-04 07:00:34] ⚠️ Server responded with HTTP 400 (Duration: 1.94s)
+[2025-11-04 07:00:34] Response: {"code":"properties_missing","message":"No properties provided","data":{"status":400}}
+[2025-11-04 07:00:34] ⏳ Retrying in 2 seconds...
+[2025-11-04 07:00:36] Attempt 2 of 3
+[2025-11-04 07:00:38] ⚠️ Server responded with HTTP 400 (Duration: 1.64s)
+[2025-11-04 07:00:38] Response: {"code":"properties_missing","message":"No properties provided","data":{"status":400}}
+[2025-11-04 07:00:38] ⏳ Retrying in 4 seconds...
+[2025-11-04 07:00:42] Attempt 3 of 3
+[2025-11-04 07:00:43] ⚠️ Server responded with HTTP 400 (Duration: 1.56s)
+[2025-11-04 07:00:43] Response: {"code":"properties_missing","message":"No properties provided","data":{"status":400}}
+[2025-11-04 07:00:43] ❌ All attempts failed. Last error: HTTP 400
+❌ Failed after 3 attempts. Last error: HTTP 400
+🏠 Processing property 50/771
+[2025-11-04 07:00:45] Attempt 1 of 3
+[2025-11-04 07:00:48] ✅ Success (HTTP 200) in 2.5s
+✅ Success after 1 attempt(s)
+✅ Created # 49
+🏠 Processing property 51/771
+[2025-11-04 07:00:50] Attempt 1 of 3
+[2025-11-04 07:00:53] ✅ Success (HTTP 200) in 3.85s
+✅ Success after 1 attempt(s)
+✅ Created # 50
+🏠 Processing property 52/771
+[2025-11-04 07:00:55] Attempt 1 of 3
+[2025-11-04 07:00:58] ✅ Success (HTTP 200) in 3.06s
+✅ Success after 1 attempt(s)
+✅ Created # 51
+🏠 Processing property 53/771
+[2025-11-04 07:01:00] Attempt 1 of 3
+[2025-11-04 07:01:03] ✅ Success (HTTP 200) in 3.15s
+✅ Success after 1 attempt(s)
+✅ Created # 52
+🏠 Processing property 54/771
+[2025-11-04 07:01:05] Attempt 1 of 3
+[2025-11-04 07:01:08] ✅ Success (HTTP 200) in 3.21s
+✅ Success after 1 attempt(s)
+✅ Created # 53
+🏠 Processing property 55/771
+[2025-11-04 07:01:10] Attempt 1 of 3
+[2025-11-04 07:01:13] ✅ Success (HTTP 200) in 3.06s
+✅ Success after 1 attempt(s)
+✅ Created # 54
+🏠 Processing property 56/771
+[2025-11-04 07:01:15] Attempt 1 of 3
+[2025-11-04 07:01:17] ✅ Success (HTTP 200) in 2.19s
+✅ Success after 1 attempt(s)
+✅ Created # 55
+🏠 Processing property 57/771
+[2025-11-04 07:01:19] Attempt 1 of 3
+[2025-11-04 07:01:22] ✅ Success (HTTP 200) in 2.65s
+✅ Success after 1 attempt(s)
+✅ Created # 56
+🏠 Processing property 58/771
+[2025-11-04 07:01:24] Attempt 1 of 3
+[2025-11-04 07:01:25] ✅ Success (HTTP 200) in 1.59s
+✅ Success after 1 attempt(s)
+✅ Created # 57
+🏠 Processing property 59/771
+[2025-11-04 07:01:27] Attempt 1 of 3
+[2025-11-04 07:01:29] ✅ Success (HTTP 200) in 1.94s
+✅ Success after 1 attempt(s)
+✅ Created # 58
+🏠 Processing property 60/771
+[2025-11-04 07:01:32] Attempt 1 of 3
+[2025-11-04 07:01:34] ✅ Success (HTTP 200) in 2.3s
+✅ Success after 1 attempt(s)
+✅ Created # 59
+🏠 Processing property 61/771
+[2025-11-04 07:01:36] Attempt 1 of 3
+[2025-11-04 07:01:39] ✅ Success (HTTP 200) in 2.83s
+✅ Success after 1 attempt(s)
+✅ Created # 60
+🏠 Processing property 62/771
+[2025-11-04 07:01:41] Attempt 1 of 3
+[2025-11-04 07:01:43] ✅ Success (HTTP 200) in 2.45s
+✅ Success after 1 attempt(s)
+✅ Created # 61
+🏠 Processing property 63/771
+[2025-11-04 07:01:45] Attempt 1 of 3
+[2025-11-04 07:01:47] ✅ Success (HTTP 200) in 2.44s
+✅ Success after 1 attempt(s)
+✅ Created # 62
+🏠 Processing property 64/771
+[2025-11-04 07:01:49] Attempt 1 of 3
+[2025-11-04 07:01:51] ✅ Success (HTTP 200) in 2.04s
+✅ Success after 1 attempt(s)
+✅ Created # 63
+🏠 Processing property 65/771
+[2025-11-04 07:01:53] Attempt 1 of 3
+[2025-11-04 07:01:55] ✅ Success (HTTP 200) in 2.03s
+✅ Success after 1 attempt(s)
+✅ Created # 64
+🏠 Processing property 66/771
+[2025-11-04 07:01:57] Attempt 1 of 3
+[2025-11-04 07:01:59] ✅ Success (HTTP 200) in 2.14s
+✅ Success after 1 attempt(s)
+✅ Created # 65
+🏠 Processing property 67/771
+[2025-11-04 07:02:01] Attempt 1 of 3
+[2025-11-04 07:02:05] ✅ Success (HTTP 200) in 3.76s
+✅ Success after 1 attempt(s)
+✅ Created # 66
+🏠 Processing property 68/771
+[2025-11-04 07:02:07] Attempt 1 of 3
+[2025-11-04 07:02:09] ✅ Success (HTTP 200) in 2.34s
+✅ Success after 1 attempt(s)
+✅ Created # 67
+🏠 Processing property 69/771
+PositionStack API request failed for query: 12.845046,100.9282396. Details: 
+[2025-11-04 07:02:12] Attempt 1 of 3
+[2025-11-04 07:02:14] ✅ Success (HTTP 200) in 2.26s
+✅ Success after 1 attempt(s)
+✅ Created # 68
+🏠 Processing property 70/771
+[2025-11-04 07:02:17] Attempt 1 of 3
+[2025-11-04 07:02:20] ✅ Success (HTTP 200) in 2.53s
+✅ Success after 1 attempt(s)
+✅ Created # 69
+🏠 Processing property 71/771
+[2025-11-04 07:02:23] Attempt 1 of 3
+[2025-11-04 07:02:26] ✅ Success (HTTP 200) in 2.39s
+✅ Success after 1 attempt(s)
+✅ Created # 70
+🏠 Processing property 72/771
+[2025-11-04 07:02:28] Attempt 1 of 3
+[2025-11-04 07:02:31] ✅ Success (HTTP 200) in 2.86s
+✅ Success after 1 attempt(s)
+✅ Created # 71
+🏠 Processing property 73/771
+[2025-11-04 07:02:35] Attempt 1 of 3
+[2025-11-04 07:02:37] ✅ Success (HTTP 200) in 1.84s
+✅ Success after 1 attempt(s)
+✅ Created # 72
+🏠 Processing property 74/771
+[2025-11-04 07:02:43] Attempt 1 of 3
+[2025-11-04 07:02:44] ✅ Success (HTTP 200) in 1.54s
+✅ Success after 1 attempt(s)
+✅ Created # 73
+🏠 Processing property 75/771
+[2025-11-04 07:02:47] Attempt 1 of 3
+[2025-11-04 07:02:48] ✅ Success (HTTP 200) in 1.53s
+✅ Success after 1 attempt(s)
+✅ Created # 74
+🏠 Processing property 76/771
+[2025-11-04 07:02:51] Attempt 1 of 3
+[2025-11-04 07:02:52] ✅ Success (HTTP 200) in 1.46s
+✅ Success after 1 attempt(s)
+✅ Created # 75
+🏠 Processing property 77/771
+[2025-11-04 07:02:55] Attempt 1 of 3
+[2025-11-04 07:02:57] ✅ Success (HTTP 200) in 1.84s
+✅ Success after 1 attempt(s)
+✅ Created # 76
+🏠 Processing property 78/771
+[2025-11-04 07:02:58] Attempt 1 of 3
+[2025-11-04 07:03:01] ✅ Success (HTTP 200) in 2.16s
+✅ Success after 1 attempt(s)
+✅ Created # 77
+🏠 Processing property 79/771
+[2025-11-04 07:03:03] Attempt 1 of 3
+[2025-11-04 07:03:05] ✅ Success (HTTP 200) in 2.21s
+✅ Success after 1 attempt(s)
+✅ Created # 78
+🏠 Processing property 80/771
+PositionStack API request failed for query: 12.8713449,100.8934285. Details: Unknown error
+[2025-11-04 07:03:16] Attempt 1 of 3
+[2025-11-04 07:03:18] ✅ Success (HTTP 200) in 1.89s
+✅ Success after 1 attempt(s)
+✅ Created # 79
+🏠 Processing property 81/771
+[2025-11-04 07:03:21] Attempt 1 of 3
+[2025-11-04 07:03:23] ✅ Success (HTTP 200) in 2.14s
+✅ Success after 1 attempt(s)
+✅ Created # 80
+🏠 Processing property 82/771
+[2025-11-04 07:03:25] Attempt 1 of 3
+[2025-11-04 07:03:29] ✅ Success (HTTP 200) in 3.47s
+✅ Success after 1 attempt(s)
+✅ Created # 81
+🏠 Processing property 83/771
+[2025-11-04 07:03:31] Attempt 1 of 3
+[2025-11-04 07:03:33] ✅ Success (HTTP 200) in 1.51s
+✅ Success after 1 attempt(s)
+✅ Created # 82
+🏠 Processing property 84/771
+[2025-11-04 07:03:43] Attempt 1 of 3
+[2025-11-04 07:03:44] ✅ Success (HTTP 200) in 1.42s
+✅ Success after 1 attempt(s)
+✅ Created # 83
+🏠 Processing property 85/771
+[2025-11-04 07:03:49] Attempt 1 of 3
+[2025-11-04 07:03:50] ✅ Success (HTTP 200) in 1.26s
+✅ Success after 1 attempt(s)
+✅ Created # 84
+🏠 Processing property 86/771
+[2025-11-04 07:03:53] Attempt 1 of 3
+[2025-11-04 07:03:55] ⚠️ Server responded with HTTP 400 (Duration: 1.11s)
+[2025-11-04 07:03:55] Response: {"code":"properties_missing","message":"No properties provided","data":{"status":400}}
+[2025-11-04 07:03:55] ⏳ Retrying in 2 seconds...
+[2025-11-04 07:03:57] Attempt 2 of 3
+[2025-11-04 07:03:58] ⚠️ Server responded with HTTP 400 (Duration: 0.94s)
+[2025-11-04 07:03:58] Response: {"code":"properties_missing","message":"No properties provided","data":{"status":400}}
+[2025-11-04 07:03:58] ⏳ Retrying in 4 seconds...
+[2025-11-04 07:04:02] Attempt 3 of 3
+[2025-11-04 07:04:03] ⚠️ Server responded with HTTP 400 (Duration: 0.94s)
+[2025-11-04 07:04:03] Response: {"code":"properties_missing","message":"No properties provided","data":{"status":400}}
+[2025-11-04 07:04:03] ❌ All attempts failed. Last error: HTTP 400
+❌ Failed after 3 attempts. Last error: HTTP 400
+🏠 Processing property 87/771
+[2025-11-04 07:04:05] Attempt 1 of 3
+[2025-11-04 07:04:07] ✅ Success (HTTP 200) in 1.58s
+✅ Success after 1 attempt(s)
+✅ Created # 85
+🏠 Processing property 88/771
+[2025-11-04 07:04:09] Attempt 1 of 3
+[2025-11-04 07:04:10] ✅ Success (HTTP 200) in 1.42s
+✅ Success after 1 attempt(s)
+✅ Created # 86
+🏠 Processing property 89/771
+[2025-11-04 07:04:13] Attempt 1 of 3
+[2025-11-04 07:04:14] ✅ Success (HTTP 200) in 1.42s
+✅ Success after 1 attempt(s)
+✅ Created # 87
+🏠 Processing property 90/771
+[2025-11-04 07:04:17] Attempt 1 of 3
+[2025-11-04 07:04:18] ✅ Success (HTTP 200) in 1.54s
+✅ Success after 1 attempt(s)
+✅ Created # 88
+🏠 Processing property 91/771
+[2025-11-04 07:04:21] Attempt 1 of 3
+[2025-11-04 07:04:22] ✅ Success (HTTP 200) in 1.73s
+✅ Success after 1 attempt(s)
+✅ Created # 89
+🏠 Processing property 92/771
+[2025-11-04 07:04:26] Attempt 1 of 3
+[2025-11-04 07:04:30] ✅ Success (HTTP 200) in 3.48s
+✅ Success after 1 attempt(s)
+✅ Created # 90
+🏠 Processing property 93/771
+[2025-11-04 07:04:32] Attempt 1 of 3
+[2025-11-04 07:04:34] ✅ Success (HTTP 200) in 1.73s
+✅ Success after 1 attempt(s)
+✅ Created # 91
+🏠 Processing property 94/771
+[2025-11-04 07:04:36] Attempt 1 of 3
+[2025-11-04 07:04:40] ✅ Success (HTTP 200) in 3.54s
+✅ Success after 1 attempt(s)
+✅ Created # 92
+🏠 Processing property 95/771
+[2025-11-04 07:04:43] Attempt 1 of 3
+[2025-11-04 07:04:46] ✅ Success (HTTP 200) in 2.13s
+✅ Success after 1 attempt(s)
+✅ Created # 93
+🏠 Processing property 96/771
+[2025-11-04 07:04:48] Attempt 1 of 3
+[2025-11-04 07:04:50] ✅ Success (HTTP 200) in 2.14s
+✅ Success after 1 attempt(s)
+✅ Created # 94
+🏠 Processing property 97/771
+[2025-11-04 07:04:56] Attempt 1 of 3
+[2025-11-04 07:04:59] ✅ Success (HTTP 200) in 2.38s
+✅ Success after 1 attempt(s)
+✅ Created # 95
+🏠 Processing property 98/771
+[2025-11-04 07:05:04] Attempt 1 of 3
+[2025-11-04 07:05:06] ✅ Success (HTTP 200) in 2.14s
+✅ Success after 1 attempt(s)
+✅ Created # 96
+🏠 Processing property 99/771
+[2025-11-04 07:05:08] Attempt 1 of 3
+[2025-11-04 07:05:11] ✅ Success (HTTP 200) in 2.86s
+✅ Success after 1 attempt(s)
+✅ Created # 97
+🏠 Processing property 100/771
+[2025-11-04 07:05:13] Attempt 1 of 3
+[2025-11-04 07:05:15] ✅ Success (HTTP 200) in 2.24s
+✅ Success after 1 attempt(s)
+✅ Created # 98
+🏠 Processing property 101/771
+[2025-11-04 07:05:17] Attempt 1 of 3
+[2025-11-04 07:05:20] ✅ Success (HTTP 200) in 2.29s
+✅ Success after 1 attempt(s)
+✅ Created # 99
+🏠 Processing property 102/771
+[2025-11-04 07:05:23] Attempt 1 of 3
+[2025-11-04 07:05:25] ✅ Success (HTTP 200) in 2.14s
+✅ Success after 1 attempt(s)
+✅ Created # 100
+🏠 Processing property 103/771
+[2025-11-04 07:05:28] Attempt 1 of 3
+[2025-11-04 07:05:30] ✅ Success (HTTP 200) in 2.15s
+✅ Success after 1 attempt(s)
+✅ Created # 101
+🏠 Processing property 104/771
+[2025-11-04 07:05:33] Attempt 1 of 3
+[2025-11-04 07:05:35] ✅ Success (HTTP 200) in 2.54s
+✅ Success after 1 attempt(s)
+✅ Created # 102
+🏠 Processing property 105/771
+[2025-11-04 07:05:38] Attempt 1 of 3
+[2025-11-04 07:05:40] ✅ Success (HTTP 200) in 2.13s
+✅ Success after 1 attempt(s)
+✅ Created # 103
+🏠 Processing property 106/771
+[2025-11-04 07:05:45] Attempt 1 of 3
+[2025-11-04 07:05:47] ✅ Success (HTTP 200) in 2.45s
+✅ Success after 1 attempt(s)
+✅ Created # 104
+🏠 Processing property 107/771
+[2025-11-04 07:05:50] Attempt 1 of 3
+[2025-11-04 07:05:53] ✅ Success (HTTP 200) in 3s
+✅ Success after 1 attempt(s)
+✅ Created # 105
+🏠 Processing property 108/771
+[2025-11-04 07:05:55] Attempt 1 of 3
+[2025-11-04 07:05:57] ✅ Success (HTTP 200) in 2.24s
+✅ Success after 1 attempt(s)
+✅ Created # 106
+🏠 Processing property 109/771
+[2025-11-04 07:06:00] Attempt 1 of 3
+[2025-11-04 07:06:02] ✅ Success (HTTP 200) in 2.06s
+✅ Success after 1 attempt(s)
+✅ Created # 107
+🏠 Processing property 110/771
+[2025-11-04 07:06:04] Attempt 1 of 3
+[2025-11-04 07:06:06] ✅ Success (HTTP 200) in 1.74s
+✅ Success after 1 attempt(s)
+✅ Created # 108
+🏠 Processing property 111/771
+[2025-11-04 07:06:08] Attempt 1 of 3
+[2025-11-04 07:06:10] ✅ Success (HTTP 200) in 2.23s
+✅ Success after 1 attempt(s)
+✅ Created # 109
+🏠 Processing property 112/771
+[2025-11-04 07:06:13] Attempt 1 of 3
+[2025-11-04 07:06:15] ✅ Success (HTTP 200) in 1.84s
+✅ Success after 1 attempt(s)
+✅ Created # 110
+🏠 Processing property 113/771
+[2025-11-04 07:06:18] Attempt 1 of 3
+[2025-11-04 07:06:20] ✅ Success (HTTP 200) in 2.18s
+✅ Success after 1 attempt(s)
+✅ Created # 111
+🏠 Processing property 114/771
+[2025-11-04 07:06:22] Attempt 1 of 3
+[2025-11-04 07:06:24] ✅ Success (HTTP 200) in 2.16s
+✅ Success after 1 attempt(s)
+✅ Created # 112
+🏠 Processing property 115/771
+[2025-11-04 07:06:26] Attempt 1 of 3
+[2025-11-04 07:06:28] ✅ Success (HTTP 200) in 2.15s
+✅ Success after 1 attempt(s)
+✅ Created # 113
+🏠 Processing property 116/771
+[2025-11-04 07:06:31] Attempt 1 of 3
+[2025-11-04 07:06:34] ✅ Success (HTTP 200) in 2.96s
+✅ Success after 1 attempt(s)
+✅ Created # 114
+🏠 Processing property 117/771
+[2025-11-04 07:06:36] Attempt 1 of 3
+[2025-11-04 07:06:38] ✅ Success (HTTP 200) in 2.03s
+✅ Success after 1 attempt(s)
+✅ Created # 115
+🏠 Processing property 118/771
+[2025-11-04 07:06:41] Attempt 1 of 3
+[2025-11-04 07:06:42] ✅ Success (HTTP 200) in 1.47s
+✅ Success after 1 attempt(s)
+✅ Created # 116
+🏠 Processing property 119/771
+[2025-11-04 07:06:44] Attempt 1 of 3
+[2025-11-04 07:06:46] ✅ Success (HTTP 200) in 1.93s
+✅ Success after 1 attempt(s)
+✅ Created # 117
+🏠 Processing property 120/771
+[2025-11-04 07:06:49] Attempt 1 of 3
+[2025-11-04 07:06:50] ✅ Success (HTTP 200) in 1.62s
+✅ Success after 1 attempt(s)
+✅ Created # 118
+🏠 Processing property 121/771
+[2025-11-04 07:06:53] Attempt 1 of 3
+[2025-11-04 07:06:54] ⚠️ Server responded with HTTP 400 (Duration: 1.43s)
+[2025-11-04 07:06:54] Response: {"code":"properties_missing","message":"No properties provided","data":{"status":400}}
+[2025-11-04 07:06:54] ⏳ Retrying in 2 seconds...
+[2025-11-04 07:06:56] Attempt 2 of 3
+[2025-11-04 07:06:57] ⚠️ Server responded with HTTP 400 (Duration: 1.02s)
+[2025-11-04 07:06:57] Response: {"code":"properties_missing","message":"No properties provided","data":{"status":400}}
+[2025-11-04 07:06:57] ⏳ Retrying in 4 seconds...
+[2025-11-04 07:07:01] Attempt 3 of 3
+[2025-11-04 07:07:02] ⚠️ Server responded with HTTP 400 (Duration: 0.92s)
+[2025-11-04 07:07:02] Response: {"code":"properties_missing","message":"No properties provided","data":{"status":400}}
+[2025-11-04 07:07:02] ❌ All attempts failed. Last error: HTTP 400
+❌ Failed after 3 attempts. Last error: HTTP 400
+🏠 Processing property 122/771
+[2025-11-04 07:07:05] Attempt 1 of 3
+[2025-11-04 07:07:06] ✅ Success (HTTP 200) in 1.83s
+✅ Success after 1 attempt(s)
+✅ Created # 119
+🏠 Processing property 123/771
+[2025-11-04 07:07:12] Attempt 1 of 3
+[2025-11-04 07:07:14] ✅ Success (HTTP 200) in 2.2s
+✅ Success after 1 attempt(s)
+✅ Created # 120
+🏠 Processing property 124/771
+[2025-11-04 07:07:17] Attempt 1 of 3
+[2025-11-04 07:07:19] ✅ Success (HTTP 200) in 2.19s
+✅ Success after 1 attempt(s)
+✅ Created # 121
+🏠 Processing property 125/771
+[2025-11-04 07:07:21] Attempt 1 of 3
+[2025-11-04 07:07:24] ✅ Success (HTTP 200) in 2.65s
+✅ Success after 1 attempt(s)
+✅ Created # 122
+🏠 Processing property 126/771
+[2025-11-04 07:07:26] Attempt 1 of 3
+[2025-11-04 07:07:29] ✅ Success (HTTP 200) in 3.16s
+✅ Success after 1 attempt(s)
+✅ Created # 123
+🏠 Processing property 127/771
+[2025-11-04 07:07:31] Attempt 1 of 3
+[2025-11-04 07:07:34] ✅ Success (HTTP 200) in 2.75s
+✅ Success after 1 attempt(s)
+✅ Created # 124
+🏠 Processing property 128/771
+[2025-11-04 07:07:38] Attempt 1 of 3
+[2025-11-04 07:07:40] ✅ Success (HTTP 200) in 1.62s
+✅ Success after 1 attempt(s)
+✅ Created # 125
+🏠 Processing property 129/771
+[2025-11-04 07:07:42] Attempt 1 of 3
+[2025-11-04 07:07:44] ✅ Success (HTTP 200) in 2.15s
+✅ Success after 1 attempt(s)
+✅ Created # 126
+🏠 Processing property 130/771
+[2025-11-04 07:07:46] Attempt 1 of 3
+[2025-11-04 07:07:48] ✅ Success (HTTP 200) in 2.13s
+✅ Success after 1 attempt(s)
+✅ Created # 127
+🏠 Processing property 131/771
+[2025-11-04 07:07:50] Attempt 1 of 3
+[2025-11-04 07:07:52] ✅ Success (HTTP 200) in 2.23s
+✅ Success after 1 attempt(s)
+✅ Created # 128
+🏠 Processing property 132/771
+[2025-11-04 07:07:55] Attempt 1 of 3
+[2025-11-04 07:07:57] ✅ Success (HTTP 200) in 2.04s
+✅ Success after 1 attempt(s)
+✅ Created # 129
+🏠 Processing property 133/771
+[2025-11-04 07:08:01] Attempt 1 of 3
+[2025-11-04 07:08:04] ✅ Success (HTTP 200) in 2.14s
+✅ Success after 1 attempt(s)
+✅ Created # 130
+🏠 Processing property 134/771
+[2025-11-04 07:08:06] Attempt 1 of 3
+[2025-11-04 07:08:08] ✅ Success (HTTP 200) in 1.84s
+✅ Success after 1 attempt(s)
+✅ Created # 131
+🏠 Processing property 135/771
+[2025-11-04 07:08:11] Attempt 1 of 3
+[2025-11-04 07:08:13] ✅ Success (HTTP 200) in 1.95s
+✅ Success after 1 attempt(s)
+✅ Created # 132
+🏠 Processing property 136/771
+[2025-11-04 07:08:18] Attempt 1 of 3
+[2025-11-04 07:08:20] ✅ Success (HTTP 200) in 1.69s
+✅ Success after 1 attempt(s)
+✅ Created # 133
+🏠 Processing property 137/771
+[2025-11-04 07:08:24] Attempt 1 of 3
+[2025-11-04 07:08:26] ✅ Success (HTTP 200) in 1.71s
+✅ Success after 1 attempt(s)
+✅ Created # 134
+🏠 Processing property 138/771
+[2025-11-04 07:08:28] Attempt 1 of 3
+[2025-11-04 07:08:29] ✅ Success (HTTP 200) in 1.48s
+✅ Success after 1 attempt(s)
+✅ Created # 135
+🏠 Processing property 139/771
+[2025-11-04 07:08:33] Attempt 1 of 3
+[2025-11-04 07:08:36] ✅ Success (HTTP 200) in 2.85s
+✅ Success after 1 attempt(s)
+✅ Created # 136
+🏠 Processing property 140/771
+[2025-11-04 07:08:39] Attempt 1 of 3
+[2025-11-04 07:08:42] ✅ Success (HTTP 200) in 2.94s
+✅ Success after 1 attempt(s)
+✅ Created # 137
+🏠 Processing property 141/771
+[2025-11-04 07:08:45] Attempt 1 of 3
+[2025-11-04 07:08:47] ✅ Success (HTTP 200) in 1.82s
+✅ Success after 1 attempt(s)
+✅ Created # 138
+🏠 Processing property 142/771
+[2025-11-04 07:08:51] Attempt 1 of 3
+[2025-11-04 07:08:53] ✅ Success (HTTP 200) in 1.64s
+✅ Success after 1 attempt(s)
+✅ Created # 139
+🏠 Processing property 143/771
+[2025-11-04 07:08:55] Attempt 1 of 3
+[2025-11-04 07:08:57] ✅ Success (HTTP 200) in 1.52s
+✅ Success after 1 attempt(s)
+✅ Created # 140
+🏠 Processing property 144/771
+[2025-11-04 07:08:59] Attempt 1 of 3
+[2025-11-04 07:09:01] ✅ Success (HTTP 200) in 1.69s
+✅ Success after 1 attempt(s)
+✅ Created # 141
+🏠 Processing property 145/771
+[2025-11-04 07:09:03] Attempt 1 of 3
+[2025-11-04 07:09:06] ✅ Success (HTTP 200) in 2.45s
+✅ Success after 1 attempt(s)
+✅ Created # 142
+🏠 Processing property 146/771
+[2025-11-04 07:09:08] Attempt 1 of 3
+[2025-11-04 07:09:10] ✅ Success (HTTP 200) in 2.1s
+✅ Success after 1 attempt(s)
+✅ Created # 143
+🏠 Processing property 147/771
+[2025-11-04 07:09:13] Attempt 1 of 3
+[2025-11-04 07:09:15] ✅ Success (HTTP 200) in 2.17s
+✅ Success after 1 attempt(s)
+✅ Created # 144
+🏠 Processing property 148/771
+[2025-11-04 07:09:17] Attempt 1 of 3
+[2025-11-04 07:09:19] ✅ Success (HTTP 200) in 2.21s
+✅ Success after 1 attempt(s)
+✅ Created # 145
+🏠 Processing property 149/771
+[2025-11-04 07:09:26] Attempt 1 of 3
+[2025-11-04 07:09:30] ✅ Success (HTTP 200) in 3.48s
+✅ Success after 1 attempt(s)
+✅ Created # 146
+🏠 Processing property 150/771
+[2025-11-04 07:09:32] Attempt 1 of 3
+[2025-11-04 07:09:36] ✅ Success (HTTP 200) in 3.68s
+✅ Success after 1 attempt(s)
+✅ Created # 147
+🏠 Processing property 151/771
+[2025-11-04 07:09:39] Attempt 1 of 3
+[2025-11-04 07:09:40] ✅ Success (HTTP 200) in 1.62s
+✅ Success after 1 attempt(s)
+✅ Created # 148
+🏠 Processing property 152/771
+[2025-11-04 07:09:43] Attempt 1 of 3
+[2025-11-04 07:09:45] ✅ Success (HTTP 200) in 2.16s
+✅ Success after 1 attempt(s)
+✅ Created # 149
+🏠 Processing property 153/771
+[2025-11-04 07:09:47] Attempt 1 of 3
+[2025-11-04 07:09:49] ✅ Success (HTTP 200) in 1.99s
+✅ Success after 1 attempt(s)
+✅ Created # 150
+🏠 Processing property 154/771
+[2025-11-04 07:09:53] Attempt 1 of 3
+[2025-11-04 07:09:55] ✅ Success (HTTP 200) in 2.14s
+✅ Success after 1 attempt(s)
+✅ Created # 151
+🏠 Processing property 155/771
+[2025-11-04 07:09:58] Attempt 1 of 3
+[2025-11-04 07:10:00] ✅ Success (HTTP 200) in 2.25s
+✅ Success after 1 attempt(s)
+✅ Created # 152
+🏠 Processing property 156/771
+[2025-11-04 07:10:03] Attempt 1 of 3
+[2025-11-04 07:10:05] ✅ Success (HTTP 200) in 2.21s
+✅ Success after 1 attempt(s)
+✅ Created # 153
+🏠 Processing property 157/771
+[2025-11-04 07:10:07] Attempt 1 of 3
+[2025-11-04 07:10:09] ✅ Success (HTTP 200) in 2.13s
+✅ Success after 1 attempt(s)
+✅ Created # 154
+🏠 Processing property 158/771
+[2025-11-04 07:10:12] Attempt 1 of 3
+[2025-11-04 07:10:13] ✅ Success (HTTP 200) in 1.4s
+✅ Success after 1 attempt(s)
+✅ Created # 155
+🏠 Processing property 159/771
+[2025-11-04 07:10:15] Attempt 1 of 3
+[2025-11-04 07:10:17] ✅ Success (HTTP 200) in 1.63s
+✅ Success after 1 attempt(s)
+✅ Created # 156
+🏠 Processing property 160/771
+[2025-11-04 07:10:19] Attempt 1 of 3
+[2025-11-04 07:10:23] ✅ Success (HTTP 200) in 3.56s
+✅ Success after 1 attempt(s)
+✅ Created # 157
+🏠 Processing property 161/771
+[2025-11-04 07:10:26] Attempt 1 of 3
+[2025-11-04 07:10:28] ✅ Success (HTTP 200) in 1.88s
+✅ Success after 1 attempt(s)
+✅ Created # 158
+🏠 Processing property 162/771
+[2025-11-04 07:10:31] Attempt 1 of 3
+[2025-11-04 07:10:34] ✅ Success (HTTP 200) in 3.11s
+✅ Success after 1 attempt(s)
+✅ Created # 159
+🏠 Processing property 163/771
+[2025-11-04 07:10:38] Attempt 1 of 3
+[2025-11-04 07:10:41] ✅ Success (HTTP 200) in 2.91s
+✅ Success after 1 attempt(s)
+✅ Created # 160
+🏠 Processing property 164/771
+[2025-11-04 07:10:46] Attempt 1 of 3
+[2025-11-04 07:10:48] ✅ Success (HTTP 200) in 2.15s
+✅ Success after 1 attempt(s)
+✅ Created # 161
+🏠 Processing property 165/771
+[2025-11-04 07:10:50] Attempt 1 of 3
+[2025-11-04 07:10:52] ✅ Success (HTTP 200) in 2.07s
+✅ Success after 1 attempt(s)
+✅ Created # 162
+🏠 Processing property 166/771
+[2025-11-04 07:10:56] Attempt 1 of 3
+[2025-11-04 07:10:58] ✅ Success (HTTP 200) in 2.17s
+✅ Success after 1 attempt(s)
+✅ Created # 163
+🏠 Processing property 167/771
+[2025-11-04 07:11:01] Attempt 1 of 3
+[2025-11-04 07:11:03] ✅ Success (HTTP 200) in 2.19s
+✅ Success after 1 attempt(s)
+✅ Created # 164
+🏠 Processing property 168/771
+[2025-11-04 07:11:06] Attempt 1 of 3
+[2025-11-04 07:11:08] ✅ Success (HTTP 200) in 2.25s
+✅ Success after 1 attempt(s)
+✅ Created # 165
+🏠 Processing property 169/771
+[2025-11-04 07:11:11] Attempt 1 of 3
+[2025-11-04 07:11:13] ✅ Success (HTTP 200) in 1.61s
+✅ Success after 1 attempt(s)
+✅ Created # 166
+🏠 Processing property 170/771
+[2025-11-04 07:11:15] Attempt 1 of 3
+[2025-11-04 07:11:16] ✅ Success (HTTP 200) in 1.63s
+✅ Success after 1 attempt(s)
+✅ Created # 167
+🏠 Processing property 171/771
+[2025-11-04 07:11:19] Attempt 1 of 3
+[2025-11-04 07:11:22] ✅ Success (HTTP 200) in 3.13s
+✅ Success after 1 attempt(s)
+✅ Created # 168
+🏠 Processing property 172/771
+[2025-11-04 07:11:24] Attempt 1 of 3
+[2025-11-04 07:11:27] ✅ Success (HTTP 200) in 2.5s
+✅ Success after 1 attempt(s)
+✅ Created # 169
+🏠 Processing property 173/771
+[2025-11-04 07:11:30] Attempt 1 of 3
+[2025-11-04 07:11:32] ✅ Success (HTTP 200) in 1.72s
+✅ Success after 1 attempt(s)
+✅ Created # 170
+🏠 Processing property 174/771
+[2025-11-04 07:11:36] Attempt 1 of 3
+[2025-11-04 07:11:38] ✅ Success (HTTP 200) in 1.63s
+✅ Success after 1 attempt(s)
+✅ Created # 171
+🏠 Processing property 175/771
+[2025-11-04 07:11:40] Attempt 1 of 3
+[2025-11-04 07:11:42] ✅ Success (HTTP 200) in 2.13s
+✅ Success after 1 attempt(s)
+✅ Created # 172
+🏠 Processing property 176/771
+[2025-11-04 07:11:44] Attempt 1 of 3
+[2025-11-04 07:11:47] ✅ Success (HTTP 200) in 2.15s
+✅ Success after 1 attempt(s)
+✅ Created # 173
+🏠 Processing property 177/771
+PositionStack API request failed for query: 12.8678125,100.8947344. Details: Unknown error
+[2025-11-04 07:11:58] Attempt 1 of 3
+[2025-11-04 07:12:00] ✅ Success (HTTP 200) in 2.07s
+✅ Success after 1 attempt(s)
+✅ Created # 174
+🏠 Processing property 178/771
+[2025-11-04 07:12:03] Attempt 1 of 3
+[2025-11-04 07:12:07] ✅ Success (HTTP 200) in 3.67s
+✅ Success after 1 attempt(s)
+✅ Created # 175
+🏠 Processing property 179/771
+[2025-11-04 07:12:09] Attempt 1 of 3
+[2025-11-04 07:12:12] ✅ Success (HTTP 200) in 2.45s
+✅ Success after 1 attempt(s)
+✅ Created # 176
+🏠 Processing property 180/771
+[2025-11-04 07:12:15] Attempt 1 of 3
+[2025-11-04 07:12:17] ✅ Success (HTTP 200) in 2.11s
+✅ Success after 1 attempt(s)
+✅ Created # 177
+🏠 Processing property 181/771
+[2025-11-04 07:12:20] Attempt 1 of 3
+[2025-11-04 07:12:22] ✅ Success (HTTP 200) in 2.19s
+✅ Success after 1 attempt(s)
+✅ Created # 178
+🏠 Processing property 182/771
+[2025-11-04 07:12:24] Attempt 1 of 3
+[2025-11-04 07:12:26] ✅ Success (HTTP 200) in 2.14s
+✅ Success after 1 attempt(s)
+✅ Created # 179
+🏠 Processing property 183/771
+[2025-11-04 07:12:28] Attempt 1 of 3
+[2025-11-04 07:12:30] ✅ Success (HTTP 200) in 2.13s
+✅ Success after 1 attempt(s)
+✅ Created # 180
+🏠 Processing property 184/771
+[2025-11-04 07:12:32] Attempt 1 of 3
+[2025-11-04 07:12:35] ✅ Success (HTTP 200) in 3.15s
+✅ Success after 1 attempt(s)
+✅ Created # 181
+🏠 Processing property 185/771
+[2025-11-04 07:12:37] Attempt 1 of 3
+[2025-11-04 07:12:38] ✅ Success (HTTP 200) in 1.53s
+✅ Success after 1 attempt(s)
+✅ Created # 182
+🏠 Processing property 186/771
+[2025-11-04 07:12:40] Attempt 1 of 3
+[2025-11-04 07:12:43] ✅ Success (HTTP 200) in 2.23s
+✅ Success after 1 attempt(s)
+✅ Created # 183
+🏠 Processing property 187/771
+[2025-11-04 07:12:44] Attempt 1 of 3
+[2025-11-04 07:12:47] ✅ Success (HTTP 200) in 2.19s
+✅ Success after 1 attempt(s)
+✅ Created # 184
+🏠 Processing property 188/771
+[2025-11-04 07:12:48] Attempt 1 of 3
+[2025-11-04 07:12:51] ✅ Success (HTTP 200) in 2.19s
+✅ Success after 1 attempt(s)
+✅ Created # 185
+🏠 Processing property 189/771
+[2025-11-04 07:12:53] Attempt 1 of 3
+[2025-11-04 07:12:55] ✅ Success (HTTP 200) in 2.4s
+✅ Success after 1 attempt(s)
+✅ Created # 186
+🏠 Processing property 190/771
+[2025-11-04 07:12:57] Attempt 1 of 3
+[2025-11-04 07:12:59] ✅ Success (HTTP 200) in 2.17s
+✅ Success after 1 attempt(s)
+✅ Created # 187
+🏠 Processing property 191/771
+[2025-11-04 07:13:01] Attempt 1 of 3
+[2025-11-04 07:13:03] ✅ Success (HTTP 200) in 2.07s
+✅ Success after 1 attempt(s)
+✅ Created # 188
+🏠 Processing property 192/771
+[2025-11-04 07:13:05] Attempt 1 of 3
+[2025-11-04 07:13:07] ✅ Success (HTTP 200) in 1.99s
+✅ Success after 1 attempt(s)
+✅ Created # 189
+🏠 Processing property 193/771
+[2025-11-04 07:13:09] Attempt 1 of 3
+[2025-11-04 07:13:10] ✅ Success (HTTP 200) in 1.77s
+✅ Success after 1 attempt(s)
+✅ Created # 190
+🏠 Processing property 194/771
+[2025-11-04 07:13:12] Attempt 1 of 3
+[2025-11-04 07:13:14] ✅ Success (HTTP 200) in 1.83s
+✅ Success after 1 attempt(s)
+✅ Created # 191
+🏠 Processing property 195/771
+[2025-11-04 07:13:16] Attempt 1 of 3
+[2025-11-04 07:13:18] ✅ Success (HTTP 200) in 2.11s
+✅ Success after 1 attempt(s)
+✅ Created # 192
+🏠 Processing property 196/771
+[2025-11-04 07:13:20] Attempt 1 of 3
+[2025-11-04 07:13:23] ✅ Success (HTTP 200) in 2.75s
+✅ Success after 1 attempt(s)
+✅ Created # 193
+🏠 Processing property 197/771
+[2025-11-04 07:13:25] Attempt 1 of 3
+[2025-11-04 07:13:26] ✅ Success (HTTP 200) in 1.42s
+✅ Success after 1 attempt(s)
+✅ Created # 194
+🏠 Processing property 198/771
+[2025-11-04 07:13:28] Attempt 1 of 3
+[2025-11-04 07:13:30] ✅ Success (HTTP 200) in 1.64s
+✅ Success after 1 attempt(s)
+✅ Created # 195
+🏠 Processing property 199/771
+[2025-11-04 07:13:32] Attempt 1 of 3
+[2025-11-04 07:13:34] ✅ Success (HTTP 200) in 2.1s
+✅ Success after 1 attempt(s)
+✅ Created # 196
+🏠 Processing property 200/771
+[2025-11-04 07:13:36] Attempt 1 of 3
+[2025-11-04 07:13:38] ✅ Success (HTTP 200) in 2.43s
+✅ Success after 1 attempt(s)
+✅ Created # 197
+🏠 Processing property 201/771
+[2025-11-04 07:13:40] Attempt 1 of 3
+[2025-11-04 07:13:43] ✅ Success (HTTP 200) in 2.45s
+✅ Success after 1 attempt(s)
+✅ Created # 198
+🏠 Processing property 202/771
+[2025-11-04 07:13:45] Attempt 1 of 3
+[2025-11-04 07:13:47] ✅ Success (HTTP 200) in 2.04s
+✅ Success after 1 attempt(s)
+✅ Created # 199
+🏠 Processing property 203/771
+[2025-11-04 07:13:49] Attempt 1 of 3
+[2025-11-04 07:13:51] ✅ Success (HTTP 200) in 2.12s
+✅ Success after 1 attempt(s)
+✅ Created # 200
+🏠 Processing property 204/771
+[2025-11-04 07:13:52] Attempt 1 of 3
+[2025-11-04 07:13:54] ✅ Success (HTTP 200) in 2.04s
+✅ Success after 1 attempt(s)
+✅ Created # 201
+🏠 Processing property 205/771
+[2025-11-04 07:13:56] Attempt 1 of 3
+[2025-11-04 07:13:58] ✅ Success (HTTP 200) in 2.15s
+✅ Success after 1 attempt(s)
+✅ Created # 202
+🏠 Processing property 206/771
+[2025-11-04 07:14:00] Attempt 1 of 3
+[2025-11-04 07:14:02] ✅ Success (HTTP 200) in 1.93s
+✅ Success after 1 attempt(s)
+✅ Created # 203
+🏠 Processing property 207/771
+[2025-11-04 07:14:04] Attempt 1 of 3
+[2025-11-04 07:14:07] ✅ Success (HTTP 200) in 2.45s
+✅ Success after 1 attempt(s)
+✅ Created # 204
+🏠 Processing property 208/771
+[2025-11-04 07:14:09] Attempt 1 of 3
+[2025-11-04 07:14:11] ✅ Success (HTTP 200) in 2.52s
+✅ Success after 1 attempt(s)
+✅ Created # 205
+🏠 Processing property 209/771
+[2025-11-04 07:14:13] Attempt 1 of 3
+[2025-11-04 07:14:15] ✅ Success (HTTP 200) in 2.14s
+✅ Success after 1 attempt(s)
+✅ Created # 206
+🏠 Processing property 210/771
+[2025-11-04 07:14:17] Attempt 1 of 3
+[2025-11-04 07:14:19] ✅ Success (HTTP 200) in 2.03s
+✅ Success after 1 attempt(s)
+✅ Created # 207
+🏠 Processing property 211/771
+[2025-11-04 07:14:21] Attempt 1 of 3
+[2025-11-04 07:14:22] ✅ Success (HTTP 200) in 1.32s
+✅ Success after 1 attempt(s)
+✅ Created # 208
+🏠 Processing property 212/771
+[2025-11-04 07:14:24] Attempt 1 of 3
+[2025-11-04 07:14:26] ✅ Success (HTTP 200) in 1.52s
+✅ Success after 1 attempt(s)
+✅ Created # 209
+🏠 Processing property 213/771
+[2025-11-04 07:14:27] Attempt 1 of 3
+[2025-11-04 07:14:30] ✅ Success (HTTP 200) in 2.4s
+✅ Success after 1 attempt(s)
+✅ Created # 210
+🏠 Processing property 214/771
+[2025-11-04 07:14:32] Attempt 1 of 3
+[2025-11-04 07:14:34] ✅ Success (HTTP 200) in 1.83s
+✅ Success after 1 attempt(s)
+✅ Created # 211
+🏠 Processing property 215/771
+[2025-11-04 07:14:35] Attempt 1 of 3
+[2025-11-04 07:14:39] ✅ Success (HTTP 200) in 3.35s
+✅ Success after 1 attempt(s)
+✅ Created # 212
+🏠 Processing property 216/771
+[2025-11-04 07:14:41] Attempt 1 of 3
+[2025-11-04 07:14:42] ✅ Success (HTTP 200) in 1.5s
+✅ Success after 1 attempt(s)
+✅ Created # 213
+🏠 Processing property 217/771
+[2025-11-04 07:14:44] Attempt 1 of 3
+[2025-11-04 07:14:47] ✅ Success (HTTP 200) in 2.86s
+✅ Success after 1 attempt(s)
+✅ Created # 214
+🏠 Processing property 218/771
+[2025-11-04 07:14:49] Attempt 1 of 3
+[2025-11-04 07:14:51] ✅ Success (HTTP 200) in 2.17s
+✅ Success after 1 attempt(s)
+✅ Created # 215
+🏠 Processing property 219/771
+[2025-11-04 07:14:53] Attempt 1 of 3
+[2025-11-04 07:14:57] ✅ Success (HTTP 200) in 3.47s
+✅ Success after 1 attempt(s)
+✅ Created # 216
+🏠 Processing property 220/771
+[2025-11-04 07:14:58] Attempt 1 of 3
+[2025-11-04 07:15:01] ✅ Success (HTTP 200) in 2.12s
+✅ Success after 1 attempt(s)
+✅ Created # 217
+🏠 Processing property 221/771
+[2025-11-04 07:15:03] Attempt 1 of 3
+[2025-11-04 07:15:06] ✅ Success (HTTP 200) in 3.21s
+✅ Success after 1 attempt(s)
+✅ Created # 218
+🏠 Processing property 222/771
+[2025-11-04 07:15:08] Attempt 1 of 3
+[2025-11-04 07:15:10] ✅ Success (HTTP 200) in 2.14s
+✅ Success after 1 attempt(s)
+✅ Created # 219
+🏠 Processing property 223/771
+[2025-11-04 07:15:12] Attempt 1 of 3
+[2025-11-04 07:15:14] ✅ Success (HTTP 200) in 2.05s
+✅ Success after 1 attempt(s)
+✅ Created # 220
+🏠 Processing property 224/771
+[2025-11-04 07:15:16] Attempt 1 of 3
+[2025-11-04 07:15:18] ✅ Success (HTTP 200) in 2.16s
+✅ Success after 1 attempt(s)
+✅ Created # 221
+🏠 Processing property 225/771
+[2025-11-04 07:15:20] Attempt 1 of 3
+[2025-11-04 07:15:22] ✅ Success (HTTP 200) in 2.14s
+✅ Success after 1 attempt(s)
+✅ Created # 222
+🏠 Processing property 226/771
+[2025-11-04 07:15:24] Attempt 1 of 3
+[2025-11-04 07:15:26] ✅ Success (HTTP 200) in 2.19s
+✅ Success after 1 attempt(s)
+✅ Created # 223
+🏠 Processing property 227/771
+[2025-11-04 07:15:28] Attempt 1 of 3
+[2025-11-04 07:15:31] ✅ Success (HTTP 200) in 2.44s
+✅ Success after 1 attempt(s)
+✅ Created # 224
+🏠 Processing property 228/771
+[2025-11-04 07:15:33] Attempt 1 of 3
+[2025-11-04 07:15:35] ✅ Success (HTTP 200) in 2.14s
+✅ Success after 1 attempt(s)
+✅ Created # 225
+🏠 Processing property 229/771
+[2025-11-04 07:15:37] Attempt 1 of 3
+[2025-11-04 07:15:41] ✅ Success (HTTP 200) in 3.56s
+✅ Success after 1 attempt(s)
+✅ Created # 226
+🏠 Processing property 230/771
+[2025-11-04 07:15:42] Attempt 1 of 3
+[2025-11-04 07:15:44] ✅ Success (HTTP 200) in 2.03s
+✅ Success after 1 attempt(s)
+✅ Created # 227
+🏠 Processing property 231/771
+[2025-11-04 07:15:46] Attempt 1 of 3
+[2025-11-04 07:15:48] ✅ Success (HTTP 200) in 2.13s
+✅ Success after 1 attempt(s)
+✅ Created # 228
+🏠 Processing property 232/771
+[2025-11-04 07:15:50] Attempt 1 of 3
+[2025-11-04 07:15:52] ✅ Success (HTTP 200) in 2.07s
+✅ Success after 1 attempt(s)
+✅ Created # 229
+🏠 Processing property 233/771
+[2025-11-04 07:15:54] Attempt 1 of 3
+[2025-11-04 07:15:57] ✅ Success (HTTP 200) in 2.34s
+✅ Success after 1 attempt(s)
+✅ Created # 230
+🏠 Processing property 234/771
+[2025-11-04 07:15:59] Attempt 1 of 3
+[2025-11-04 07:16:01] ✅ Success (HTTP 200) in 2.18s
+✅ Success after 1 attempt(s)
+✅ Created # 231
+🏠 Processing property 235/771
+[2025-11-04 07:16:03] Attempt 1 of 3
+[2025-11-04 07:16:05] ✅ Success (HTTP 200) in 2.16s
+✅ Success after 1 attempt(s)
+✅ Created # 232
+🏠 Processing property 236/771
+[2025-11-04 07:16:07] Attempt 1 of 3
+[2025-11-04 07:16:09] ✅ Success (HTTP 200) in 2.18s
+✅ Success after 1 attempt(s)
+✅ Created # 233
+🏠 Processing property 237/771
+[2025-11-04 07:16:11] Attempt 1 of 3
+[2025-11-04 07:16:13] ✅ Success (HTTP 200) in 1.72s
+✅ Success after 1 attempt(s)
+✅ Created # 234
+🏠 Processing property 238/771
+[2025-11-04 07:16:15] Attempt 1 of 3
+[2025-11-04 07:16:18] ✅ Success (HTTP 200) in 3.57s
+✅ Success after 1 attempt(s)
+✅ Created # 235
+🏠 Processing property 239/771
+[2025-11-04 07:16:20] Attempt 1 of 3
+[2025-11-04 07:16:22] ✅ Success (HTTP 200) in 2.15s
+✅ Success after 1 attempt(s)
+✅ Created # 236
+🏠 Processing property 240/771
+[2025-11-04 07:16:24] Attempt 1 of 3
+[2025-11-04 07:16:26] ✅ Success (HTTP 200) in 1.38s
+✅ Success after 1 attempt(s)
+✅ Created # 237
+🏠 Processing property 241/771
+[2025-11-04 07:16:27] Attempt 1 of 3
+[2025-11-04 07:16:29] ✅ Success (HTTP 200) in 1.72s
+✅ Success after 1 attempt(s)
+✅ Created # 238
+🏠 Processing property 242/771
+[2025-11-04 07:16:31] Attempt 1 of 3
+[2025-11-04 07:16:33] ✅ Success (HTTP 200) in 2s
+✅ Success after 1 attempt(s)
+✅ Created # 239
+🏠 Processing property 243/771
+[2025-11-04 07:16:35] Attempt 1 of 3
+[2025-11-04 07:16:37] ✅ Success (HTTP 200) in 1.52s
+✅ Success after 1 attempt(s)
+✅ Created # 240
+🏠 Processing property 244/771
+[2025-11-04 07:16:38] Attempt 1 of 3
+[2025-11-04 07:16:41] ✅ Success (HTTP 200) in 2.19s
+✅ Success after 1 attempt(s)
+✅ Created # 241
+🏠 Processing property 245/771
+[2025-11-04 07:16:43] Attempt 1 of 3
+[2025-11-04 07:16:45] ✅ Success (HTTP 200) in 2.05s
+✅ Success after 1 attempt(s)
+✅ Created # 242
+🏠 Processing property 246/771
+[2025-11-04 07:16:47] Attempt 1 of 3
+[2025-11-04 07:16:49] ✅ Success (HTTP 200) in 2.44s
+✅ Success after 1 attempt(s)
+✅ Created # 243
+🏠 Processing property 247/771
+[2025-11-04 07:16:51] Attempt 1 of 3
+[2025-11-04 07:16:53] ✅ Success (HTTP 200) in 2.16s
+✅ Success after 1 attempt(s)
+✅ Created # 244
+🏠 Processing property 248/771
+[2025-11-04 07:16:55] Attempt 1 of 3
+[2025-11-04 07:16:58] ✅ Success (HTTP 200) in 2.5s
+✅ Success after 1 attempt(s)
+✅ Created # 245
+🏠 Processing property 249/771
+[2025-11-04 07:17:00] Attempt 1 of 3
+[2025-11-04 07:17:02] ✅ Success (HTTP 200) in 2.03s
+✅ Success after 1 attempt(s)
+✅ Created # 246
+🏠 Processing property 250/771
+[2025-11-04 07:17:04] Attempt 1 of 3
+[2025-11-04 07:17:07] ✅ Success (HTTP 200) in 3.16s
+✅ Success after 1 attempt(s)
+✅ Created # 247
+🏠 Processing property 251/771
+[2025-11-04 07:17:09] Attempt 1 of 3
+[2025-11-04 07:17:12] ✅ Success (HTTP 200) in 3.61s
+✅ Success after 1 attempt(s)
+✅ Created # 248
+🏠 Processing property 252/771
+[2025-11-04 07:17:14] Attempt 1 of 3
+[2025-11-04 07:17:16] ✅ Success (HTTP 200) in 1.97s
+✅ Success after 1 attempt(s)
+✅ Created # 249
+🏠 Processing property 253/771
+[2025-11-04 07:17:18] Attempt 1 of 3
+[2025-11-04 07:17:20] ✅ Success (HTTP 200) in 1.77s
+✅ Success after 1 attempt(s)
+✅ Created # 250
+🏠 Processing property 254/771
+PositionStack API request failed for query: 12.5200755,99.9761656. Details: Unknown error
+[2025-11-04 07:17:32] Attempt 1 of 3
+[2025-11-04 07:17:34] ✅ Success (HTTP 200) in 1.5s
+✅ Success after 1 attempt(s)
+✅ Created # 251
+🏠 Processing property 255/771
+[2025-11-04 07:17:36] Attempt 1 of 3
+[2025-11-04 07:17:38] ✅ Success (HTTP 200) in 1.53s
+✅ Success after 1 attempt(s)
+✅ Created # 252
+🏠 Processing property 256/771
+[2025-11-04 07:17:40] Attempt 1 of 3
+[2025-11-04 07:17:42] ✅ Success (HTTP 200) in 2.14s
+✅ Success after 1 attempt(s)
+✅ Created # 253
+🏠 Processing property 257/771
+[2025-11-04 07:17:45] Attempt 1 of 3
+[2025-11-04 07:17:47] ✅ Success (HTTP 200) in 2.2s
+✅ Success after 1 attempt(s)
+✅ Created # 254
+🏠 Processing property 258/771
+[2025-11-04 07:17:49] Attempt 1 of 3
+[2025-11-04 07:17:52] ✅ Success (HTTP 200) in 2.18s
+✅ Success after 1 attempt(s)
+✅ Created # 255
+🏠 Processing property 259/771
+[2025-11-04 07:17:54] Attempt 1 of 3
+[2025-11-04 07:17:56] ✅ Success (HTTP 200) in 1.96s
+✅ Success after 1 attempt(s)
+✅ Created # 256
+🏠 Processing property 260/771
+[2025-11-04 07:17:58] Attempt 1 of 3
+[2025-11-04 07:18:00] ✅ Success (HTTP 200) in 2.04s
+✅ Success after 1 attempt(s)
+✅ Created # 257
+🏠 Processing property 261/771
+[2025-11-04 07:18:03] Attempt 1 of 3
+[2025-11-04 07:18:05] ✅ Success (HTTP 200) in 2.16s
+✅ Success after 1 attempt(s)
+✅ Created # 258
+🏠 Processing property 262/771
+[2025-11-04 07:18:07] Attempt 1 of 3
+[2025-11-04 07:18:09] ✅ Success (HTTP 200) in 1.65s
+✅ Success after 1 attempt(s)
+✅ Created # 259
+🏠 Processing property 263/771
+[2025-11-04 07:18:11] Attempt 1 of 3
+[2025-11-04 07:18:12] ✅ Success (HTTP 200) in 1.44s
+✅ Success after 1 attempt(s)
+✅ Created # 260
+🏠 Processing property 264/771
+[2025-11-04 07:18:15] Attempt 1 of 3
+[2025-11-04 07:18:16] ✅ Success (HTTP 200) in 1.62s
+✅ Success after 1 attempt(s)
+✅ Created # 261
+🏠 Processing property 265/771
+[2025-11-04 07:18:19] Attempt 1 of 3
+[2025-11-04 07:18:21] ✅ Success (HTTP 200) in 2.4s
+✅ Success after 1 attempt(s)
+✅ Created # 262
+🏠 Processing property 266/771
+[2025-11-04 07:18:24] Attempt 1 of 3
+[2025-11-04 07:18:26] ✅ Success (HTTP 200) in 2.34s
+✅ Success after 1 attempt(s)
+✅ Created # 263
+🏠 Processing property 267/771
+[2025-11-04 07:18:29] Attempt 1 of 3
+[2025-11-04 07:18:30] ✅ Success (HTTP 200) in 1.42s
+✅ Success after 1 attempt(s)
+✅ Created # 264
+🏠 Processing property 268/771
+[2025-11-04 07:18:32] Attempt 1 of 3
+[2025-11-04 07:18:34] ✅ Success (HTTP 200) in 1.43s
+✅ Success after 1 attempt(s)
+✅ Created # 265
+🏠 Processing property 269/771
+[2025-11-04 07:18:37] Attempt 1 of 3
+[2025-11-04 07:18:38] ✅ Success (HTTP 200) in 1.53s
+✅ Success after 1 attempt(s)
+✅ Created # 266
+🏠 Processing property 270/771
+[2025-11-04 07:18:41] Attempt 1 of 3
+[2025-11-04 07:18:43] ✅ Success (HTTP 200) in 1.55s
+✅ Success after 1 attempt(s)
+✅ Created # 267
+🏠 Processing property 271/771
+[2025-11-04 07:18:46] Attempt 1 of 3
+[2025-11-04 07:18:49] ✅ Success (HTTP 200) in 2.71s
+✅ Success after 1 attempt(s)
+✅ Created # 268
+🏠 Processing property 272/771
+[2025-11-04 07:18:53] Attempt 1 of 3
+[2025-11-04 07:18:55] ✅ Success (HTTP 200) in 2.03s
+✅ Success after 1 attempt(s)
+✅ Created # 269
+🏠 Processing property 273/771
+[2025-11-04 07:18:59] Attempt 1 of 3
+[2025-11-04 07:19:01] ✅ Success (HTTP 200) in 1.93s
+✅ Success after 1 attempt(s)
+✅ Created # 270
+🏠 Processing property 274/771
+[2025-11-04 07:19:06] Attempt 1 of 3
+[2025-11-04 07:19:09] ✅ Success (HTTP 200) in 3.36s
+✅ Success after 1 attempt(s)
+✅ Created # 271
+🏠 Processing property 275/771
+[2025-11-04 07:19:12] Attempt 1 of 3
+[2025-11-04 07:19:13] ✅ Success (HTTP 200) in 1.42s
+✅ Success after 1 attempt(s)
+✅ Created # 272
+🏠 Processing property 276/771
+[2025-11-04 07:19:15] Attempt 1 of 3
+[2025-11-04 07:19:17] ✅ Success (HTTP 200) in 1.42s
+✅ Success after 1 attempt(s)
+✅ Created # 273
+🏠 Processing property 277/771
+[2025-11-04 07:19:19] Attempt 1 of 3
+[2025-11-04 07:19:21] ✅ Success (HTTP 200) in 1.43s
+✅ Success after 1 attempt(s)
+✅ Created # 274
+🏠 Processing property 278/771
+[2025-11-04 07:19:26] Attempt 1 of 3
+[2025-11-04 07:19:28] ✅ Success (HTTP 200) in 1.28s
+✅ Success after 1 attempt(s)
+✅ Created # 275
+🏠 Processing property 279/771
+[2025-11-04 07:19:30] Attempt 1 of 3
+[2025-11-04 07:19:31] ✅ Success (HTTP 200) in 1.42s
+✅ Success after 1 attempt(s)
+✅ Created # 276
+🏠 Processing property 280/771
+[2025-11-04 07:19:34] Attempt 1 of 3
+[2025-11-04 07:19:35] ✅ Success (HTTP 200) in 1.62s
+✅ Success after 1 attempt(s)
+✅ Created # 277
+🏠 Processing property 281/771
+[2025-11-04 07:19:38] Attempt 1 of 3
+[2025-11-04 07:19:40] ✅ Success (HTTP 200) in 2.14s
+✅ Success after 1 attempt(s)
+✅ Created # 278
+🏠 Processing property 282/771
+[2025-11-04 07:19:43] Attempt 1 of 3
+[2025-11-04 07:19:45] ✅ Success (HTTP 200) in 2.05s
+✅ Success after 1 attempt(s)
+✅ Created # 279
+🏠 Processing property 283/771
+[2025-11-04 07:19:47] Attempt 1 of 3
+[2025-11-04 07:19:49] ✅ Success (HTTP 200) in 2.13s
+✅ Success after 1 attempt(s)
+✅ Created # 280
+🏠 Processing property 284/771
+[2025-11-04 07:19:51] Attempt 1 of 3
+[2025-11-04 07:19:54] ✅ Success (HTTP 200) in 2.2s
+✅ Success after 1 attempt(s)
+✅ Created # 281
+🏠 Processing property 285/771
+[2025-11-04 07:19:58] Attempt 1 of 3
+[2025-11-04 07:20:00] ✅ Success (HTTP 200) in 2.15s
+✅ Success after 1 attempt(s)
+✅ Created # 282
+🏠 Processing property 286/771
+[2025-11-04 07:20:03] Attempt 1 of 3
+[2025-11-04 07:20:05] ✅ Success (HTTP 200) in 2.15s
+✅ Success after 1 attempt(s)
+✅ Created # 283
+🏠 Processing property 287/771
+[2025-11-04 07:20:08] Attempt 1 of 3
+[2025-11-04 07:20:10] ✅ Success (HTTP 200) in 2.35s
+✅ Success after 1 attempt(s)
+✅ Created # 284
+🏠 Processing property 288/771
+[2025-11-04 07:20:12] Attempt 1 of 3
+[2025-11-04 07:20:14] ✅ Success (HTTP 200) in 2.4s
+✅ Success after 1 attempt(s)
+✅ Created # 285
+🏠 Processing property 289/771
+[2025-11-04 07:20:17] Attempt 1 of 3
+[2025-11-04 07:20:21] ✅ Success (HTTP 200) in 3.67s
+✅ Success after 1 attempt(s)
+✅ Created # 286
+🏠 Processing property 290/771
+[2025-11-04 07:20:25] Attempt 1 of 3
+[2025-11-04 07:20:27] ✅ Success (HTTP 200) in 1.62s
+✅ Success after 1 attempt(s)
+✅ Created # 287
+🏠 Processing property 291/771
+[2025-11-04 07:20:29] Attempt 1 of 3
+[2025-11-04 07:20:31] ✅ Success (HTTP 200) in 1.86s
+✅ Success after 1 attempt(s)
+✅ Created # 288
+🏠 Processing property 292/771
+[2025-11-04 07:20:37] Attempt 1 of 3
+[2025-11-04 07:20:39] ✅ Success (HTTP 200) in 1.67s
+✅ Success after 1 attempt(s)
+✅ Created # 289
+🏠 Processing property 293/771
+[2025-11-04 07:20:42] Attempt 1 of 3
+[2025-11-04 07:20:44] ✅ Success (HTTP 200) in 2.15s
+✅ Success after 1 attempt(s)
+✅ Created # 290
+🏠 Processing property 294/771
+[2025-11-04 07:20:46] Attempt 1 of 3
+[2025-11-04 07:20:48] ✅ Success (HTTP 200) in 2.12s
+✅ Success after 1 attempt(s)
+✅ Created # 291
+🏠 Processing property 295/771
+❌ Skipping property with invalid type: Commercial
+🏠 Processing property 296/771
+[2025-11-04 07:20:51] Attempt 1 of 3
+[2025-11-04 07:20:53] ✅ Success (HTTP 200) in 2.16s
+✅ Success after 1 attempt(s)
+✅ Created # 292
+🏠 Processing property 297/771
+[2025-11-04 07:20:55] Attempt 1 of 3
+[2025-11-04 07:20:57] ✅ Success (HTTP 200) in 2.1s
+✅ Success after 1 attempt(s)
+✅ Created # 293
+🏠 Processing property 298/771
+[2025-11-04 07:20:59] Attempt 1 of 3
+[2025-11-04 07:21:02] ✅ Success (HTTP 200) in 2.45s
+✅ Success after 1 attempt(s)
+✅ Created # 294
+🏠 Processing property 299/771
+PositionStack API request failed for query: 12.91770306176498,100.8621407199213. Details: Unknown error
+[2025-11-04 07:21:13] Attempt 1 of 3
+[2025-11-04 07:21:14] ✅ Success (HTTP 200) in 1.5s
+✅ Success after 1 attempt(s)
+✅ Created # 295
+🏠 Processing property 300/771
+[2025-11-04 07:21:17] Attempt 1 of 3
+[2025-11-04 07:21:18] ✅ Success (HTTP 200) in 1.52s
+✅ Success after 1 attempt(s)
+✅ Created # 296
+🏠 Processing property 301/771
+[2025-11-04 07:21:22] Attempt 1 of 3
+[2025-11-04 07:21:23] ✅ Success (HTTP 200) in 1.64s
+✅ Success after 1 attempt(s)
+✅ Created # 297
+🏠 Processing property 302/771
+[2025-11-04 07:21:26] Attempt 1 of 3
+[2025-11-04 07:21:28] ✅ Success (HTTP 200) in 2.12s
+✅ Success after 1 attempt(s)
+✅ Created # 298
+🏠 Processing property 303/771
+[2025-11-04 07:21:30] Attempt 1 of 3
+[2025-11-04 07:21:32] ✅ Success (HTTP 200) in 2.04s
+✅ Success after 1 attempt(s)
+✅ Created # 299
+🏠 Processing property 304/771
+[2025-11-04 07:21:35] Attempt 1 of 3
+[2025-11-04 07:21:37] ✅ Success (HTTP 200) in 2.21s
+✅ Success after 1 attempt(s)
+✅ Created # 300
+🏠 Processing property 305/771
+PositionStack API request failed for query: 12.9190272,100.8694965. Details: Unknown error
+[2025-11-04 07:21:55] Attempt 1 of 3
+[2025-11-04 07:21:57] ✅ Success (HTTP 200) in 1.49s
+✅ Success after 1 attempt(s)
+✅ Created # 301
+🏠 Processing property 306/771
+[2025-11-04 07:21:59] Attempt 1 of 3
+[2025-11-04 07:22:01] ✅ Success (HTTP 200) in 1.67s
+✅ Success after 1 attempt(s)
+✅ Created # 302
+🏠 Processing property 307/771
+[2025-11-04 07:22:03] Attempt 1 of 3
+[2025-11-04 07:22:06] ✅ Success (HTTP 200) in 2.86s
+✅ Success after 1 attempt(s)
+✅ Created # 303
+🏠 Processing property 308/771
+[2025-11-04 07:22:12] Attempt 1 of 3
+[2025-11-04 07:22:14] ✅ Success (HTTP 200) in 1.37s
+✅ Success after 1 attempt(s)
+✅ Created # 304
+🏠 Processing property 309/771
+[2025-11-04 07:22:16] Attempt 1 of 3
+[2025-11-04 07:22:18] ✅ Success (HTTP 200) in 2.13s
+✅ Success after 1 attempt(s)
+✅ Created # 305
+🏠 Processing property 310/771
+[2025-11-04 07:22:20] Attempt 1 of 3
+[2025-11-04 07:22:22] ✅ Success (HTTP 200) in 1.48s
+✅ Success after 1 attempt(s)
+✅ Created # 306
+🏠 Processing property 311/771
+[2025-11-04 07:22:24] Attempt 1 of 3
+[2025-11-04 07:22:27] ✅ Success (HTTP 200) in 3.24s
+✅ Success after 1 attempt(s)
+✅ Created # 307
+🏠 Processing property 312/771
+[2025-11-04 07:22:29] Attempt 1 of 3
+[2025-11-04 07:22:32] ✅ Success (HTTP 200) in 2.73s
+✅ Success after 1 attempt(s)
+✅ Created # 308
+🏠 Processing property 313/771
+[2025-11-04 07:22:34] Attempt 1 of 3
+[2025-11-04 07:22:37] ✅ Success (HTTP 200) in 3.26s
+✅ Success after 1 attempt(s)
+✅ Created # 309
+🏠 Processing property 314/771
+[2025-11-04 07:22:40] Attempt 1 of 3
+[2025-11-04 07:22:41] ✅ Success (HTTP 200) in 1.42s
+✅ Success after 1 attempt(s)
+✅ Created # 310
+🏠 Processing property 315/771
+[2025-11-04 07:22:43] Attempt 1 of 3
+[2025-11-04 07:22:45] ✅ Success (HTTP 200) in 2.02s
+✅ Success after 1 attempt(s)
+✅ Created # 311
+🏠 Processing property 316/771
+[2025-11-04 07:22:47] Attempt 1 of 3
+[2025-11-04 07:22:49] ✅ Success (HTTP 200) in 2.03s
+✅ Success after 1 attempt(s)
+✅ Created # 312
+🏠 Processing property 317/771
+[2025-11-04 07:22:51] Attempt 1 of 3
+[2025-11-04 07:22:52] ✅ Success (HTTP 200) in 1.95s
+✅ Success after 1 attempt(s)
+✅ Created # 313
+🏠 Processing property 318/771
+[2025-11-04 07:22:54] Attempt 1 of 3
+[2025-11-04 07:22:56] ✅ Success (HTTP 200) in 1.96s
+✅ Success after 1 attempt(s)
+✅ Created # 314
+🏠 Processing property 319/771
+[2025-11-04 07:22:58] Attempt 1 of 3
+[2025-11-04 07:23:00] ✅ Success (HTTP 200) in 1.93s
+✅ Success after 1 attempt(s)
+✅ Created # 315
+🏠 Processing property 320/771
+[2025-11-04 07:23:01] Attempt 1 of 3
+[2025-11-04 07:23:04] ✅ Success (HTTP 200) in 2.03s
+✅ Success after 1 attempt(s)
+✅ Created # 316
+🏠 Processing property 321/771
+[2025-11-04 07:23:05] Attempt 1 of 3
+[2025-11-04 07:23:07] ✅ Success (HTTP 200) in 2.23s
+✅ Success after 1 attempt(s)
+✅ Created # 317
+🏠 Processing property 322/771
+[2025-11-04 07:23:09] Attempt 1 of 3
+[2025-11-04 07:23:11] ✅ Success (HTTP 200) in 1.82s
+✅ Success after 1 attempt(s)
+✅ Created # 318
+🏠 Processing property 323/771
+[2025-11-04 07:23:13] Attempt 1 of 3
+[2025-11-04 07:23:14] ✅ Success (HTTP 200) in 1.4s
+✅ Success after 1 attempt(s)
+✅ Created # 319
+🏠 Processing property 324/771
+[2025-11-04 07:23:16] Attempt 1 of 3
+[2025-11-04 07:23:19] ✅ Success (HTTP 200) in 2.92s
+✅ Success after 1 attempt(s)
+✅ Created # 320
+🏠 Processing property 325/771
+[2025-11-04 07:23:20] Attempt 1 of 3
+[2025-11-04 07:23:24] ✅ Success (HTTP 200) in 3.22s
+✅ Success after 1 attempt(s)
+✅ Created # 321
+🏠 Processing property 326/771
+[2025-11-04 07:23:25] Attempt 1 of 3
+[2025-11-04 07:23:26] ✅ Success (HTTP 200) in 1.32s
+✅ Success after 1 attempt(s)
+✅ Created # 322
+🏠 Processing property 327/771
+[2025-11-04 07:23:28] Attempt 1 of 3
+[2025-11-04 07:23:32] ✅ Success (HTTP 200) in 3.41s
+✅ Success after 1 attempt(s)
+✅ Created # 323
+🏠 Processing property 328/771
+[2025-11-04 07:23:33] Attempt 1 of 3
+[2025-11-04 07:23:35] ✅ Success (HTTP 200) in 1.96s
+✅ Success after 1 attempt(s)
+✅ Created # 324
+🏠 Processing property 329/771
+[2025-11-04 07:23:37] Attempt 1 of 3
+[2025-11-04 07:23:39] ✅ Success (HTTP 200) in 1.89s
+✅ Success after 1 attempt(s)
+✅ Created # 325
+🏠 Processing property 330/771
+[2025-11-04 07:23:41] Attempt 1 of 3
+[2025-11-04 07:23:42] ✅ Success (HTTP 200) in 1.76s
+✅ Success after 1 attempt(s)
+✅ Created # 326
+🏠 Processing property 331/771
+[2025-11-04 07:23:44] Attempt 1 of 3
+[2025-11-04 07:23:46] ✅ Success (HTTP 200) in 1.93s
+✅ Success after 1 attempt(s)
+✅ Created # 327
+🏠 Processing property 332/771
+[2025-11-04 07:23:48] Attempt 1 of 3
+[2025-11-04 07:23:50] ✅ Success (HTTP 200) in 1.93s
+✅ Success after 1 attempt(s)
+✅ Created # 328
+🏠 Processing property 333/771
+[2025-11-04 07:23:51] Attempt 1 of 3
+[2025-11-04 07:23:53] ✅ Success (HTTP 200) in 1.94s
+✅ Success after 1 attempt(s)
+✅ Created # 329
+🏠 Processing property 334/771
+[2025-11-04 07:23:55] Attempt 1 of 3
+[2025-11-04 07:23:57] ✅ Success (HTTP 200) in 1.95s
+✅ Success after 1 attempt(s)
+✅ Created # 330
+🏠 Processing property 335/771
+[2025-11-04 07:23:58] Attempt 1 of 3
+[2025-11-04 07:24:00] ✅ Success (HTTP 200) in 1.83s
+✅ Success after 1 attempt(s)
+✅ Created # 331
+🏠 Processing property 336/771
+[2025-11-04 07:24:02] Attempt 1 of 3
+[2025-11-04 07:24:04] ✅ Success (HTTP 200) in 1.86s
+✅ Success after 1 attempt(s)
+✅ Created # 332
+🏠 Processing property 337/771
+[2025-11-04 07:24:06] Attempt 1 of 3
+[2025-11-04 07:24:07] ✅ Success (HTTP 200) in 1.77s
+✅ Success after 1 attempt(s)
+✅ Created # 333
+🏠 Processing property 338/771
+[2025-11-04 07:24:09] Attempt 1 of 3
+[2025-11-04 07:24:12] ✅ Success (HTTP 200) in 2.5s
+✅ Success after 1 attempt(s)
+✅ Created # 334
+🏠 Processing property 339/771
+[2025-11-04 07:24:13] Attempt 1 of 3
+[2025-11-04 07:24:16] ✅ Success (HTTP 200) in 3.03s
+✅ Success after 1 attempt(s)
+✅ Created # 335
+🏠 Processing property 340/771
+[2025-11-04 07:24:18] Attempt 1 of 3
+[2025-11-04 07:24:20] ✅ Success (HTTP 200) in 1.63s
+✅ Success after 1 attempt(s)
+✅ Created # 336
+🏠 Processing property 341/771
+[2025-11-04 07:24:21] Attempt 1 of 3
+[2025-11-04 07:24:23] ✅ Success (HTTP 200) in 1.37s
+✅ Success after 1 attempt(s)
+✅ Created # 337
+🏠 Processing property 342/771
+[2025-11-04 07:24:24] Attempt 1 of 3
+[2025-11-04 07:24:27] ✅ Success (HTTP 200) in 2.76s
+✅ Success after 1 attempt(s)
+✅ Created # 338
+🏠 Processing property 343/771
+[2025-11-04 07:24:29] Attempt 1 of 3
+[2025-11-04 07:24:32] ✅ Success (HTTP 200) in 2.69s
+✅ Success after 1 attempt(s)
+✅ Created # 339
+🏠 Processing property 344/771
+[2025-11-04 07:24:33] Attempt 1 of 3
+[2025-11-04 07:24:37] ✅ Success (HTTP 200) in 3.56s
+✅ Success after 1 attempt(s)
+✅ Created # 340
+🏠 Processing property 345/771
+[2025-11-04 07:24:39] Attempt 1 of 3
+[2025-11-04 07:24:41] ✅ Success (HTTP 200) in 2.07s
+✅ Success after 1 attempt(s)
+✅ Created # 341
+🏠 Processing property 346/771
+[2025-11-04 07:24:42] Attempt 1 of 3
+[2025-11-04 07:24:44] ✅ Success (HTTP 200) in 1.85s
+✅ Success after 1 attempt(s)
+✅ Created # 342
+🏠 Processing property 347/771
+[2025-11-04 07:24:46] Attempt 1 of 3
+[2025-11-04 07:24:48] ✅ Success (HTTP 200) in 1.77s
+✅ Success after 1 attempt(s)
+✅ Created # 343
+🏠 Processing property 348/771
+[2025-11-04 07:24:49] Attempt 1 of 3
+[2025-11-04 07:24:51] ✅ Success (HTTP 200) in 1.78s
+✅ Success after 1 attempt(s)
+✅ Created # 344
+🏠 Processing property 349/771
+[2025-11-04 07:24:53] Attempt 1 of 3
+[2025-11-04 07:24:55] ✅ Success (HTTP 200) in 1.81s
+✅ Success after 1 attempt(s)
+✅ Created # 345
+🏠 Processing property 350/771
+[2025-11-04 07:24:56] Attempt 1 of 3
+[2025-11-04 07:24:58] ✅ Success (HTTP 200) in 1.81s
+✅ Success after 1 attempt(s)
+✅ Created # 346
+🏠 Processing property 351/771
+[2025-11-04 07:25:00] Attempt 1 of 3
+[2025-11-04 07:25:02] ✅ Success (HTTP 200) in 1.85s
+✅ Success after 1 attempt(s)
+✅ Created # 347
+🏠 Processing property 352/771
+[2025-11-04 07:25:03] Attempt 1 of 3
+[2025-11-04 07:25:07] ✅ Success (HTTP 200) in 3.34s
+✅ Success after 1 attempt(s)
+✅ Created # 348
+🏠 Processing property 353/771
+[2025-11-04 07:25:08] Attempt 1 of 3
+[2025-11-04 07:25:12] ✅ Success (HTTP 200) in 3.23s
+✅ Success after 1 attempt(s)
+✅ Created # 349
+🏠 Processing property 354/771
+[2025-11-04 07:25:13] Attempt 1 of 3
+[2025-11-04 07:25:17] ✅ Success (HTTP 200) in 3.25s
+✅ Success after 1 attempt(s)
+✅ Created # 350
+🏠 Processing property 355/771
+[2025-11-04 07:25:18] Attempt 1 of 3
+[2025-11-04 07:25:20] ✅ Success (HTTP 200) in 1.29s
+✅ Success after 1 attempt(s)
+✅ Created # 351
+🏠 Processing property 356/771
+[2025-11-04 07:25:21] Attempt 1 of 3
+[2025-11-04 07:25:23] ✅ Success (HTTP 200) in 1.39s
+✅ Success after 1 attempt(s)
+✅ Created # 352
+🏠 Processing property 357/771
+[2025-11-04 07:25:24] Attempt 1 of 3
+[2025-11-04 07:25:25] ✅ Success (HTTP 200) in 1.19s
+✅ Success after 1 attempt(s)
+✅ Created # 353
+🏠 Processing property 358/771
+[2025-11-04 07:25:27] Attempt 1 of 3
+[2025-11-04 07:25:28] ✅ Success (HTTP 200) in 1.28s
+✅ Success after 1 attempt(s)
+✅ Created # 354
+🏠 Processing property 359/771
+[2025-11-04 07:25:30] Attempt 1 of 3
+[2025-11-04 07:25:31] ✅ Success (HTTP 200) in 1.26s
+✅ Success after 1 attempt(s)
+✅ Created # 355
+🏠 Processing property 360/771
+[2025-11-04 07:25:33] Attempt 1 of 3
+[2025-11-04 07:25:34] ✅ Success (HTTP 200) in 1.17s
+✅ Success after 1 attempt(s)
+✅ Created # 356
+🏠 Processing property 361/771
+[2025-11-04 07:25:36] Attempt 1 of 3
+[2025-11-04 07:25:37] ✅ Success (HTTP 200) in 1.44s
+✅ Success after 1 attempt(s)
+✅ Created # 357
+🏠 Processing property 362/771
+[2025-11-04 07:25:39] Attempt 1 of 3
+[2025-11-04 07:25:41] ✅ Success (HTTP 200) in 1.94s
+✅ Success after 1 attempt(s)
+✅ Created # 358
+🏠 Processing property 363/771
+[2025-11-04 07:25:43] Attempt 1 of 3
+[2025-11-04 07:25:45] ✅ Success (HTTP 200) in 1.94s
+✅ Success after 1 attempt(s)
+✅ Created # 359
+🏠 Processing property 364/771
+[2025-11-04 07:25:46] Attempt 1 of 3
+[2025-11-04 07:25:48] ✅ Success (HTTP 200) in 1.82s
+✅ Success after 1 attempt(s)
+✅ Created # 360
+🏠 Processing property 365/771
+[2025-11-04 07:25:50] Attempt 1 of 3
+[2025-11-04 07:25:52] ✅ Success (HTTP 200) in 2.02s
+✅ Success after 1 attempt(s)
+✅ Created # 361
+🏠 Processing property 366/771
+[2025-11-04 07:25:54] Attempt 1 of 3
+[2025-11-04 07:25:55] ✅ Success (HTTP 200) in 1.81s
+✅ Success after 1 attempt(s)
+✅ Created # 362
+🏠 Processing property 367/771
+[2025-11-04 07:25:57] Attempt 1 of 3
+[2025-11-04 07:25:59] ✅ Success (HTTP 200) in 1.85s
+✅ Success after 1 attempt(s)
+✅ Created # 363
+🏠 Processing property 368/771
+[2025-11-04 07:26:01] Attempt 1 of 3
+[2025-11-04 07:26:03] ✅ Success (HTTP 200) in 1.86s
+✅ Success after 1 attempt(s)
+✅ Created # 364
+🏠 Processing property 369/771
+[2025-11-04 07:26:04] Attempt 1 of 3
+[2025-11-04 07:26:06] ✅ Success (HTTP 200) in 1.92s
+✅ Success after 1 attempt(s)
+✅ Created # 365
+🏠 Processing property 370/771
+[2025-11-04 07:26:08] Attempt 1 of 3
+[2025-11-04 07:26:10] ✅ Success (HTTP 200) in 1.46s
+✅ Success after 1 attempt(s)
+✅ Created # 366
+🏠 Processing property 371/771
+[2025-11-04 07:26:11] Attempt 1 of 3
+[2025-11-04 07:26:14] ✅ Success (HTTP 200) in 3.03s
+✅ Success after 1 attempt(s)
+✅ Created # 367
+🏠 Processing property 372/771
+[2025-11-04 07:26:18] Attempt 1 of 3
+[2025-11-04 07:26:19] ✅ Success (HTTP 200) in 1.57s
+✅ Success after 1 attempt(s)
+✅ Created # 368
+🏠 Processing property 373/771
+[2025-11-04 07:26:21] Attempt 1 of 3
+[2025-11-04 07:26:24] ✅ Success (HTTP 200) in 2.59s
+✅ Success after 1 attempt(s)
+✅ Created # 369
+🏠 Processing property 374/771
+[2025-11-04 07:26:25] Attempt 1 of 3
+[2025-11-04 07:26:29] ✅ Success (HTTP 200) in 3.41s
+✅ Success after 1 attempt(s)
+✅ Created # 370
+🏠 Processing property 375/771
+[2025-11-04 07:26:30] Attempt 1 of 3
+[2025-11-04 07:26:34] ✅ Success (HTTP 200) in 3.56s
+✅ Success after 1 attempt(s)
+✅ Created # 371
+🏠 Processing property 376/771
+[2025-11-04 07:26:36] Attempt 1 of 3
+[2025-11-04 07:26:38] ✅ Success (HTTP 200) in 2.69s
+✅ Success after 1 attempt(s)
+✅ Created # 372
+🏠 Processing property 377/771
+[2025-11-04 07:26:40] Attempt 1 of 3
+[2025-11-04 07:26:41] ✅ Success (HTTP 200) in 1.31s
+✅ Success after 1 attempt(s)
+✅ Created # 373
+🏠 Processing property 378/771
+[2025-11-04 07:26:43] Attempt 1 of 3
+[2025-11-04 07:26:45] ✅ Success (HTTP 200) in 1.98s
+✅ Success after 1 attempt(s)
+✅ Created # 374
+🏠 Processing property 379/771
+[2025-11-04 07:26:47] Attempt 1 of 3
+[2025-11-04 07:26:49] ✅ Success (HTTP 200) in 2.02s
+✅ Success after 1 attempt(s)
+✅ Created # 375
+🏠 Processing property 380/771
+[2025-11-04 07:26:50] Attempt 1 of 3
+[2025-11-04 07:26:52] ✅ Success (HTTP 200) in 1.9s
+✅ Success after 1 attempt(s)
+✅ Created # 376
+🏠 Processing property 381/771
+[2025-11-04 07:26:54] Attempt 1 of 3
+[2025-11-04 07:26:56] ✅ Success (HTTP 200) in 1.79s
+✅ Success after 1 attempt(s)
+✅ Created # 377
+🏠 Processing property 382/771
+[2025-11-04 07:26:57] Attempt 1 of 3
+[2025-11-04 07:26:59] ✅ Success (HTTP 200) in 1.87s
+✅ Success after 1 attempt(s)
+✅ Created # 378
+🏠 Processing property 383/771
+[2025-11-04 07:27:01] Attempt 1 of 3
+[2025-11-04 07:27:03] ✅ Success (HTTP 200) in 2.01s
+✅ Success after 1 attempt(s)
+✅ Created # 379
+🏠 Processing property 384/771
+[2025-11-04 07:27:05] Attempt 1 of 3
+[2025-11-04 07:27:08] ✅ Success (HTTP 200) in 3.33s
+✅ Success after 1 attempt(s)
+✅ Created # 380
+🏠 Processing property 385/771
+[2025-11-04 07:27:10] Attempt 1 of 3
+[2025-11-04 07:27:13] ✅ Success (HTTP 200) in 3.21s
+✅ Success after 1 attempt(s)
+✅ Created # 381
+🏠 Processing property 386/771
+[2025-11-04 07:27:15] Attempt 1 of 3
+[2025-11-04 07:27:16] ✅ Success (HTTP 200) in 1.17s
+✅ Success after 1 attempt(s)
+✅ Created # 382
+🏠 Processing property 387/771
+[2025-11-04 07:27:17] Attempt 1 of 3
+[2025-11-04 07:27:19] ✅ Success (HTTP 200) in 1.2s
+✅ Success after 1 attempt(s)
+✅ Created # 383
+🏠 Processing property 388/771
+[2025-11-04 07:27:20] Attempt 1 of 3
+[2025-11-04 07:27:22] ✅ Success (HTTP 200) in 1.28s
+✅ Success after 1 attempt(s)
+✅ Created # 384
+🏠 Processing property 389/771
+[2025-11-04 07:27:24] Attempt 1 of 3
+[2025-11-04 07:27:27] ✅ Success (HTTP 200) in 3.22s
+✅ Success after 1 attempt(s)
+✅ Created # 385
+🏠 Processing property 390/771
+[2025-11-04 07:27:29] Attempt 1 of 3
+[2025-11-04 07:27:31] ✅ Success (HTTP 200) in 1.26s
+✅ Success after 1 attempt(s)
+✅ Created # 386
+🏠 Processing property 391/771
+[2025-11-04 07:27:33] Attempt 1 of 3
+[2025-11-04 07:27:34] ✅ Success (HTTP 200) in 1.16s
+✅ Success after 1 attempt(s)
+✅ Created # 387
+🏠 Processing property 392/771
+[2025-11-04 07:27:36] Attempt 1 of 3
+[2025-11-04 07:27:38] ✅ Success (HTTP 200) in 1.3s
+✅ Success after 1 attempt(s)
+✅ Created # 388
+🏠 Processing property 393/771
+[2025-11-04 07:27:40] Attempt 1 of 3
+[2025-11-04 07:27:42] ✅ Success (HTTP 200) in 2.03s
+✅ Success after 1 attempt(s)
+✅ Created # 389
+🏠 Processing property 394/771
+[2025-11-04 07:27:44] Attempt 1 of 3
+[2025-11-04 07:27:46] ✅ Success (HTTP 200) in 2.01s
+✅ Success after 1 attempt(s)
+✅ Created # 390
+🏠 Processing property 395/771
+[2025-11-04 07:27:47] Attempt 1 of 3
+[2025-11-04 07:27:49] ✅ Success (HTTP 200) in 1.8s
+✅ Success after 1 attempt(s)
+✅ Created # 391
+🏠 Processing property 396/771
+[2025-11-04 07:27:52] Attempt 1 of 3
+[2025-11-04 07:27:53] ✅ Success (HTTP 200) in 1.9s
+✅ Success after 1 attempt(s)
+✅ Created # 392
+🏠 Processing property 397/771
+[2025-11-04 07:27:56] Attempt 1 of 3
+[2025-11-04 07:27:57] ✅ Success (HTTP 200) in 1.8s
+✅ Success after 1 attempt(s)
+✅ Created # 393
+🏠 Processing property 398/771
+[2025-11-04 07:27:59] Attempt 1 of 3
+[2025-11-04 07:28:01] ✅ Success (HTTP 200) in 1.99s
+✅ Success after 1 attempt(s)
+✅ Created # 394
+🏠 Processing property 399/771
+[2025-11-04 07:28:03] Attempt 1 of 3
+[2025-11-04 07:28:06] ✅ Success (HTTP 200) in 3.27s
+✅ Success after 1 attempt(s)
+✅ Created # 395
+🏠 Processing property 400/771
+[2025-11-04 07:28:09] Attempt 1 of 3
+[2025-11-04 07:28:10] ✅ Success (HTTP 200) in 1.45s
+✅ Success after 1 attempt(s)
+✅ Created # 396
+🏠 Processing property 401/771
+[2025-11-04 07:28:12] Attempt 1 of 3
+[2025-11-04 07:28:14] ✅ Success (HTTP 200) in 1.83s
+✅ Success after 1 attempt(s)
+✅ Created # 397
+🏠 Processing property 402/771
+[2025-11-04 07:28:16] Attempt 1 of 3
+[2025-11-04 07:28:18] ✅ Success (HTTP 200) in 1.87s
+✅ Success after 1 attempt(s)
+✅ Created # 398
+🏠 Processing property 403/771
+[2025-11-04 07:28:20] Attempt 1 of 3
+[2025-11-04 07:28:22] ✅ Success (HTTP 200) in 1.82s
+✅ Success after 1 attempt(s)
+✅ Created # 399
+🏠 Processing property 404/771
+[2025-11-04 07:28:24] Attempt 1 of 3
+[2025-11-04 07:28:26] ✅ Success (HTTP 200) in 1.98s
+✅ Success after 1 attempt(s)
+✅ Created # 400
+🏠 Processing property 405/771
+[2025-11-04 07:28:28] Attempt 1 of 3
+[2025-11-04 07:28:30] ✅ Success (HTTP 200) in 1.9s
+✅ Success after 1 attempt(s)
+✅ Created # 401
+🏠 Processing property 406/771
+[2025-11-04 07:28:32] Attempt 1 of 3
+[2025-11-04 07:28:36] ✅ Success (HTTP 200) in 3.12s
+✅ Success after 1 attempt(s)
+✅ Created # 402
+🏠 Processing property 407/771
+[2025-11-04 07:28:38] Attempt 1 of 3
+[2025-11-04 07:28:39] ✅ Success (HTTP 200) in 1.36s
+✅ Success after 1 attempt(s)
+✅ Created # 403
+🏠 Processing property 408/771
+[2025-11-04 07:28:41] Attempt 1 of 3
+[2025-11-04 07:28:43] ✅ Success (HTTP 200) in 1.86s
+✅ Success after 1 attempt(s)
+✅ Created # 404
+🏠 Processing property 409/771
+[2025-11-04 07:28:46] Attempt 1 of 3
+[2025-11-04 07:28:47] ✅ Success (HTTP 200) in 1.17s
+✅ Success after 1 attempt(s)
+✅ Created # 405
+🏠 Processing property 410/771
+[2025-11-04 07:28:49] Attempt 1 of 3
+[2025-11-04 07:28:50] ✅ Success (HTTP 200) in 1.31s
+✅ Success after 1 attempt(s)
+✅ Created # 406
+🏠 Processing property 411/771
+[2025-11-04 07:28:53] Attempt 1 of 3
+[2025-11-04 07:28:54] ✅ Success (HTTP 200) in 1.18s
+✅ Success after 1 attempt(s)
+✅ Created # 407
+🏠 Processing property 412/771
+[2025-11-04 07:28:56] Attempt 1 of 3
+[2025-11-04 07:28:57] ✅ Success (HTTP 200) in 1.27s
+✅ Success after 1 attempt(s)
+✅ Created # 408
+🏠 Processing property 413/771
+[2025-11-04 07:29:00] Attempt 1 of 3
+[2025-11-04 07:29:01] ✅ Success (HTTP 200) in 1.29s
+✅ Success after 1 attempt(s)
+✅ Created # 409
+🏠 Processing property 414/771
+[2025-11-04 07:29:03] Attempt 1 of 3
+[2025-11-04 07:29:05] ✅ Success (HTTP 200) in 1.48s
+✅ Success after 1 attempt(s)
+✅ Created # 410
+🏠 Processing property 415/771
+[2025-11-04 07:29:07] Attempt 1 of 3
+[2025-11-04 07:29:09] ✅ Success (HTTP 200) in 1.92s
+✅ Success after 1 attempt(s)
+✅ Created # 411
+🏠 Processing property 416/771
+[2025-11-04 07:29:11] Attempt 1 of 3
+[2025-11-04 07:29:13] ✅ Success (HTTP 200) in 2s
+✅ Success after 1 attempt(s)
+✅ Created # 412
+🏠 Processing property 417/771
+[2025-11-04 07:29:15] Attempt 1 of 3
+[2025-11-04 07:29:17] ✅ Success (HTTP 200) in 2.13s
+✅ Success after 1 attempt(s)
+✅ Created # 413
+🏠 Processing property 418/771
+[2025-11-04 07:29:20] Attempt 1 of 3
+[2025-11-04 07:29:21] ✅ Success (HTTP 200) in 1.8s
+✅ Success after 1 attempt(s)
+✅ Created # 414
+🏠 Processing property 419/771
+[2025-11-04 07:29:23] Attempt 1 of 3
+[2025-11-04 07:29:26] ✅ Success (HTTP 200) in 3.2s
+✅ Success after 1 attempt(s)
+✅ Created # 415
+🏠 Processing property 420/771
+[2025-11-04 07:29:29] Attempt 1 of 3
+[2025-11-04 07:29:30] ✅ Success (HTTP 200) in 1.25s
+✅ Success after 1 attempt(s)
+✅ Created # 416
+🏠 Processing property 421/771
+[2025-11-04 07:29:32] Attempt 1 of 3
+[2025-11-04 07:29:33] ✅ Success (HTTP 200) in 1.29s
+✅ Success after 1 attempt(s)
+✅ Created # 417
+🏠 Processing property 422/771
+[2025-11-04 07:29:35] Attempt 1 of 3
+[2025-11-04 07:29:37] ✅ Success (HTTP 200) in 2.1s
+✅ Success after 1 attempt(s)
+✅ Created # 418
+🏠 Processing property 423/771
+[2025-11-04 07:29:39] Attempt 1 of 3
+[2025-11-04 07:29:40] ✅ Success (HTTP 200) in 1.2s
+✅ Success after 1 attempt(s)
+✅ Created # 419
+🏠 Processing property 424/771
+[2025-11-04 07:29:43] Attempt 1 of 3
+[2025-11-04 07:29:44] ✅ Success (HTTP 200) in 1.26s
+✅ Success after 1 attempt(s)
+✅ Created # 420
+🏠 Processing property 425/771
+[2025-11-04 07:29:46] Attempt 1 of 3
+[2025-11-04 07:29:48] ✅ Success (HTTP 200) in 2.03s
+✅ Success after 1 attempt(s)
+✅ Created # 421
+🏠 Processing property 426/771
+[2025-11-04 07:29:50] Attempt 1 of 3
+[2025-11-04 07:29:52] ✅ Success (HTTP 200) in 2.03s
+✅ Success after 1 attempt(s)
+✅ Created # 422
+🏠 Processing property 427/771
+[2025-11-04 07:29:55] Attempt 1 of 3
+[2025-11-04 07:29:57] ✅ Success (HTTP 200) in 2.09s
+✅ Success after 1 attempt(s)
+✅ Created # 423
+🏠 Processing property 428/771
+[2025-11-04 07:29:59] Attempt 1 of 3
+[2025-11-04 07:30:01] ✅ Success (HTTP 200) in 2.15s
+✅ Success after 1 attempt(s)
+✅ Created # 424
+🏠 Processing property 429/771
+[2025-11-04 07:30:03] Attempt 1 of 3
+[2025-11-04 07:30:05] ✅ Success (HTTP 200) in 2.1s
+✅ Success after 1 attempt(s)
+✅ Created # 425
+🏠 Processing property 430/771
+[2025-11-04 07:30:07] Attempt 1 of 3
+[2025-11-04 07:30:09] ✅ Success (HTTP 200) in 1.98s
+✅ Success after 1 attempt(s)
+✅ Created # 426
+🏠 Processing property 431/771
+[2025-11-04 07:30:11] Attempt 1 of 3
+[2025-11-04 07:30:13] ✅ Success (HTTP 200) in 2.29s
+✅ Success after 1 attempt(s)
+✅ Created # 427
+🏠 Processing property 432/771
+[2025-11-04 07:30:16] Attempt 1 of 3
+[2025-11-04 07:30:17] ✅ Success (HTTP 200) in 1.39s
+✅ Success after 1 attempt(s)
+✅ Created # 428
+🏠 Processing property 433/771
+[2025-11-04 07:30:19] Attempt 1 of 3
+[2025-11-04 07:30:21] ✅ Success (HTTP 200) in 1.53s
+✅ Success after 1 attempt(s)
+✅ Created # 429
+🏠 Processing property 434/771
+[2025-11-04 07:30:23] Attempt 1 of 3
+[2025-11-04 07:30:25] ✅ Success (HTTP 200) in 1.36s
+✅ Success after 1 attempt(s)
+✅ Created # 430
+🏠 Processing property 435/771
+[2025-11-04 07:30:27] Attempt 1 of 3
+[2025-11-04 07:30:29] ✅ Success (HTTP 200) in 2.1s
+✅ Success after 1 attempt(s)
+✅ Created # 431
+🏠 Processing property 436/771
+[2025-11-04 07:30:31] Attempt 1 of 3
+[2025-11-04 07:30:33] ✅ Success (HTTP 200) in 2.07s
+✅ Success after 1 attempt(s)
+✅ Created # 432
+🏠 Processing property 437/771
+[2025-11-04 07:30:35] Attempt 1 of 3
+[2025-11-04 07:30:37] ✅ Success (HTTP 200) in 1.94s
+✅ Success after 1 attempt(s)
+✅ Created # 433
+🏠 Processing property 438/771
+[2025-11-04 07:30:40] Attempt 1 of 3
+[2025-11-04 07:30:42] ✅ Success (HTTP 200) in 2.03s
+✅ Success after 1 attempt(s)
+✅ Created # 434
+🏠 Processing property 439/771
+[2025-11-04 07:30:43] Attempt 1 of 3
+[2025-11-04 07:30:45] ✅ Success (HTTP 200) in 2.17s
+✅ Success after 1 attempt(s)
+✅ Created # 435
+🏠 Processing property 440/771
+[2025-11-04 07:30:48] Attempt 1 of 3
+[2025-11-04 07:30:50] ✅ Success (HTTP 200) in 2.42s
+✅ Success after 1 attempt(s)
+✅ Created # 436
+🏠 Processing property 441/771
+[2025-11-04 07:30:52] Attempt 1 of 3
+[2025-11-04 07:30:54] ✅ Success (HTTP 200) in 1.36s
+✅ Success after 1 attempt(s)
+✅ Created # 437
+🏠 Processing property 442/771
+[2025-11-04 07:30:56] Attempt 1 of 3
+[2025-11-04 07:30:58] ✅ Success (HTTP 200) in 1.73s
+✅ Success after 1 attempt(s)
+✅ Created # 438
+🏠 Processing property 443/771
+[2025-11-04 07:31:00] Attempt 1 of 3
+[2025-11-04 07:31:03] ✅ Success (HTTP 200) in 3.28s
+✅ Success after 1 attempt(s)
+✅ Created # 439
+🏠 Processing property 444/771
+[2025-11-04 07:31:05] Attempt 1 of 3
+[2025-11-04 07:31:07] ✅ Success (HTTP 200) in 1.63s
+✅ Success after 1 attempt(s)
+✅ Created # 440
+🏠 Processing property 445/771
+[2025-11-04 07:31:09] Attempt 1 of 3
+[2025-11-04 07:31:12] ✅ Success (HTTP 200) in 3.2s
+✅ Success after 1 attempt(s)
+✅ Created # 441
+🏠 Processing property 446/771
+[2025-11-04 07:31:14] Attempt 1 of 3
+[2025-11-04 07:31:16] ✅ Success (HTTP 200) in 1.4s
+✅ Success after 1 attempt(s)
+✅ Created # 442
+🏠 Processing property 447/771
+[2025-11-04 07:31:18] Attempt 1 of 3
+[2025-11-04 07:31:20] ✅ Success (HTTP 200) in 2.54s
+✅ Success after 1 attempt(s)
+✅ Created # 443
+🏠 Processing property 448/771
+[2025-11-04 07:31:23] Attempt 1 of 3
+[2025-11-04 07:31:25] ✅ Success (HTTP 200) in 2.68s
+✅ Success after 1 attempt(s)
+✅ Created # 444
+🏠 Processing property 449/771
+[2025-11-04 07:31:27] Attempt 1 of 3
+[2025-11-04 07:31:30] ✅ Success (HTTP 200) in 2.92s
+✅ Success after 1 attempt(s)
+✅ Created # 445
+🏠 Processing property 450/771
+[2025-11-04 07:31:32] Attempt 1 of 3
+[2025-11-04 07:31:35] ✅ Success (HTTP 200) in 2.39s
+✅ Success after 1 attempt(s)
+✅ Created # 446
+🏠 Processing property 451/771
+[2025-11-04 07:31:37] Attempt 1 of 3
+[2025-11-04 07:31:39] ✅ Success (HTTP 200) in 2.04s
+✅ Success after 1 attempt(s)
+✅ Created # 447
+🏠 Processing property 452/771
+[2025-11-04 07:31:41] Attempt 1 of 3
+[2025-11-04 07:31:43] ✅ Success (HTTP 200) in 2.02s
+✅ Success after 1 attempt(s)
+✅ Created # 448
+🏠 Processing property 453/771
+[2025-11-04 07:31:45] Attempt 1 of 3
+[2025-11-04 07:31:46] ⚠️ Server responded with HTTP 400 (Duration: 1.43s)
+[2025-11-04 07:31:46] Response: {"code":"properties_missing","message":"No properties provided","data":{"status":400}}
+[2025-11-04 07:31:46] ⏳ Retrying in 2 seconds...
+[2025-11-04 07:31:48] Attempt 2 of 3
+[2025-11-04 07:31:49] ⚠️ Server responded with HTTP 400 (Duration: 0.92s)
+[2025-11-04 07:31:49] Response: {"code":"properties_missing","message":"No properties provided","data":{"status":400}}
+[2025-11-04 07:31:49] ⏳ Retrying in 4 seconds...
+[2025-11-04 07:31:53] Attempt 3 of 3
+[2025-11-04 07:31:54] ⚠️ Server responded with HTTP 400 (Duration: 0.83s)
+[2025-11-04 07:31:54] Response: {"code":"properties_missing","message":"No properties provided","data":{"status":400}}
+[2025-11-04 07:31:54] ❌ All attempts failed. Last error: HTTP 400
+❌ Failed after 3 attempts. Last error: HTTP 400
+🏠 Processing property 454/771
+[2025-11-04 07:31:57] Attempt 1 of 3
+[2025-11-04 07:31:58] ✅ Success (HTTP 200) in 1.44s
+✅ Success after 1 attempt(s)
+✅ Created # 449
+🏠 Processing property 455/771
+[2025-11-04 07:32:01] Attempt 1 of 3
+[2025-11-04 07:32:04] ✅ Success (HTTP 200) in 3.44s
+✅ Success after 1 attempt(s)
+✅ Created # 450
+🏠 Processing property 456/771
+[2025-11-04 07:32:06] Attempt 1 of 3
+[2025-11-04 07:32:08] ✅ Success (HTTP 200) in 2.03s
+✅ Success after 1 attempt(s)
+✅ Created # 451
+🏠 Processing property 457/771
+[2025-11-04 07:32:10] Attempt 1 of 3
+[2025-11-04 07:32:12] ✅ Success (HTTP 200) in 1.74s
+✅ Success after 1 attempt(s)
+✅ Created # 452
+🏠 Processing property 458/771
+[2025-11-04 07:32:15] Attempt 1 of 3
+[2025-11-04 07:32:16] ✅ Success (HTTP 200) in 1.62s
+✅ Success after 1 attempt(s)
+✅ Created # 453
+🏠 Processing property 459/771
+[2025-11-04 07:32:18] Attempt 1 of 3
+[2025-11-04 07:32:21] ✅ Success (HTTP 200) in 2.46s
+✅ Success after 1 attempt(s)
+✅ Created # 454
+🏠 Processing property 460/771
+[2025-11-04 07:32:23] Attempt 1 of 3
+[2025-11-04 07:32:26] ✅ Success (HTTP 200) in 3.39s
+✅ Success after 1 attempt(s)
+✅ Created # 455
+🏠 Processing property 461/771
+[2025-11-04 07:32:29] Attempt 1 of 3
+[2025-11-04 07:32:32] ✅ Success (HTTP 200) in 3.34s
+✅ Success after 1 attempt(s)
+✅ Created # 456
+🏠 Processing property 462/771
+[2025-11-04 07:32:34] Attempt 1 of 3
+[2025-11-04 07:32:35] ✅ Success (HTTP 200) in 1.5s
+✅ Success after 1 attempt(s)
+✅ Created # 457
+🏠 Processing property 463/771
+[2025-11-04 07:32:37] Attempt 1 of 3
+[2025-11-04 07:32:39] ✅ Success (HTTP 200) in 2.13s
+✅ Success after 1 attempt(s)
+✅ Created # 458
+🏠 Processing property 464/771
+[2025-11-04 07:32:41] Attempt 1 of 3
+[2025-11-04 07:32:42] ✅ Success (HTTP 200) in 1.33s
+✅ Success after 1 attempt(s)
+✅ Created # 459
+🏠 Processing property 465/771
+[2025-11-04 07:32:44] Attempt 1 of 3
+[2025-11-04 07:32:47] ✅ Success (HTTP 200) in 3.35s
+✅ Success after 1 attempt(s)
+✅ Created # 460
+🏠 Processing property 466/771
+[2025-11-04 07:32:49] Attempt 1 of 3
+[2025-11-04 07:32:51] ✅ Success (HTTP 200) in 2.05s
+✅ Success after 1 attempt(s)
+✅ Created # 461
+🏠 Processing property 467/771
+[2025-11-04 07:32:53] Attempt 1 of 3
+[2025-11-04 07:32:56] ✅ Success (HTTP 200) in 2.83s
+✅ Success after 1 attempt(s)
+✅ Created # 462
+🏠 Processing property 468/771
+[2025-11-04 07:32:57] Attempt 1 of 3
+[2025-11-04 07:33:00] ✅ Success (HTTP 200) in 2.62s
+✅ Success after 1 attempt(s)
+✅ Created # 463
+🏠 Processing property 469/771
+[2025-11-04 07:33:02] Attempt 1 of 3
+[2025-11-04 07:33:03] ✅ Success (HTTP 200) in 1.32s
+✅ Success after 1 attempt(s)
+✅ Created # 464
+🏠 Processing property 470/771
+[2025-11-04 07:33:04] Attempt 1 of 3
+[2025-11-04 07:33:08] ✅ Success (HTTP 200) in 3.48s
+✅ Success after 1 attempt(s)
+✅ Created # 465
+🏠 Processing property 471/771
+[2025-11-04 07:33:10] Attempt 1 of 3
+[2025-11-04 07:33:13] ✅ Success (HTTP 200) in 2.88s
+✅ Success after 1 attempt(s)
+✅ Created # 466
+🏠 Processing property 472/771
+[2025-11-04 07:33:14] Attempt 1 of 3
+[2025-11-04 07:33:17] ✅ Success (HTTP 200) in 2.9s
+✅ Success after 1 attempt(s)
+✅ Created # 467
+🏠 Processing property 473/771
+[2025-11-04 07:33:19] Attempt 1 of 3
+[2025-11-04 07:33:21] ✅ Success (HTTP 200) in 2.58s
+✅ Success after 1 attempt(s)
+✅ Created # 468
+🏠 Processing property 474/771
+[2025-11-04 07:33:23] Attempt 1 of 3
+[2025-11-04 07:33:24] ✅ Success (HTTP 200) in 1.27s
+✅ Success after 1 attempt(s)
+✅ Created # 469
+🏠 Processing property 475/771
+[2025-11-04 07:33:26] Attempt 1 of 3
+[2025-11-04 07:33:29] ✅ Success (HTTP 200) in 2.83s
+✅ Success after 1 attempt(s)
+✅ Created # 470
+🏠 Processing property 476/771
+[2025-11-04 07:33:30] Attempt 1 of 3
+[2025-11-04 07:33:33] ✅ Success (HTTP 200) in 2.41s
+✅ Success after 1 attempt(s)
+✅ Created # 471
+🏠 Processing property 477/771
+[2025-11-04 07:33:35] Attempt 1 of 3
+[2025-11-04 07:33:37] ✅ Success (HTTP 200) in 2.94s
+✅ Success after 1 attempt(s)
+✅ Created # 472
+🏠 Processing property 478/771
+[2025-11-04 07:33:39] Attempt 1 of 3
+[2025-11-04 07:33:41] ✅ Success (HTTP 200) in 1.79s
+✅ Success after 1 attempt(s)
+✅ Created # 473
+🏠 Processing property 479/771
+[2025-11-04 07:33:43] Attempt 1 of 3
+[2025-11-04 07:33:45] ✅ Success (HTTP 200) in 2.02s
+✅ Success after 1 attempt(s)
+✅ Created # 474
+🏠 Processing property 480/771
+[2025-11-04 07:33:46] Attempt 1 of 3
+[2025-11-04 07:33:48] ✅ Success (HTTP 200) in 1.86s
+✅ Success after 1 attempt(s)
+✅ Created # 475
+🏠 Processing property 481/771
+[2025-11-04 07:33:50] Attempt 1 of 3
+[2025-11-04 07:33:52] ✅ Success (HTTP 200) in 1.93s
+✅ Success after 1 attempt(s)
+✅ Created # 476
+🏠 Processing property 482/771
+[2025-11-04 07:33:53] Attempt 1 of 3
+[2025-11-04 07:33:55] ✅ Success (HTTP 200) in 1.78s
+✅ Success after 1 attempt(s)
+✅ Created # 477
+🏠 Processing property 483/771
+[2025-11-04 07:33:57] Attempt 1 of 3
+[2025-11-04 07:33:59] ✅ Success (HTTP 200) in 1.93s
+✅ Success after 1 attempt(s)
+✅ Created # 478
+🏠 Processing property 484/771
+[2025-11-04 07:34:00] Attempt 1 of 3
+[2025-11-04 07:34:02] ✅ Success (HTTP 200) in 1.94s
+✅ Success after 1 attempt(s)
+✅ Created # 479
+🏠 Processing property 485/771
+[2025-11-04 07:34:04] Attempt 1 of 3
+[2025-11-04 07:34:07] ✅ Success (HTTP 200) in 3.32s
+✅ Success after 1 attempt(s)
+✅ Created # 480
+🏠 Processing property 486/771
+[2025-11-04 07:34:09] Attempt 1 of 3
+[2025-11-04 07:34:12] ✅ Success (HTTP 200) in 3.18s
+✅ Success after 1 attempt(s)
+✅ Created # 481
+🏠 Processing property 487/771
+[2025-11-04 07:34:14] Attempt 1 of 3
+[2025-11-04 07:34:15] ✅ Success (HTTP 200) in 1.15s
+✅ Success after 1 attempt(s)
+✅ Created # 482
+🏠 Processing property 488/771
+[2025-11-04 07:34:17] Attempt 1 of 3
+[2025-11-04 07:34:18] ✅ Success (HTTP 200) in 1.35s
+✅ Success after 1 attempt(s)
+✅ Created # 483
+🏠 Processing property 489/771
+[2025-11-04 07:34:20] Attempt 1 of 3
+[2025-11-04 07:34:24] ✅ Success (HTTP 200) in 3.24s
+✅ Success after 1 attempt(s)
+✅ Created # 484
+🏠 Processing property 490/771
+[2025-11-04 07:34:25] Attempt 1 of 3
+[2025-11-04 07:34:29] ✅ Success (HTTP 200) in 3.52s
+✅ Success after 1 attempt(s)
+✅ Created # 485
+🏠 Processing property 491/771
+[2025-11-04 07:34:30] Attempt 1 of 3
+[2025-11-04 07:34:34] ✅ Success (HTTP 200) in 3.26s
+✅ Success after 1 attempt(s)
+✅ Created # 486
+🏠 Processing property 492/771
+[2025-11-04 07:34:35] Attempt 1 of 3
+[2025-11-04 07:34:38] ✅ Success (HTTP 200) in 3.12s
+✅ Success after 1 attempt(s)
+✅ Created # 487
+🏠 Processing property 493/771
+[2025-11-04 07:34:40] Attempt 1 of 3
+[2025-11-04 07:34:42] ✅ Success (HTTP 200) in 2.21s
+✅ Success after 1 attempt(s)
+✅ Created # 488
+🏠 Processing property 494/771
+[2025-11-04 07:34:44] Attempt 1 of 3
+[2025-11-04 07:34:46] ✅ Success (HTTP 200) in 2.01s
+✅ Success after 1 attempt(s)
+✅ Created # 489
+🏠 Processing property 495/771
+[2025-11-04 07:34:48] Attempt 1 of 3
+[2025-11-04 07:34:50] ✅ Success (HTTP 200) in 2.03s
+✅ Success after 1 attempt(s)
+✅ Created # 490
+🏠 Processing property 496/771
+[2025-11-04 07:34:51] Attempt 1 of 3
+[2025-11-04 07:34:53] ✅ Success (HTTP 200) in 2.05s
+✅ Success after 1 attempt(s)
+✅ Created # 491
+🏠 Processing property 497/771
+[2025-11-04 07:34:55] Attempt 1 of 3
+[2025-11-04 07:34:57] ✅ Success (HTTP 200) in 1.85s
+✅ Success after 1 attempt(s)
+✅ Created # 492
+🏠 Processing property 498/771
+[2025-11-04 07:34:59] Attempt 1 of 3
+[2025-11-04 07:35:01] ✅ Success (HTTP 200) in 2.12s
+✅ Success after 1 attempt(s)
+✅ Created # 493
+🏠 Processing property 499/771
+[2025-11-04 07:35:03] Attempt 1 of 3
+[2025-11-04 07:35:04] ✅ Success (HTTP 200) in 1.89s
+✅ Success after 1 attempt(s)
+✅ Created # 494
+🏠 Processing property 500/771
+[2025-11-04 07:35:06] Attempt 1 of 3
+[2025-11-04 07:35:08] ✅ Success (HTTP 200) in 1.91s
+✅ Success after 1 attempt(s)
+✅ Created # 495
+🏠 Processing property 501/771
+[2025-11-04 07:35:10] Attempt 1 of 3
+[2025-11-04 07:35:11] ✅ Success (HTTP 200) in 1.35s
+✅ Success after 1 attempt(s)
+✅ Created # 496
+🏠 Processing property 502/771
+[2025-11-04 07:35:13] Attempt 1 of 3
+[2025-11-04 07:35:15] ✅ Success (HTTP 200) in 2.22s
+✅ Success after 1 attempt(s)
+✅ Created # 497
+🏠 Processing property 503/771
+[2025-11-04 07:35:17] Attempt 1 of 3
+[2025-11-04 07:35:19] ✅ Success (HTTP 200) in 1.97s
+✅ Success after 1 attempt(s)
+✅ Created # 498
+🏠 Processing property 504/771
+[2025-11-04 07:35:20] Attempt 1 of 3
+[2025-11-04 07:35:22] ✅ Success (HTTP 200) in 1.93s
+✅ Success after 1 attempt(s)
+✅ Created # 499
+🏠 Processing property 505/771
+[2025-11-04 07:35:24] Attempt 1 of 3
+[2025-11-04 07:35:26] ✅ Success (HTTP 200) in 2.08s
+✅ Success after 1 attempt(s)
+✅ Created # 500
+🏠 Processing property 506/771
+[2025-11-04 07:35:28] Attempt 1 of 3
+[2025-11-04 07:35:30] ✅ Success (HTTP 200) in 1.98s
+✅ Success after 1 attempt(s)
+✅ Created # 501
+🏠 Processing property 507/771
+❌ Skipping property with invalid type: Commercial
+🏠 Processing property 508/771
+[2025-11-04 07:35:31] Attempt 1 of 3
+[2025-11-04 07:35:33] ✅ Success (HTTP 200) in 2s
+✅ Success after 1 attempt(s)
+✅ Created # 502
+🏠 Processing property 509/771
+[2025-11-04 07:35:35] Attempt 1 of 3
+[2025-11-04 07:35:37] ✅ Success (HTTP 200) in 1.82s
+✅ Success after 1 attempt(s)
+✅ Created # 503
+🏠 Processing property 510/771
+[2025-11-04 07:35:39] Attempt 1 of 3
+[2025-11-04 07:35:41] ✅ Success (HTTP 200) in 2.18s
+✅ Success after 1 attempt(s)
+✅ Created # 504
+🏠 Processing property 511/771
+[2025-11-04 07:35:42] Attempt 1 of 3
+[2025-11-04 07:35:45] ✅ Success (HTTP 200) in 2.78s
+✅ Success after 1 attempt(s)
+✅ Created # 505
+🏠 Processing property 512/771
+[2025-11-04 07:35:47] Attempt 1 of 3
+[2025-11-04 07:35:49] ✅ Success (HTTP 200) in 1.95s
+✅ Success after 1 attempt(s)
+✅ Created # 506
+🏠 Processing property 513/771
+[2025-11-04 07:35:50] Attempt 1 of 3
+[2025-11-04 07:35:53] ✅ Success (HTTP 200) in 2.79s
+✅ Success after 1 attempt(s)
+✅ Created # 507
+🏠 Processing property 514/771
+[2025-11-04 07:35:55] Attempt 1 of 3
+[2025-11-04 07:35:58] ✅ Success (HTTP 200) in 2.63s
+✅ Success after 1 attempt(s)
+✅ Created # 508
+🏠 Processing property 515/771
+[2025-11-04 07:35:59] Attempt 1 of 3
+[2025-11-04 07:36:00] ✅ Success (HTTP 200) in 1.25s
+✅ Success after 1 attempt(s)
+✅ Created # 509
+🏠 Processing property 516/771
+[2025-11-04 07:36:02] Attempt 1 of 3
+[2025-11-04 07:36:04] ✅ Success (HTTP 200) in 1.33s
+✅ Success after 1 attempt(s)
+✅ Created # 510
+🏠 Processing property 517/771
+[2025-11-04 07:36:05] Attempt 1 of 3
+[2025-11-04 07:36:07] ✅ Success (HTTP 200) in 2.3s
+✅ Success after 1 attempt(s)
+✅ Created # 511
+🏠 Processing property 518/771
+[2025-11-04 07:36:09] Attempt 1 of 3
+[2025-11-04 07:36:10] ✅ Success (HTTP 200) in 1.17s
+✅ Success after 1 attempt(s)
+✅ Created # 512
+🏠 Processing property 519/771
+[2025-11-04 07:36:12] Attempt 1 of 3
+[2025-11-04 07:36:13] ✅ Success (HTTP 200) in 1.36s
+✅ Success after 1 attempt(s)
+✅ Created # 513
+🏠 Processing property 520/771
+[2025-11-04 07:36:15] Attempt 1 of 3
+[2025-11-04 07:36:17] ✅ Success (HTTP 200) in 1.96s
+✅ Success after 1 attempt(s)
+✅ Created # 514
+🏠 Processing property 521/771
+[2025-11-04 07:36:19] Attempt 1 of 3
+[2025-11-04 07:36:21] ✅ Success (HTTP 200) in 1.86s
+✅ Success after 1 attempt(s)
+✅ Created # 515
+🏠 Processing property 522/771
+[2025-11-04 07:36:22] Attempt 1 of 3
+[2025-11-04 07:36:24] ✅ Success (HTTP 200) in 2.17s
+✅ Success after 1 attempt(s)
+✅ Created # 516
+🏠 Processing property 523/771
+[2025-11-04 07:36:26] Attempt 1 of 3
+[2025-11-04 07:36:28] ✅ Success (HTTP 200) in 2.09s
+✅ Success after 1 attempt(s)
+✅ Created # 517
+🏠 Processing property 524/771
+[2025-11-04 07:36:30] Attempt 1 of 3
+[2025-11-04 07:36:32] ✅ Success (HTTP 200) in 1.92s
+✅ Success after 1 attempt(s)
+✅ Created # 518
+🏠 Processing property 525/771
+[2025-11-04 07:36:34] Attempt 1 of 3
+[2025-11-04 07:36:37] ✅ Success (HTTP 200) in 3.75s
+✅ Success after 1 attempt(s)
+✅ Created # 519
+🏠 Processing property 526/771
+[2025-11-04 07:36:39] Attempt 1 of 3
+[2025-11-04 07:36:41] ✅ Success (HTTP 200) in 1.87s
+✅ Success after 1 attempt(s)
+✅ Created # 520
+🏠 Processing property 527/771
+[2025-11-04 07:36:43] Attempt 1 of 3
+[2025-11-04 07:36:45] ✅ Success (HTTP 200) in 2.08s
+✅ Success after 1 attempt(s)
+✅ Created # 521
+🏠 Processing property 528/771
+[2025-11-04 07:36:46] Attempt 1 of 3
+[2025-11-04 07:36:48] ✅ Success (HTTP 200) in 1.92s
+✅ Success after 1 attempt(s)
+✅ Created # 522
+🏠 Processing property 529/771
+[2025-11-04 07:36:50] Attempt 1 of 3
+[2025-11-04 07:36:52] ✅ Success (HTTP 200) in 1.93s
+✅ Success after 1 attempt(s)
+✅ Created # 523
+🏠 Processing property 530/771
+[2025-11-04 07:36:53] Attempt 1 of 3
+[2025-11-04 07:36:56] ✅ Success (HTTP 200) in 2.05s
+✅ Success after 1 attempt(s)
+✅ Created # 524
+🏠 Processing property 531/771
+[2025-11-04 07:36:58] Attempt 1 of 3
+[2025-11-04 07:37:00] ✅ Success (HTTP 200) in 2.02s
+✅ Success after 1 attempt(s)
+✅ Created # 525
+🏠 Processing property 532/771
+[2025-11-04 07:37:01] Attempt 1 of 3
+[2025-11-04 07:37:04] ✅ Success (HTTP 200) in 2.35s
+✅ Success after 1 attempt(s)
+✅ Created # 526
+🏠 Processing property 533/771
+[2025-11-04 07:37:06] Attempt 1 of 3
+[2025-11-04 07:37:09] ✅ Success (HTTP 200) in 3.36s
+✅ Success after 1 attempt(s)
+✅ Created # 527
+🏠 Processing property 534/771
+[2025-11-04 07:37:11] Attempt 1 of 3
+[2025-11-04 07:37:14] ✅ Success (HTTP 200) in 3.3s
+✅ Success after 1 attempt(s)
+✅ Created # 528
+🏠 Processing property 535/771
+[2025-11-04 07:37:17] Attempt 1 of 3
+[2025-11-04 07:37:18] ✅ Success (HTTP 200) in 1.4s
+✅ Success after 1 attempt(s)
+✅ Created # 529
+🏠 Processing property 536/771
+[2025-11-04 07:37:20] Attempt 1 of 3
+[2025-11-04 07:37:23] ✅ Success (HTTP 200) in 3.27s
+✅ Success after 1 attempt(s)
+✅ Created # 530
+🏠 Processing property 537/771
+[2025-11-04 07:37:25] Attempt 1 of 3
+[2025-11-04 07:37:27] ✅ Success (HTTP 200) in 2.03s
+✅ Success after 1 attempt(s)
+✅ Created # 531
+🏠 Processing property 538/771
+[2025-11-04 07:37:29] Attempt 1 of 3
+[2025-11-04 07:37:32] ✅ Success (HTTP 200) in 2.7s
+✅ Success after 1 attempt(s)
+✅ Created # 532
+🏠 Processing property 539/771
+[2025-11-04 07:37:33] Attempt 1 of 3
+[2025-11-04 07:37:37] ✅ Success (HTTP 200) in 3.46s
+✅ Success after 1 attempt(s)
+✅ Created # 533
+🏠 Processing property 540/771
+[2025-11-04 07:37:39] Attempt 1 of 3
+[2025-11-04 07:37:41] ✅ Success (HTTP 200) in 1.98s
+✅ Success after 1 attempt(s)
+✅ Created # 534
+🏠 Processing property 541/771
+[2025-11-04 07:37:42] Attempt 1 of 3
+[2025-11-04 07:37:44] ✅ Success (HTTP 200) in 2.06s
+✅ Success after 1 attempt(s)
+✅ Created # 535
+🏠 Processing property 542/771
+[2025-11-04 07:37:46] Attempt 1 of 3
+[2025-11-04 07:37:48] ✅ Success (HTTP 200) in 1.94s
+✅ Success after 1 attempt(s)
+✅ Created # 536
+🏠 Processing property 543/771
+[2025-11-04 07:37:50] Attempt 1 of 3
+[2025-11-04 07:37:52] ✅ Success (HTTP 200) in 2.16s
+✅ Success after 1 attempt(s)
+✅ Created # 537
+🏠 Processing property 544/771
+[2025-11-04 07:37:54] Attempt 1 of 3
+[2025-11-04 07:37:56] ✅ Success (HTTP 200) in 2.03s
+✅ Success after 1 attempt(s)
+✅ Created # 538
+🏠 Processing property 545/771
+[2025-11-04 07:37:57] Attempt 1 of 3
+[2025-11-04 07:37:59] ✅ Success (HTTP 200) in 2.12s
+✅ Success after 1 attempt(s)
+✅ Created # 539
+🏠 Processing property 546/771
+[2025-11-04 07:38:01] Attempt 1 of 3
+[2025-11-04 07:38:03] ✅ Success (HTTP 200) in 1.91s
+✅ Success after 1 attempt(s)
+✅ Created # 540
+🏠 Processing property 547/771
+[2025-11-04 07:38:05] Attempt 1 of 3
+[2025-11-04 07:38:07] ✅ Success (HTTP 200) in 2.1s
+✅ Success after 1 attempt(s)
+✅ Created # 541
+🏠 Processing property 548/771
+[2025-11-04 07:38:09] Attempt 1 of 3
+[2025-11-04 07:38:11] ✅ Success (HTTP 200) in 2.6s
+✅ Success after 1 attempt(s)
+✅ Created # 542
+🏠 Processing property 549/771
+[2025-11-04 07:38:13] Attempt 1 of 3
+[2025-11-04 07:38:14] ✅ Success (HTTP 200) in 1.23s
+✅ Success after 1 attempt(s)
+✅ Created # 543
+🏠 Processing property 550/771
+[2025-11-04 07:38:16] Attempt 1 of 3
+[2025-11-04 07:38:17] ✅ Success (HTTP 200) in 1.45s
+✅ Success after 1 attempt(s)
+✅ Created # 544
+🏠 Processing property 551/771
+[2025-11-04 07:38:19] Attempt 1 of 3
+[2025-11-04 07:38:20] ✅ Success (HTTP 200) in 1.36s
+✅ Success after 1 attempt(s)
+✅ Created # 545
+🏠 Processing property 552/771
+[2025-11-04 07:38:22] Attempt 1 of 3
+[2025-11-04 07:38:23] ✅ Success (HTTP 200) in 1.39s
+✅ Success after 1 attempt(s)
+✅ Created # 546
+🏠 Processing property 553/771
+[2025-11-04 07:38:25] Attempt 1 of 3
+[2025-11-04 07:38:28] ✅ Success (HTTP 200) in 2.53s
+✅ Success after 1 attempt(s)
+✅ Created # 547
+🏠 Processing property 554/771
+[2025-11-04 07:38:29] Attempt 1 of 3
+[2025-11-04 07:38:32] ✅ Success (HTTP 200) in 2.64s
+✅ Success after 1 attempt(s)
+✅ Created # 548
+🏠 Processing property 555/771
+[2025-11-04 07:38:34] Attempt 1 of 3
+[2025-11-04 07:38:36] ✅ Success (HTTP 200) in 1.97s
+✅ Success after 1 attempt(s)
+✅ Created # 549
+🏠 Processing property 556/771
+[2025-11-04 07:38:37] Attempt 1 of 3
+[2025-11-04 07:38:39] ✅ Success (HTTP 200) in 1.88s
+✅ Success after 1 attempt(s)
+✅ Created # 550
+🏠 Processing property 557/771
+[2025-11-04 07:38:41] Attempt 1 of 3
+[2025-11-04 07:38:43] ✅ Success (HTTP 200) in 1.81s
+✅ Success after 1 attempt(s)
+✅ Created # 551
+🏠 Processing property 558/771
+[2025-11-04 07:38:45] Attempt 1 of 3
+[2025-11-04 07:38:46] ✅ Success (HTTP 200) in 1.74s
+✅ Success after 1 attempt(s)
+✅ Created # 552
+🏠 Processing property 559/771
+[2025-11-04 07:38:48] Attempt 1 of 3
+[2025-11-04 07:38:50] ✅ Success (HTTP 200) in 2.01s
+✅ Success after 1 attempt(s)
+✅ Created # 553
+🏠 Processing property 560/771
+[2025-11-04 07:38:52] Attempt 1 of 3
+[2025-11-04 07:38:54] ✅ Success (HTTP 200) in 1.9s
+✅ Success after 1 attempt(s)
+✅ Created # 554
+🏠 Processing property 561/771
+[2025-11-04 07:38:56] Attempt 1 of 3
+[2025-11-04 07:38:58] ✅ Success (HTTP 200) in 2.05s
+✅ Success after 1 attempt(s)
+✅ Created # 555
+🏠 Processing property 562/771
+[2025-11-04 07:38:59] Attempt 1 of 3
+[2025-11-04 07:39:01] ✅ Success (HTTP 200) in 1.98s
+✅ Success after 1 attempt(s)
+✅ Created # 556
+🏠 Processing property 563/771
+[2025-11-04 07:39:03] Attempt 1 of 3
+[2025-11-04 07:39:06] ✅ Success (HTTP 200) in 3.25s
+✅ Success after 1 attempt(s)
+✅ Created # 557
+🏠 Processing property 564/771
+[2025-11-04 07:39:08] Attempt 1 of 3
+[2025-11-04 07:39:10] ✅ Success (HTTP 200) in 2.14s
+✅ Success after 1 attempt(s)
+✅ Created # 558
+🏠 Processing property 565/771
+[2025-11-04 07:39:12] Attempt 1 of 3
+[2025-11-04 07:39:13] ✅ Success (HTTP 200) in 1.31s
+✅ Success after 1 attempt(s)
+✅ Created # 559
+🏠 Processing property 566/771
+[2025-11-04 07:39:15] Attempt 1 of 3
+[2025-11-04 07:39:17] ✅ Success (HTTP 200) in 1.78s
+✅ Success after 1 attempt(s)
+✅ Created # 560
+🏠 Processing property 567/771
+[2025-11-04 07:39:18] Attempt 1 of 3
+[2025-11-04 07:39:21] ✅ Success (HTTP 200) in 3.02s
+✅ Success after 1 attempt(s)
+✅ Created # 561
+🏠 Processing property 568/771
+[2025-11-04 07:39:23] Attempt 1 of 3
+[2025-11-04 07:39:24] ✅ Success (HTTP 200) in 1.19s
+✅ Success after 1 attempt(s)
+✅ Created # 562
+🏠 Processing property 569/771
+[2025-11-04 07:39:26] Attempt 1 of 3
+[2025-11-04 07:39:27] ✅ Success (HTTP 200) in 1.32s
+✅ Success after 1 attempt(s)
+✅ Created # 563
+🏠 Processing property 570/771
+[2025-11-04 07:39:29] Attempt 1 of 3
+[2025-11-04 07:39:32] ✅ Success (HTTP 200) in 3.34s
+✅ Success after 1 attempt(s)
+✅ Created # 564
+🏠 Processing property 571/771
+[2025-11-04 07:39:34] Attempt 1 of 3
+[2025-11-04 07:39:37] ✅ Success (HTTP 200) in 3.31s
+✅ Success after 1 attempt(s)
+✅ Created # 565
+🏠 Processing property 572/771
+[2025-11-04 07:39:39] Attempt 1 of 3
+[2025-11-04 07:39:41] ✅ Success (HTTP 200) in 1.47s
+✅ Success after 1 attempt(s)
+✅ Created # 566
+🏠 Processing property 573/771
+[2025-11-04 07:39:42] Attempt 1 of 3
+[2025-11-04 07:39:44] ✅ Success (HTTP 200) in 1.92s
+✅ Success after 1 attempt(s)
+✅ Created # 567
+🏠 Processing property 574/771
+[2025-11-04 07:39:46] Attempt 1 of 3
+[2025-11-04 07:39:48] ✅ Success (HTTP 200) in 2.03s
+✅ Success after 1 attempt(s)
+✅ Created # 568
+🏠 Processing property 575/771
+[2025-11-04 07:39:49] Attempt 1 of 3
+[2025-11-04 07:39:51] ✅ Success (HTTP 200) in 1.83s
+✅ Success after 1 attempt(s)
+✅ Created # 569
+🏠 Processing property 576/771
+[2025-11-04 07:39:53] Attempt 1 of 3
+[2025-11-04 07:39:55] ✅ Success (HTTP 200) in 1.79s
+✅ Success after 1 attempt(s)
+✅ Created # 570
+🏠 Processing property 577/771
+[2025-11-04 07:39:56] Attempt 1 of 3
+[2025-11-04 07:39:58] ✅ Success (HTTP 200) in 1.9s
+✅ Success after 1 attempt(s)
+✅ Created # 571
+🏠 Processing property 578/771
+[2025-11-04 07:40:00] Attempt 1 of 3
+[2025-11-04 07:40:02] ✅ Success (HTTP 200) in 2.19s
+✅ Success after 1 attempt(s)
+✅ Created # 572
+🏠 Processing property 579/771
+[2025-11-04 07:40:04] Attempt 1 of 3
+[2025-11-04 07:40:06] ✅ Success (HTTP 200) in 1.87s
+✅ Success after 1 attempt(s)
+✅ Created # 573
+🏠 Processing property 580/771
+[2025-11-04 07:40:07] Attempt 1 of 3
+[2025-11-04 07:40:10] ✅ Success (HTTP 200) in 2.38s
+✅ Success after 1 attempt(s)
+✅ Created # 574
+🏠 Processing property 581/771
+[2025-11-04 07:40:11] Attempt 1 of 3
+[2025-11-04 07:40:15] ✅ Success (HTTP 200) in 3.36s
+✅ Success after 1 attempt(s)
+✅ Created # 575
+🏠 Processing property 582/771
+[2025-11-04 07:40:17] Attempt 1 of 3
+[2025-11-04 07:40:20] ✅ Success (HTTP 200) in 3.08s
+✅ Success after 1 attempt(s)
+✅ Created # 576
+🏠 Processing property 583/771
+[2025-11-04 07:40:21] Attempt 1 of 3
+[2025-11-04 07:40:24] ✅ Success (HTTP 200) in 3.14s
+✅ Success after 1 attempt(s)
+✅ Created # 577
+🏠 Processing property 584/771
+[2025-11-04 07:40:26] Attempt 1 of 3
+[2025-11-04 07:40:27] ✅ Success (HTTP 200) in 1.19s
+✅ Success after 1 attempt(s)
+✅ Created # 578
+🏠 Processing property 585/771
+[2025-11-04 07:40:29] Attempt 1 of 3
+[2025-11-04 07:40:30] ✅ Success (HTTP 200) in 1.25s
+✅ Success after 1 attempt(s)
+✅ Created # 579
+🏠 Processing property 586/771
+[2025-11-04 07:40:32] Attempt 1 of 3
+[2025-11-04 07:40:33] ✅ Success (HTTP 200) in 1.18s
+✅ Success after 1 attempt(s)
+✅ Created # 580
+🏠 Processing property 587/771
+[2025-11-04 07:40:35] Attempt 1 of 3
+[2025-11-04 07:40:36] ✅ Success (HTTP 200) in 1.23s
+✅ Success after 1 attempt(s)
+✅ Created # 581
+🏠 Processing property 588/771
+[2025-11-04 07:40:38] Attempt 1 of 3
+[2025-11-04 07:40:39] ✅ Success (HTTP 200) in 1.23s
+✅ Success after 1 attempt(s)
+✅ Created # 582
+🏠 Processing property 589/771
+[2025-11-04 07:40:41] Attempt 1 of 3
+[2025-11-04 07:40:42] ✅ Success (HTTP 200) in 1.21s
+✅ Success after 1 attempt(s)
+✅ Created # 583
+🏠 Processing property 590/771
+[2025-11-04 07:40:43] Attempt 1 of 3
+[2025-11-04 07:40:45] ✅ Success (HTTP 200) in 1.47s
+✅ Success after 1 attempt(s)
+✅ Created # 584
+🏠 Processing property 591/771
+[2025-11-04 07:40:47] Attempt 1 of 3
+[2025-11-04 07:40:49] ✅ Success (HTTP 200) in 1.92s
+✅ Success after 1 attempt(s)
+✅ Created # 585
+🏠 Processing property 592/771
+[2025-11-04 07:40:50] Attempt 1 of 3
+[2025-11-04 07:40:52] ✅ Success (HTTP 200) in 1.99s
+✅ Success after 1 attempt(s)
+✅ Created # 586
+🏠 Processing property 593/771
+[2025-11-04 07:40:54] Attempt 1 of 3
+[2025-11-04 07:40:56] ✅ Success (HTTP 200) in 2s
+✅ Success after 1 attempt(s)
+✅ Created # 587
+🏠 Processing property 594/771
+[2025-11-04 07:40:58] Attempt 1 of 3
+[2025-11-04 07:40:59] ✅ Success (HTTP 200) in 1.89s
+✅ Success after 1 attempt(s)
+✅ Created # 588
+🏠 Processing property 595/771
+[2025-11-04 07:41:01] Attempt 1 of 3
+[2025-11-04 07:41:03] ✅ Success (HTTP 200) in 1.92s
+✅ Success after 1 attempt(s)
+✅ Created # 589
+🏠 Processing property 596/771
+[2025-11-04 07:41:05] Attempt 1 of 3
+[2025-11-04 07:41:07] ✅ Success (HTTP 200) in 2.11s
+✅ Success after 1 attempt(s)
+✅ Created # 590
+🏠 Processing property 597/771
+[2025-11-04 07:41:09] Attempt 1 of 3
+[2025-11-04 07:41:10] ✅ Success (HTTP 200) in 1.18s
+✅ Success after 1 attempt(s)
+✅ Created # 591
+🏠 Processing property 598/771
+[2025-11-04 07:41:11] Attempt 1 of 3
+[2025-11-04 07:41:13] ✅ Success (HTTP 200) in 1.22s
+✅ Success after 1 attempt(s)
+✅ Created # 592
+🏠 Processing property 599/771
+[2025-11-04 07:41:14] Attempt 1 of 3
+[2025-11-04 07:41:16] ✅ Success (HTTP 200) in 1.2s
+✅ Success after 1 attempt(s)
+✅ Created # 593
+🏠 Processing property 600/771
+[2025-11-04 07:41:17] Attempt 1 of 3
+[2025-11-04 07:41:19] ✅ Success (HTTP 200) in 1.34s
+✅ Success after 1 attempt(s)
+✅ Created # 594
+🏠 Processing property 601/771
+[2025-11-04 07:41:20] Attempt 1 of 3
+[2025-11-04 07:41:23] ✅ Success (HTTP 200) in 3.15s
+✅ Success after 1 attempt(s)
+✅ Created # 595
+🏠 Processing property 602/771
+[2025-11-04 07:41:25] Attempt 1 of 3
+[2025-11-04 07:41:26] ✅ Success (HTTP 200) in 1.36s
+✅ Success after 1 attempt(s)
+✅ Created # 596
+🏠 Processing property 603/771
+[2025-11-04 07:41:28] Attempt 1 of 3
+[2025-11-04 07:41:31] ✅ Success (HTTP 200) in 2.56s
+✅ Success after 1 attempt(s)
+✅ Created # 597
+🏠 Processing property 604/771
+[2025-11-04 07:41:32] Attempt 1 of 3
+[2025-11-04 07:41:35] ✅ Success (HTTP 200) in 2.59s
+✅ Success after 1 attempt(s)
+✅ Created # 598
+🏠 Processing property 605/771
+[2025-11-04 07:41:37] Attempt 1 of 3
+[2025-11-04 07:41:38] ✅ Success (HTTP 200) in 1.34s
+✅ Success after 1 attempt(s)
+✅ Created # 599
+🏠 Processing property 606/771
+[2025-11-04 07:41:40] Attempt 1 of 3
+[2025-11-04 07:41:42] ✅ Success (HTTP 200) in 1.87s
+✅ Success after 1 attempt(s)
+✅ Created # 600
+🏠 Processing property 607/771
+[2025-11-04 07:41:43] Attempt 1 of 3
+[2025-11-04 07:41:45] ⚠️ Server responded with HTTP 400 (Duration: 1.59s)
+[2025-11-04 07:41:45] Response: {"code":"properties_missing","message":"No properties provided","data":{"status":400}}
+[2025-11-04 07:41:45] ⏳ Retrying in 2 seconds...
+[2025-11-04 07:41:47] Attempt 2 of 3
+[2025-11-04 07:41:48] ⚠️ Server responded with HTTP 400 (Duration: 1.4s)
+[2025-11-04 07:41:48] Response: {"code":"properties_missing","message":"No properties provided","data":{"status":400}}
+[2025-11-04 07:41:48] ⏳ Retrying in 4 seconds...
+[2025-11-04 07:41:52] Attempt 3 of 3
+[2025-11-04 07:41:54] ⚠️ Server responded with HTTP 400 (Duration: 1.55s)
+[2025-11-04 07:41:54] Response: {"code":"properties_missing","message":"No properties provided","data":{"status":400}}
+[2025-11-04 07:41:54] ❌ All attempts failed. Last error: HTTP 400
+❌ Failed after 3 attempts. Last error: HTTP 400
+🏠 Processing property 608/771
+[2025-11-04 07:41:56] Attempt 1 of 3
+[2025-11-04 07:41:58] ✅ Success (HTTP 200) in 2.02s
+✅ Success after 1 attempt(s)
+✅ Created # 601
+🏠 Processing property 609/771
+[2025-11-04 07:41:59] Attempt 1 of 3
+[2025-11-04 07:42:01] ✅ Success (HTTP 200) in 1.92s
+✅ Success after 1 attempt(s)
+✅ Created # 602
+🏠 Processing property 610/771
+[2025-11-04 07:42:03] Attempt 1 of 3
+[2025-11-04 07:42:05] ✅ Success (HTTP 200) in 1.87s
+✅ Success after 1 attempt(s)
+✅ Created # 603
+🏠 Processing property 611/771
+[2025-11-04 07:42:07] Attempt 1 of 3
+[2025-11-04 07:42:08] ✅ Success (HTTP 200) in 1.59s
+✅ Success after 1 attempt(s)
+✅ Created # 604
+🏠 Processing property 612/771
+[2025-11-04 07:42:10] Attempt 1 of 3
+[2025-11-04 07:42:12] ✅ Success (HTTP 200) in 1.83s
+✅ Success after 1 attempt(s)
+✅ Created # 605
+🏠 Processing property 613/771
+[2025-11-04 07:42:13] Attempt 1 of 3
+[2025-11-04 07:42:15] ✅ Success (HTTP 200) in 1.44s
+✅ Success after 1 attempt(s)
+✅ Created # 606
+🏠 Processing property 614/771
+[2025-11-04 07:42:16] Attempt 1 of 3
+[2025-11-04 07:42:19] ✅ Success (HTTP 200) in 2.22s
+✅ Success after 1 attempt(s)
+✅ Created # 607
+🏠 Processing property 615/771
+[2025-11-04 07:42:20] Attempt 1 of 3
+[2025-11-04 07:42:22] ✅ Success (HTTP 200) in 1.28s
+✅ Success after 1 attempt(s)
+✅ Created # 608
+🏠 Processing property 616/771
+[2025-11-04 07:42:23] Attempt 1 of 3
+[2025-11-04 07:42:25] ✅ Success (HTTP 200) in 1.22s
+✅ Success after 1 attempt(s)
+✅ Created # 609
+🏠 Processing property 617/771
+[2025-11-04 07:42:26] Attempt 1 of 3
+[2025-11-04 07:42:27] ✅ Success (HTTP 200) in 1.23s
+✅ Success after 1 attempt(s)
+✅ Created # 610
+🏠 Processing property 618/771
+[2025-11-04 07:42:29] Attempt 1 of 3
+[2025-11-04 07:42:30] ✅ Success (HTTP 200) in 1.29s
+✅ Success after 1 attempt(s)
+✅ Created # 611
+🏠 Processing property 619/771
+[2025-11-04 07:42:32] Attempt 1 of 3
+[2025-11-04 07:42:36] ✅ Success (HTTP 200) in 3.46s
+✅ Success after 1 attempt(s)
+✅ Created # 612
+🏠 Processing property 620/771
+[2025-11-04 07:42:38] Attempt 1 of 3
+[2025-11-04 07:42:39] ✅ Success (HTTP 200) in 1.43s
+✅ Success after 1 attempt(s)
+✅ Created # 613
+🏠 Processing property 621/771
+[2025-11-04 07:42:42] Attempt 1 of 3
+[2025-11-04 07:42:43] ✅ Success (HTTP 200) in 1.31s
+✅ Success after 1 attempt(s)
+✅ Created # 614
+🏠 Processing property 622/771
+[2025-11-04 07:42:45] Attempt 1 of 3
+[2025-11-04 07:42:47] ✅ Success (HTTP 200) in 1.33s
+✅ Success after 1 attempt(s)
+✅ Created # 615
+🏠 Processing property 623/771
+[2025-11-04 07:42:48] Attempt 1 of 3
+[2025-11-04 07:42:50] ✅ Success (HTTP 200) in 1.3s
+✅ Success after 1 attempt(s)
+✅ Created # 616
+🏠 Processing property 624/771
+[2025-11-04 07:42:52] Attempt 1 of 3
+[2025-11-04 07:42:54] ✅ Success (HTTP 200) in 1.93s
+✅ Success after 1 attempt(s)
+✅ Created # 617
+🏠 Processing property 625/771
+[2025-11-04 07:42:56] Attempt 1 of 3
+[2025-11-04 07:42:58] ✅ Success (HTTP 200) in 1.84s
+✅ Success after 1 attempt(s)
+✅ Created # 618
+🏠 Processing property 626/771
+[2025-11-04 07:43:00] Attempt 1 of 3
+[2025-11-04 07:43:02] ✅ Success (HTTP 200) in 1.92s
+✅ Success after 1 attempt(s)
+✅ Created # 619
+🏠 Processing property 627/771
+[2025-11-04 07:43:04] Attempt 1 of 3
+[2025-11-04 07:43:08] ✅ Success (HTTP 200) in 3.49s
+✅ Success after 1 attempt(s)
+✅ Created # 620
+🏠 Processing property 628/771
+[2025-11-04 07:43:10] Attempt 1 of 3
+[2025-11-04 07:43:12] ✅ Success (HTTP 200) in 2.18s
+✅ Success after 1 attempt(s)
+✅ Created # 621
+🏠 Processing property 629/771
+[2025-11-04 07:43:15] Attempt 1 of 3
+[2025-11-04 07:43:16] ✅ Success (HTTP 200) in 1.88s
+✅ Success after 1 attempt(s)
+✅ Created # 622
+🏠 Processing property 630/771
+[2025-11-04 07:43:19] Attempt 1 of 3
+[2025-11-04 07:43:20] ✅ Success (HTTP 200) in 1.41s
+✅ Success after 1 attempt(s)
+✅ Created # 623
+🏠 Processing property 631/771
+[2025-11-04 07:43:22] Attempt 1 of 3
+[2025-11-04 07:43:24] ✅ Success (HTTP 200) in 2.24s
+✅ Success after 1 attempt(s)
+✅ Created # 624
+🏠 Processing property 632/771
+[2025-11-04 07:43:26] Attempt 1 of 3
+[2025-11-04 07:43:29] ✅ Success (HTTP 200) in 2.95s
+✅ Success after 1 attempt(s)
+✅ Created # 625
+🏠 Processing property 633/771
+[2025-11-04 07:43:32] Attempt 1 of 3
+[2025-11-04 07:43:35] ✅ Success (HTTP 200) in 2.95s
+✅ Success after 1 attempt(s)
+✅ Created # 626
+🏠 Processing property 634/771
+[2025-11-04 07:43:37] Attempt 1 of 3
+[2025-11-04 07:43:38] ✅ Success (HTTP 200) in 1.59s
+✅ Success after 1 attempt(s)
+✅ Created # 627
+🏠 Processing property 635/771
+[2025-11-04 07:43:41] Attempt 1 of 3
+[2025-11-04 07:43:42] ✅ Success (HTTP 200) in 1.41s
+✅ Success after 1 attempt(s)
+✅ Created # 628
+🏠 Processing property 636/771
+[2025-11-04 07:43:44] Attempt 1 of 3
+[2025-11-04 07:43:46] ✅ Success (HTTP 200) in 1.57s
+✅ Success after 1 attempt(s)
+✅ Created # 629
+🏠 Processing property 637/771
+[2025-11-04 07:43:48] Attempt 1 of 3
+[2025-11-04 07:43:50] ✅ Success (HTTP 200) in 2.2s
+✅ Success after 1 attempt(s)
+✅ Created # 630
+🏠 Processing property 638/771
+[2025-11-04 07:43:52] Attempt 1 of 3
+[2025-11-04 07:43:54] ✅ Success (HTTP 200) in 2.3s
+✅ Success after 1 attempt(s)
+✅ Created # 631
+🏠 Processing property 639/771
+[2025-11-04 07:43:56] Attempt 1 of 3
+[2025-11-04 07:43:58] ✅ Success (HTTP 200) in 2.05s
+✅ Success after 1 attempt(s)
+✅ Created # 632
+🏠 Processing property 640/771
+[2025-11-04 07:44:00] Attempt 1 of 3
+[2025-11-04 07:44:03] ✅ Success (HTTP 200) in 2.21s
+✅ Success after 1 attempt(s)
+✅ Created # 633
+🏠 Processing property 641/771
+[2025-11-04 07:44:05] Attempt 1 of 3
+[2025-11-04 07:44:07] ✅ Success (HTTP 200) in 2.06s
+✅ Success after 1 attempt(s)
+✅ Created # 634
+🏠 Processing property 642/771
+[2025-11-04 07:44:09] Attempt 1 of 3
+[2025-11-04 07:44:10] ✅ Success (HTTP 200) in 1.2s
+✅ Success after 1 attempt(s)
+✅ Created # 635
+🏠 Processing property 643/771
+[2025-11-04 07:44:12] Attempt 1 of 3
+[2025-11-04 07:44:14] ✅ Success (HTTP 200) in 1.39s
+✅ Success after 1 attempt(s)
+✅ Created # 636
+🏠 Processing property 644/771
+[2025-11-04 07:44:16] Attempt 1 of 3
+[2025-11-04 07:44:19] ✅ Success (HTTP 200) in 2.41s
+✅ Success after 1 attempt(s)
+✅ Created # 637
+🏠 Processing property 645/771
+[2025-11-04 07:44:21] Attempt 1 of 3
+[2025-11-04 07:44:22] ✅ Success (HTTP 200) in 1.25s
+✅ Success after 1 attempt(s)
+✅ Created # 638
+🏠 Processing property 646/771
+[2025-11-04 07:44:24] Attempt 1 of 3
+[2025-11-04 07:44:26] ✅ Success (HTTP 200) in 1.26s
+✅ Success after 1 attempt(s)
+✅ Created # 639
+🏠 Processing property 647/771
+[2025-11-04 07:44:28] Attempt 1 of 3
+[2025-11-04 07:44:29] ✅ Success (HTTP 200) in 1.24s
+✅ Success after 1 attempt(s)
+✅ Created # 640
+🏠 Processing property 648/771
+[2025-11-04 07:44:31] Attempt 1 of 3
+[2025-11-04 07:44:33] ✅ Success (HTTP 200) in 1.24s
+✅ Success after 1 attempt(s)
+✅ Created # 641
+🏠 Processing property 649/771
+[2025-11-04 07:44:35] Attempt 1 of 3
+[2025-11-04 07:44:36] ⚠️ Server responded with HTTP 400 (Duration: 1s)
+[2025-11-04 07:44:36] Response: {"code":"properties_missing","message":"No properties provided","data":{"status":400}}
+[2025-11-04 07:44:36] ⏳ Retrying in 2 seconds...
+[2025-11-04 07:44:38] Attempt 2 of 3
+[2025-11-04 07:44:39] ⚠️ Server responded with HTTP 400 (Duration: 0.76s)
+[2025-11-04 07:44:39] Response: {"code":"properties_missing","message":"No properties provided","data":{"status":400}}
+[2025-11-04 07:44:39] ⏳ Retrying in 4 seconds...
+[2025-11-04 07:44:43] Attempt 3 of 3
+[2025-11-04 07:44:43] ⚠️ Server responded with HTTP 400 (Duration: 0.81s)
+[2025-11-04 07:44:43] Response: {"code":"properties_missing","message":"No properties provided","data":{"status":400}}
+[2025-11-04 07:44:43] ❌ All attempts failed. Last error: HTTP 400
+❌ Failed after 3 attempts. Last error: HTTP 400
+🏠 Processing property 650/771
+[2025-11-04 07:44:46] Attempt 1 of 3
+[2025-11-04 07:44:47] ✅ Success (HTTP 200) in 1.19s
+✅ Success after 1 attempt(s)
+✅ Created # 642
+🏠 Processing property 651/771
+[2025-11-04 07:44:51] Attempt 1 of 3
+[2025-11-04 07:44:52] ✅ Success (HTTP 200) in 1.4s
+✅ Success after 1 attempt(s)
+✅ Created # 643
+🏠 Processing property 652/771
+[2025-11-04 07:44:54] Attempt 1 of 3
+[2025-11-04 07:44:56] ✅ Success (HTTP 200) in 1.89s
+✅ Success after 1 attempt(s)
+✅ Created # 644
+🏠 Processing property 653/771
+[2025-11-04 07:44:58] Attempt 1 of 3
+[2025-11-04 07:45:01] ✅ Success (HTTP 200) in 2.25s
+✅ Success after 1 attempt(s)
+✅ Created # 645
+🏠 Processing property 654/771
+[2025-11-04 07:45:03] Attempt 1 of 3
+[2025-11-04 07:45:05] ✅ Success (HTTP 200) in 1.95s
+✅ Success after 1 attempt(s)
+✅ Created # 646
+🏠 Processing property 655/771
+[2025-11-04 07:45:07] Attempt 1 of 3
+[2025-11-04 07:45:11] ✅ Success (HTTP 200) in 3.2s
+✅ Success after 1 attempt(s)
+✅ Created # 647
+🏠 Processing property 656/771
+[2025-11-04 07:45:13] Attempt 1 of 3
+[2025-11-04 07:45:14] ✅ Success (HTTP 200) in 1.26s
+✅ Success after 1 attempt(s)
+✅ Created # 648
+🏠 Processing property 657/771
+[2025-11-04 07:45:16] Attempt 1 of 3
+[2025-11-04 07:45:18] ✅ Success (HTTP 200) in 1.28s
+✅ Success after 1 attempt(s)
+✅ Created # 649
+🏠 Processing property 658/771
+[2025-11-04 07:45:20] Attempt 1 of 3
+[2025-11-04 07:45:21] ✅ Success (HTTP 200) in 1.25s
+✅ Success after 1 attempt(s)
+✅ Created # 650
+🏠 Processing property 659/771
+[2025-11-04 07:45:24] Attempt 1 of 3
+[2025-11-04 07:45:25] ✅ Success (HTTP 200) in 1.51s
+✅ Success after 1 attempt(s)
+✅ Created # 651
+🏠 Processing property 660/771
+[2025-11-04 07:45:27] Attempt 1 of 3
+[2025-11-04 07:45:29] ✅ Success (HTTP 200) in 1.41s
+✅ Success after 1 attempt(s)
+✅ Created # 652
+🏠 Processing property 661/771
+[2025-11-04 07:45:31] Attempt 1 of 3
+[2025-11-04 07:45:32] ✅ Success (HTTP 200) in 1.42s
+✅ Success after 1 attempt(s)
+✅ Created # 653
+🏠 Processing property 662/771
+[2025-11-04 07:45:34] Attempt 1 of 3
+[2025-11-04 07:45:36] ✅ Success (HTTP 200) in 1.63s
+✅ Success after 1 attempt(s)
+✅ Created # 654
+🏠 Processing property 663/771
+[2025-11-04 07:45:38] Attempt 1 of 3
+[2025-11-04 07:45:39] ✅ Success (HTTP 200) in 1.4s
+✅ Success after 1 attempt(s)
+✅ Created # 655
+🏠 Processing property 664/771
+[2025-11-04 07:45:41] Attempt 1 of 3
+[2025-11-04 07:45:43] ✅ Success (HTTP 200) in 2.37s
+✅ Success after 1 attempt(s)
+✅ Created # 656
+🏠 Processing property 665/771
+[2025-11-04 07:45:45] Attempt 1 of 3
+[2025-11-04 07:45:47] ✅ Success (HTTP 200) in 1.96s
+✅ Success after 1 attempt(s)
+✅ Created # 657
+🏠 Processing property 666/771
+[2025-11-04 07:45:50] Attempt 1 of 3
+[2025-11-04 07:45:52] ✅ Success (HTTP 200) in 2.09s
+✅ Success after 1 attempt(s)
+✅ Created # 658
+🏠 Processing property 667/771
+[2025-11-04 07:45:54] Attempt 1 of 3
+[2025-11-04 07:45:56] ✅ Success (HTTP 200) in 1.91s
+✅ Success after 1 attempt(s)
+✅ Created # 659
+🏠 Processing property 668/771
+[2025-11-04 07:45:58] Attempt 1 of 3
+[2025-11-04 07:46:00] ✅ Success (HTTP 200) in 1.98s
+✅ Success after 1 attempt(s)
+✅ Created # 660
+🏠 Processing property 669/771
+[2025-11-04 07:46:02] Attempt 1 of 3
+[2025-11-04 07:46:05] ✅ Success (HTTP 200) in 3.4s
+✅ Success after 1 attempt(s)
+✅ Created # 661
+🏠 Processing property 670/771
+[2025-11-04 07:46:07] Attempt 1 of 3
+[2025-11-04 07:46:09] ✅ Success (HTTP 200) in 1.44s
+✅ Success after 1 attempt(s)
+✅ Created # 662
+🏠 Processing property 671/771
+[2025-11-04 07:46:11] Attempt 1 of 3
+[2025-11-04 07:46:12] ✅ Success (HTTP 200) in 1.47s
+✅ Success after 1 attempt(s)
+✅ Created # 663
+🏠 Processing property 672/771
+[2025-11-04 07:46:15] Attempt 1 of 3
+[2025-11-04 07:46:18] ✅ Success (HTTP 200) in 3.4s
+✅ Success after 1 attempt(s)
+✅ Created # 664
+🏠 Processing property 673/771
+[2025-11-04 07:46:20] Attempt 1 of 3
+[2025-11-04 07:46:23] ✅ Success (HTTP 200) in 3.2s
+✅ Success after 1 attempt(s)
+✅ Created # 665
+🏠 Processing property 674/771
+[2025-11-04 07:46:26] Attempt 1 of 3
+[2025-11-04 07:46:27] ✅ Success (HTTP 200) in 1.3s
+✅ Success after 1 attempt(s)
+✅ Created # 666
+🏠 Processing property 675/771
+[2025-11-04 07:46:29] Attempt 1 of 3
+[2025-11-04 07:46:31] ✅ Success (HTTP 200) in 1.5s
+✅ Success after 1 attempt(s)
+✅ Created # 667
+🏠 Processing property 676/771
+[2025-11-04 07:46:33] Attempt 1 of 3
+[2025-11-04 07:46:35] ✅ Success (HTTP 200) in 2.04s
+✅ Success after 1 attempt(s)
+✅ Created # 668
+🏠 Processing property 677/771
+[2025-11-04 07:46:37] Attempt 1 of 3
+[2025-11-04 07:46:39] ✅ Success (HTTP 200) in 2.01s
+✅ Success after 1 attempt(s)
+✅ Created # 669
+🏠 Processing property 678/771
+[2025-11-04 07:46:41] Attempt 1 of 3
+[2025-11-04 07:46:43] ✅ Success (HTTP 200) in 2.04s
+✅ Success after 1 attempt(s)
+✅ Created # 670
+🏠 Processing property 679/771
+[2025-11-04 07:46:45] Attempt 1 of 3
+[2025-11-04 07:46:47] ✅ Success (HTTP 200) in 1.89s
+✅ Success after 1 attempt(s)
+✅ Created # 671
+🏠 Processing property 680/771
+[2025-11-04 07:46:49] Attempt 1 of 3
+[2025-11-04 07:46:51] ✅ Success (HTTP 200) in 1.96s
+✅ Success after 1 attempt(s)
+✅ Created # 672
+🏠 Processing property 681/771
+[2025-11-04 07:46:53] Attempt 1 of 3
+[2025-11-04 07:46:55] ✅ Success (HTTP 200) in 1.83s
+✅ Success after 1 attempt(s)
+✅ Created # 673
+🏠 Processing property 682/771
+[2025-11-04 07:46:56] Attempt 1 of 3
+[2025-11-04 07:46:58] ✅ Success (HTTP 200) in 1.86s
+✅ Success after 1 attempt(s)
+✅ Created # 674
+🏠 Processing property 683/771
+[2025-11-04 07:47:00] Attempt 1 of 3
+[2025-11-04 07:47:02] ✅ Success (HTTP 200) in 2.02s
+✅ Success after 1 attempt(s)
+✅ Created # 675
+🏠 Processing property 684/771
+[2025-11-04 07:47:05] Attempt 1 of 3
+[2025-11-04 07:47:06] ✅ Success (HTTP 200) in 1.79s
+✅ Success after 1 attempt(s)
+✅ Created # 676
+🏠 Processing property 685/771
+[2025-11-04 07:47:08] Attempt 1 of 3
+[2025-11-04 07:47:11] ✅ Success (HTTP 200) in 2.66s
+✅ Success after 1 attempt(s)
+✅ Created # 677
+🏠 Processing property 686/771
+[2025-11-04 07:47:13] Attempt 1 of 3
+[2025-11-04 07:47:15] ✅ Success (HTTP 200) in 1.71s
+✅ Success after 1 attempt(s)
+✅ Created # 678
+🏠 Processing property 687/771
+[2025-11-04 07:47:17] Attempt 1 of 3
+[2025-11-04 07:47:18] ✅ Success (HTTP 200) in 1.25s
+✅ Success after 1 attempt(s)
+✅ Created # 679
+🏠 Processing property 688/771
+[2025-11-04 07:47:21] Attempt 1 of 3
+[2025-11-04 07:47:22] ✅ Success (HTTP 200) in 1.29s
+✅ Success after 1 attempt(s)
+✅ Created # 680
+🏠 Processing property 689/771
+[2025-11-04 07:47:24] Attempt 1 of 3
+[2025-11-04 07:47:27] ✅ Success (HTTP 200) in 2.47s
+✅ Success after 1 attempt(s)
+✅ Created # 681
+🏠 Processing property 690/771
+[2025-11-04 07:47:28] Attempt 1 of 3
+[2025-11-04 07:47:30] ✅ Success (HTTP 200) in 1.21s
+✅ Success after 1 attempt(s)
+✅ Created # 682
+🏠 Processing property 691/771
+[2025-11-04 07:47:31] Attempt 1 of 3
+[2025-11-04 07:47:32] ✅ Success (HTTP 200) in 1.26s
+✅ Success after 1 attempt(s)
+✅ Created # 683
+🏠 Processing property 692/771
+[2025-11-04 07:47:35] Attempt 1 of 3
+[2025-11-04 07:47:36] ✅ Success (HTTP 200) in 1.41s
+✅ Success after 1 attempt(s)
+✅ Created # 684
+🏠 Processing property 693/771
+[2025-11-04 07:47:38] Attempt 1 of 3
+[2025-11-04 07:47:40] ✅ Success (HTTP 200) in 1.92s
+✅ Success after 1 attempt(s)
+✅ Created # 685
+🏠 Processing property 694/771
+[2025-11-04 07:47:42] Attempt 1 of 3
+[2025-11-04 07:47:44] ✅ Success (HTTP 200) in 2.08s
+✅ Success after 1 attempt(s)
+✅ Created # 686
+🏠 Processing property 695/771
+[2025-11-04 07:47:46] Attempt 1 of 3
+[2025-11-04 07:47:48] ✅ Success (HTTP 200) in 1.89s
+✅ Success after 1 attempt(s)
+✅ Created # 687
+🏠 Processing property 696/771
+[2025-11-04 07:47:49] Attempt 1 of 3
+[2025-11-04 07:47:51] ✅ Success (HTTP 200) in 1.8s
+✅ Success after 1 attempt(s)
+✅ Created # 688
+🏠 Processing property 697/771
+[2025-11-04 07:47:53] Attempt 1 of 3
+[2025-11-04 07:47:55] ✅ Success (HTTP 200) in 1.86s
+✅ Success after 1 attempt(s)
+✅ Created # 689
+🏠 Processing property 698/771
+[2025-11-04 07:47:56] Attempt 1 of 3
+[2025-11-04 07:47:58] ✅ Success (HTTP 200) in 1.94s
+✅ Success after 1 attempt(s)
+✅ Created # 690
+🏠 Processing property 699/771
+[2025-11-04 07:48:00] Attempt 1 of 3
+[2025-11-04 07:48:02] ✅ Success (HTTP 200) in 2.01s
+✅ Success after 1 attempt(s)
+✅ Created # 691
+🏠 Processing property 700/771
+[2025-11-04 07:48:04] Attempt 1 of 3
+[2025-11-04 07:48:06] ✅ Success (HTTP 200) in 2.57s
+✅ Success after 1 attempt(s)
+✅ Created # 692
+🏠 Processing property 701/771
+[2025-11-04 07:48:08] Attempt 1 of 3
+[2025-11-04 07:48:10] ✅ Success (HTTP 200) in 2.32s
+✅ Success after 1 attempt(s)
+✅ Created # 693
+🏠 Processing property 702/771
+[2025-11-04 07:48:12] Attempt 1 of 3
+[2025-11-04 07:48:15] ✅ Success (HTTP 200) in 3.16s
+✅ Success after 1 attempt(s)
+✅ Created # 694
+🏠 Processing property 703/771
+[2025-11-04 07:48:17] Attempt 1 of 3
+[2025-11-04 07:48:18] ✅ Success (HTTP 200) in 1.18s
+✅ Success after 1 attempt(s)
+✅ Created # 695
+🏠 Processing property 704/771
+[2025-11-04 07:48:20] Attempt 1 of 3
+[2025-11-04 07:48:21] ✅ Success (HTTP 200) in 1.36s
+✅ Success after 1 attempt(s)
+✅ Created # 696
+🏠 Processing property 705/771
+[2025-11-04 07:48:23] Attempt 1 of 3
+[2025-11-04 07:48:26] ✅ Success (HTTP 200) in 3.04s
+✅ Success after 1 attempt(s)
+✅ Created # 697
+🏠 Processing property 706/771
+[2025-11-04 07:48:28] Attempt 1 of 3
+[2025-11-04 07:48:29] ✅ Success (HTTP 200) in 1.48s
+✅ Success after 1 attempt(s)
+✅ Created # 698
+🏠 Processing property 707/771
+[2025-11-04 07:48:31] Attempt 1 of 3
+[2025-11-04 07:48:32] ✅ Success (HTTP 200) in 1.64s
+✅ Success after 1 attempt(s)
+✅ Created # 699
+🏠 Processing property 708/771
+[2025-11-04 07:48:34] Attempt 1 of 3
+[2025-11-04 07:48:36] ✅ Success (HTTP 200) in 1.84s
+✅ Success after 1 attempt(s)
+✅ Created # 700
+🏠 Processing property 709/771
+[2025-11-04 07:48:38] Attempt 1 of 3
+[2025-11-04 07:48:39] ✅ Success (HTTP 200) in 1.38s
+✅ Success after 1 attempt(s)
+✅ Created # 701
+🏠 Processing property 710/771
+[2025-11-04 07:48:41] Attempt 1 of 3
+[2025-11-04 07:48:43] ✅ Success (HTTP 200) in 1.91s
+✅ Success after 1 attempt(s)
+✅ Created # 702
+🏠 Processing property 711/771
+[2025-11-04 07:48:44] Attempt 1 of 3
+[2025-11-04 07:48:47] ✅ Success (HTTP 200) in 2.13s
+✅ Success after 1 attempt(s)
+✅ Created # 703
+🏠 Processing property 712/771
+[2025-11-04 07:48:48] Attempt 1 of 3
+[2025-11-04 07:48:50] ✅ Success (HTTP 200) in 2.05s
+✅ Success after 1 attempt(s)
+✅ Created # 704
+🏠 Processing property 713/771
+[2025-11-04 07:48:52] Attempt 1 of 3
+[2025-11-04 07:48:54] ✅ Success (HTTP 200) in 1.9s
+✅ Success after 1 attempt(s)
+✅ Created # 705
+🏠 Processing property 714/771
+[2025-11-04 07:48:56] Attempt 1 of 3
+[2025-11-04 07:48:58] ✅ Success (HTTP 200) in 2.08s
+✅ Success after 1 attempt(s)
+✅ Created # 706
+🏠 Processing property 715/771
+[2025-11-04 07:48:59] Attempt 1 of 3
+[2025-11-04 07:49:02] ✅ Success (HTTP 200) in 2.05s
+✅ Success after 1 attempt(s)
+✅ Created # 707
+🏠 Processing property 716/771
+[2025-11-04 07:49:03] Attempt 1 of 3
+[2025-11-04 07:49:07] ✅ Success (HTTP 200) in 3.57s
+✅ Success after 1 attempt(s)
+✅ Created # 708
+🏠 Processing property 717/771
+[2025-11-04 07:49:08] Attempt 1 of 3
+[2025-11-04 07:49:10] ✅ Success (HTTP 200) in 1.24s
+✅ Success after 1 attempt(s)
+✅ Created # 709
+🏠 Processing property 718/771
+[2025-11-04 07:49:11] Attempt 1 of 3
+[2025-11-04 07:49:13] ✅ Success (HTTP 200) in 1.31s
+✅ Success after 1 attempt(s)
+✅ Created # 710
+🏠 Processing property 719/771
+[2025-11-04 07:49:14] Attempt 1 of 3
+[2025-11-04 07:49:17] ✅ Success (HTTP 200) in 2.32s
+✅ Success after 1 attempt(s)
+✅ Created # 711
+🏠 Processing property 720/771
+[2025-11-04 07:49:18] Attempt 1 of 3
+[2025-11-04 07:49:21] ✅ Success (HTTP 200) in 2.7s
+✅ Success after 1 attempt(s)
+✅ Created # 712
+🏠 Processing property 721/771
+[2025-11-04 07:49:23] Attempt 1 of 3
+[2025-11-04 07:49:24] ✅ Success (HTTP 200) in 1.35s
+✅ Success after 1 attempt(s)
+✅ Created # 713
+🏠 Processing property 722/771
+[2025-11-04 07:49:26] Attempt 1 of 3
+[2025-11-04 07:49:27] ✅ Success (HTTP 200) in 1.54s
+✅ Success after 1 attempt(s)
+✅ Created # 714
+🏠 Processing property 723/771
+[2025-11-04 07:49:29] Attempt 1 of 3
+[2025-11-04 07:49:31] ✅ Success (HTTP 200) in 2.03s
+✅ Success after 1 attempt(s)
+✅ Created # 715
+🏠 Processing property 724/771
+[2025-11-04 07:49:33] Attempt 1 of 3
+[2025-11-04 07:49:36] ✅ Success (HTTP 200) in 2.75s
+✅ Success after 1 attempt(s)
+✅ Created # 716
+🏠 Processing property 725/771
+[2025-11-04 07:49:37] Attempt 1 of 3
+[2025-11-04 07:49:39] ✅ Success (HTTP 200) in 1.34s
+✅ Success after 1 attempt(s)
+✅ Created # 717
+🏠 Processing property 726/771
+[2025-11-04 07:49:40] Attempt 1 of 3
+[2025-11-04 07:49:41] ⚠️ Server responded with HTTP 400 (Duration: 0.82s)
+[2025-11-04 07:49:41] Response: {"code":"properties_missing","message":"No properties provided","data":{"status":400}}
+[2025-11-04 07:49:41] ⏳ Retrying in 2 seconds...
+[2025-11-04 07:49:43] Attempt 2 of 3
+[2025-11-04 07:49:44] ⚠️ Server responded with HTTP 400 (Duration: 0.89s)
+[2025-11-04 07:49:44] Response: {"code":"properties_missing","message":"No properties provided","data":{"status":400}}
+[2025-11-04 07:49:44] ⏳ Retrying in 4 seconds...
+[2025-11-04 07:49:48] Attempt 3 of 3
+[2025-11-04 07:49:49] ⚠️ Server responded with HTTP 400 (Duration: 0.86s)
+[2025-11-04 07:49:49] Response: {"code":"properties_missing","message":"No properties provided","data":{"status":400}}
+[2025-11-04 07:49:49] ❌ All attempts failed. Last error: HTTP 400
+❌ Failed after 3 attempts. Last error: HTTP 400
+🏠 Processing property 727/771
+[2025-11-04 07:49:51] Attempt 1 of 3
+[2025-11-04 07:49:52] ✅ Success (HTTP 200) in 1.27s
+✅ Success after 1 attempt(s)
+✅ Created # 718
+🏠 Processing property 728/771
+[2025-11-04 07:49:54] Attempt 1 of 3
+[2025-11-04 07:49:55] ✅ Success (HTTP 200) in 1.6s
+✅ Success after 1 attempt(s)
+✅ Created # 719
+🏠 Processing property 729/771
+[2025-11-04 07:49:57] Attempt 1 of 3
+[2025-11-04 07:49:59] ✅ Success (HTTP 200) in 1.92s
+✅ Success after 1 attempt(s)
+✅ Created # 720
+🏠 Processing property 730/771
+[2025-11-04 07:50:01] Attempt 1 of 3
+[2025-11-04 07:50:03] ✅ Success (HTTP 200) in 1.94s
+✅ Success after 1 attempt(s)
+✅ Created # 721
+🏠 Processing property 731/771
+[2025-11-04 07:50:04] Attempt 1 of 3
+[2025-11-04 07:50:06] ✅ Success (HTTP 200) in 1.98s
+✅ Success after 1 attempt(s)
+✅ Created # 722
+🏠 Processing property 732/771
+[2025-11-04 07:50:08] Attempt 1 of 3
+[2025-11-04 07:50:10] ✅ Success (HTTP 200) in 2.06s
+✅ Success after 1 attempt(s)
+✅ Created # 723
+🏠 Processing property 733/771
+[2025-11-04 07:50:12] Attempt 1 of 3
+[2025-11-04 07:50:14] ✅ Success (HTTP 200) in 1.92s
+✅ Success after 1 attempt(s)
+✅ Created # 724
+🏠 Processing property 734/771
+[2025-11-04 07:50:15] Attempt 1 of 3
+[2025-11-04 07:50:17] ✅ Success (HTTP 200) in 2.11s
+✅ Success after 1 attempt(s)
+✅ Created # 725
+🏠 Processing property 735/771
+[2025-11-04 07:50:19] Attempt 1 of 3
+[2025-11-04 07:50:21] ✅ Success (HTTP 200) in 1.98s
+✅ Success after 1 attempt(s)
+✅ Created # 726
+🏠 Processing property 736/771
+[2025-11-04 07:50:23] Attempt 1 of 3
+[2025-11-04 07:50:25] ✅ Success (HTTP 200) in 1.72s
+✅ Success after 1 attempt(s)
+✅ Created # 727
+🏠 Processing property 737/771
+[2025-11-04 07:50:26] Attempt 1 of 3
+[2025-11-04 07:50:28] ✅ Success (HTTP 200) in 1.53s
+✅ Success after 1 attempt(s)
+✅ Created # 728
+🏠 Processing property 738/771
+[2025-11-04 07:50:30] Attempt 1 of 3
+[2025-11-04 07:50:33] ✅ Success (HTTP 200) in 3.28s
+✅ Success after 1 attempt(s)
+✅ Created # 729
+🏠 Processing property 739/771
+[2025-11-04 07:50:35] Attempt 1 of 3
+[2025-11-04 07:50:36] ✅ Success (HTTP 200) in 1.41s
+✅ Success after 1 attempt(s)
+✅ Created # 730
+🏠 Processing property 740/771
+[2025-11-04 07:50:38] Attempt 1 of 3
+[2025-11-04 07:50:40] ✅ Success (HTTP 200) in 1.97s
+✅ Success after 1 attempt(s)
+✅ Created # 731
+🏠 Processing property 741/771
+[2025-11-04 07:50:41] Attempt 1 of 3
+[2025-11-04 07:50:43] ✅ Success (HTTP 200) in 2.05s
+✅ Success after 1 attempt(s)
+✅ Created # 732
+🏠 Processing property 742/771
+[2025-11-04 07:50:45] Attempt 1 of 3
+[2025-11-04 07:50:47] ✅ Success (HTTP 200) in 1.99s
+✅ Success after 1 attempt(s)
+✅ Created # 733
+🏠 Processing property 743/771
+[2025-11-04 07:50:49] Attempt 1 of 3
+[2025-11-04 07:50:51] ✅ Success (HTTP 200) in 2.03s
+✅ Success after 1 attempt(s)
+✅ Created # 734
+🏠 Processing property 744/771
+[2025-11-04 07:50:53] Attempt 1 of 3
+[2025-11-04 07:50:54] ✅ Success (HTTP 200) in 1.84s
+✅ Success after 1 attempt(s)
+✅ Created # 735
+🏠 Processing property 745/771
+[2025-11-04 07:50:56] Attempt 1 of 3
+[2025-11-04 07:50:58] ✅ Success (HTTP 200) in 1.79s
+✅ Success after 1 attempt(s)
+✅ Created # 736
+🏠 Processing property 746/771
+[2025-11-04 07:51:00] Attempt 1 of 3
+[2025-11-04 07:51:02] ✅ Success (HTTP 200) in 1.92s
+✅ Success after 1 attempt(s)
+✅ Created # 737
+🏠 Processing property 747/771
+[2025-11-04 07:51:03] Attempt 1 of 3
+[2025-11-04 07:51:06] ✅ Success (HTTP 200) in 3.25s
+✅ Success after 1 attempt(s)
+✅ Created # 738
+🏠 Processing property 748/771
+[2025-11-04 07:51:08] Attempt 1 of 3
+[2025-11-04 07:51:09] ✅ Success (HTTP 200) in 1.28s
+✅ Success after 1 attempt(s)
+✅ Created # 739
+🏠 Processing property 749/771
+❌ Skipping property with invalid type: Commercial
+🏠 Processing property 750/771
+[2025-11-04 07:51:11] Attempt 1 of 3
+[2025-11-04 07:51:14] ✅ Success (HTTP 200) in 3.04s
+✅ Success after 1 attempt(s)
+✅ Created # 740
+🏠 Processing property 751/771
+[2025-11-04 07:51:16] Attempt 1 of 3
+[2025-11-04 07:51:19] ✅ Success (HTTP 200) in 3.4s
+✅ Success after 1 attempt(s)
+✅ Created # 741
+🏠 Processing property 752/771
+[2025-11-04 07:51:21] Attempt 1 of 3
+[2025-11-04 07:51:23] ✅ Success (HTTP 200) in 1.95s
+✅ Success after 1 attempt(s)
+✅ Created # 742
+🏠 Processing property 753/771
+[2025-11-04 07:51:25] Attempt 1 of 3
+[2025-11-04 07:51:27] ✅ Success (HTTP 200) in 2.06s
+✅ Success after 1 attempt(s)
+✅ Created # 743
+🏠 Processing property 754/771
+❌ Skipping property with invalid type: Commercial
+🏠 Processing property 755/771
+[2025-11-04 07:51:28] Attempt 1 of 3
+[2025-11-04 07:51:30] ✅ Success (HTTP 200) in 1.96s
+✅ Success after 1 attempt(s)
+✅ Created # 744
+🏠 Processing property 756/771
+[2025-11-04 07:51:32] Attempt 1 of 3
+[2025-11-04 07:51:34] ✅ Success (HTTP 200) in 2.06s
+✅ Success after 1 attempt(s)
+✅ Created # 745
+🏠 Processing property 757/771
+[2025-11-04 07:51:36] Attempt 1 of 3
+[2025-11-04 07:51:38] ✅ Success (HTTP 200) in 2.14s
+✅ Success after 1 attempt(s)
+✅ Created # 746
+🏠 Processing property 758/771
+[2025-11-04 07:51:40] Attempt 1 of 3
+[2025-11-04 07:51:41] ✅ Success (HTTP 200) in 1.83s
+✅ Success after 1 attempt(s)
+✅ Created # 747
+🏠 Processing property 759/771
+[2025-11-04 07:51:43] Attempt 1 of 3
+[2025-11-04 07:51:45] ✅ Success (HTTP 200) in 1.79s
+✅ Success after 1 attempt(s)
+✅ Created # 748
+🏠 Processing property 760/771
+[2025-11-04 07:51:47] Attempt 1 of 3
+[2025-11-04 07:51:48] ✅ Success (HTTP 200) in 1.85s
+✅ Success after 1 attempt(s)
+✅ Created # 749
+🏠 Processing property 761/771
+[2025-11-04 07:51:50] Attempt 1 of 3
+[2025-11-04 07:51:52] ✅ Success (HTTP 200) in 2s
+✅ Success after 1 attempt(s)
+✅ Created # 750
+🏠 Processing property 762/771
+[2025-11-04 07:51:54] Attempt 1 of 3
+[2025-11-04 07:51:55] ✅ Success (HTTP 200) in 1.48s
+✅ Success after 1 attempt(s)
+✅ Created # 751
+🏠 Processing property 763/771
+[2025-11-04 07:51:57] Attempt 1 of 3
+[2025-11-04 07:51:59] ✅ Success (HTTP 200) in 2.29s
+✅ Success after 1 attempt(s)
+✅ Created # 752
+🏠 Processing property 764/771
+[2025-11-04 07:52:01] Attempt 1 of 3
+[2025-11-04 07:52:04] ✅ Success (HTTP 200) in 3.36s
+✅ Success after 1 attempt(s)
+✅ Created # 753
+🏠 Processing property 765/771
+[2025-11-04 07:52:06] Attempt 1 of 3
+[2025-11-04 07:52:09] ✅ Success (HTTP 200) in 2.88s
+✅ Success after 1 attempt(s)
+✅ Created # 754
+🏠 Processing property 766/771
+[2025-11-04 07:52:11] Attempt 1 of 3
+[2025-11-04 07:52:13] ✅ Success (HTTP 200) in 1.73s
+✅ Success after 1 attempt(s)
+✅ Created # 755
+🏠 Processing property 767/771
+[2025-11-04 07:52:14] Attempt 1 of 3
+[2025-11-04 07:52:17] ✅ Success (HTTP 200) in 2.79s
+✅ Success after 1 attempt(s)
+✅ Created # 756
+🏠 Processing property 768/771
+[2025-11-04 07:52:19] Attempt 1 of 3
+[2025-11-04 07:52:21] ✅ Success (HTTP 200) in 2.77s
+✅ Success after 1 attempt(s)
+✅ Created # 757
+🏠 Processing property 769/771
+[2025-11-04 07:52:23] Attempt 1 of 3
+[2025-11-04 07:52:26] ✅ Success (HTTP 200) in 3.36s
+✅ Success after 1 attempt(s)
+✅ Created # 758
+🏠 Processing property 770/771
+[2025-11-04 07:52:28] Attempt 1 of 3
+[2025-11-04 07:52:30] ✅ Success (HTTP 200) in 2s
+✅ Success after 1 attempt(s)
+✅ Created # 759
+🏠 Processing property 771/771
+[2025-11-04 07:52:32] Attempt 1 of 3
+[2025-11-04 07:52:34] ✅ Success (HTTP 200) in 1.87s
+✅ Success after 1 attempt(s)
+✅ Created # 760
+✅ Scraping completed. Output saved to C:\xampp\htdocs\ScrapingToolsAutoSync\ExecutableXML/../ScrapeFile/01 Random/ThaiProperty1.json
+✅ Properties Created: 760
+✅ Properties Updated: 0
+[2025-11-04 07:52:35] [success] Scraping completed successfully

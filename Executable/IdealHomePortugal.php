@@ -4,10 +4,16 @@ require_once __DIR__ . '/../Api/ApiSender.php';
 
 class IdealHomePortugal {
     private string $baseUrl = "https://www.idealhomesportugal.com";
+    private string $websiteUrl = "";
+    private string $urlPattern = "";
+    private string $foldername = "IdealHome";
+    private string $filename = "Properties.json";
     private array $propertyLinks = [];
     private array $scrapedData = [];
     private ApiSender $apiSender;
     private int $successUpload;
+    private int $successCreated;
+    private int $successUpdated;
     private array $confidentialInfo = [];
 
     public function __construct() {
@@ -22,8 +28,8 @@ class IdealHomePortugal {
     }
 
     public function run(int $pageCount = 1, int $limit = 0): void {
-        $folder = __DIR__ . '/../ScrapeFile/IdealHome';
-        $outputFile = $folder . '/Lagos.json';
+        $folder = __DIR__ . '/../ScrapeFile/' . $this->foldername;
+        $outputFile = $folder . '/' . $this->filename;
         // $htmlTest =  $folder . '/Test.html';
 
         // Create the folder if it doesn't exist
@@ -36,10 +42,20 @@ class IdealHomePortugal {
 
         $propertyCounter = 0;
         $pages = 0;
-        for ($page = 1; $page <= $pageCount; $page++) {0;
-            // $url = $this->baseUrl . "/properties/house-type?page={$page}&sort_by=price-desc&web_page=properties";
-            $url = $this->baseUrl . "/property-for-sale/albufeira?location=Albufeira&price_from=0&price_to=1000000&sort=lowest-price&page={$page}";
-            
+        for ($page = 1; $page <= $pageCount; $page++) {
+            // Use configured URL if available, otherwise fall back to hardcoded
+            if (!empty($this->websiteUrl) && !empty($this->urlPattern)) {
+                // Combine websiteUrl with urlPattern and replace {$page} placeholder
+                $urlPath = str_replace('{$page}', $page, $this->urlPattern);
+                $url = $this->websiteUrl . $urlPath;
+            } elseif (!empty($this->websiteUrl)) {
+                // If only websiteUrl is set (legacy format with full URL)
+                $url = str_replace('{$page}', $page, $this->websiteUrl);
+            } else {
+                // Fallback to hardcoded URL
+                $url = $this->baseUrl . "/property-for-sale/albufeira?location=Albufeira&price_from=0&price_to=1000000&sort=lowest-price&page={$page}";
+            }
+
             echo "📄 Fetching page $page: $url\n";
 
             $html = file_get_html($url);
@@ -152,7 +168,7 @@ class IdealHomePortugal {
 
         // List of allowed property types (case insensitive)
         $allowedTypes = ['Townhouse', 'Villa', 'Apartment', 'Penthouse'];
-        $allowedStatuses = ['Available', 'Recently_Reduced'];
+        $allowedStatuses = ['Available', 'Recently_Reduced', 'Exclusive'];
         
         // Check if property type is allowed (case insensitive comparison)
         if (!in_array(strtolower($type), array_map('strtolower', $allowedTypes))) {
@@ -230,6 +246,15 @@ class IdealHomePortugal {
         $features = $propertyListing['features'] ?? [];
         // listing id
         $listing_id = $propertyListing['reference'] ?? '';
+
+        $id_to_upload = [
+            "IDH33541","IDH33268","IDH33267"
+        ];
+        if (!in_array(strtolower($listing_id), array_map('strtolower', $id_to_upload))) {
+            echo "❌ Skipping property of id: $listing_id\n";
+            return; // Exit the function without scraping
+        }
+        
         //video url
         $video_url = $propertyListing['video_url'] ?? "";
     

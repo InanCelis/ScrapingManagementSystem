@@ -1,0 +1,39 @@
+[2025-11-10 07:11:46] [info] Starting scraper: Ideal Homes Portugal
+[2025-11-10 07:11:46] [info] Type: website
+[2025-11-10 07:11:46] [info] Applying configuration to scraper...
+✓ Set foldername = 'IdealHome'
+[2025-11-10 07:11:46] [info] Set foldername = 'IdealHome'
+✓ Set filename = 'Properties.json'
+[2025-11-10 07:11:46] [info] Set filename = 'Properties.json'
+⚠ Property enableUpload does not exist in scraper class
+⚠ Property testingMode does not exist in scraper class
+[2025-11-10 07:11:46] [info] Passing owner details to scraper
+✓ Set owner details (confidentialInfo)
+[2025-11-10 07:11:46] [info] Set owner details (confidentialInfo)
+
+[2025-11-10 07:11:46] [info] Scraping pages 1 to 1
+📄 Fetching page 1: https://www.idealhomesportugal.com/property-for-sale/albufeira?location=Albufeira&price_from=0&price_to=1000000&sort=lowest-price&page=1
+📊 Total properties to scrape: 9
+
+URL 1 🔍 Scraping: https://www.idealhomesportugal.com/property/land-in-algarve-idh33190-albufeira-89730/89730
+❌ Skipping property of type: Land
+URL 2 🔍 Scraping: https://www.idealhomesportugal.com/property/apartment-in-algarve-idh33309-albufeira-91281/91281
+❌ Skipping property of id: IDH33309
+URL 3 🔍 Scraping: https://www.idealhomesportugal.com/property/apartment-in-algarve-idh33497-albufeira-92893/92893
+❌ Skipping property of id: IDH33497
+URL 4 🔍 Scraping: https://www.idealhomesportugal.com/property/townhouse-in-algarve-idh33603-albufeira-94337/94337
+❌ Skipping property of id: IDH33603
+URL 5 🔍 Scraping: https://www.idealhomesportugal.com/property/apartment-in-algarve-idh33161-albufeira-89701/89701
+❌ Skipping property of id: IDH33161
+URL 6 🔍 Scraping: https://www.idealhomesportugal.com/property/apartment-in-algarve-idh33610-albufeira-94548/94548
+❌ Skipping property of id: IDH33610
+URL 7 🔍 Scraping: https://www.idealhomesportugal.com/property/villa-in-algarve-idh33154-albufeira-89694/89694
+❌ Skipping property of id: IDH33154
+URL 8 🔍 Scraping: https://www.idealhomesportugal.com/property/townhouse-in-algarve-idh32489-albufeira-86632/86632
+❌ Skipping property of id: IDH32489
+URL 9 🔍 Scraping: https://www.idealhomesportugal.com/property/villa-in-algarve-idh3616-albufeira-1625/1625
+❌ Skipping property with invalid price. Extracted value: '0'
+✅ Scraping completed. Output saved to C:\xampp\htdocs\ScrapingToolsAutoSync\Executable/../ScrapeFile/IdealHome/Properties.json
+✅ Properties Created: 0
+✅ Properties Updated: 0
+[2025-11-10 07:12:01] [success] Scraping completed successfully

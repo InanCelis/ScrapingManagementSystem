@@ -1,0 +1,28 @@
+id = 14351
+reference = 14351
+type = Villa/House
+titles = 
+    
+ 
+descriptions = 
+    
+
+priceSale = 12900000
+priceRent = 
+bathrooms = 4
+bedrooms = 3
+floor = 1
+gpsLat = 12.9312625
+gpsLon = 100.8919531
+garages = 2
+interiorSize = 150
+landSize = 216
+ownership = FREEHOLD
+images = 
+
+
+videos = 
+
+
+features = 
+

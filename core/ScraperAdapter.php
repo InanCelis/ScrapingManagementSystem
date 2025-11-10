@@ -112,6 +112,8 @@ class ScraperAdapter {
         $propertyMap = [
             'foldername' => $this->config['folder_name'] ?? null,
             'filename' => $this->config['filename'] ?? null,
+            'websiteUrl' => $this->config['website_url'] ?? null,
+            'urlPattern' => $this->config['url_pattern'] ?? null,
             'enableUpload' => isset($this->config['enable_upload']) ? (bool)$this->config['enable_upload'] : null,
             'testingMode' => isset($this->config['testing_mode']) ? (bool)$this->config['testing_mode'] : null
         ];

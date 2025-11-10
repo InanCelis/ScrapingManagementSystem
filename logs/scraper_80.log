@@ -1,0 +1,44 @@
+[2025-11-04 06:41:57] [info] Starting scraper: Thai Property 1
+[2025-11-04 06:41:57] [info] Type: xml
+[2025-11-04 06:41:57] [info] Applying configuration to scraper...
+✓ Set foldername = '01 Random'
+[2025-11-04 06:41:57] [info] Set foldername = '01 Random'
+✓ Set filename = 'ThaiProperty1.json'
+[2025-11-04 06:41:57] [info] Set filename = 'ThaiProperty1.json'
+✓ Set enableUpload = true
+[2025-11-04 06:41:57] [info] Set enableUpload = true
+✓ Set testingMode = false
+[2025-11-04 06:41:57] [info] Set testingMode = false
+[2025-11-04 06:41:57] [info] Passing owner details to scraper
+✓ Set owner details (confidentialInfo)
+[2025-11-04 06:41:57] [info] Set owner details (confidentialInfo)
+
+[2025-11-04 06:41:57] [info] Processing XML: https://thaiproperty1.com/api/lA1bwo/feeds/nestopa-feed
+[2025-11-04 06:41:57] [info] Expected properties: 3
+[2025-11-04 06:41:57] [info] Passing owner details to scraper
+🔍 Input detected as: url
+🌐 Fetching XML from URL: https://thaiproperty1.com/api/lA1bwo/feeds/nestopa-feed
+✅ XML validation successful
+📋 Found properties using structure: <listing>
+📋 Total properties found: 771
+📊 Total properties to process: 3
+
+🏠 Processing property 1/3
+[2025-11-04 06:42:14] Attempt 1 of 3
+[2025-11-04 06:42:16] ✅ Success (HTTP 200) in 2.66s
+✅ Success after 1 attempt(s)
+✅ Created # 1
+🏠 Processing property 2/3
+[2025-11-04 06:42:19] Attempt 1 of 3
+[2025-11-04 06:42:21] ✅ Success (HTTP 200) in 2.61s
+✅ Success after 1 attempt(s)
+✅ Created # 2
+🏠 Processing property 3/3
+[2025-11-04 06:42:23] Attempt 1 of 3
+[2025-11-04 06:42:25] ✅ Success (HTTP 200) in 1.93s
+✅ Success after 1 attempt(s)
+✅ Created # 3
+✅ Scraping completed. Output saved to C:\xampp\htdocs\ScrapingToolsAutoSync\ExecutableXML/../ScrapeFile/01 Random/ThaiProperty1.json
+✅ Properties Created: 3
+✅ Properties Updated: 0
+[2025-11-04 06:42:26] [success] Scraping completed successfully

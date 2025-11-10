@@ -1,0 +1,130 @@
+[2025-11-10 07:13:46] [info] Starting scraper: Ideal Homes Portugal
+[2025-11-10 07:13:46] [info] Type: website
+[2025-11-10 07:13:46] [info] Applying configuration to scraper...
+✓ Set foldername = 'IdealHome'
+[2025-11-10 07:13:46] [info] Set foldername = 'IdealHome'
+✓ Set filename = 'Properties.json'
+[2025-11-10 07:13:46] [info] Set filename = 'Properties.json'
+⚠ Property enableUpload does not exist in scraper class
+⚠ Property testingMode does not exist in scraper class
+[2025-11-10 07:13:46] [info] Passing owner details to scraper
+✓ Set owner details (confidentialInfo)
+[2025-11-10 07:13:46] [info] Set owner details (confidentialInfo)
+
+[2025-11-10 07:13:46] [info] Scraping pages 1 to 1
+📄 Fetching page 1: https://www.idealhomesportugal.com/property-for-sale/albufeira?location=Albufeira&price_from=0&price_to=1000000&sort=lowest-price&page=1
+📊 Total properties to scrape: 9
+
+URL 1 🔍 Scraping: https://www.idealhomesportugal.com/property/land-in-algarve-idh33190-albufeira-89730/89730
+❌ Skipping property of type: Land
+URL 2 🔍 Scraping: https://www.idealhomesportugal.com/property/apartment-in-algarve-idh33309-albufeira-91281/91281
+[2025-11-10 07:13:50] Attempt 1 of 3
+[2025-11-10 07:13:52] ⚠️ Server responded with HTTP 401 (Duration: 1.77s)
+[2025-11-10 07:13:52] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-11-10 07:13:52] ⏳ Retrying in 2 seconds...
+[2025-11-10 07:13:54] Attempt 2 of 3
+[2025-11-10 07:13:55] ⚠️ Server responded with HTTP 401 (Duration: 1.58s)
+[2025-11-10 07:13:55] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-11-10 07:13:55] ⏳ Retrying in 4 seconds...
+[2025-11-10 07:13:59] Attempt 3 of 3
+[2025-11-10 07:14:01] ⚠️ Server responded with HTTP 401 (Duration: 1.57s)
+[2025-11-10 07:14:01] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-11-10 07:14:01] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+URL 3 🔍 Scraping: https://www.idealhomesportugal.com/property/apartment-in-algarve-idh33497-albufeira-92893/92893
+[2025-11-10 07:14:03] Attempt 1 of 3
+[2025-11-10 07:14:05] ⚠️ Server responded with HTTP 401 (Duration: 1.84s)
+[2025-11-10 07:14:05] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-11-10 07:14:05] ⏳ Retrying in 2 seconds...
+[2025-11-10 07:14:07] Attempt 2 of 3
+[2025-11-10 07:14:08] ⚠️ Server responded with HTTP 401 (Duration: 1.41s)
+[2025-11-10 07:14:08] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-11-10 07:14:08] ⏳ Retrying in 4 seconds...
+[2025-11-10 07:14:12] Attempt 3 of 3
+[2025-11-10 07:14:14] ⚠️ Server responded with HTTP 401 (Duration: 1.5s)
+[2025-11-10 07:14:14] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-11-10 07:14:14] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+URL 4 🔍 Scraping: https://www.idealhomesportugal.com/property/townhouse-in-algarve-idh33603-albufeira-94337/94337
+[2025-11-10 07:14:16] Attempt 1 of 3
+[2025-11-10 07:14:18] ⚠️ Server responded with HTTP 401 (Duration: 1.52s)
+[2025-11-10 07:14:18] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-11-10 07:14:18] ⏳ Retrying in 2 seconds...
+[2025-11-10 07:14:20] Attempt 2 of 3
+[2025-11-10 07:14:21] ⚠️ Server responded with HTTP 401 (Duration: 1.48s)
+[2025-11-10 07:14:21] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-11-10 07:14:21] ⏳ Retrying in 4 seconds...
+[2025-11-10 07:14:25] Attempt 3 of 3
+[2025-11-10 07:14:27] ⚠️ Server responded with HTTP 401 (Duration: 1.4s)
+[2025-11-10 07:14:27] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-11-10 07:14:27] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+URL 5 🔍 Scraping: https://www.idealhomesportugal.com/property/apartment-in-algarve-idh33161-albufeira-89701/89701
+[2025-11-10 07:14:29] Attempt 1 of 3
+[2025-11-10 07:14:31] ⚠️ Server responded with HTTP 401 (Duration: 1.52s)
+[2025-11-10 07:14:31] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-11-10 07:14:31] ⏳ Retrying in 2 seconds...
+[2025-11-10 07:14:33] Attempt 2 of 3
+[2025-11-10 07:14:34] ⚠️ Server responded with HTTP 401 (Duration: 1.55s)
+[2025-11-10 07:14:34] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-11-10 07:14:34] ⏳ Retrying in 4 seconds...
+[2025-11-10 07:14:38] Attempt 3 of 3
+[2025-11-10 07:14:40] ⚠️ Server responded with HTTP 401 (Duration: 1.09s)
+[2025-11-10 07:14:40] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-11-10 07:14:40] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+URL 6 🔍 Scraping: https://www.idealhomesportugal.com/property/apartment-in-algarve-idh33610-albufeira-94548/94548
+[2025-11-10 07:14:42] Attempt 1 of 3
+[2025-11-10 07:14:43] ⚠️ Server responded with HTTP 401 (Duration: 1.53s)
+[2025-11-10 07:14:43] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-11-10 07:14:43] ⏳ Retrying in 2 seconds...
+[2025-11-10 07:14:45] Attempt 2 of 3
+[2025-11-10 07:14:46] ⚠️ Server responded with HTTP 401 (Duration: 1.14s)
+[2025-11-10 07:14:46] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-11-10 07:14:46] ⏳ Retrying in 4 seconds...
+[2025-11-10 07:14:50] Attempt 3 of 3
+[2025-11-10 07:14:52] ⚠️ Server responded with HTTP 401 (Duration: 1.6s)
+[2025-11-10 07:14:52] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-11-10 07:14:52] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+URL 7 🔍 Scraping: https://www.idealhomesportugal.com/property/villa-in-algarve-idh33154-albufeira-89694/89694
+[2025-11-10 07:15:00] Attempt 1 of 3
+[2025-11-10 07:15:02] ⚠️ Server responded with HTTP 401 (Duration: 1.72s)
+[2025-11-10 07:15:02] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-11-10 07:15:02] ⏳ Retrying in 2 seconds...
+[2025-11-10 07:15:04] Attempt 2 of 3
+[2025-11-10 07:15:05] ⚠️ Server responded with HTTP 401 (Duration: 1.46s)
+[2025-11-10 07:15:05] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-11-10 07:15:05] ⏳ Retrying in 4 seconds...
+[2025-11-10 07:15:09] Attempt 3 of 3
+[2025-11-10 07:15:10] ⚠️ Server responded with HTTP 401 (Duration: 1.1s)
+[2025-11-10 07:15:10] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-11-10 07:15:10] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+URL 8 🔍 Scraping: https://www.idealhomesportugal.com/property/townhouse-in-algarve-idh32489-albufeira-86632/86632
+[2025-11-10 07:15:12] Attempt 1 of 3
+[2025-11-10 07:15:14] ⚠️ Server responded with HTTP 401 (Duration: 1.48s)
+[2025-11-10 07:15:14] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-11-10 07:15:14] ⏳ Retrying in 2 seconds...
+[2025-11-10 07:15:16] Attempt 2 of 3
+[2025-11-10 07:15:17] ⚠️ Server responded with HTTP 401 (Duration: 1.19s)
+[2025-11-10 07:15:17] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-11-10 07:15:17] ⏳ Retrying in 4 seconds...
+[2025-11-10 07:15:21] Attempt 3 of 3
+[2025-11-10 07:15:23] ⚠️ Server responded with HTTP 401 (Duration: 1.51s)
+[2025-11-10 07:15:23] Response: {"code":"unauthorized","message":"Token has expired","data":{"status":401}}
+[2025-11-10 07:15:23] ❌ All attempts failed. Last error: HTTP 401
+❌ Failed after 3 attempts. Last error: HTTP 401
+⚠️ HTTP Status: 401
+URL 9 🔍 Scraping: https://www.idealhomesportugal.com/property/villa-in-algarve-idh3616-albufeira-1625/1625
+❌ Skipping property with invalid price. Extracted value: '0'
+✅ Scraping completed. Output saved to C:\xampp\htdocs\ScrapingToolsAutoSync\Executable/../ScrapeFile/IdealHome/Properties.json
+✅ Properties Created: 0
+✅ Properties Updated: 0
+[2025-11-10 07:15:25] [success] Scraping completed successfully

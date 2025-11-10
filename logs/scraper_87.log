@@ -1,0 +1,25 @@
+[2025-11-10 07:22:27] [info] Starting scraper: Ideal Homes Portugal
+[2025-11-10 07:22:27] [info] Type: website
+[2025-11-10 07:22:27] [info] Applying configuration to scraper...
+✓ Set foldername = 'IdealHome'
+[2025-11-10 07:22:27] [info] Set foldername = 'IdealHome'
+✓ Set filename = 'Properties1.json'
+[2025-11-10 07:22:27] [info] Set filename = 'Properties1.json'
+✓ Set websiteUrl = 'https://www.idealhomesportugal.com'
+[2025-11-10 07:22:27] [info] Set websiteUrl = 'https://www.idealhomesportugal.com'
+✓ Set urlPattern = '/property-for-sale/portimao?location=Portimao&page={$page}'
+[2025-11-10 07:22:27] [info] Set urlPattern = '/property-for-sale/portimao?location=Portimao&page={$page}'
+⚠ Property enableUpload does not exist in scraper class
+⚠ Property testingMode does not exist in scraper class
+[2025-11-10 07:22:27] [info] Passing owner details to scraper
+✓ Set owner details (confidentialInfo)
+[2025-11-10 07:22:27] [info] Set owner details (confidentialInfo)
+
+[2025-11-10 07:22:27] [info] Scraping pages 1 to 1
+📄 Fetching page 1: https://www.idealhomesportugal.com
+📊 Total properties to scrape: 0
+
+✅ Scraping completed. Output saved to C:\xampp\htdocs\ScrapingToolsAutoSync\Executable/../ScrapeFile/IdealHome/Properties1.json
+✅ Properties Created: 0
+✅ Properties Updated: 0
+[2025-11-10 07:22:29] [success] Scraping completed successfully

@@ -1,0 +1,52 @@
+[2025-11-10 07:37:35] [info] Starting scraper: Ideal Homes Portugal
+[2025-11-10 07:37:35] [info] Type: website
+[2025-11-10 07:37:35] [info] Applying configuration to scraper...
+✓ Set foldername = 'IdealHome'
+[2025-11-10 07:37:35] [info] Set foldername = 'IdealHome'
+✓ Set filename = 'Properties1.json'
+[2025-11-10 07:37:35] [info] Set filename = 'Properties1.json'
+✓ Set websiteUrl = 'https://www.idealhomesportugal.com'
+[2025-11-10 07:37:35] [info] Set websiteUrl = 'https://www.idealhomesportugal.com'
+✓ Set urlPattern = '/property-for-sale/portimao?location=Portimao&page={$page}'
+[2025-11-10 07:37:35] [info] Set urlPattern = '/property-for-sale/portimao?location=Portimao&page={$page}'
+⚠ Property enableUpload does not exist in scraper class
+⚠ Property testingMode does not exist in scraper class
+[2025-11-10 07:37:35] [info] Passing owner details to scraper
+✓ Set owner details (confidentialInfo)
+[2025-11-10 07:37:35] [info] Set owner details (confidentialInfo)
+
+[2025-11-10 07:37:35] [info] Scraping pages 1 to 1
+📄 Fetching page 1: https://www.idealhomesportugal.com/property-for-sale/portimao?location=Portimao&page=1
+📊 Total properties to scrape: 9
+
+URL 1 🔍 Scraping: https://www.idealhomesportugal.com/property/apartment-in-algarve-idh33541-portimao-93675/93675
+[2025-11-10 07:37:42] Attempt 1 of 3
+[2025-11-10 07:37:54] ✅ Success (HTTP 200) in 12.07s
+✅ Success after 1 attempt(s)
+✅ Created # 0
+URL 2 🔍 Scraping: https://www.idealhomesportugal.com/property/apartment-in-algarve-idh33268-portimao-89808/89808
+[2025-11-10 07:37:56] Attempt 1 of 3
+[2025-11-10 07:38:08] ✅ Success (HTTP 200) in 11.45s
+✅ Success after 1 attempt(s)
+✅ Created # 1
+URL 3 🔍 Scraping: https://www.idealhomesportugal.com/property/villa-in-algarve-idh33528-portimao-93344/93344
+❌ Skipping property of id: IDH33528
+URL 4 🔍 Scraping: https://www.idealhomesportugal.com/property/townhouse-in-algarve-idh33303-portimao-91261/91261
+❌ Skipping property of id: IDH33303
+URL 5 🔍 Scraping: https://www.idealhomesportugal.com/property/apartment-in-algarve-idh33267-portimao-89807/89807
+[2025-11-10 07:38:12] Attempt 1 of 3
+[2025-11-10 07:38:24] ✅ Success (HTTP 200) in 11.35s
+✅ Success after 1 attempt(s)
+✅ Created # 2
+URL 6 🔍 Scraping: https://www.idealhomesportugal.com/property/land-in-algarve-idh33025-portimao-89563/89563
+❌ Skipping property of type: Land
+URL 7 🔍 Scraping: https://www.idealhomesportugal.com/property/apartment-in-algarve-idh32975-portimao-89512/89512
+❌ Skipping property of id: IDH32975
+URL 8 🔍 Scraping: https://www.idealhomesportugal.com/property/apartment-in-algarve-idh32903-portimao-89440/89440
+❌ Skipping property with status: Sold
+URL 9 🔍 Scraping: https://www.idealhomesportugal.com/property/land-in-algarve-idh32300-portimao-85749/85749
+❌ Skipping property of type: Land
+✅ Scraping completed. Output saved to C:\xampp\htdocs\ScrapingToolsAutoSync\Executable/../ScrapeFile/IdealHome/Properties1.json
+✅ Properties Created: 3
+✅ Properties Updated: 0
+[2025-11-10 07:38:31] [success] Scraping completed successfully
